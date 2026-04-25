@@ -1,167 +1,339 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="首页">
-  <div class="hero">
-    <h1>群星知识库</h1>
-    <p class="hero-subtitle">Stellaris 背景设定 · 双语百科 · 交互式知识图谱</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-meta">
+      <span class="hero-badge"><span class="badge-dot"></span> 在线数据库</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="title-line">GALACTIC</span>
+      <span class="title-line accent">ARCHIVES</span>
+    </h1>
+    <p class="hero-subtitle">
+      群星宇宙背景设定知识库 · 双语百科 · 交互式知识图谱
+    </p>
+
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num">—</span><span class="stat-label">实体</span></div>
-      <div class="stat"><span class="stat-num">6</span><span class="stat-label">分类</span></div>
-      <div class="stat"><span class="stat-num">—</span><span class="stat-label">关系</span></div>
+      <div class="stat-item">
+        <span class="stat-value">36</span>
+        <span class="stat-label">已知实体</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-value">6</span>
+        <span class="stat-label">数据分类</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-value">69K</span>
+        <span class="stat-label">术语索引</span>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <h2>六大分类</h2>
-  <div class="category-grid">
-    <a href={`${import.meta.env.BASE_URL}/wiki/empires`} class="category-card cat-empire">
-      <h3>政权与阵营</h3>
-      <p>帝国、堕落帝国、联邦、派系</p>
-    </a>
-    <a href={`${import.meta.env.BASE_URL}/wiki/crises`} class="category-card cat-crisis">
-      <h3>危机与威胁</h3>
-      <p>三大危机、利维坦、虚空之灾</p>
-    </a>
-    <a href={`${import.meta.env.BASE_URL}/wiki/events`} class="category-card cat-event">
-      <h3>叙事与事件</h3>
-      <p>事件链、考古遗址、异常点</p>
-    </a>
-    <a href={`${import.meta.env.BASE_URL}/wiki/psionic`} class="category-card cat-psionic">
-      <h3>灵能与超自然</h3>
-      <p>虚境、灵能实体、契约</p>
-    </a>
-    <a href={`${import.meta.env.BASE_URL}/wiki/technology`} class="category-card cat-tech">
-      <h3>科技与建筑</h3>
-      <p>巨构、科技树、遗迹</p>
-    </a>
-    <a href={`${import.meta.env.BASE_URL}/wiki/species`} class="category-card cat-species">
-      <h3>种族与生物</h3>
-      <p>物种特质、预设种族、传记</p>
-    </a>
-  </div>
+  <!-- Categories -->
+  <section class="categories-section">
+    <div class="section-label">数据分类 // DATA CATEGORIES</div>
+    <div class="category-grid">
+      <a href={`${base}/wiki/empires`} class="category-card cat-empire hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">⚜</div>
+        <h3>政权与阵营</h3>
+        <p>帝国、堕落帝国、联邦、派系</p>
+        <div class="card-id">CAT-01</div>
+      </a>
 
-  <div class="feature-section">
-    <div class="feature">
-      <h3>🔍 知识图谱</h3>
-      <p>交互式关系网络，探索实体间的因果与关联</p>
-      <a href={`${import.meta.env.BASE_URL}/graph`} class="feature-link">进入图谱 →</a>
+      <a href={`${base}/wiki/crises`} class="category-card cat-crisis hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">⚠</div>
+        <h3>危机与威胁</h3>
+        <p>三大危机、利维坦、虚空之灾</p>
+        <div class="card-id">CAT-02</div>
+      </a>
+
+      <a href={`${base}/wiki/events`} class="category-card cat-event hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">◎</div>
+        <h3>叙事与事件</h3>
+        <p>事件链、考古遗址、异常点</p>
+        <div class="card-id">CAT-03</div>
+      </a>
+
+      <a href={`${base}/wiki/psionic`} class="category-card cat-psionic hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">✦</div>
+        <h3>灵能与超自然</h3>
+        <p>虚境、灵能实体、契约</p>
+        <div class="card-id">CAT-04</div>
+      </a>
+
+      <a href={`${base}/wiki/technology`} class="category-card cat-tech hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">⚙</div>
+        <h3>科技与建筑</h3>
+        <p>巨构、科技树、遗迹</p>
+        <div class="card-id">CAT-05</div>
+      </a>
+
+      <a href={`${base}/wiki/species`} class="category-card cat-species hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-icon">✿</div>
+        <h3>种族与生物</h3>
+        <p>物种特质、预设种族、传记</p>
+        <div class="card-id">CAT-06</div>
+      </a>
     </div>
-    <div class="feature">
-      <h3>📈 时间线</h3>
-      <p>从远古先驱到银河危机的完整叙事时间线</p>
-      <a href={`${import.meta.env.BASE_URL}/timeline`} class="feature-link">查看时间线 →</a>
+  </section>
+
+  <!-- Features -->
+  <section class="features-section">
+    <div class="section-label">系统功能 // SYSTEM FUNCTIONS</div>
+    <div class="feature-grid">
+      <a href={`${base}/graph`} class="feature-card hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="feature-num">01</div>
+        <h3>知识图谱</h3>
+        <p>交互式关系网络可视化，探索实体间的因果与关联</p>
+        <span class="feature-link">[ 进入图谱 ]</span>
+      </a>
+
+      <a href={`${base}/timeline`} class="feature-card hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="feature-num">02</div>
+        <h3>银河时间线</h3>
+        <p>从远古先驱到银河危机的完整叙事时间线</p>
+        <span class="feature-link">[ 查看时间线 ]</span>
+      </a>
+
+      <a href={`${base}/api`} class="feature-card hud-card">
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="feature-num">03</div>
+        <h3>AI 数据接口</h3>
+        <p>YAML + JSON API + SQLite，四条零成本 AI 读取通道</p>
+        <span class="feature-link">[ 查看 API ]</span>
+      </a>
     </div>
-    <div class="feature">
-      <h3>🤖 AI 接口</h3>
-      <p>YAML 源文件 + 静态 JSON API + SQLite 下载，服务 AI 读取</p>
-      <a href={`${import.meta.env.BASE_URL}/api`} class="feature-link">查看 API →</a>
-    </div>
-  </div>
+  </section>
 </BaseLayout>
 
 <style>
+  /* Hero */
   .hero {
     text-align: center;
-    padding: 3rem 0;
+    padding: 4rem 0 3rem;
   }
-  .hero h1 {
-    font-size: 2.5rem;
-    background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 0.5rem;
+  .hero-meta {
+    margin-bottom: 1.5rem;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-glow);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid rgba(0, 229, 160, 0.2);
+    border-radius: 2px;
+  }
+  .badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-glow);
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  .hero-title {
+    margin-bottom: 1rem;
+  }
+  .title-line {
+    display: block;
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    line-height: 1.1;
+    color: var(--text-primary);
+  }
+  .title-line.accent {
+    color: var(--text-glow);
+    text-shadow: 0 0 30px rgba(0, 229, 160, 0.2), 0 0 60px rgba(0, 229, 160, 0.08);
   }
   .hero-subtitle {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
     color: var(--text-secondary);
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 2.5rem;
   }
   .hero-stats {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    align-items: center;
+    gap: 0;
   }
-  .stat {
+  .stat-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2.5rem;
   }
-  .stat-num {
+  .stat-value {
+    font-family: var(--font-display);
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-primary);
+    letter-spacing: 0.05em;
   }
   .stat-label {
-    color: var(--text-muted);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+  }
+  .stat-divider {
+    width: 1px;
+    height: 40px;
+    background: var(--hud-border);
+  }
+
+  /* Categories */
+  .categories-section {
+    margin: 3rem 0;
+  }
+  .section-label {
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
   }
   .category-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin: 1.5rem 0 3rem;
   }
   .category-card {
     display: block;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
     padding: 1.5rem;
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s;
-    border-left: 3px solid;
+    position: relative;
+    border-radius: 2px;
   }
-  .category-card:hover {
-    background: var(--bg-tertiary);
+  .category-card .card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.7;
   }
-  .cat-empire { border-left-color: var(--accent-purple); }
-  .cat-crisis { border-left-color: var(--accent-blue); }
-  .cat-event { border-left-color: var(--accent-green); }
-  .cat-psionic { border-left-color: var(--accent-orange); }
-  .cat-tech { border-left-color: var(--accent-red); }
-  .cat-species { border-left-color: var(--accent-pink); }
   .category-card h3 {
-    font-size: 1rem;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.08em;
   }
   .category-card p {
-    color: var(--text-muted);
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.5;
   }
-  .feature-section {
+  .category-card .card-id {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+  }
+
+  /* Category accent borders */
+  .cat-empire { border-left: 2px solid var(--empire) !important; }
+  .cat-empire:hover { box-shadow: 0 0 20px rgba(168, 85, 247, 0.1); }
+  .cat-crisis { border-left: 2px solid var(--crisis) !important; }
+  .cat-crisis:hover { box-shadow: 0 0 20px rgba(59, 130, 246, 0.1); }
+  .cat-event { border-left: 2px solid var(--event) !important; }
+  .cat-event:hover { box-shadow: 0 0 20px rgba(34, 197, 94, 0.1); }
+  .cat-psionic { border-left: 2px solid var(--psionic) !important; }
+  .cat-psionic:hover { box-shadow: 0 0 20px rgba(245, 158, 11, 0.1); }
+  .cat-tech { border-left: 2px solid var(--tech) !important; }
+  .cat-tech:hover { box-shadow: 0 0 20px rgba(239, 68, 68, 0.1); }
+  .cat-species { border-left: 2px solid var(--species) !important; }
+  .cat-species:hover { box-shadow: 0 0 20px rgba(236, 72, 153, 0.1); }
+
+  /* Features */
+  .features-section {
+    margin: 3rem 0 2rem;
+  }
+  .feature-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin-top: 2rem;
+    gap: 1rem;
   }
-  .feature {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+  .feature-card {
+    display: block;
     padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    border-radius: 2px;
   }
-  .feature h3 {
-    font-size: 1rem;
+  .feature-card .feature-num {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--hud-border);
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+  .feature-card h3 {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.08em;
+    color: var(--text-primary);
   }
-  .feature p {
+  .feature-card p {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
     color: var(--text-secondary);
-    font-size: 0.85rem;
+    line-height: 1.6;
     margin-bottom: 1rem;
   }
   .feature-link {
-    color: var(--accent-blue);
-    text-decoration: none;
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--text-glow);
+    letter-spacing: 0.1em;
   }
+  .feature-card:hover .feature-link {
+    text-shadow: 0 0 10px rgba(0, 229, 160, 0.3);
+  }
+
   @media (max-width: 768px) {
-    .category-grid, .feature-section {
+    .category-grid, .feature-grid {
       grid-template-columns: 1fr;
     }
     .hero-stats {
-      gap: 1.5rem;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .stat-divider {
+      width: 40px;
+      height: 1px;
+    }
+    .stat-item {
+      padding: 0;
     }
   }
 </style>

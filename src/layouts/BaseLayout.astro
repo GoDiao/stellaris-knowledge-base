@@ -4,6 +4,7 @@ interface Props {
   description?: string;
 }
 const { title, description = '群星(Stellaris)背景设定知识库' } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!DOCTYPE html>
@@ -13,26 +14,100 @@ const { title, description = '群星(Stellaris)背景设定知识库' } = Astro.
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title} — 群星知识库</title>
     <meta name="description" content={description} />
-    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}/styles/global.css`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href={`${base}/styles/global.css`} />
   </head>
   <body>
+    <canvas id="starfield"></canvas>
+
     <nav class="main-nav">
       <div class="nav-brand">
-        <a href={`${import.meta.env.BASE_URL}/`}>群星知识库</a>
+        <a href={`${base}/`}>群星知识库</a>
       </div>
       <div class="nav-links">
-        <a href={`${import.meta.env.BASE_URL}/`}>首页</a>
-        <a href={`${import.meta.env.BASE_URL}/wiki/empires`}>百科</a>
-        <a href={`${import.meta.env.BASE_URL}/graph`}>知识图谱</a>
-        <a href={`${import.meta.env.BASE_URL}/timeline`}>时间线</a>
-        <a href={`${import.meta.env.BASE_URL}/api`}>API</a>
+        <a href={`${base}/`}>首页</a>
+        <a href={`${base}/wiki/empires`}>百科</a>
+        <a href={`${base}/graph`}>图谱</a>
+        <a href={`${base}/timeline`}>时间线</a>
+        <a href={`${base}/api`}>API</a>
       </div>
     </nav>
+
     <main class="page-content">
       <slot />
     </main>
+
     <footer class="site-footer">
-      <p>群星知识库 — 基于 Astro + YAML 构建 · <a href="https://github.com">GitHub</a></p>
+      <p>GALACTIC DATA HUB v1.0 // BASED ON ASTRO + YAML // <a href="https://github.com/GoDiao/stellaris-knowledge-base">GITHUB</a></p>
     </footer>
+
+    <script>
+      (function() {
+        const canvas = document.getElementById('starfield');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        let stars = [];
+        const STAR_COUNT = 200;
+
+        function resize() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        resize();
+        window.addEventListener('resize', resize);
+
+        for (let i = 0; i < STAR_COUNT; i++) {
+          stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            size: Math.random() * 1.5 + 0.3,
+            opacity: Math.random(),
+            speed: Math.random() * 0.3 + 0.05,
+            twinkleSpeed: Math.random() * 0.02 + 0.005,
+            twinklePhase: Math.random() * Math.PI * 2
+          });
+        }
+
+        let time = 0;
+        function draw() {
+          time += 1;
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          // Draw nebula-like background gradient
+          const gradient = ctx.createRadialGradient(
+            canvas.width * 0.3, canvas.height * 0.4, 0,
+            canvas.width * 0.3, canvas.height * 0.4, canvas.width * 0.6
+          );
+          gradient.addColorStop(0, 'rgba(20, 15, 40, 0.3)');
+          gradient.addColorStop(0.5, 'rgba(5, 5, 15, 0.1)');
+          gradient.addColorStop(1, 'transparent');
+          ctx.fillStyle = gradient;
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+          // Draw stars
+          for (const star of stars) {
+            star.twinklePhase += star.twinkleSpeed;
+            const twinkle = Math.sin(star.twinklePhase) * 0.4 + 0.6;
+            const currentOpacity = star.opacity * twinkle;
+
+            ctx.beginPath();
+            ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(220, 225, 240, ${currentOpacity})`;
+            ctx.fill();
+
+            // Slight parallax drift
+            star.y += star.speed;
+            if (star.y > canvas.height) {
+              star.y = 0;
+              star.x = Math.random() * canvas.width;
+            }
+          }
+
+          requestAnimationFrame(draw);
+        }
+        draw();
+      })();
+    </script>
   </body>
 </html>

@@ -18,10 +18,8 @@ const categoryNames: Record<string, string> = {
   technology: '科技与建筑',
   species: '种族与生物',
 };
-
 const catLabel = categoryNames[category] || category;
 
-// Load entities
 const entitiesDir = `data/entities/${category}`;
 let entities: any[] = [];
 try {
@@ -30,36 +28,43 @@ try {
     const content = await fs.readFile(path.join(entitiesDir, file), 'utf-8');
     entities.push(yaml.load(content));
   }
-} catch {
-  // Directory might not exist yet
-}
+} catch {}
 
 const catColors: Record<string, string> = {
-  empires: '#7c3aed',
-  crises: '#2563eb',
-  events: '#059669',
-  psionic: '#d97706',
-  technology: '#dc2626',
+  empires: '#a855f7',
+  crises: '#3b82f6',
+  events: '#22c55e',
+  psionic: '#f59e0b',
+  technology: '#ef4444',
   species: '#ec4899',
 };
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title={catLabel}>
   <div class="wiki-header">
+    <div class="section-label">分类浏览 // {catLabel.toUpperCase()}</div>
     <h1>{catLabel}</h1>
-    <p class="count">{entities.length} 个实体</p>
+    <div class="meta-line">
+      <span class="meta-id">CAT-{['empires','crises','events','psionic','technology','species'].indexOf(category) + 1}</span>
+      <span class="meta-count">{entities.length} 个实体</span>
+    </div>
   </div>
 
   <div class="entity-grid">
-    {entities.map(entity => (
-      <a href={`${import.meta.env.BASE_URL}/wiki/${category}/${entity.id}`} class="entity-card">
-        <div class="card-header" style={`border-color: ${catColors[category]}`}>
-          <h3>{entity.name?.zh || entity.id}</h3>
-          <span class="name-en">{entity.name?.en || ''}</span>
+    {entities.map((entity, i) => (
+      <a href={`${base}/wiki/${category}/${entity.id}`} class="entity-card hud-card" style={`animation-delay: ${i * 0.05}s`}>
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="card-accent" style={`background: ${catColors[category]}`}></div>
+        <div class="card-top">
+          <span class="entity-id">{entity.id.toUpperCase()}</span>
+          {entity.dlc && <span class="dlc-tag">{entity.dlc}</span>}
         </div>
-        <p class="card-desc">{(entity.lore || '').slice(0, 120)}...</p>
+        <h3>{entity.name?.zh || entity.id}</h3>
+        <span class="name-en">{entity.name?.en || ''}</span>
+        <p class="card-desc">{(entity.lore || '').slice(0, 100)}...</p>
         <div class="card-tags">
-          {entity.tags?.slice(0, 4).map((tag: string) => (
+          {entity.tags?.slice(0, 3).map((tag: string) => (
             <span class="tag">{tag}</span>
           ))}
         </div>
@@ -68,57 +73,107 @@ const catColors: Record<string, string> = {
   </div>
 
   {entities.length === 0 && (
-    <div class="empty">
-      <p>该分类暂无数据。运行 <code>npm run data:all</code> 生成实体数据。</p>
+    <div class="empty-state">
+      <div class="empty-icon">∅</div>
+      <p>该分类暂无数据</p>
+      <p class="empty-hint">运行 npm run data:all 生成实体数据</p>
     </div>
   )}
 </BaseLayout>
 
 <style>
-  .wiki-header { margin-bottom: 2rem; }
-  .wiki-header h1 { margin-bottom: 0.25rem; }
-  .count { color: var(--text-muted); font-size: 0.9rem; }
+  .wiki-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--hud-border);
+  }
+  .wiki-header h1 {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.08em;
+  }
+  .meta-line {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .meta-id {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+  }
+  .meta-count {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
   .entity-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
   }
   .entity-card {
     display: block;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
     padding: 1.25rem;
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s;
-    border-left: 3px solid;
+    position: relative;
+    border-radius: 2px;
+    opacity: 0;
+    animation: fadeInUp 0.4s ease forwards;
   }
-  .entity-card:hover {
-    background: var(--bg-tertiary);
-    transform: translateY(-2px);
+  .card-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    opacity: 0.6;
   }
-  .card-header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 0.75rem;
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.75rem;
   }
-  .card-header h3 {
-    font-size: 1rem;
-    margin: 0 0 0.25rem;
+  .entity-id {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+  }
+  .dlc-tag {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--hud-border);
+    border-radius: 2px;
+  }
+  .entity-card h3 {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.05em;
     color: var(--text-primary);
   }
   .name-en {
-    font-size: 0.75rem;
-    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    display: block;
+    margin-bottom: 0.5rem;
   }
   .card-desc {
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 0.75rem;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -127,14 +182,24 @@ const catColors: Record<string, string> = {
     flex-wrap: wrap;
     gap: 0.4rem;
   }
-  .empty {
+  .empty-state {
     text-align: center;
-    padding: 4rem 0;
-    color: var(--text-muted);
+    padding: 5rem 0;
+    color: var(--text-dim);
   }
-  .empty code {
-    background: var(--bg-tertiary);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
+  .empty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.3;
+  }
+  .empty-state p {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .empty-hint {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--text-dim);
   }
 </style>

@@ -7,125 +7,133 @@ import yaml from 'js-yaml';
 export async function getStaticPaths() {
   const categories = ['empires', 'crises', 'events', 'psionic', 'technology', 'species'];
   const paths: any[] = [];
-
   for (const category of categories) {
     const dir = `data/entities/${category}`;
     let files: string[] = [];
-    try {
-      files = await fs.readdir(dir);
-    } catch { continue; }
-
+    try { files = await fs.readdir(dir); } catch { continue; }
     for (const file of files.filter(f => f.endsWith('.yml'))) {
-      const id = file.replace('.yml', '');
-      paths.push({ params: { category, id } });
+      paths.push({ params: { category, id: file.replace('.yml', '') } });
     }
   }
   return paths;
 }
 
 const { category, id } = Astro.params;
-
-const entity = yaml.load(
-  await fs.readFile(`data/entities/${category}/${id}.yml`, 'utf-8')
-);
+const entity = yaml.load(await fs.readFile(`data/entities/${category}/${id}.yml`, 'utf-8'));
+const base = import.meta.env.BASE_URL;
 
 const catColors: Record<string, string> = {
-  empires: '#7c3aed',
-  crises: '#2563eb',
-  events: '#059669',
-  psionic: '#d97706',
-  technology: '#dc2626',
-  species: '#ec4899',
+  empires: '#a855f7', crises: '#3b82f6', events: '#22c55e',
+  psionic: '#f59e0b', technology: '#ef4444', species: '#ec4899',
+};
+const catNames: Record<string, string> = {
+  empires: '政权与阵营', crises: '危机与威胁', events: '叙事与事件',
+  psionic: '灵能与超自然', technology: '科技与建筑', species: '种族与生物',
 };
 
 const jsonLd = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  name: entity.name?.zh || id,
-  alternateName: entity.name?.en || id,
-  articleSection: entity.subcategory || category,
-  description: entity.lore?.slice(0, 200) || '',
+  '@context': 'https://schema.org', '@type': 'Article',
+  name: entity.name?.zh || id, alternateName: entity.name?.en || id,
+  articleSection: entity.subcategory || category, description: entity.lore?.slice(0, 200) || '',
 });
 ---
 
 <BaseLayout title={entity.name?.zh || id}>
   <div class="entity-page">
     <div class="entity-main">
+      <!-- Breadcrumbs -->
       <div class="breadcrumbs">
-        <a href={`${import.meta.env.BASE_URL}/`}>首页</a>
-        <span>/</span>
-        <a href={`${import.meta.env.BASE_URL}/wiki/${category}`}>{category}</a>
-        <span>/</span>
-        <span>{entity.name?.zh || id}</span>
+        <a href={`${base}/`}>首页</a>
+        <span class="bc-sep">›</span>
+        <a href={`${base}/wiki/${category}`}>{catNames[category] || category}</a>
+        <span class="bc-sep">›</span>
+        <span class="bc-current">{entity.name?.zh || id}</span>
       </div>
 
-      <div class="entity-header">
-        <div class="tags-row">
-          <span class="cat-tag" style={`background: ${catColors[category]}20; color: ${catColors[category]}`}>
-            {entity.subcategory || category}
-          </span>
-          {entity.dlc && <span class="dlc-tag">{entity.dlc}</span>}
+      <!-- Header Panel -->
+      <div class="panel entity-header">
+        <div class="panel-accent" style={`background: ${catColors[category]}`}></div>
+        <div class="header-top">
+          <span class="entity-id">{entity.id.toUpperCase()}</span>
+          <div class="header-tags">
+            <span class="cat-tag" style={`color: ${catColors[category]}; border-color: ${catColors[category]}40`}>
+              {entity.subcategory || category}
+            </span>
+            {entity.dlc && <span class="dlc-tag">{entity.dlc}</span>}
+          </div>
         </div>
         <h1>{entity.name?.zh || id}</h1>
         <p class="entity-en">{entity.name?.en || ''}</p>
       </div>
 
+      <!-- Lore Panel -->
       {entity.lore && (
-        <div class="entity-lore">
-          <h2>背景设定</h2>
+        <div class="panel entity-lore">
+          <div class="panel-label">背景设定 // LORE</div>
           <p>{entity.lore}</p>
         </div>
       )}
 
+      <!-- Traits Panel -->
       {entity.traits && entity.traits.length > 0 && (
-        <div class="entity-section">
-          <h2>特质</h2>
+        <div class="panel entity-section">
+          <div class="panel-label">特质 // TRAITS</div>
           <div class="trait-list">
             {entity.traits.map((t: string) => <span class="tag">{t}</span>)}
           </div>
         </div>
       )}
 
+      <!-- Trigger Conditions -->
       {entity.trigger_conditions && entity.trigger_conditions.length > 0 && (
-        <div class="entity-section">
-          <h2>触发条件</h2>
-          <ul>
+        <div class="panel entity-section">
+          <div class="panel-label">触发条件 // CONDITIONS</div>
+          <div class="condition-list">
             {entity.trigger_conditions.map((c: any) => (
-              <li><strong>{c.description}</strong> — {c.action}</li>
+              <div class="condition-item">
+                <span class="condition-desc">{c.description}</span>
+                <span class="condition-action">→ {c.action}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       )}
 
+      <!-- Species Panel -->
       {entity.species && (
-        <div class="entity-section">
-          <h2>物种信息</h2>
-          <dl>
-            <dt>种类</dt><dd>{entity.species.class}</dd>
-            <dt>名称</dt><dd>{entity.species.name?.zh}</dd>
-            <dt>肖像</dt><dd>{entity.species.portrait}</dd>
-          </dl>
+        <div class="panel entity-section">
+          <div class="panel-label">物种信息 // SPECIES</div>
+          <div class="data-grid">
+            <div class="data-row"><span class="data-key">种类</span><span class="data-val">{entity.species.class}</span></div>
+            <div class="data-row"><span class="data-key">名称</span><span class="data-val">{entity.species.name?.zh}</span></div>
+            <div class="data-row"><span class="data-key">肖像</span><span class="data-val">{entity.species.portrait}</span></div>
+          </div>
         </div>
       )}
 
+      <!-- Authority Panel -->
       {entity.authority && (
-        <div class="entity-section">
-          <h2>政体</h2>
-          <p>权威：{entity.authority} | 起源：{entity.origin || '默认'}</p>
+        <div class="panel entity-section">
+          <div class="panel-label">政体 // GOVERNMENT</div>
+          <div class="data-grid">
+            <div class="data-row"><span class="data-key">权威</span><span class="data-val">{entity.authority}</span></div>
+            <div class="data-row"><span class="data-key">起源</span><span class="data-val">{entity.origin || '默认'}</span></div>
+          </div>
         </div>
       )}
     </div>
 
+    <!-- Sidebar -->
     <aside class="entity-sidebar">
-      <div class="sidebar-section">
-        <h3>关联实体</h3>
+      <div class="panel sidebar-section">
+        <div class="panel-label">关联实体 // RELATIONS</div>
         {entity.relations && entity.relations.length > 0 ? (
           <ul class="relations-list">
             {entity.relations.map((r: any) => (
               <li>
                 <span class="rel-type">{r.type}</span>
                 <span class="rel-target">{r.target}</span>
-                <span class="rel-desc">{r.description}</span>
+                {r.description && <span class="rel-desc">{r.description}</span>}
               </li>
             ))}
           </ul>
@@ -134,8 +142,8 @@ const jsonLd = JSON.stringify({
         )}
       </div>
 
-      <div class="sidebar-section">
-        <h3>标签</h3>
+      <div class="panel sidebar-section">
+        <div class="panel-label">标签 // TAGS</div>
         <div class="tag-list">
           {entity.tags?.map((t: string) => <span class="tag">{t}</span>)}
         </div>
@@ -149,86 +157,235 @@ const jsonLd = JSON.stringify({
 <style>
   .entity-page {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   .entity-main {
     flex: 1;
     min-width: 0;
   }
   .entity-sidebar {
-    width: 260px;
+    width: 280px;
     flex-shrink: 0;
   }
+
+  /* Panel base */
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--hud-border);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    position: relative;
+    border-radius: 2px;
+  }
+  .panel-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    opacity: 0.5;
+  }
+  .panel-label {
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Breadcrumbs */
   .breadcrumbs {
     display: flex;
     gap: 0.5rem;
     align-items: center;
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    margin-bottom: 1.5rem;
-  }
-  .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
-  .breadcrumbs a:hover { color: var(--text-primary); }
-  .entity-header { margin-bottom: 2rem; }
-  .tags-row { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
-  .cat-tag, .dlc-tag {
+    font-family: var(--font-body);
     font-size: 0.75rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--text-dim);
   }
-  .dlc-tag { background: var(--bg-tertiary); color: var(--text-muted); }
-  .entity-en { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem; }
-  .entity-lore, .entity-section {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.25rem;
-    margin-bottom: 1rem;
-  }
-  .entity-lore h2, .entity-section h2 {
-    font-size: 1rem;
-    margin-bottom: 0.75rem;
+  .breadcrumbs a {
     color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
   }
-  .entity-lore p { color: var(--text-secondary); line-height: 1.8; white-space: pre-wrap; }
-  .trait-list, .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-  .sidebar-section {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+  .breadcrumbs a:hover {
+    color: var(--text-glow);
   }
-  .sidebar-section h3 {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
+  .bc-sep {
+    color: var(--text-dim);
+    font-size: 0.6rem;
+  }
+  .bc-current {
+    color: var(--text-primary);
+  }
+
+  /* Header */
+  .entity-header {
+    padding-top: 1rem;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.75rem;
+  }
+  .entity-id {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+  }
+  .header-tags {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .cat-tag {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid;
+    border-radius: 2px;
     letter-spacing: 0.05em;
   }
-  .relations-list { list-style: none; }
-  .relations-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border);
+  .dlc-tag {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    padding: 0.15rem 0.5rem;
+    border: 1px solid var(--hud-border);
+    border-radius: 2px;
+  }
+  .entity-header h1 {
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.3rem;
+    color: var(--text-primary);
+  }
+  .entity-en {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  /* Lore */
+  .entity-lore p {
+    font-family: var(--font-body);
+    color: var(--text-secondary);
+    line-height: 1.9;
+    white-space: pre-wrap;
     font-size: 0.85rem;
   }
-  .relations-list li:last-child { border-bottom: none; }
-  .rel-type {
-    display: inline-block;
-    font-size: 0.7rem;
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
-    background: var(--accent-purple);
-    color: white;
-    margin-right: 0.4rem;
+
+  /* Traits */
+  .trait-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
   }
-  .rel-target { color: var(--text-primary); font-weight: 500; }
-  .rel-desc { display: block; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.2rem; }
-  .empty { color: var(--text-muted); font-size: 0.85rem; }
+
+  /* Conditions */
+  .condition-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .condition-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+  }
+  .condition-desc {
+    color: var(--text-secondary);
+  }
+  .condition-action {
+    color: var(--text-glow);
+    font-size: 0.75rem;
+  }
+
+  /* Data grid */
+  .data-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .data-row {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid var(--hud-border);
+  }
+  .data-row:last-child {
+    border-bottom: none;
+  }
+  .data-key {
+    color: var(--text-dim);
+    width: 60px;
+    flex-shrink: 0;
+  }
+  .data-val {
+    color: var(--text-secondary);
+  }
+
+  /* Sidebar */
+  .sidebar-section {
+    padding: 1rem;
+  }
+  .relations-list {
+    list-style: none;
+  }
+  .relations-list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--hud-border);
+    font-size: 0.8rem;
+  }
+  .relations-list li:last-child {
+    border-bottom: none;
+  }
+  .rel-type {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    padding: 0.1rem 0.35rem;
+    border-radius: 2px;
+    background: rgba(0, 229, 160, 0.1);
+    color: var(--text-glow);
+    margin-right: 0.4rem;
+    letter-spacing: 0.05em;
+  }
+  .rel-target {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .rel-desc {
+    display: block;
+    font-family: var(--font-body);
+    color: var(--text-dim);
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .empty {
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    font-family: var(--font-body);
+  }
 
   @media (max-width: 768px) {
-    .entity-page { flex-direction: column; }
-    .entity-sidebar { width: 100%; }
+    .entity-page {
+      flex-direction: column;
+    }
+    .entity-sidebar {
+      width: 100%;
+    }
   }
 </style>
