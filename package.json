@@ -1,0 +1,29 @@
+{
+  "name": "stellaris-knowledge-base",
+  "version": "1.0.0",
+  "description": "Stellaris background lore knowledge base",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "data:parse": "node scripts/parse-localisation.mjs && node scripts/parse-common.mjs && node scripts/parse-events.mjs && node scripts/merge-entities.mjs",
+    "data:build": "node scripts/build-sqlite.mjs && node scripts/build-api.mjs",
+    "data:all": "npm run data:parse && npm run data:build",
+    "deploy": "npm run data:all && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pagefind/default-ui": "^1.5.2",
+    "astro": "^6.1.9",
+    "better-sqlite3": "^12.9.0",
+    "d3": "^7.9.0",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3"
+  }
+}

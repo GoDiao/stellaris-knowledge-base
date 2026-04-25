@@ -1,0 +1,190 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="知识图谱">
+  <h1>知识图谱</h1>
+  <p class="subtitle">探索群星宇宙中实体间的关联网络</p>
+
+  <div class="graph-container">
+    <div class="graph-filters">
+      <h3>筛选</h3>
+      <label><input type="checkbox" checked data-filter="empires" /> 政权与阵营</label>
+      <label><input type="checkbox" checked data-filter="crises" /> 危机与威胁</label>
+      <label><input type="checkbox" checked data-filter="events" /> 叙事与事件</label>
+      <label><input type="checkbox" checked data-filter="psionic" /> 灵能与超自然</label>
+      <label><input type="checkbox" data-filter="technology" /> 科技与建筑</label>
+      <label><input type="checkbox" data-filter="species" /> 种族与生物</label>
+    </div>
+    <div id="graph-viz"></div>
+  </div>
+</BaseLayout>
+
+<script>
+  import * as d3 from 'd3';
+
+  const colors = {
+    empires: '#7c3aed',
+    crises: '#2563eb',
+    events: '#059669',
+    psionic: '#d97706',
+    technology: '#dc2626',
+    species: '#ec4899',
+  };
+
+  const baseUrl = import.meta.env.BASE_URL || '';
+
+  async function loadGraph() {
+    const res = await fetch(`${baseUrl}//api/graph.json`);
+    if (!res.ok) {
+      document.getElementById('graph-viz').innerHTML = '<p class="empty">图谱数据尚未生成。运行 <code>npm run data:all</code> 后刷新。</p>';
+      return;
+    }
+    const data = await res.json();
+    renderGraph(data);
+  }
+
+  function renderGraph(data) {
+    const container = document.getElementById('graph-viz');
+    const width = container.clientWidth;
+    const height = container.clientHeight || 600;
+
+    const svg = d3.select(container).append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('viewBox', [0, 0, width, height]);
+
+    // Zoom
+    const g = svg.append('g');
+    svg.call(d3.zoom()
+      .extent([[0, 0], [width, height]])
+      .scaleExtent([0.1, 8])
+      .on('zoom', (event) => g.attr('transform', event.transform)));
+
+    const simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(data.links).id((d: any) => d.id).distance(80))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(30));
+
+    const link = g.append('g')
+      .selectAll('line')
+      .data(data.links)
+      .join('line')
+      .attr('stroke', '#444')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', 1);
+
+    const node = g.append('g')
+      .selectAll('g')
+      .data(data.nodes)
+      .join('g')
+      .call(d3.drag()
+        .on('start', (event, d: any) => {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on('drag', (event, d: any) => {
+          d.fx = event.x; d.fy = event.y;
+        })
+        .on('end', (event, d: any) => {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        }));
+
+    node.append('circle')
+      .attr('r', (d: any) => Math.sqrt(d.weight || 1) * 5 + 5)
+      .attr('fill', (d: any) => colors[d.group] || '#666')
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 1)
+      .style('cursor', 'pointer')
+      .on('click', (event, d: any) => {
+        window.location.href = `${baseUrl}//wiki/${d.group}/${d.id}`;
+      });
+
+    node.append('text')
+      .text((d: any) => d.name?.slice(0, 12) || d.id)
+      .attr('x', 0)
+      .attr('y', (d: any) => Math.sqrt(d.weight || 1) * 5 + 18)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#ccc')
+      .attr('font-size', '10px')
+      .style('pointer-events', 'none');
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', (d: any) => d.source.x)
+        .attr('y1', (d: any) => d.source.y)
+        .attr('x2', (d: any) => d.target.x)
+        .attr('y2', (d: any) => d.target.y);
+      node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+    });
+
+    // Filters
+    document.querySelectorAll('.graph-filters input').forEach((input) => {
+      input.addEventListener('change', () => {
+        const active = new Set(
+          Array.from(document.querySelectorAll('.graph-filters input:checked'))
+            .map((el: any) => el.dataset.filter)
+        );
+        node.style('opacity', (d: any) => active.has(d.group) ? 1 : 0.1);
+        link.style('opacity', (d: any) =>
+          active.has(d.source.group) && active.has(d.target.group) ? 0.6 : 0.05
+        );
+      });
+    });
+  }
+
+  loadGraph();
+</script>
+
+<style>
+  .subtitle { color: var(--text-muted); margin-bottom: 1.5rem; }
+  .graph-container {
+    display: flex;
+    gap: 1rem;
+    height: 600px;
+  }
+  .graph-filters {
+    width: 180px;
+    flex-shrink: 0;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .graph-filters h3 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .graph-filters label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  .graph-filters input { margin-right: 0.4rem; }
+  #graph-viz {
+    flex: 1;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    min-width: 0;
+    position: relative;
+  }
+  .empty {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-muted);
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .graph-container { flex-direction: column; height: auto; }
+    .graph-filters { width: 100%; }
+    #graph-viz { height: 400px; }
+  }
+</style>

@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import fs from 'fs/promises';
+import path from 'path';
+import yaml from 'js-yaml';
+
+export async function getStaticPaths() {
+  const categories = ['empires', 'crises', 'events', 'psionic', 'technology', 'species'];
+  const paths: any[] = [];
+
+  for (const category of categories) {
+    const dir = `data/entities/${category}`;
+    let files: string[] = [];
+    try {
+      files = await fs.readdir(dir);
+    } catch { continue; }
+
+    for (const file of files.filter(f => f.endsWith('.yml'))) {
+      const id = file.replace('.yml', '');
+      paths.push({ params: { category, id } });
+    }
+  }
+  return paths;
+}
+
+const { category, id } = Astro.params;
+
+const entity = yaml.load(
+  await fs.readFile(`data/entities/${category}/${id}.yml`, 'utf-8')
+);
+
+const catColors: Record<string, string> = {
+  empires: '#7c3aed',
+  crises: '#2563eb',
+  events: '#059669',
+  psionic: '#d97706',
+  technology: '#dc2626',
+  species: '#ec4899',
+};
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  name: entity.name?.zh || id,
+  alternateName: entity.name?.en || id,
+  articleSection: entity.subcategory || category,
+  description: entity.lore?.slice(0, 200) || '',
+});
+---
+
+<BaseLayout title={entity.name?.zh || id}>
+  <div class="entity-page">
+    <div class="entity-main">
+      <div class="breadcrumbs">
+        <a href={`${import.meta.env.BASE_URL}/`}>首页</a>
+        <span>/</span>
+        <a href={`${import.meta.env.BASE_URL}/wiki/${category}`}>{category}</a>
+        <span>/</span>
+        <span>{entity.name?.zh || id}</span>
+      </div>
+
+      <div class="entity-header">
+        <div class="tags-row">
+          <span class="cat-tag" style={`background: ${catColors[category]}20; color: ${catColors[category]}`}>
+            {entity.subcategory || category}
+          </span>
+          {entity.dlc && <span class="dlc-tag">{entity.dlc}</span>}
+        </div>
+        <h1>{entity.name?.zh || id}</h1>
+        <p class="entity-en">{entity.name?.en || ''}</p>
+      </div>
+
+      {entity.lore && (
+        <div class="entity-lore">
+          <h2>背景设定</h2>
+          <p>{entity.lore}</p>
+        </div>
+      )}
+
+      {entity.traits && entity.traits.length > 0 && (
+        <div class="entity-section">
+          <h2>特质</h2>
+          <div class="trait-list">
+            {entity.traits.map((t: string) => <span class="tag">{t}</span>)}
+          </div>
+        </div>
+      )}
+
+      {entity.trigger_conditions && entity.trigger_conditions.length > 0 && (
+        <div class="entity-section">
+          <h2>触发条件</h2>
+          <ul>
+            {entity.trigger_conditions.map((c: any) => (
+              <li><strong>{c.description}</strong> — {c.action}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {entity.species && (
+        <div class="entity-section">
+          <h2>物种信息</h2>
+          <dl>
+            <dt>种类</dt><dd>{entity.species.class}</dd>
+            <dt>名称</dt><dd>{entity.species.name?.zh}</dd>
+            <dt>肖像</dt><dd>{entity.species.portrait}</dd>
+          </dl>
+        </div>
+      )}
+
+      {entity.authority && (
+        <div class="entity-section">
+          <h2>政体</h2>
+          <p>权威：{entity.authority} | 起源：{entity.origin || '默认'}</p>
+        </div>
+      )}
+    </div>
+
+    <aside class="entity-sidebar">
+      <div class="sidebar-section">
+        <h3>关联实体</h3>
+        {entity.relations && entity.relations.length > 0 ? (
+          <ul class="relations-list">
+            {entity.relations.map((r: any) => (
+              <li>
+                <span class="rel-type">{r.type}</span>
+                <span class="rel-target">{r.target}</span>
+                <span class="rel-desc">{r.description}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="empty">暂无关联数据</p>
+        )}
+      </div>
+
+      <div class="sidebar-section">
+        <h3>标签</h3>
+        <div class="tag-list">
+          {entity.tags?.map((t: string) => <span class="tag">{t}</span>)}
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script type="application/ld+json" set:html={jsonLd} />
+</BaseLayout>
+
+<style>
+  .entity-page {
+    display: flex;
+    gap: 2rem;
+  }
+  .entity-main {
+    flex: 1;
+    min-width: 0;
+  }
+  .entity-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+  }
+  .breadcrumbs {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
+  .breadcrumbs a:hover { color: var(--text-primary); }
+  .entity-header { margin-bottom: 2rem; }
+  .tags-row { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
+  .cat-tag, .dlc-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  .dlc-tag { background: var(--bg-tertiary); color: var(--text-muted); }
+  .entity-en { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem; }
+  .entity-lore, .entity-section {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .entity-lore h2, .entity-section h2 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+  }
+  .entity-lore p { color: var(--text-secondary); line-height: 1.8; white-space: pre-wrap; }
+  .trait-list, .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .sidebar-section {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .sidebar-section h3 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05em;
+  }
+  .relations-list { list-style: none; }
+  .relations-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  .relations-list li:last-child { border-bottom: none; }
+  .rel-type {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    background: var(--accent-purple);
+    color: white;
+    margin-right: 0.4rem;
+  }
+  .rel-target { color: var(--text-primary); font-weight: 500; }
+  .rel-desc { display: block; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.2rem; }
+  .empty { color: var(--text-muted); font-size: 0.85rem; }
+
+  @media (max-width: 768px) {
+    .entity-page { flex-direction: column; }
+    .entity-sidebar { width: 100%; }
+  }
+</style>

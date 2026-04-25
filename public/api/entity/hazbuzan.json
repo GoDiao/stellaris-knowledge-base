@@ -1,0 +1,61 @@
+{
+  "id": "hazbuzan",
+  "name": {
+    "en": "1 \"Hazbuzan Syndicate\"",
+    "zh": "哈兹布赞联合会"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": "MegaCorp",
+  "lore": "哈兹布赞联合会是祖玛卡上的一个金融现象。这是一个“哈兹布赞梦”：通过艰苦奋斗和自我牺牲，自主创业的企业家可以从一无所有变得一夜暴富。\n\n不为人知的是，这一切始于一个犯罪帮派，从一切你想的得到的非法活动中攫取财富。但一旦你想登上更大的舞台，就需要循规蹈矩。从祖玛卡的灰色地带中一跃而出之后，他们成立了哈兹布赞联合会，以将其生意合法化。\n\n很快，他们就通过提供比竞争对手更快捷、更卑鄙、更廉价方案而名扬四海，但这也让“哈兹布赞”成为争议性商业行为和胁迫交易技巧的代名词。\n\n与此同时，由于被犯罪和腐败所侵蚀，祖玛卡行星政府倒台了，社会继而陷入混乱，哈兹布赞则借机上位。在一次恰逢时宜的营销活动中，他们将自己塑造成了未来的希望。于是哈兹布赞以白日梦为许诺买下了整颗行星，并“哈兹布赞”了这些人民，将他们肮脏的过去从公众记忆中彻底抹除。现在他们将目光投向了广阔的星辰大海，垂涎三尺，磨刀霍霍，带来一场由政府背书的犯罪风暴。",
+  "traits": [
+    "trait_ingenious",
+    "trait_thrifty",
+    "trait_deviants",
+    "trait_quarrelsome"
+  ],
+  "species": {
+    "class": "REP",
+    "name": {
+      "en": "PRESCRIPTED_species_name_hazbuzan",
+      "zh": "PRESCRIPTED_species_name_hazbuzan"
+    },
+    "portrait": "rep11",
+    "traits": [
+      "trait_ingenious",
+      "trait_thrifty",
+      "trait_deviants",
+      "trait_quarrelsome"
+    ]
+  },
+  "authority": "auth_corporate",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_fanatic_militarist",
+    "ethic_spiritualist"
+  ],
+  "origin": "origin_default",
+  "government": "gov_criminal_syndicate",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_hazbuzan",
+      "zh": "PRESCRIPTED_planet_name_hazbuzan"
+    },
+    "class": "pc_savannah"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_hazbuzan",
+      "zh": "PRESCRIPTED_system_name_hazbuzan"
+    }
+  },
+  "graphical_culture": "reptilian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "corporate",
+    "default"
+  ]
+}

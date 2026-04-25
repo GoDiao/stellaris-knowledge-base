@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'fs/promises';
+import path from 'path';
+import yaml from 'js-yaml';
+
+export async function getStaticPaths() {
+  const categories = ['empires', 'crises', 'events', 'psionic', 'technology', 'species'];
+  return categories.map(cat => ({ params: { category: cat } }));
+}
+
+const { category } = Astro.params;
+const categoryNames: Record<string, string> = {
+  empires: '政权与阵营',
+  crises: '危机与威胁',
+  events: '叙事与事件',
+  psionic: '灵能与超自然',
+  technology: '科技与建筑',
+  species: '种族与生物',
+};
+
+const catLabel = categoryNames[category] || category;
+
+// Load entities
+const entitiesDir = `data/entities/${category}`;
+let entities: any[] = [];
+try {
+  const files = await fs.readdir(entitiesDir);
+  for (const file of files.filter(f => f.endsWith('.yml'))) {
+    const content = await fs.readFile(path.join(entitiesDir, file), 'utf-8');
+    entities.push(yaml.load(content));
+  }
+} catch {
+  // Directory might not exist yet
+}
+
+const catColors: Record<string, string> = {
+  empires: '#7c3aed',
+  crises: '#2563eb',
+  events: '#059669',
+  psionic: '#d97706',
+  technology: '#dc2626',
+  species: '#ec4899',
+};
+---
+
+<BaseLayout title={catLabel}>
+  <div class="wiki-header">
+    <h1>{catLabel}</h1>
+    <p class="count">{entities.length} 个实体</p>
+  </div>
+
+  <div class="entity-grid">
+    {entities.map(entity => (
+      <a href={`${import.meta.env.BASE_URL}/wiki/${category}/${entity.id}`} class="entity-card">
+        <div class="card-header" style={`border-color: ${catColors[category]}`}>
+          <h3>{entity.name?.zh || entity.id}</h3>
+          <span class="name-en">{entity.name?.en || ''}</span>
+        </div>
+        <p class="card-desc">{(entity.lore || '').slice(0, 120)}...</p>
+        <div class="card-tags">
+          {entity.tags?.slice(0, 4).map((tag: string) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      </a>
+    ))}
+  </div>
+
+  {entities.length === 0 && (
+    <div class="empty">
+      <p>该分类暂无数据。运行 <code>npm run data:all</code> 生成实体数据。</p>
+    </div>
+  )}
+</BaseLayout>
+
+<style>
+  .wiki-header { margin-bottom: 2rem; }
+  .wiki-header h1 { margin-bottom: 0.25rem; }
+  .count { color: var(--text-muted); font-size: 0.9rem; }
+  .entity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .entity-card {
+    display: block;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    border-left: 3px solid;
+  }
+  .entity-card:hover {
+    background: var(--bg-tertiary);
+    transform: translateY(-2px);
+  }
+  .card-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .card-header h3 {
+    font-size: 1rem;
+    margin: 0 0 0.25rem;
+    color: var(--text-primary);
+  }
+  .name-en {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  .card-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .empty {
+    text-align: center;
+    padding: 4rem 0;
+    color: var(--text-muted);
+  }
+  .empty code {
+    background: var(--bg-tertiary);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+  }
+</style>

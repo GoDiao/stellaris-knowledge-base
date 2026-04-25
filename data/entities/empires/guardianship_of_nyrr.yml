@@ -1,0 +1,54 @@
+id: guardianship_of_nyrr
+name:
+  en: Guardianship of Nyrr
+  zh: 尼尔守护者
+category: empire
+subcategory: prescripted
+dlc: Astral Planes
+lore: |-
+  通常，尼尔人的生命周期长达两百年。在他们母星炽热的沙漠之下的庇护所之中，只有百里挑一的卵会在数十年的孵化后破壳而出，又只有千分之一的幼雏可以蹒跚地寻得安全的出路。
+
+  到了特定的年龄，所有的尼尔人都会血誓以生命保护他们的庇护所。目睹另一位尼尔人的非自然死亡是他们所能想见最耻辱之事；对保护和警戒重视深深地镌刻在尼尔人文化中的方方面面。
+
+  要想突破尼拉任何一座城市的城墙都是不可能的，没有人记得上一次发生残砖缺瓦是多久以前的事情了。如今，这些最坚定的捍卫者们将这种精神带去了星间。
+traits:
+  - trait_nonadaptive
+  - trait_sedentary
+  - trait_venerable
+  - trait_slow_breeders
+  - trait_very_strong
+species:
+  class: REP
+  name:
+    en: null
+    zh: null
+  portrait: rep14
+  traits:
+    - trait_nonadaptive
+    - trait_sedentary
+    - trait_venerable
+    - trait_slow_breeders
+    - trait_very_strong
+authority: auth_imperial
+civics:
+  - {}
+ethics:
+  - ethic_authoritarian
+  - ethic_fanatic_militarist
+origin: origin_default
+government: gov_defensive_union
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_guardianship_of_nyrr
+    zh: PRESCRIPTED_planet_name_guardianship_of_nyrr
+  class: pc_desert
+system:
+  name:
+    en: PRESCRIPTED_system_name_guardianship_of_nyrr
+    zh: PRESCRIPTED_system_name_guardianship_of_nyrr
+graphical_culture: reptilian_01
+relations: []
+tags:
+  - prescripted_empire
+  - imperial
+  - default

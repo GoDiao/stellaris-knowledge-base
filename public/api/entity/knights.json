@@ -1,0 +1,64 @@
+{
+  "id": "knights",
+  "name": {
+    "en": "0 \"Rototavuul High Suzerainty\"",
+    "zh": "旋桌骑士高阶领主国"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "自毒圣造访了旋桌骑士之后，骑士们团结在了一位王的旌旗之下。为了追寻神的威能，王组建了一个骑士教团，专门寻找神的足迹——无论神所在何处。几个世纪过去，这一试炼已经成为了构成旋桌骑士社会基础的支柱。\n\n同骑士制度和试炼一起，封建主义作为一个久经考验的政治架构延续了下来；既然这一制度在一个行星上行之有效，为何不将其扩展到整个星系呢？只要高洁的贵族们掌握着统御的缰绳，旋桌骑士高阶领主国就会繁荣昌盛，我们也终将能再次找到毒圣。",
+  "traits": [
+    "trait_traditional",
+    "trait_strong",
+    "trait_resilient",
+    "trait_noxious",
+    "trait_nonadaptive"
+  ],
+  "species": {
+    "class": "TOX",
+    "name": {
+      "en": "PRESCRIPTED_species_name_knights",
+      "zh": "PRESCRIPTED_species_name_knights"
+    },
+    "portrait": "tox9",
+    "traits": [
+      "trait_traditional",
+      "trait_strong",
+      "trait_resilient",
+      "trait_noxious",
+      "trait_nonadaptive"
+    ]
+  },
+  "authority": "auth_imperial",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_authoritarian",
+    "ethic_militarist",
+    "ethic_spiritualist"
+  ],
+  "origin": "origin_toxic_knights",
+  "government": "gov_feudal_empire",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_knights",
+      "zh": "PRESCRIPTED_planet_name_knights"
+    },
+    "class": "pc_desert"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_knights",
+      "zh": "PRESCRIPTED_system_name_knights"
+    }
+  },
+  "graphical_culture": "toxoid_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "imperial",
+    "toxic_knights"
+  ]
+}

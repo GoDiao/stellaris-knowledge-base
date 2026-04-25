@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const timelineEvents = [
+  {
+    era: '远古纪元',
+    year: '~-300万年',
+    events: [
+      { title: '先驱文明兴衰', desc: '包括沃陶姆、伊拉辛、赛博克斯、第一联盟等先驱文明在银河系建立辉煌文明，最终因不同原因覆灭。' },
+      { title: '卓尼觉醒', desc: '卓尼先驱发现了虚境，成为最早接触灵能维度的文明，随后整个种族升华消失。' },
+    ]
+  },
+  {
+    era: '失落帝国时代',
+    year: '~-10万年',
+    events: [
+      { title: '堕落帝国沉睡', desc: '曾经统治银河系的古老帝国因大危机或内部衰退而进入休眠状态，成为后来的堕落帝国。' },
+      { title: '圣地守护者建立', desc: '神圣守护者确立了银河中的"圣地"禁区，任何亵渎行为都将招致毁灭。' },
+    ]
+  },
+  {
+    era: '现代纪元',
+    year: '2200年~',
+    events: [
+      { title: '超空间航道发现', desc: '现代文明重新发现超空间航道网络，各物种开始星际扩张，银河系进入多极竞争时代。' },
+      { title: '银河共同体成立', desc: '各帝国在银河议会中协商外交、贸易与战争规则。' },
+    ]
+  },
+  {
+    era: '危机纪元',
+    year: '???',
+    events: [
+      { title: '肃正协议激活', desc: '远古的银河文明清洁协议从沉睡中苏醒，判定当前文明为"失控变量"，启动清除程序。' },
+      { title: '虚空之恶魔入侵', desc: '异次元屏障被击穿，来自虚境的生物涌入物质宇宙。' },
+      { title: '普雷索林虫灾', desc: '河外星系的捕食性虫群通过超空间航道入侵银河系，吞噬一切有机生命。' },
+    ]
+  },
+];
+---
+
+<BaseLayout title="时间线">
+  <h1>银河历史时间线</h1>
+  <p class="subtitle">从远古先驱到银河危机的叙事脉络</p>
+
+  <div class="timeline">
+    {timelineEvents.map((era, i) => (
+      <div class="era">
+        <div class="era-marker">
+          <div class="era-dot"></div>
+          <div class="era-line"></div>
+        </div>
+        <div class="era-content">
+          <div class="era-header">
+            <h2>{era.era}</h2>
+            <span class="era-year">{era.year}</span>
+          </div>
+          <div class="events">
+            {era.events.map(evt => (
+              <div class="event-card">
+                <h3>{evt.title}</h3>
+                <p>{evt.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
+  .timeline { position: relative; }
+  .era {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .era-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+    flex-shrink: 0;
+  }
+  .era-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent-purple);
+    border: 3px solid var(--bg-primary);
+    box-shadow: 0 0 0 2px var(--accent-purple);
+  }
+  .era-line {
+    width: 2px;
+    flex: 1;
+    background: linear-gradient(to bottom, var(--accent-purple), transparent);
+    margin-top: 0.5rem;
+  }
+  .era:last-child .era-line { display: none; }
+  .era-content { flex: 1; }
+  .era-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .era-header h2 { margin: 0; font-size: 1.2rem; }
+  .era-year {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-family: monospace;
+  }
+  .events {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .event-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    border-left: 3px solid var(--accent-blue);
+  }
+  .event-card h3 {
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+    color: var(--text-primary);
+  }
+  .event-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    .era { gap: 1rem; }
+    .era-header { flex-direction: column; gap: 0.25rem; }
+  }
+</style>

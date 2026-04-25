@@ -1,0 +1,47 @@
+id: blorg
+name:
+  en: 0 "Blorg Commonality"
+  zh: 布洛葛合众国
+category: empire
+subcategory: prescripted
+dlc: null
+lore: 在很久以前，布洛葛一族都是在布洛葛主星的丛林中分开独居的。直到有一天，他们收听到来自遥远星系的一段无线电通讯。他们被这段通讯的内容震惊了：里面包含着友谊、电影、音乐、文化等等他们闻所未闻的东西。他们终于意识到自己生活的匮乏，布洛葛一族随之从这段通讯的内容中为自己挑选了名字，并开始进入星辰大海寻找这段信息的起源，为的是和他们交个朋友。
+traits:
+  - trait_repugnant
+  - trait_solitary
+  - trait_venerable
+  - trait_nomadic
+species:
+  class: FUN
+  name:
+    en: PRESCRIPTED_species_name_blorg
+    zh: PRESCRIPTED_species_name_blorg
+  portrait: fun12
+  traits:
+    - trait_repugnant
+    - trait_solitary
+    - trait_venerable
+    - trait_nomadic
+authority: auth_oligarchic
+civics:
+  - {}
+ethics:
+  - ethic_fanatic_xenophile
+  - ethic_militarist
+origin: origin_default
+government: gov_military_junta
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_blorg
+    zh: PRESCRIPTED_planet_name_blorg
+  class: pc_tropical
+system:
+  name:
+    en: PRESCRIPTED_system_name_blorg
+    zh: PRESCRIPTED_system_name_blorg
+graphical_culture: fungoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - oligarchic
+  - default

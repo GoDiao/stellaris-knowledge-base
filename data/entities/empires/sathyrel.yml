@@ -1,0 +1,52 @@
+id: sathyrel
+name:
+  en: 0 "Sathyrelian Bliss"
+  zh: 萨提雷尔之赐
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  萨提雷尔社会有一条古老的自明之理：丰饶与轻松并不等同于繁荣。
+
+  我们祖先的过度放纵和懒惰最终导致了一种“苦尽才有甘来”精神的崛起。一种既确保可持续未来同时仍充分享受生活的方式。 毕竟，体力劳动后食物的味道会更好，而精神上的繁忙也导致没有时间为缺乏的东西而苦恼。
+
+  从那时起，这种精神的好处就显而易见了。 随着我们努力迈入太空，我们的海水更加清澈，思想更加明晰，生活也自然变得更加甜蜜。 我们在技术上取得了巨大的进步，而且——尽管这常常被认为是理所当然的——今天所有的萨提雷尔人都保留了他们在没有游泳辅助设备的情况下前进的能力。 一切都在变得更好。
+traits:
+  - trait_aquatic
+  - trait_conservational
+  - trait_sedentary
+  - trait_slow_learners
+species:
+  class: AQUATIC
+  name:
+    en: PRESCRIPTED_species_name_sathyrel
+    zh: PRESCRIPTED_species_name_sathyrel
+  portrait: aqu1
+  traits:
+    - trait_aquatic
+    - trait_conservational
+    - trait_sedentary
+    - trait_slow_learners
+authority: auth_dictatorial
+civics:
+  - {}
+ethics:
+  - ethic_xenophobe
+  - ethic_fanatic_pacifist
+origin: origin_ocean_paradise
+government: gov_irenic_dictatorship
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_sathyrel
+    zh: PRESCRIPTED_planet_name_sathyrel
+  class: pc_ocean
+system:
+  name:
+    en: PRESCRIPTED_system_name_sathyrel
+    zh: PRESCRIPTED_system_name_sathyrel
+graphical_culture: aquatic_01
+relations: []
+tags:
+  - prescripted_empire
+  - dictatorial
+  - ocean_paradise

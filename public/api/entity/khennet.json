@@ -1,0 +1,61 @@
+{
+  "id": "khennet",
+  "name": {
+    "en": "0 \"Keepers of Ave'brenn\"",
+    "zh": "阿韦邦守护者"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "亨内特经文中称这些石质生物的起源可以追溯到先知布雷克，以及阿韦邦上闪烁着柔和光芒的晶体。据说，当布雷克初次凝视晶体那闪闪发光的深处时，亨内特——作为一体——便获得了知觉。\n\n先知和主教们世代相继，引导他们的人民在周围的地质构造及他们自己晶莹身体上的晶面中寻求意义。任何瞥见的东西都被以口头传说或书面手稿的形式保存下来。守护者有着众多仪式，但没有哪种仪式比迷宫采矿更受重视：毁灭和创造在一种行为中同时实现，他们希望藉此在每个永无止息却又往复循环的地质年代中舒缓这个星系。",
+  "traits": [
+    "trait_lithoid",
+    "trait_communal",
+    "trait_industrious",
+    "trait_sedentary"
+  ],
+  "species": {
+    "class": "LITHOID",
+    "name": {
+      "en": "PRESCRIPTED_species_name_khennet",
+      "zh": "PRESCRIPTED_species_name_khennet"
+    },
+    "portrait": "lith11",
+    "traits": [
+      "trait_lithoid",
+      "trait_communal",
+      "trait_industrious",
+      "trait_sedentary"
+    ]
+  },
+  "authority": "auth_imperial",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_pacifist",
+    "ethic_fanatic_spiritualist"
+  ],
+  "origin": "origin_default",
+  "government": "gov_theocratic_monarchy",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_khennet",
+      "zh": "PRESCRIPTED_planet_name_khennet"
+    },
+    "class": "pc_arid"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_khennet",
+      "zh": "PRESCRIPTED_system_name_khennet"
+    }
+  },
+  "graphical_culture": "lithoid_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "imperial",
+    "default"
+  ]
+}

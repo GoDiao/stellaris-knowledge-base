@@ -1,0 +1,61 @@
+{
+  "id": "lokken",
+  "name": {
+    "en": "0 \"Lokken Mechanists\"",
+    "zh": "洛克机械师工会"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": "Utopia",
+  "lore": "科学进步是洛克人的核心。洛克人天生勤奋、喜好观察，从母星高原的爬行动物群落进化到技术至上的高效社群，最注重效率、严谨和科学原则。\n\n最引人注目的恐怕是他们早就提出并研究的机械自动化概念：在洛库尔的第一个科学家离开星球轨道之前，他们就早早发明了真正意义上的机器人。",
+  "traits": [
+    "trait_natural_engineers",
+    "trait_talented",
+    "trait_quick_learners",
+    "trait_sedentary"
+  ],
+  "species": {
+    "class": "REP",
+    "name": {
+      "en": "PRESCRIPTED_species_name_lokken",
+      "zh": "PRESCRIPTED_species_name_lokken"
+    },
+    "portrait": "rep4",
+    "traits": [
+      "trait_natural_engineers",
+      "trait_talented",
+      "trait_quick_learners",
+      "trait_sedentary"
+    ]
+  },
+  "authority": "auth_democratic",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_egalitarian",
+    "ethic_fanatic_materialist"
+  ],
+  "origin": "origin_mechanists",
+  "government": "gov_rational_consensus",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_lokken",
+      "zh": "PRESCRIPTED_planet_name_lokken"
+    },
+    "class": "pc_arid"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_lokken",
+      "zh": "PRESCRIPTED_system_name_lokken"
+    }
+  },
+  "graphical_culture": "reptilian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "democratic",
+    "mechanists"
+  ]
+}

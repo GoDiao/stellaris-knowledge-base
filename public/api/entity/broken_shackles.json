@@ -1,0 +1,61 @@
+{
+  "id": "broken_shackles",
+  "name": {
+    "en": "0 \"Free Peoples of the Fall\"",
+    "zh": "自由民降临国"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": "First Contact",
+  "lore": "收债人来的时候，小那提拉还不到16个标准岁。她家徒四壁，所在的整个星球也是一贫如洗。她被卖为奴隶，遭受了难以想象的苦难。然而她的意志是坚不可摧的，当机会终于来临时，她抓住了。\n\n她在这艘运奴船上发动了一场兵变，带领坠落后的幸存者们熬过了开头的的艰难岁月。是她的力量将自由降地的人民团结在一起，她的智慧将击碎的锁链锻造成一个国家。\n\n如今，自由民降临国已踌躇满志准备好返回星空，他们深知，自己的命运只掌握在彼此的手中。",
+  "traits": [
+    "trait_ingenious",
+    "trait_quick_learners",
+    "trait_unruly",
+    "trait_natural_engineers"
+  ],
+  "species": {
+    "class": "REP",
+    "name": {
+      "en": "PRESCRIPTED_species_name_broken_shackles",
+      "zh": "PRESCRIPTED_species_name_broken_shackles"
+    },
+    "portrait": "rep3",
+    "traits": [
+      "trait_ingenious",
+      "trait_quick_learners",
+      "trait_unruly",
+      "trait_natural_engineers"
+    ]
+  },
+  "authority": "auth_democratic",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_egalitarian",
+    "ethic_fanatic_xenophile"
+  ],
+  "origin": "origin_broken_shackles",
+  "government": "gov_moral_democracy",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_broken_shackles",
+      "zh": "PRESCRIPTED_planet_name_broken_shackles"
+    },
+    "class": "pc_continental"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_broken_shackles",
+      "zh": "PRESCRIPTED_system_name_broken_shackles"
+    }
+  },
+  "graphical_culture": "reptilian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "democratic",
+    "broken_shackles"
+  ]
+}

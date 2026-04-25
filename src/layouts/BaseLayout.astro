@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = '群星(Stellaris)背景设定知识库' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — 群星知识库</title>
+    <meta name="description" content={description} />
+    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}/styles/global.css`} />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-brand">
+        <a href={`${import.meta.env.BASE_URL}/`}>群星知识库</a>
+      </div>
+      <div class="nav-links">
+        <a href={`${import.meta.env.BASE_URL}/`}>首页</a>
+        <a href={`${import.meta.env.BASE_URL}/wiki/empires`}>百科</a>
+        <a href={`${import.meta.env.BASE_URL}/graph`}>知识图谱</a>
+        <a href={`${import.meta.env.BASE_URL}/timeline`}>时间线</a>
+        <a href={`${import.meta.env.BASE_URL}/api`}>API</a>
+      </div>
+    </nav>
+    <main class="page-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>群星知识库 — 基于 Astro + YAML 构建 · <a href="https://github.com">GitHub</a></p>
+    </footer>
+  </body>
+</html>

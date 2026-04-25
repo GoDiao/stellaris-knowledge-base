@@ -1,0 +1,61 @@
+{
+  "id": "kilik",
+  "name": {
+    "en": "0 \"Kilik Cooperative\"",
+    "zh": "齐里克合作社"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": "MegaCorp",
+  "lore": "齐里克是群体意识很强的物种，已在其母星的树上殖民地中居住了千百年。它们的群居天性与物质共有的传统，数百年后演化成了以合作企业为主的经济，并且用以物易物和资源共享的方式进行交易，而不是使用货币。\n\n随着气候变暖和科技发展导致人口爆炸性增长，齐里克的居住地也变得越来越拥挤，而且尽管这些鸟类生物有着喜爱社交的天性，越来越多的个体开始被社群的照料所遗漏。\n\n不过，在经历了这一动乱时期之后，出现了一个更加有组织、更加团结的星际合作社，而分担责任与共享资源的原则也不再受到阻碍。",
+  "traits": [
+    "trait_communal",
+    "trait_traditional",
+    "trait_quick_learners",
+    "trait_fleeting"
+  ],
+  "species": {
+    "class": "AVI",
+    "name": {
+      "en": "PRESCRIPTED_species_name_kilik",
+      "zh": "PRESCRIPTED_species_name_kilik"
+    },
+    "portrait": "avi11",
+    "traits": [
+      "trait_communal",
+      "trait_traditional",
+      "trait_quick_learners",
+      "trait_fleeting"
+    ]
+  },
+  "authority": "auth_democratic",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_fanatic_egalitarian",
+    "ethic_materialist"
+  ],
+  "origin": "origin_default",
+  "government": "gov_communal_parity",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_kilik",
+      "zh": "PRESCRIPTED_planet_name_kilik"
+    },
+    "class": "pc_tropical"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_kilik",
+      "zh": "PRESCRIPTED_system_name_kilik"
+    }
+  },
+  "graphical_culture": "avian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "democratic",
+    "default"
+  ]
+}

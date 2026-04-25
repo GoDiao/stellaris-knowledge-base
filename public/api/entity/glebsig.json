@@ -1,0 +1,61 @@
+{
+  "id": "glebsig",
+  "name": {
+    "en": "0 \"Glebsig Foundation\"",
+    "zh": "格莱博赛基金会"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "自从格莱博赛族第一次在拉德纳星的冰湖上睁开视觉器官，并眺望星辰以来，这些好奇的拟软体动物就被未知所吸引。就像其祖先在母星冰冷的高山湖中，用触手抚摸湖床上的新物体一般，格莱博赛社会也在随后的世纪中迅速取得了科技发展与精神启迪。\n\n格莱博赛族稳重而坚毅。出于必要性使然，他们发展出了一套复杂却非常高效的官僚机构，以管理错综复杂的全球统一社会。此外，由于在拉德纳星上缺乏天敌，格莱博赛族对其他生命形态永远保持着乐观的好奇。\n\n以精神理论与慎密组织相结合，格莱博赛族在拉德纳星上设立了稳固的社会基金会，现在他们将再次睁开视觉器官，眺望远方的群星。",
+  "traits": [
+    "trait_sedentary",
+    "trait_enduring",
+    "trait_conservational",
+    "trait_resilient"
+  ],
+  "species": {
+    "class": "MOL",
+    "name": {
+      "en": "PRESCRIPTED_species_name_glebsig",
+      "zh": "PRESCRIPTED_species_name_glebsig"
+    },
+    "portrait": "mol7",
+    "traits": [
+      "trait_sedentary",
+      "trait_enduring",
+      "trait_conservational",
+      "trait_resilient"
+    ]
+  },
+  "authority": "auth_oligarchic",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_fanatic_xenophile",
+    "ethic_spiritualist"
+  ],
+  "origin": "origin_default",
+  "government": "gov_holy_tribunal",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_glebsig",
+      "zh": "PRESCRIPTED_planet_name_glebsig"
+    },
+    "class": "pc_alpine"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_glebsig",
+      "zh": "PRESCRIPTED_system_name_glebsig"
+    }
+  },
+  "graphical_culture": "molluscoid_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "oligarchic",
+    "default"
+  ]
+}

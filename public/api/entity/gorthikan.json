@@ -1,0 +1,61 @@
+{
+  "id": "gorthikan",
+  "name": {
+    "en": "0 \"Gorthikan Alliance\"",
+    "zh": "戈提坎同盟"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "混乱对于戈提坎人来说曾一度是家常便饭。战争、暴政，还有相比平常更加不稳定的气候，这些因素组合在一起铸就了这样一个物种——一个能充分利用糟糕境遇的物种。\n\n仅在几十年之前，戈提坎人国家之间小规模的冲突仍是家常便饭。随着他们的文明迅速但亦痛苦地步入高科技阶段，一个“地下”世界发展了起来，普通的戈提坎人在此搜刮维生的资源，有时候甚至能寻找到粗制滥造的基因鸡尾酒来变得更具有竞争力。\n\n正是那法外之地带来了变革。尽管危机四伏，但是相比于戈提坎人的高层社会，这里要显得平等的多——毕竟，人人皆知，今日的幸运儿或许就成了明天的倒霉蛋。这是在这样的氛围下，平民政府的理念开始生根发芽，并如野火一般一发不可收拾。就在不久前，暴政被推翻了，当地选民成立了“戈提坎联盟”。\n\n尽管许多人在早年抱有怀疑态度，但如今对未来的向往铸就了人们的凝聚力：突然之间，人们发现自己不需要相互争斗或挣扎求生，璀璨的星空触手可得。现在，随着超空间航道网络的发现，戈提坎人也开始准备在自己的历史上书写全新的篇章。",
+  "traits": [
+    "trait_artificial_intelligence",
+    "trait_incubator",
+    "trait_unruly",
+    "trait_spliced_adaptability"
+  ],
+  "species": {
+    "class": "TOX",
+    "name": {
+      "en": "PRESCRIPTED_species_name_gorthikan",
+      "zh": "PRESCRIPTED_species_name_gorthikan"
+    },
+    "portrait": "tox4",
+    "traits": [
+      "trait_artificial_intelligence",
+      "trait_incubator",
+      "trait_unruly",
+      "trait_spliced_adaptability"
+    ]
+  },
+  "authority": "auth_democratic",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_fanatic_egalitarian",
+    "ethic_materialist"
+  ],
+  "origin": "origin_overtuned",
+  "government": "gov_direct_democracy",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_gorthikan",
+      "zh": "PRESCRIPTED_planet_name_gorthikan"
+    },
+    "class": "pc_alpine"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_gorthikan",
+      "zh": "PRESCRIPTED_system_name_gorthikan"
+    }
+  },
+  "graphical_culture": "toxoid_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "democratic",
+    "overtuned"
+  ]
+}

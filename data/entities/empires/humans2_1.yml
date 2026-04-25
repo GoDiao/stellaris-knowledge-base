@@ -1,0 +1,48 @@
+id: humans2_1
+name:
+  en: 0 "Commonwealth of Man"
+  zh: 人类联邦
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  21世纪末，由联合国赞助的尤利西斯开拓计划负责监督地球低轨道上的六艘巨型方舟的建设。这些方舟——每艘载有25万名殖民者——被送往一个最近在奥尔特星云外侧发现的亚空间虫洞——一个小而不稳定的虫洞。随后他们便音信全无，那个不稳定的虫洞也消失了。
+
+  但不为地球人所知的是，其中一艘方舟在穿越中幸存，并且在一颗草木繁茂的卫星上建立起了欣欣向荣的殖民地。扎根于此的先驱者们相信征服全星系是人类的昭昭天命，他们将不惜一切代价实现它。
+traits:
+  - trait_adaptive
+  - trait_nomadic
+  - trait_wasteful
+species:
+  class: HUM
+  name:
+    en: PRESCRIPTED_species_name_humans2
+    zh: PRESCRIPTED_species_name_humans2
+  portrait: human
+  traits:
+    - trait_adaptive
+    - trait_nomadic
+    - trait_wasteful
+authority: auth_dictatorial
+civics:
+  - {}
+ethics:
+  - ethic_xenophobe
+  - ethic_fanatic_militarist
+origin: origin_lost_colony
+government: gov_military_dictatorship
+planet:
+  name:
+    en: NAME_Unity
+    zh: NAME_Unity
+  class: pc_continental
+system:
+  name:
+    en: NAME_Deneb
+    zh: NAME_Deneb
+graphical_culture: humanoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - dictatorial
+  - lost_colony

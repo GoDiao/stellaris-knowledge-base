@@ -1,0 +1,167 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="首页">
+  <div class="hero">
+    <h1>群星知识库</h1>
+    <p class="hero-subtitle">Stellaris 背景设定 · 双语百科 · 交互式知识图谱</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">—</span><span class="stat-label">实体</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">分类</span></div>
+      <div class="stat"><span class="stat-num">—</span><span class="stat-label">关系</span></div>
+    </div>
+  </div>
+
+  <h2>六大分类</h2>
+  <div class="category-grid">
+    <a href={`${import.meta.env.BASE_URL}/wiki/empires`} class="category-card cat-empire">
+      <h3>政权与阵营</h3>
+      <p>帝国、堕落帝国、联邦、派系</p>
+    </a>
+    <a href={`${import.meta.env.BASE_URL}/wiki/crises`} class="category-card cat-crisis">
+      <h3>危机与威胁</h3>
+      <p>三大危机、利维坦、虚空之灾</p>
+    </a>
+    <a href={`${import.meta.env.BASE_URL}/wiki/events`} class="category-card cat-event">
+      <h3>叙事与事件</h3>
+      <p>事件链、考古遗址、异常点</p>
+    </a>
+    <a href={`${import.meta.env.BASE_URL}/wiki/psionic`} class="category-card cat-psionic">
+      <h3>灵能与超自然</h3>
+      <p>虚境、灵能实体、契约</p>
+    </a>
+    <a href={`${import.meta.env.BASE_URL}/wiki/technology`} class="category-card cat-tech">
+      <h3>科技与建筑</h3>
+      <p>巨构、科技树、遗迹</p>
+    </a>
+    <a href={`${import.meta.env.BASE_URL}/wiki/species`} class="category-card cat-species">
+      <h3>种族与生物</h3>
+      <p>物种特质、预设种族、传记</p>
+    </a>
+  </div>
+
+  <div class="feature-section">
+    <div class="feature">
+      <h3>🔍 知识图谱</h3>
+      <p>交互式关系网络，探索实体间的因果与关联</p>
+      <a href={`${import.meta.env.BASE_URL}/graph`} class="feature-link">进入图谱 →</a>
+    </div>
+    <div class="feature">
+      <h3>📈 时间线</h3>
+      <p>从远古先驱到银河危机的完整叙事时间线</p>
+      <a href={`${import.meta.env.BASE_URL}/timeline`} class="feature-link">查看时间线 →</a>
+    </div>
+    <div class="feature">
+      <h3>🤖 AI 接口</h3>
+      <p>YAML 源文件 + 静态 JSON API + SQLite 下载，服务 AI 读取</p>
+      <a href={`${import.meta.env.BASE_URL}/api`} class="feature-link">查看 API →</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .hero-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .stat-label {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0 3rem;
+  }
+  .category-card {
+    display: block;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    border-left: 3px solid;
+  }
+  .category-card:hover {
+    background: var(--bg-tertiary);
+  }
+  .cat-empire { border-left-color: var(--accent-purple); }
+  .cat-crisis { border-left-color: var(--accent-blue); }
+  .cat-event { border-left-color: var(--accent-green); }
+  .cat-psionic { border-left-color: var(--accent-orange); }
+  .cat-tech { border-left-color: var(--accent-red); }
+  .cat-species { border-left-color: var(--accent-pink); }
+  .category-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .category-card p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .feature {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .feature h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .feature p {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+  .feature-link {
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  @media (max-width: 768px) {
+    .category-grid, .feature-section {
+      grid-template-columns: 1fr;
+    }
+    .hero-stats {
+      gap: 1.5rem;
+    }
+  }
+</style>

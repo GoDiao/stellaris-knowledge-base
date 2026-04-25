@@ -1,0 +1,59 @@
+{
+  "id": "yondar",
+  "name": {
+    "en": "0 \"Kingdom of Yondarim\"",
+    "zh": "勇达里姆王国"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "骄傲的勇达是一个古老的物种，在开化形成文明之前，他们已经在勇达里姆冷峻的山脊之间翱翔了将近20万年了。\n\n但发展的脚步实在是太快了，天空氏族不得不抛弃他们过去的一些传统习俗。勇达高度推崇精神需求，将宗教放在高高在上的位置，并将其帝王尊崇为现世神明。",
+  "traits": [
+    "trait_conformists",
+    "trait_natural_physicists",
+    "trait_slow_learners"
+  ],
+  "species": {
+    "class": "AVI",
+    "name": {
+      "en": "PRESCRIPTED_species_name_yondar",
+      "zh": "PRESCRIPTED_species_name_yondar"
+    },
+    "portrait": "avi10",
+    "traits": [
+      "trait_conformists",
+      "trait_natural_physicists",
+      "trait_slow_learners"
+    ]
+  },
+  "authority": "auth_imperial",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_authoritarian",
+    "ethic_fanatic_spiritualist"
+  ],
+  "origin": "origin_default",
+  "government": "gov_divine_empire",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_yondar",
+      "zh": "PRESCRIPTED_planet_name_yondar"
+    },
+    "class": "pc_alpine"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_yondar",
+      "zh": "PRESCRIPTED_system_name_yondar"
+    }
+  },
+  "graphical_culture": "avian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "imperial",
+    "default"
+  ]
+}

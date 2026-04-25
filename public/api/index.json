@@ -1,0 +1,434 @@
+[
+  {
+    "id": "blorg",
+    "name_zh": "布洛葛合众国",
+    "name_en": "0 \"Blorg Commonality\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "oligarchic",
+      "default"
+    ]
+  },
+  {
+    "id": "broken_shackles",
+    "name_zh": "自由民降临国",
+    "name_en": "0 \"Free Peoples of the Fall\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "broken_shackles"
+    ]
+  },
+  {
+    "id": "certeran_covenant",
+    "name_zh": "瑟特兰圣约国",
+    "name_en": "Certeran Covenant",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "riftworld"
+    ]
+  },
+  {
+    "id": "chinorr",
+    "name_zh": "齐诺尔联合集团",
+    "name_en": "1 \"Chinorr Combine\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "corporate",
+      "default"
+    ]
+  },
+  {
+    "id": "custodianship",
+    "name_zh": "地球监护者",
+    "name_en": "0 \"Earth Custodianship\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "machine_intelligence",
+      "default"
+    ]
+  },
+  {
+    "id": "default",
+    "name_zh": "default",
+    "name_en": "default",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "default"
+    ]
+  },
+  {
+    "id": "glebsig",
+    "name_zh": "格莱博赛基金会",
+    "name_en": "0 \"Glebsig Foundation\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "oligarchic",
+      "default"
+    ]
+  },
+  {
+    "id": "gorthikan",
+    "name_zh": "戈提坎同盟",
+    "name_en": "0 \"Gorthikan Alliance\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "overtuned"
+    ]
+  },
+  {
+    "id": "guardianship_of_nyrr",
+    "name_zh": "尼尔守护者",
+    "name_en": "Guardianship of Nyrr",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "imperial",
+      "default"
+    ]
+  },
+  {
+    "id": "hazbuzan",
+    "name_zh": "哈兹布赞联合会",
+    "name_en": "1 \"Hazbuzan Syndicate\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "corporate",
+      "default"
+    ]
+  },
+  {
+    "id": "humans1",
+    "name_zh": "地球联合国",
+    "name_en": "0 \"United Nations of Earth\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "default"
+    ]
+  },
+  {
+    "id": "humans1_1",
+    "name_zh": "地球联合国",
+    "name_en": "0 \"United Nations of Earth\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "default"
+    ]
+  },
+  {
+    "id": "humans2",
+    "name_zh": "人类联邦",
+    "name_en": "0 \"Commonwealth of Man\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "lost_colony"
+    ]
+  },
+  {
+    "id": "humans2_1",
+    "name_zh": "人类联邦",
+    "name_en": "0 \"Commonwealth of Man\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "lost_colony"
+    ]
+  },
+  {
+    "id": "iferyx",
+    "name_zh": "伊菲雷西联合舰队",
+    "name_en": "0 \"Iferyx Amalgamated Fleets\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "oligarchic",
+      "default"
+    ]
+  },
+  {
+    "id": "ixidar",
+    "name_zh": "伊科斯'伊达集合体",
+    "name_en": "0 \"Ix'Idar Star Collective\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "hive_mind",
+      "default"
+    ]
+  },
+  {
+    "id": "jehetma",
+    "name_zh": "杰赫特玛主权国",
+    "name_en": "0 \"Jehetma Dominion\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "default"
+    ]
+  },
+  {
+    "id": "kel_azaan",
+    "name_zh": "科尔-阿赞共和国",
+    "name_en": "1 \"Kel-Azaan Republic\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "oligarchic",
+      "default"
+    ]
+  },
+  {
+    "id": "khennet",
+    "name_zh": "阿韦邦守护者",
+    "name_en": "0 \"Keepers of Ave'brenn\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "imperial",
+      "default"
+    ]
+  },
+  {
+    "id": "kilik",
+    "name_zh": "齐里克合作社",
+    "name_en": "0 \"Kilik Cooperative\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "default"
+    ]
+  },
+  {
+    "id": "knights",
+    "name_zh": "旋桌骑士高阶领主国",
+    "name_en": "0 \"Rototavuul High Suzerainty\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "imperial",
+      "toxic_knights"
+    ]
+  },
+  {
+    "id": "lithoid_humans",
+    "name_zh": "忒伊亚保护者联邦",
+    "name_en": "Federated Theian Preservers",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "oligarchic",
+      "lithoid"
+    ]
+  },
+  {
+    "id": "lokken",
+    "name_zh": "洛克机械师工会",
+    "name_en": "0 \"Lokken Mechanists\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "mechanists"
+    ]
+  },
+  {
+    "id": "maweer",
+    "name_zh": "冒维尔守护者",
+    "name_en": "0 \"Maweer Caretakers\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "default"
+    ]
+  },
+  {
+    "id": "orbis",
+    "name_zh": "奥比斯客户协同社",
+    "name_en": "0 \"Orbis Customer Synergies\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "corporate",
+      "default"
+    ]
+  },
+  {
+    "id": "pasharti",
+    "name_zh": "法莎提吸收者",
+    "name_en": "0 \"Pasharti Absorbers\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "necrophage"
+    ]
+  },
+  {
+    "id": "plantoid_humans",
+    "name_zh": "盖伊娅之花",
+    "name_en": "Blooms of Gaea",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "fruitful"
+    ]
+  },
+  {
+    "id": "resistance",
+    "name_zh": "罗鹏抵抗组织",
+    "name_en": "0 \"Roccan Resistance\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "payback"
+    ]
+  },
+  {
+    "id": "sathyrel",
+    "name_zh": "萨提雷尔之赐",
+    "name_en": "0 \"Sathyrelian Bliss\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "ocean_paradise"
+    ]
+  },
+  {
+    "id": "scyldari",
+    "name_zh": "塞可达瑞联邦",
+    "name_en": "0 \"Scyldari Confederacy\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "democratic",
+      "default"
+    ]
+  },
+  {
+    "id": "tebrid",
+    "name_zh": "泰伯尔同族体",
+    "name_en": "0 \"Tebrid Homolog\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "machine_intelligence",
+      "default"
+    ]
+  },
+  {
+    "id": "tzynn",
+    "name_zh": "奇恩帝国",
+    "name_en": "0 \"Tzynn Empire\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "imperial",
+      "default"
+    ]
+  },
+  {
+    "id": "voor",
+    "name_zh": "沃尔科技独裁国",
+    "name_en": "2 \"Voor Technocracy\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "default"
+    ]
+  },
+  {
+    "id": "xanid",
+    "name_zh": "泽尼德宗主国",
+    "name_en": "0 \"Xanid Suzerainty\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "dictatorial",
+      "syncretic_evolution"
+    ]
+  },
+  {
+    "id": "xt489",
+    "name_zh": "XT-489灭绝单位",
+    "name_en": "1 \"XT-489 Eliminator\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "machine_intelligence",
+      "default"
+    ]
+  },
+  {
+    "id": "yondar",
+    "name_zh": "勇达里姆王国",
+    "name_en": "0 \"Kingdom of Yondarim\"",
+    "category": "empire",
+    "subcategory": "prescripted",
+    "tags": [
+      "prescripted_empire",
+      "imperial",
+      "default"
+    ]
+  }
+]

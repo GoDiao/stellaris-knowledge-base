@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "blorg",
+      "name": "布洛葛合众国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "broken_shackles",
+      "name": "自由民降临国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "certeran_covenant",
+      "name": "瑟特兰圣约国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "chinorr",
+      "name": "齐诺尔联合集团",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "custodianship",
+      "name": "地球监护者",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "default",
+      "name": "default",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "glebsig",
+      "name": "格莱博赛基金会",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "gorthikan",
+      "name": "戈提坎同盟",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "guardianship_of_nyrr",
+      "name": "尼尔守护者",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "hazbuzan",
+      "name": "哈兹布赞联合会",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "humans1",
+      "name": "地球联合国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "humans1_1",
+      "name": "地球联合国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "humans2",
+      "name": "人类联邦",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "humans2_1",
+      "name": "人类联邦",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "iferyx",
+      "name": "伊菲雷西联合舰队",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "ixidar",
+      "name": "伊科斯'伊达集合体",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "jehetma",
+      "name": "杰赫特玛主权国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "kel_azaan",
+      "name": "科尔-阿赞共和国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "khennet",
+      "name": "阿韦邦守护者",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "kilik",
+      "name": "齐里克合作社",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "knights",
+      "name": "旋桌骑士高阶领主国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "lithoid_humans",
+      "name": "忒伊亚保护者联邦",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "lokken",
+      "name": "洛克机械师工会",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "maweer",
+      "name": "冒维尔守护者",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "orbis",
+      "name": "奥比斯客户协同社",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "pasharti",
+      "name": "法莎提吸收者",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "plantoid_humans",
+      "name": "盖伊娅之花",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "resistance",
+      "name": "罗鹏抵抗组织",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "sathyrel",
+      "name": "萨提雷尔之赐",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "scyldari",
+      "name": "塞可达瑞联邦",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "tebrid",
+      "name": "泰伯尔同族体",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "tzynn",
+      "name": "奇恩帝国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "voor",
+      "name": "沃尔科技独裁国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "xanid",
+      "name": "泽尼德宗主国",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "xt489",
+      "name": "XT-489灭绝单位",
+      "group": "empires",
+      "weight": 0
+    },
+    {
+      "id": "yondar",
+      "name": "勇达里姆王国",
+      "group": "empires",
+      "weight": 0
+    }
+  ],
+  "links": []
+}

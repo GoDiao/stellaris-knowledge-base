@@ -1,0 +1,46 @@
+{
+  "id": "default",
+  "name": {
+    "en": null,
+    "zh": null
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "_desc",
+  "traits": [],
+  "species": {
+    "class": "HUM",
+    "name": {
+      "en": null,
+      "zh": null
+    },
+    "portrait": "human",
+    "traits": []
+  },
+  "authority": "auth_democratic",
+  "civics": [],
+  "ethics": [],
+  "origin": "origin_default",
+  "government": "gov_despotic_empire",
+  "planet": {
+    "name": {
+      "en": null,
+      "zh": null
+    },
+    "class": "pc_continental"
+  },
+  "system": {
+    "name": {
+      "en": null,
+      "zh": null
+    }
+  },
+  "graphical_culture": "mammalian_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "democratic",
+    "default"
+  ]
+}

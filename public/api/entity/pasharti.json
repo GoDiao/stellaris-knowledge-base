@@ -1,0 +1,59 @@
+{
+  "id": "pasharti",
+  "name": {
+    "en": "0 \"Pasharti Absorbers\"",
+    "zh": "法莎提吸收者"
+  },
+  "category": "empire",
+  "subcategory": "prescripted",
+  "dlc": null,
+  "lore": "杰佛瑞人——塔拉隆人的前主人——的黑暗实验，最终的后果就是法莎提人这样终极的寄生体。法莎提人最初只是生活在塔拉隆山峦深处的半开智生命体，杰佛瑞人提升了他们，改造了他们，将他们作为次等的奴隶种族。然而，提升似乎效果超过了预期，怪物的桎梏被摘下。出于对自己造物的恐惧——法莎提人能够吸收其他感性生命，并将他们也转化为法莎提人——杰佛瑞人试图中止实验。然而，一小部分被提升的法莎提还是逃脱了。\n\n经年累月，他们选择蛰伏，不仅在逃亡，也在逐渐增加自己一族的数量，并发展能够匹敌杰佛瑞人的科技基础。最终，杰佛瑞人意识到自己漏算了一着，然而彼时他们已经脆弱不堪，根本无法组织起反抗。\n\n很快，法莎提夺取了整颗星球的控制权，对他们的前压迫者施以最为残酷的暴力程序——同时也是为了增加本族的数量。时至今日，法莎提人昂首眺望漫天繁星，并决定履行他们唯一的职责——将所有的下等生命体转化为他们同族。",
+  "traits": [
+    "trait_necrophage",
+    "trait_deviants",
+    "trait_very_strong"
+  ],
+  "species": {
+    "class": "NECROID",
+    "name": {
+      "en": "PRESCRIPTED_species_name_pasharti",
+      "zh": "PRESCRIPTED_species_name_pasharti"
+    },
+    "portrait": "nec1",
+    "traits": [
+      "trait_necrophage",
+      "trait_deviants",
+      "trait_very_strong"
+    ]
+  },
+  "authority": "auth_dictatorial",
+  "civics": [
+    {}
+  ],
+  "ethics": [
+    "ethic_fanatic_xenophobe",
+    "ethic_militarist"
+  ],
+  "origin": "origin_necrophage",
+  "government": "gov_elective_monarchy",
+  "planet": {
+    "name": {
+      "en": "PRESCRIPTED_planet_name_pasharti",
+      "zh": "PRESCRIPTED_planet_name_pasharti"
+    },
+    "class": "pc_tundra"
+  },
+  "system": {
+    "name": {
+      "en": "PRESCRIPTED_system_name_pasharti",
+      "zh": "PRESCRIPTED_system_name_pasharti"
+    }
+  },
+  "graphical_culture": "necroid_01",
+  "relations": [],
+  "tags": [
+    "prescripted_empire",
+    "dictatorial",
+    "necrophage"
+  ]
+}

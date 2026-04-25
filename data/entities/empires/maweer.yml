@@ -1,0 +1,50 @@
+id: maweer
+name:
+  en: 0 "Maweer Caretakers"
+  zh: 冒维尔守护者
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  传说中，在第一个冒维尔扎根之前，他们的母星还是一片荒芜。经过几个世纪后，他们的精心照顾将荒地改造成了一片植物天堂，名为“郁郁庭院”。
+
+  和大多其他物种不同，冒维尔从不开展城市化。他们的社群很小，聚集在森林中，维护当地的动植物。最贤明的冒维尔有机会被选为“生命给予者”，负责维护和平与安宁。
+traits:
+  - trait_agrarian
+  - trait_enduring
+  - trait_conservational
+  - trait_slow_breeders
+species:
+  class: PLANT
+  name:
+    en: PRESCRIPTED_species_name_maweer
+    zh: PRESCRIPTED_species_name_maweer
+  portrait: pla14
+  traits:
+    - trait_agrarian
+    - trait_enduring
+    - trait_conservational
+    - trait_slow_breeders
+authority: auth_dictatorial
+civics:
+  - {}
+ethics:
+  - ethic_xenophobe
+  - ethic_fanatic_pacifist
+origin: origin_default
+government: gov_irenic_dictatorship
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_maweer
+    zh: PRESCRIPTED_planet_name_maweer
+  class: pc_tropical
+system:
+  name:
+    en: PRESCRIPTED_system_name_maweer
+    zh: PRESCRIPTED_system_name_maweer
+graphical_culture: plantoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - dictatorial
+  - default

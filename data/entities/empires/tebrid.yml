@@ -1,0 +1,49 @@
+id: tebrid
+name:
+  en: 0 "Tebrid Homolog"
+  zh: 泰伯尔同族体
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  同化、适应、改进。他们原本是软体生物泰伯尔创造的研究用机械智能，为了追求终极的软件进化，同族体将他们的有机生物主人融合。泰伯尔进行了激烈的反抗，但在后来的冲突中，作为有机生命的泰伯尔被消灭了，他们的思想与经验化成了新机械意识体永恒的一部分。
+
+  现在他们叫做泰伯尔同族体，并将扫描器对准了星空。星系中存在其他生命形式的可能性不可忽视。为了繁荣发展，泰伯里德会找到他们，分析他们，同化他们。让一切成为一体。
+traits:
+  - trait_machine_unit
+  - trait_robot_logic_engines
+  - trait_robot_learning_algorithms
+  - trait_robot_luxurious
+species:
+  class: MACHINE
+  name:
+    en: PRESCRIPTED_species_name_tebrid
+    zh: PRESCRIPTED_species_name_tebrid
+  portrait: sd_mol_robot
+  traits:
+    - trait_machine_unit
+    - trait_robot_logic_engines
+    - trait_robot_learning_algorithms
+    - trait_robot_luxurious
+authority: auth_machine_intelligence
+civics:
+  - {}
+ethics:
+  - ethic_gestalt_consciousness
+origin: origin_default
+government: gov_machine_assimilator
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_Tebri
+    zh: PRESCRIPTED_planet_name_Tebri
+  class: pc_ocean
+system:
+  name:
+    en: PRESCRIPTED_system_name_Tebiron
+    zh: PRESCRIPTED_system_name_Tebiron
+graphical_culture: molluscoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - machine_intelligence
+  - default

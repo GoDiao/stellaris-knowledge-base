@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Astro cache
+.astro/
+
+# Superpowers brainstorming
+.superpowers/
+
+# Generated data (can be rebuilt)
+data/glossary.yml
+
+# Large lock file
+package-lock.json
+
+# Database (build artifact, but we might want to keep it)
+# stellaris_kb.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,48 @@
+id: humans1
+name:
+  en: 0 "United Nations of Earth"
+  zh: 地球联合国
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  由数以百计的人类国家所构成的星际联合政府内部充满着差异，而又团结一致。这些两足哺乳动物已经发展出一种鼓励个人自由和文化差异的理念，甚至由此得益。因此，人类亦乐于和其他外星物种相互交融。
+
+  尽管如此，他们仍有着很强的军事传统，这是由几千年间在他们的家园发生的大大小小的战争造成的。他们时隐时现的侵略性和不可预知的自然天性不应被忽视。
+traits:
+  - trait_adaptive
+  - trait_nomadic
+  - trait_wasteful
+species:
+  class: HUM
+  name:
+    en: PRESCRIPTED_species_name_humans1
+    zh: PRESCRIPTED_species_name_humans1
+  portrait: human
+  traits:
+    - trait_adaptive
+    - trait_nomadic
+    - trait_wasteful
+authority: auth_democratic
+civics:
+  - {}
+ethics:
+  - ethic_xenophile
+  - ethic_fanatic_egalitarian
+origin: origin_default
+government: gov_representative_democracy
+planet:
+  name:
+    en: NAME_Earth
+    zh: NAME_Earth
+  class: pc_continental
+system:
+  name:
+    en: NAME_Sol
+    zh: NAME_Sol
+graphical_culture: mammalian_01
+relations: []
+tags:
+  - prescripted_empire
+  - democratic
+  - default

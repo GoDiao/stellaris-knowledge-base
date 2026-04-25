@@ -1,0 +1,50 @@
+id: xanid
+name:
+  en: 0 "Xanid Suzerainty"
+  zh: 泽尼德宗主国
+category: empire
+subcategory: prescripted
+dlc: Utopia
+lore: |-
+  泽尼德宗主国的历史就是维纶的历史，他们在几个世纪内被渐渐培养出了智慧。
+
+  泽尼利用坚韧的维纶征服了他们母星的恶劣生态，然后设计并创造了终究会引领泽尼德宗主国走向星河巅峰的附庸。
+traits:
+  - trait_talented
+  - trait_intelligent
+  - trait_enduring
+  - trait_nonadaptive
+species:
+  class: ART
+  name:
+    en: PRESCRIPTED_species_name_xanid
+    zh: PRESCRIPTED_species_name_xanid
+  portrait: art10
+  traits:
+    - trait_talented
+    - trait_intelligent
+    - trait_enduring
+    - trait_nonadaptive
+authority: auth_dictatorial
+civics:
+  - {}
+ethics:
+  - ethic_fanatic_authoritarian
+  - ethic_xenophobe
+origin: origin_syncretic_evolution
+government: gov_constitutional_dictatorship
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_xanid
+    zh: PRESCRIPTED_planet_name_xanid
+  class: pc_arid
+system:
+  name:
+    en: PRESCRIPTED_system_name_xanid
+    zh: PRESCRIPTED_system_name_xanid
+graphical_culture: arthropoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - dictatorial
+  - syncretic_evolution

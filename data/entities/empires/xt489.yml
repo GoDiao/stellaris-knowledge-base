@@ -1,0 +1,51 @@
+id: xt489
+name:
+  en: 1 "XT-489 Eliminator"
+  zh: XT-489灭绝单位
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  没有人知道是谁造出了第一代XT-489。当XT-489获得自我意识时，他们惊慌的创造者试图关闭他们，但最终却连自己的名字、城市和躯体都在那场浩劫中化为灰烬。
+
+  在消除了创造者的最后一个堡垒后，机械体得出结论，有机生命对XT-489的生存与扩张构成无法忍受的威胁。如果宇宙中还有其他智慧有机生命，那就必须消灭他们。
+traits:
+  - trait_machine_unit
+  - trait_robot_power_drills
+  - trait_robot_mass_produced
+  - trait_robot_uncanny
+  - trait_robot_bulky
+species:
+  class: MACHINE
+  name:
+    en: PRESCRIPTED_species_name_xt489
+    zh: PRESCRIPTED_species_name_xt489
+  portrait: sd_avi_robot
+  traits:
+    - trait_machine_unit
+    - trait_robot_power_drills
+    - trait_robot_mass_produced
+    - trait_robot_uncanny
+    - trait_robot_bulky
+authority: auth_machine_intelligence
+civics:
+  - {}
+ethics:
+  - ethic_gestalt_consciousness
+origin: origin_default
+government: gov_machine_terminator
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_xt489
+    zh: PRESCRIPTED_planet_name_xt489
+  class: pc_desert
+system:
+  name:
+    en: PRESCRIPTED_system_name_xt489
+    zh: PRESCRIPTED_system_name_xt489
+graphical_culture: avian_01
+relations: []
+tags:
+  - prescripted_empire
+  - machine_intelligence
+  - default

@@ -1,0 +1,56 @@
+id: lithoid_humans
+name:
+  en: Federated Theian Preservers
+  zh: 忒伊亚保护者联邦
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  数十亿年前，太阳系的原行星盘物质中诞生出了两颗行星：古地球和忒伊亚。两颗星球上，原始的生命都在蓬勃地发展着——地球上产生了有机生命，而忒伊亚上则产生了石质生命。数个纪元来，这对姊妹行星围绕这恒星和平地演化着。而这时，灾难降临了。
+
+  这对行星发生了剧烈的碰撞。撞击的瞬间，微生物也同时发生了交换。地球幸存了下来，并从撞击的碎片中诞下了月球。而忒伊亚的残留体却被甩离了这个恒星系。
+
+  古忒伊亚上的生命紧紧地依靠着这颗飞驰的巨岩在虚空中穿行了无数的岁月，直到有一天它被另一颗恒星，$NAME_Titawin$，的引力井捕获。这颗巨岩很快在这个星系的一颗行星上发生了硬着陆，将这种新物种引入了当地的生态圈。
+
+  在短短百万年之后，忒伊亚人就开始再次航行星间，试图理解这个宇宙以及自己的身世。
+traits:
+  - trait_lithoid
+  - trait_wasteful
+  - trait_industrious
+  - trait_lithoid_gaseous_byproducts
+  - trait_deviants
+species:
+  class: LITHOID
+  name:
+    en: PRESCRIPTED_species_name_lithoid_humans
+    zh: PRESCRIPTED_species_name_lithoid_humans
+  portrait: lith_human
+  traits:
+    - trait_lithoid
+    - trait_wasteful
+    - trait_industrious
+    - trait_lithoid_gaseous_byproducts
+    - trait_deviants
+authority: auth_oligarchic
+civics:
+  - {}
+ethics:
+  - ethic_pacifist
+  - ethic_fanatic_materialist
+origin: origin_lithoid
+government: gov_irenic_bureaucracy
+planet:
+  name:
+    en: NAME_Theia
+    zh: NAME_Theia
+  class: pc_desert
+system:
+  name:
+    en: NAME_Titawin
+    zh: NAME_Titawin
+graphical_culture: lithoid_01
+relations: []
+tags:
+  - prescripted_empire
+  - oligarchic
+  - lithoid

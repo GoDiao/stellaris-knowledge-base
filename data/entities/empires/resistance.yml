@@ -1,0 +1,52 @@
+id: resistance
+name:
+  en: 0 "Roccan Resistance"
+  zh: 罗鹏抵抗组织
+category: empire
+subcategory: prescripted
+dlc: First Contact
+lore: |-
+  当罗鹏人被弥那玛特种实业集团选作启蒙计划的对象时，这些人可高兴坏了。在公司的指引下，这些鸟类物种张开了自己的双翼，飞向了群星——结果发现这份所谓的“礼物”居然暗含代价。
+
+  然而，这些桀骜不驯的鸟类没有选择作为侍奉的奴隶去臣服，取而代之，他们为了争取自由豪赌一把，发动了一次出乎预料的反击行动。
+
+  MSI给了罗鹏族触及星辰的科技，而他们的回礼则是，在共同的复仇怨恨之下，一个四分五裂的星球被统一到了一面旗帜之下。
+traits:
+  - trait_ingenious
+  - trait_quick_learners
+  - trait_unruly
+  - trait_natural_engineers
+species:
+  class: AVI
+  name:
+    en: PRESCRIPTED_species_name_resistance
+    zh: PRESCRIPTED_species_name_resistance
+  portrait: avi6
+  traits:
+    - trait_ingenious
+    - trait_quick_learners
+    - trait_unruly
+    - trait_natural_engineers
+authority: auth_democratic
+civics:
+  - {}
+ethics:
+  - ethic_fanatic_egalitarian
+  - ethic_militarist
+origin: origin_payback
+government: gov_military_commissariat
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_resistance
+    zh: PRESCRIPTED_planet_name_resistance
+  class: pc_arid
+system:
+  name:
+    en: PRESCRIPTED_system_name_resistance
+    zh: PRESCRIPTED_system_name_resistance
+graphical_culture: avian_01
+relations: []
+tags:
+  - prescripted_empire
+  - democratic
+  - payback

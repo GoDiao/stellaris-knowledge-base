@@ -1,0 +1,49 @@
+id: iferyx
+name:
+  en: 0 "Iferyx Amalgamated Fleets"
+  zh: 伊菲雷西联合舰队
+category: empire
+subcategory: prescripted
+dlc: null
+lore: |-
+  伊菲雷西的帝国曾经分裂为数个互相竞争的贸易集团，但因为母星的土地被一种危险的物种侵蚀，现在被迫统一到了一起。在伊菲雷西的社群中，虽然还保留有注重平等的原则，但秘密议会时刻保证个人倾向不危及整个物种的自主。
+
+  伊菲雷西人相信精神的力量，很多传说是由前共同体社群与帝国编造出来的，用以缅怀在母星的日常生活。
+traits:
+  - trait_thrifty
+  - trait_communal
+  - trait_deviants
+species:
+  class: MAM
+  name:
+    en: PRESCRIPTED_species_name_iferyx
+    zh: PRESCRIPTED_species_name_iferyx
+  portrait: mam16
+  traits:
+    - trait_thrifty
+    - trait_communal
+    - trait_deviants
+authority: auth_oligarchic
+civics:
+  - {}
+ethics:
+  - ethic_egalitarian
+  - ethic_spiritualist
+  - ethic_pacifist
+origin: origin_default
+government: gov_trade_league
+planet:
+  name:
+    en: PRESCRIPTED_planet_name_iferyx
+    zh: PRESCRIPTED_planet_name_iferyx
+  class: pc_tundra
+system:
+  name:
+    en: PRESCRIPTED_system_name_iferyx
+    zh: PRESCRIPTED_system_name_iferyx
+graphical_culture: mammalian_01
+relations: []
+tags:
+  - prescripted_empire
+  - oligarchic
+  - default
