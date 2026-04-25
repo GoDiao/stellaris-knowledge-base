@@ -13,9 +13,6 @@ dist/
 # Generated data (can be rebuilt)
 data/glossary.yml
 
-# Large lock file
-package-lock.json
-
 # Database (build artifact, but we might want to keep it)
 # stellaris_kb.db
 
