@@ -30,8 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Parse game data
-        run: npm run data:all
+      # Note: Game data parsing requires local Stellaris files.
+      # Data is pre-generated and committed to the repo.
+      # Run locally: npm run data:all
 
       - name: Build site
         run: npm run build
