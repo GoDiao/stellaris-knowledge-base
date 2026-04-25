@@ -1,0 +1,48 @@
+{
+  "id": "tech_starbase_1",
+  "name": {
+    "en": "Starbase Construction",
+    "zh": "恒星基地建设"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "为了充分利用恒星系中的资源，我们必须在星系主星较近的轨道附近建立一个集中化的太空设施。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "0",
+    "cost": "0",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": null,
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+id: trait_intelligent
+name:
+  en: Intelligent
+  zh: 聪慧
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种大脑非常发达，他们可以轻易接受日新月异的科学进步。§!
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

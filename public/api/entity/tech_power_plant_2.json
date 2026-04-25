@@ -1,0 +1,48 @@
+{
+  "id": "tech_power_plant_2",
+  "name": {
+    "en": "Field Modulation",
+    "zh": "力场调制"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "调整过的力场可以增加能源产量并提高能源输出。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "1",
+    "cost": "@tier1cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

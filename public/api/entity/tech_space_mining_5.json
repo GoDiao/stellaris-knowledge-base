@@ -1,0 +1,48 @@
+{
+  "id": "tech_space_mining_5",
+  "name": {
+    "en": "Nanite Mineral Probes",
+    "zh": "纳米矿物探测器"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "装配了成千上万纳米机器人的特殊探测器。可以探索到之前无法识别的矿脉，并将其加以标记，以便以后进行采集。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "3",
+    "cost": "@tier3cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

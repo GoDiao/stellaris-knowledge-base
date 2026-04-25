@@ -1,0 +1,32 @@
+id: tech_planetary_infrastructure_2
+name:
+  en: Durasteel Infrastructure
+  zh: 耐钢基础设施
+category: technology
+subcategory: society
+dlc: null
+lore: 冶金学的进步使我们能够建造更大，更耐用的结构，从而大大改善了殖民地的基础设施。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '4'
+  cost: '@tier4cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_cyborg_durable
+  - type: 提及
+    target: trait_robot_durable
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

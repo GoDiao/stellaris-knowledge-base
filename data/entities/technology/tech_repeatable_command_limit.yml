@@ -1,0 +1,33 @@
+id: tech_repeatable_command_limit
+name:
+  en: Admiralty Support Staff
+  zh: 司令幕僚
+category: technology
+subcategory: society
+dlc: null
+lore: 强化指挥官的幕僚人员，将增加其在一支舰队中可统领的舰船数量。
+traits: []
+tags:
+  - technology
+  - society
+  - repeatable
+technology:
+  area: society
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

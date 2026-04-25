@@ -1,0 +1,28 @@
+id: crisis_2030
+name:
+  en: Machine World
+  zh: 机械星球
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  在§H[From.solar_system.GetName]§!星系出现了大幅度的能量激增！星系中的其中一颗荒芜星球的地表整个裂开了，地表下面是遍布整个行星的工厂。
+
+  无数由人工智能所控制的飞船从这个机械行星的内部蜂拥而出，开始寻找攻击目标。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: GFX_evt_contingency_planet

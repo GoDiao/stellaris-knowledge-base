@@ -1,0 +1,49 @@
+{
+  "id": "trait_robot_double_jointed",
+  "name": {
+    "en": "Double-Jointed",
+    "zh": "双向关节"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这些可折叠的劳工单位有着灵活的关节，这使他们能在运输过程中整齐地折叠成一堆，然后在现场自行组装。§!\n",
+  "traits": [
+    "pop_housing_usage_mult: -0.1"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "ROBOT",
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "machine",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    }
+  ]
+}

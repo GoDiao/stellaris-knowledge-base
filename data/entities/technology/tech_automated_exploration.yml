@@ -1,0 +1,32 @@
+id: tech_automated_exploration
+name:
+  en: Automated Exploration Protocols
+  zh: 自动探索协议
+category: technology
+subcategory: physics
+dlc: null
+lore: 先进的人工智能可以辅助科学专员探索新的世界、寻找新的生命和新的文明、以及前往从未有任何布洛葛去过的地方。通过人工智能的帮助，科研船可以探索宇宙。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '1'
+  cost: '@tier1cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

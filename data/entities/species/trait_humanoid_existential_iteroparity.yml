@@ -1,0 +1,30 @@
+id: trait_humanoid_existential_iteroparity
+name:
+  en: Existential Iteroparity
+  zh: 续存增殖
+category: species
+subcategory: trait
+dlc: null
+lore: §L该物种在危机四伏的环境中成长，通过繁殖得比对手更多而得以幸存。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

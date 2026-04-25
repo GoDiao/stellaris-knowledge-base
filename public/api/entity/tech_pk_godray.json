@@ -1,0 +1,48 @@
+{
+  "id": "tech_pk_godray",
+  "name": {
+    "en": "Divine Stimulus",
+    "zh": "神圣激素"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Apocalypse",
+  "lore": "一种能增强特定灵能波长的神秘催化剂，能诱导生物脑产生幻觉（宗教体验），并能严重扰乱电子脑（脑死亡）。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "5",
+    "cost": "@tier5cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

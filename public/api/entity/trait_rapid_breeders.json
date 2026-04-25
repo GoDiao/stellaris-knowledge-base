@@ -1,0 +1,47 @@
+{
+  "id": "trait_rapid_breeders",
+  "name": {
+    "en": "Rapid Breeders",
+    "zh": "快速繁殖"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种繁殖的周期较短，致使他们的人口增长迅速。§!\n",
+  "traits": [
+    "pop_growth_speed: 0.10"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

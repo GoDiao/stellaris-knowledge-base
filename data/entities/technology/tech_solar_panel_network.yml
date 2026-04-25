@@ -1,0 +1,32 @@
+id: tech_solar_panel_network
+name:
+  en: Orbital Energy Conversion
+  zh: 轨道能源转化技术
+category: technology
+subcategory: engineering
+dlc: null
+lore: 先进的太阳能板科技可以抵消恒星基地的运行成本。不过，这些太阳能板需要占用一个恒星基地的模块才能生产足够规模的能源。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '0'
+  cost: null
+  category: null
+  prerequisites: []
+  features: []
+  weight: null
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

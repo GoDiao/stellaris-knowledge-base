@@ -1,0 +1,48 @@
+{
+  "id": "tech_xeno_tourism_agency",
+  "name": {
+    "en": "Xeno Outreach Agencies",
+    "zh": "外星拓展中介"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "MegaCorp",
+  "lore": "该企业中介提供各种星际旅游的宣传服务，同时也为希望搬至企业空间的移民者提供就业福利与签约奖励。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

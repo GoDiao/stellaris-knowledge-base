@@ -1,0 +1,26 @@
+id: trait_ruler_feedback_loop
+name:
+  en: Feedback Loop
+  zh: 回馈循环
+category: species
+subcategory: trait
+dlc: null
+lore: 基于效率回馈循环和行为-反应分析使该单元在预测产出方面表现更佳。
+traits: []
+species:
+  cost: '1'
+  archetypes: []
+tags:
+  - trait
+  - positive
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

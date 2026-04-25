@@ -1,0 +1,33 @@
+id: tech_subspace_drive
+name:
+  en: Subspace Drive
+  zh: 亚空间引擎
+category: technology
+subcategory: physics
+dlc: First Contact
+lore: 这些亚空间驱动引擎是在离开我们的家园的迫切愿望下诞生的一种方案，它的设计目的是用来进行有限的星际旅行。虽然它们只能进行小规模跃迁，但仍提供了一个千载难逢的机会来启动我们的星海探索。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '0'
+  cost: '@tier0cost1'
+  category: null
+  prerequisites: []
+  features:
+    - jump_method
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

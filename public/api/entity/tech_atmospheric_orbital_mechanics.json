@@ -1,0 +1,48 @@
+{
+  "id": "tech_atmospheric_orbital_mechanics",
+  "name": {
+    "en": "Atmospheric Orbital Mechanics",
+    "zh": "大气轨道力学"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": "First Contact",
+  "lore": "得益于对围绕前超光速星球的观测站的大规模运作经验，我们发现了些许的优化空间。通过将这些优化推广到整个国家的范围，我们能够彻底降低空间站所需的维护费用。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "tech_node_culling_1",
+  "name": {
+    "en": "Rudimentary Node Culling",
+    "zh": "初步节点剔除"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "随着星海舞台的风云变幻，我们的运筹本能也应如此。任何不再具有优势的进化位阶将被剔除。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "gateway:node_culling"
+    ],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

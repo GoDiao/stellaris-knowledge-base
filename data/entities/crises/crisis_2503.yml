@@ -1,0 +1,30 @@
+id: crisis_2503
+name:
+  en: $crisis.2502.name$
+  zh: $crisis.2502.name$
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  一个存栈在[Root.GetName]上的腐化单元由于恶意行为被终止了。
+
+  在出事之前，我们与那个堆栈的通讯连接频繁出现故障，而此时行星上的大部分单元在充电期间突然停止了工作。原因是那个被腐化的单元堆栈在其他堆栈进行充电时过载了发电站，那些正在充电的单元的电路因此而被彻底烧毁。在烧毁了其他单元之后，被腐化的单元堆栈广播了如下讯息：§Y<杀戮！破坏！肢解！我们将卷土重来！>§!，随即自我毁灭，使得我们无法对其个体神经簇进行扫描。
+
+  据推测，很可能是某种敌对的侵入性序列造成了这起事故，在类似情况再次出现之前，我们只能静观其变。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: planet_event
+picture: GFX_evt_glitchy_matrix

@@ -1,0 +1,32 @@
+id: trait_robot_harvesters
+name:
+  en: Harvesters
+  zh: 收割套件
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L从营养疗法，就地平衡技术到单杆脱粒技术，这一整套技术工具能够增加机器人劳工的食物产出。§!
+traits:
+  - 'planet_jobs_food_produces_mult: 0.15'
+species:
+  cost: '2'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 提及
+    target: tech_robotic_workers
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

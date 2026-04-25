@@ -1,0 +1,32 @@
+id: tech_disruptors_2
+name:
+  en: Ion Disruptors
+  zh: 离子裂解炮
+category: technology
+subcategory: physics
+dlc: null
+lore: 这些升级版的裂解炮可以对目标发射出更具威力的离子流。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_disruptors_1
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

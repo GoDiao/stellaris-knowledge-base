@@ -1,0 +1,48 @@
+{
+  "id": "tech_mega_shipyard",
+  "name": {
+    "en": "Mega Shipyard",
+    "zh": "巨型船坞"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "一个有着零重力立场的巨型船坞，能够执行多个星舰建设项目。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "5",
+    "cost": "@tier5cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

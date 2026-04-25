@@ -1,0 +1,1292 @@
+id: contingency
+name:
+  en: The Contingency
+  zh: CONTINGENCY
+category: crisis
+subcategory: contingency
+dlc: null
+lore: ''
+traits: []
+events:
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1003
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1006
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1006
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1006
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1006
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1260
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.34
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1280
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: custodian.50
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: emperor.90
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1007
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1008
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1007
+    name:
+      en: The Unbidden
+      zh: 破界者
+    desc:
+      en: A massive tear in the fabric of space itself has appeared in the [extradimensional_system.GetName] system! We aren't certain what caused it, but the tear acts as some kind of one-way portal from another dimension. Fleets of strange vessels are pouring out, attacking everything in sight. This looks like the beginning of a major invasion!\n\nWe have intercepted a powerful signal being sent from the arriving vessels to somewhere on the other side of the portal. It sounds like... a hunting call.
+      zh: '[extradimensional_system.GetName]星系出现了巨大的空间裂缝！虽然我们还不知道原因，但这似乎是另一个次元的单向传送门。奇怪的飞船从裂缝中蜂拥而出，无论见到什么都大肆攻击。这似乎预告着一场大型进攻宣战的来临。我方截获了这些飞船发往传送门另一边的信号。听起来……像是狩猎的哨音一样。'
+    type: country_event
+    options:
+      - en: Spirits protect us...
+        zh: 愿众神保佑我们……
+      - en: Brief all fleet commanders.
+        zh: 将消息传达给所有舰队指挥官。
+      - en: These creatures must be studied closer.
+        zh: 必须近距离研究这些生物。
+      - en: Are we sure they can't be reasoned with?
+        zh: 真的无法与他们进行理论吗？
+      - en: This will cut into our profit margins...
+        zh: 这将损害我们的利润……
+      - en: Dark days lie ahead.
+        zh: 黑暗即将来临。
+      - en: These wretched xenos will be purged.
+        zh: 可恶的外星生物，一定要把它们统统干掉。
+      - en: Fascinating... life from another dimension.
+        zh: 真有意思……来自高维的生命体。
+      - en: They seem well organized.
+        zh: 他们看起来组织有序。
+      - en: This is a threat to all sapient life.
+        zh: 这对任何有感知的生物来说都是个威胁。
+      - en: Fascinating... alien life from beyond our galaxy.
+        zh: 真是令人着迷……系外的生命体。
+  - id: crisis.1010
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: origin.6130
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1008
+    name:
+      en: Galactic Power Surge
+      zh: 星系能源波动
+    desc:
+      en: Instruments across the [Root.GetName] have suddenly picked up a subspace power surge of massive proportions coming from somewhere within our galaxy. Our scientists are struggling to come up with an explanation for this event - nothing of its like has ever been recorded.\n\nThe exact origin point of this sudden power surge has yet to be identified, but we are still in the process of analyzing the available data.
+      zh: '[Root.GetName]中所有仪器突然全数感应到了巨大的亚空间能源波动，其源头就在我们星系之中。我们的科学家也难以解释其中原因——这种奇异现象可是前所未见。源头的具体位置尚不明确，我们仍在继续分析现有数据。'
+    type: country_event
+    options:
+      - en: Keep at it.
+        zh: 继续调查。
+  - id: crisis.1009
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1009
+    name:
+      en: The Unbidden
+      zh: 破界者
+    desc:
+      en: The source of the massive power surge we detected earlier has been identified. It comes from some kind of gigantic subspace tear in the [extradimensional_system.GetName] system. Fleets of strange spacecraft are pouring out of this dimensional portal, and early reports speak of indiscriminate attacks against everyone coming into contact with them.\n\nWe have intercepted a powerful signal being sent from the arriving vessels to somewhere on the other side of the portal. It sounds like... a hunting call.
+      zh: |-
+        我们已经对之前检测到的巨大能源波完成了甄别。它来源于[extradimensional_system.GetName]星系中一个巨大的亚空间裂缝。奇怪的飞船从传送门中蜂拥而出，初步报告显示，这些飞船会对接触到的任何事物发动无差别的攻击。
+
+        我方截获了这些飞船发往传送门另一边的一段高能信号。听起来……像是狩猎的哨音一样。
+    type: country_event
+    options:
+      - en: Spirits protect us...
+        zh: 愿众神保佑我们……
+      - en: Brief all fleet commanders.
+        zh: 将消息传达给所有舰队指挥官。
+      - en: These creatures must be studied closer.
+        zh: 必须近距离研究这些生物。
+      - en: Are we sure they can't be reasoned with?
+        zh: 真的无法与他们进行理论吗？
+      - en: This will cut into our profit margins...
+        zh: 这将损害我们的利润……
+      - en: Dark days lie ahead.
+        zh: 黑暗即将来临。
+      - en: These wretched xenos will be purged.
+        zh: 可恶的外星生物，一定要把它们统统干掉。
+      - en: Fascinating... life from another dimension.
+        zh: 真有意思……来自高维的生命体。
+      - en: They seem well organized.
+        zh: 他们看起来组织有序。
+      - en: This is a threat to all sapient life.
+        zh: 这对任何有感知的生物来说都是个威胁。
+      - en: Fascinating... alien life from beyond our galaxy.
+        zh: 真是令人着迷……系外的生命体。
+  - id: crisis.1010
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: origin.6130
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1010
+    name:
+      en: Intercepted Transmission
+      zh: 截获的信号
+    desc:
+      en: ...feeding ground reached... prey bountiful... at long last... we shall feast...
+      zh: ……到达觅食区域……猎物很多……终于……可以大吃一顿……
+    type: country_event
+    options:
+      - en: What are these things?
+        zh: 这些东西到底是什么？
+  - id: crisis.1011
+    name:
+      en: '[Root.GetName] Lost'
+      zh: '[Root.GetName]殖民地被毁'
+    desc:
+      en: We have lost our colony on [Root.GetName]! After taking up positions in orbit, the extradimensional invaders bombarded the surface and feasted on all life forms below. The [Root.GetPlanetMoon]'s entire biosphere was consumed by the creatures - not a single trace of anything living remains.
+      zh: 我们失去了[Root.GetName]殖民地！这些来自异次元的侵略者先是摧毁了轨道空间站，而后对着星球表面狂轰滥炸，收割了地表上的所有生命。[Root.GetPlanetMoon]的整个生物圈都被毁灭殆尽——连一点生命的痕迹都没有了。
+    type: planet_event
+    options:
+      - en: Those monsters must be stopped!
+        zh: 不惜一切代价阻止那些怪物！
+  - id: crisis.1300
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1310
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1250
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.35
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1013
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1016
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1013
+    name:
+      en: Dimensional Portal Destroyed
+      zh: 异次元传送门被摧毁
+    desc:
+      en: The dimensional portal in the [extradimensional_system.GetName] system has been destroyed! This means that the extradimensional invaders can no longer receive reinforcements from their twisted realm.\n\nWith the destruction of this portal, the end of these invasions is finally in sight. A profound sense of elation has settled over most of the galaxy. The [portal_killer.GetName] has won much admiration, since it was their ships that struck the final blow against the portal. The crews of those vessels will be celebrated as heroes for generations to come.
+      zh: 位于[extradimensional_system.GetName]星系的高维传送门已经被摧毁了！这些可恶的高维入侵者没法再叫来援兵了。摧毁了传送门后，这场战争终于迎来了胜利的曙光。星系中的广大民众都在欢呼雀跃。同时，[portal_killer.GetName]也倍受称赞，因为他们的飞船给了传送门最后一击。他们的英雄事迹将被代代传颂。
+    type: country_event
+    options:
+      - en: The galaxy is a safer place.
+        zh: 星系更加安全了
+  - id: crisis.1016
+    name:
+      en: First Portal Destroyed
+      zh: 第一传送门已摧毁
+    desc:
+      en: The initial breaching point that was used by the extradimensionals to invade our galaxy has been destroyed.\n\n$crisis.1116.not_last_portal$
+      zh: |-
+        异次元入侵者最初的入侵点已经被摧毁了。
+
+        $crisis.1116.not_last_portal$
+    type: country_event
+    options:
+      - en: We must not relent.
+        zh: 绝不心慈手软。
+  - id: crisis.1050
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: View screen off.
+        zh: 显示屏关闭。
+      - en: Can there be peace between us?
+        zh: 我们之间难道不可以和平相处吗？
+      - en: You picked the wrong dimension to invade.
+        zh: 你们会后悔来到这个次元的。
+      - en: You are just another type of wretched xeno.
+        zh: 你们这些外星物种真是恶心。
+      - en: Tell us about yourselves. Help us understand you.
+        zh: 介绍一下你们。让我们互相了解一下吧。
+      - en: Do you come from a higher plane of existence?
+        zh: 你们来自某个存在的更高位面吗？
+      - en: Are you from the Shroud?
+        zh: 你们是从虚境来的吗？
+      - en: View screen off.
+        zh: 显示屏关闭。
+  - id: crisis.1051
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: View screen off.
+        zh: 显示屏关闭。
+  - id: crisis.1052
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: View screen off.
+        zh: 显示屏关闭。
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1103
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1106
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1106
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1106
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1106
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1260
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.36
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1280
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1110
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1110
+    name:
+      en: A Second Portal
+      zh: 第二道传送门
+    desc:
+      en: Our instruments have detected a new subspace power surge, this time coming from the [second_portal_system.GetName] system! A second massive wormhole has appeared, and its energy signature appears to be almost identical to that of the first dimensional rift which opened in our galaxy.\n\nIt looks like the mysterious invaders have opened a second gateway to their realm through which they can send even more reinforcements.
+      zh: 我方仪器又侦测到了新的亚空间能源波，这次的源头位于[second_portal_system.GetName]星系！那里又出现了一个巨大的虫洞，从能源特征来看，这与我们星系中出现的传送门十分相似。看来入侵者打开了第二个通向他们界域的传送门，想要搬运来更多的援军。
+    type: country_event
+    options:
+      - en: This has gone from bad to worse.
+        zh: 事态变得更糟了。
+  - id: crisis.1112
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1112
+    name:
+      en: The Aberrant
+      zh: 背道者
+    desc:
+      en: The ships that have been emerging from the second wormhole are very similar to the ones that came from the first, but there are several subtle differences between them. Furthermore, early reports indicate that ships belonging to these new invaders have clashed with those of the first group!\n\nWe have intercepted a powerful signal emanating from the second wormhole.
+      zh: 从第二个虫洞中出来的飞船和之前的非常相似，但仍然有几处细微的不同。据报告称，这些新来的飞船竟和之前的入侵者打起来了！我们也从第二个虫洞处截获了强大的信号。
+    type: country_event
+    options:
+      - en: Put it on.
+        zh: 放出来听听。
+  - id: crisis.1113
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1113
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: ...shabanash... so this is where you ran... this realm will offer you no shelter... we shall deal with you, and then claim this feeding ground for ourselves...
+      zh: ……原来你们…逃到了这里……休想……躲到……这个次元……我们会干掉你们，占据觅食区……
+    type: country_event
+    options:
+      - en: View screen off.
+        zh: 显示屏关闭。
+  - id: observer.37
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1116
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1250
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1117
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1116
+    name:
+      en: Second Portal Destroyed
+      zh: 第二传送门已摧毁
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: The galaxy is a safer place.
+        zh: 星系更加安全了
+  - id: crisis.1117
+    name:
+      en: Second Portal Destroyed
+      zh: 第二传送门已摧毁
+    desc:
+      en: $crisis.1116.second_portal_destroyed$\n\n$crisis.1116.not_last_portal$
+      zh: |-
+        $crisis.1116.second_portal_destroyed$
+
+        $crisis.1116.not_last_portal$
+    type: country_event
+    options:
+      - en: We must not relent.
+        zh: 绝不心慈手软。
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1203
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1206
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1206
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1206
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1206
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: fleet_event
+    options: []
+  - id: crisis.1260
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.38
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1280
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1210
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1210
+    name:
+      en: The Vehement
+      zh: 狂热者
+    desc:
+      en: A third dimensional portal has appeared in the [third_portal_system.GetName] system! Who does this one belong to?\n\nWe are picking up a transmission coming from the other side of it.
+      zh: '[third_portal_system.GetName]星系出现了第三个维度之门！这一个是哪来的？我们接收到了从那边来的传送。'
+    type: country_event
+    options:
+      - en: Another one?
+        zh: 又来一个？
+  - id: crisis.1211
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1211
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: ...dagaal... shabanash... you were fools to come to this realm... there is no escape from us... we shall destroy both your kingdoms... then... at last... the eternal throne will be ours...
+      zh: ……笨蛋……居然躲到了这里……你们逃不掉的……我们会摧毁你俩的帝国……然后……最终……永恒的王座将属于我们……
+    type: country_event
+    options:
+      - en: Is there no end to them?
+        zh: 他们还有完没完？
+  - id: observer.39
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1216
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1250
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1217
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1216
+    name:
+      en: Third Portal Destroyed
+      zh: 第三传送门已摧毁
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: The galaxy is a safer place.
+        zh: 星系更加安全了
+  - id: crisis.1217
+    name:
+      en: Third Portal Destroyed
+      zh: 第三传送门已摧毁
+    desc:
+      en: $crisis.1216.third_portal_destroyed$\n\n$crisis.1116.not_last_portal$
+      zh: |-
+        $crisis.1216.third_portal_destroyed$
+
+        $crisis.1116.not_last_portal$
+    type: country_event
+    options:
+      - en: We must not relent.
+        zh: 绝不心慈手软。
+  - id: crisis.1266
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1260
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1265
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1260
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1266
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.40
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.1271
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1271
+    name:
+      en: Invasion Defeated
+      zh: 击退入侵
+    desc:
+      en: The last vestiges of the extradimensional invaders have been wiped out, hopefully ridding the galaxy of this threat for good.\n\nSapients everywhere are celebrating the news of this great victory, safe at last in the knowledge that they won't be harvested as food by these strange energy creatures after all. Perhaps this is the beginning of a new era of galactic cooperation and friendship?
+      zh: 最后残存的高维入侵者也已被彻底消灭，希望我们这回算是一劳永逸地消除了这些家伙对宇宙的威胁。全宇宙的智能生物都在庆祝这一伟大的胜利，在得知不必再惧怕成为他们盘中之餐的消息后，所有人都松了一口气。也许，这会成为宇宙新一轮全面合作与友谊的开端呢？
+    type: country_event
+    options:
+      - en: Our spiritual armor has weathered yet another storm.
+        zh: 我们的精神又经历了一次严峻的考验。
+      - en: One day, perhaps we will be the ones invading their realm.
+        zh: 某一天，也许会轮到我们来入侵他们的世界吧。
+      - en: Unfortunate that we had no opportunity to study their dimension.
+        zh: 可惜，并没有机会研究他们的次元。
+      - en: If only there had been a way to peacefully co-exist with them.
+        zh: 多希望能和他们和平共处啊。
+      - en: The galactic economy should make a swift recovery.
+        zh: 宇宙经济应该很快就会恢复元气的。
+      - en: We shall see.
+        zh: 这还有待观察。
+      - en: Those creatures made a mistake when they invaded our dimension.
+        zh: 这些可悲的生物选错了对手。
+      - en: They were a fascinating, if dangerous, form of life.
+        zh: 可惜他们的侵略性太强。我们本可以互相学习借鉴的。
+  - id: origin.6136
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1250
+    name:
+      en: The Warlock
+      zh: 术士
+    desc:
+      en: When the swirling energies left behind after the destruction of the last dimensional portal finally dissipated, our forces found a weakened extradimensional drifting nearby. The creature was captured and interrogated.\n\nIt is apparently one of their "§HWarlocks§!" - a powerful extradimensional even by their standards, responsible for maintaining the portal's link between our reality and theirs. If we can study or even channel its psionic power, we should be able to greatly improve our sublight speeds and jump drive range.
+      zh: |-
+        当最后一个维度传送门被摧毁后留下的能量旋涡最终消散时，我们的部队发现附近有一个虚弱的异次元体在飘荡。我们捕获了这个生物并进行了审讯。
+
+        这显然是它们的一个“§H术士§!”，即便是以它们的标准来评判，它也是一位强大的异次元体。它负责维持我们和他们的现实之间的传送门。如果我们能够研究或者引用它的灵能，我们应该能够极大的提高我们的亚光速航速和跃迁引擎的跃迁范围。
+    type: country_event
+    options:
+      - en: Good.
+        zh: 好。
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1267
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1280
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1321
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.1300
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+  - id: crisis.1310
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: ship_event
+    options: []
+tags:
+  - crisis
+  - contingency
+relations:
+  - type: 关联
+    target: become_crisis
+  - type: 关联
+    target: become_crisis_events
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+  - type: 关联
+    target: crisis_1007

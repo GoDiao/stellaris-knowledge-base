@@ -1,0 +1,33 @@
+id: tech_repeatable_improved_army_health
+name:
+  en: Nerve Dampeners
+  zh: 神经抑制器
+category: technology
+subcategory: society
+dlc: null
+lore: 小心地调整疼痛接收器，可以让士兵在受到致命伤后仍能坚持战斗。
+traits: []
+tags:
+  - technology
+  - society
+  - repeatable
+technology:
+  area: society
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,29 @@
+id: trait_machine_unit
+name:
+  en: Machine
+  zh: 机械
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种由一个机械智能的众多执行终端组成，他们最初由某个有机体物种创造。§!
+traits:
+  - 'pop_environment_tolerance: 2.0'
+species:
+  cost: '0'
+  archetypes:
+    - MACHINE
+tags:
+  - trait
+  - machine
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts

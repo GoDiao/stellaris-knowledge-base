@@ -1,0 +1,50 @@
+{
+  "id": "tech_destroyers",
+  "name": {
+    "en": "Destroyers",
+    "zh": "驱逐舰"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "尽管比护卫舰大一些，但是驱逐舰的船体结构仍使它仍不失为一种较为灵活的炮艇。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "gateway:ship"
+    ],
+    "weight": "@tier2weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_corvettes"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

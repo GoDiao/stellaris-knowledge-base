@@ -1,0 +1,48 @@
+{
+  "id": "tech_space_construction",
+  "name": {
+    "en": "Offworld Construction",
+    "zh": "外太空建设"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "在我们能够在其他星球上建立轨道空间站之前，工程师们必须首先解决空间建设中遇到的全新的设计挑战。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "0",
+    "cost": "0",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": null,
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

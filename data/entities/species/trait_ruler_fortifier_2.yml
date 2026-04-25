@@ -1,0 +1,26 @@
+id: trait_ruler_fortifier_2
+name:
+  en: 0 "Fortifier" II
+  zh: 筑防者 II
+category: species
+subcategory: trait
+dlc: null
+lore: 这位领袖深知利用防御站来保卫领土的价值。
+traits: []
+species:
+  cost: 0
+  archetypes: []
+tags:
+  - trait
+  - neutral
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

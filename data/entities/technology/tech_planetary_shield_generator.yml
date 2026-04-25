@@ -1,0 +1,32 @@
+id: tech_planetary_shield_generator
+name:
+  en: Planetary Shields
+  zh: 行星护盾
+category: technology
+subcategory: physics
+dlc: null
+lore: 在行星大气层中制造出强大护盾比在真空中困难，但能够有效防护轨道轰炸。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

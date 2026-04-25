@@ -1,0 +1,40 @@
+{
+  "id": "crisis_82",
+  "name": {
+    "en": "The Sentinel Order",
+    "zh": "哨兵组织"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "这里……这里是哨兵阿尔法。我们遭遇§R###信号损坏###§!……致命损伤。舰体已经凹陷，并且§R###信号损坏###§!……团长已确认牺牲。敌人数量实在太多！\n\n我们……已经完蛋了。不要放弃。为了我们的未来，你们绝对不能投降。不要让我们的努力白费！我们……我们……啊啊啊啊啊啊啊啊啊——§R<信号丢失>§!",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "提及",
+      "target": "sentinels_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

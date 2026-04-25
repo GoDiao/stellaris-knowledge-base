@@ -1,0 +1,48 @@
+{
+  "id": "tech_pk_nanobots",
+  "name": {
+    "en": "Atmospheric Nanobot Dispersal",
+    "zh": "大气纳米机器人散布"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": "Apocalypse",
+  "lore": "向大气中散布大量纳米机器人，它们侵入智慧生命并将自己转化为控制性的植入物，最终将不知情的宿主转化为被机械智能控制的义体人。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "5",
+    "cost": "@tier5cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_cybernetic"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "trait_robot_domestic_protocols",
+  "name": {
+    "en": "Domestic Protocols",
+    "zh": "侍奉协议"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L专业的设备与行为协议可以满足一切家务需求。保证面面俱到。§!",
+  "traits": [
+    "pop_job_amenities_mult: 0.20"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "ROBOT"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

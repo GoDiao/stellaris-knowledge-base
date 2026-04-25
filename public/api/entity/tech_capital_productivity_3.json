@@ -1,0 +1,48 @@
+{
+  "id": "tech_capital_productivity_3",
+  "name": {
+    "en": "Maximized Productivity",
+    "zh": "最大化产能"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "技术的不断进步使我们最发达的星球达到了前所未有的生产力水平。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

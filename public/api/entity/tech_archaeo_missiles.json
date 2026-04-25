@@ -1,0 +1,48 @@
+{
+  "id": "tech_archaeo_missiles",
+  "name": {
+    "en": "Ancient Nano-Missile Cloud Launcher",
+    "zh": "远古纳米导弹云发射器"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Ancient Relics",
+  "lore": "当利用远古科技稳定化后，我们便可以用粒子电荷创造携带有载荷颇具威力的微导弹簇群，可用于饱和对方的点防御系统。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

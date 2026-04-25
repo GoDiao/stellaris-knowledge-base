@@ -1,0 +1,32 @@
+id: trait_enigmatic_intelligence_poor
+name:
+  en: Somewhat Uplifted
+  zh: 略受提升
+category: species
+subcategory: trait
+dlc: null
+lore: 这个物种被一个外来星系的仁慈智者指引获得了些许的提升，抛弃了自己部分的心智未开化的过去。
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

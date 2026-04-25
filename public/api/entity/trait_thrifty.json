@@ -1,0 +1,49 @@
+{
+  "id": "trait_thrifty",
+  "name": {
+    "en": "Thrifty",
+    "zh": "节俭"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种天性节俭，总是喜欢尽一切可能将利益最大化。§!\n",
+  "traits": [
+    "pop_job_trade_mult: 0.25"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

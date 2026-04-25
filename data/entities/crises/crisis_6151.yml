@@ -1,0 +1,28 @@
+id: crisis_6151
+name:
+  en: A Great Disturbance
+  zh: 大骚乱
+category: crisis
+subcategory: become_crisis
+dlc: Nemesis
+lore: |-
+  位于§H[From.GetName]§!的以太相引擎建设让虚境陷入了骚动不安的状态。由于部分运转的巨型结构在慢慢地撕裂当前的灵能领域，居住在其中的存在，裹挟着愤怒和绝望，被强行释放出来。
+
+  其中的几枚存在穿过了正在迅速消解的两界屏障，以强大的灵能实体的形态在我们的世界显现。他们由纯粹的、原始的灵能能量组成，心中充满着困惑与不解，对视线内的所有生命发动了进攻。
+traits: []
+tags:
+  - crisis_event
+  - become_crisis
+relations:
+  - type: 所属
+    target: become_crisis
+  - type: 提及
+    target: crisis_6000
+  - type: 提及
+    target: crisis_6005
+  - type: 提及
+    target: crisis_6006
+  - type: 提及
+    target: crisis_6007
+event_type: country_event
+picture: GFX_evt_surreal_visions

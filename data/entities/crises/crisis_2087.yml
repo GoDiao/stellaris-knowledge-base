@@ -1,0 +1,30 @@
+id: crisis_2087
+name:
+  en: Synth Infiltration Attempt
+  zh: 合成人渗透企图
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  我们在[infil_planet.GetName]上发现少量的[Root.Owner.GetSpeciesNamePlural]无法发出思想之光。所有的有机生物都能迸发出思想之光，但是这些生物的思绪就像一大块新铸的水泥般黑暗而阒静。
+
+  根据进一步的检查，这些[Root.Owner.GetSpeciesNamePlural]被揭露出是合成人渗透者，大概是由肃正协议派遣而来。一层薄薄的有机肌肉组织被移植到他们的金属内骨骼上，使得他们看上去和[Root.Owner.GetSpeciesNamePlural]在肉眼上别无二致。
+
+  但是思想上却不是这样。现在我们已经知道了如何去找到它们，以后肃正协议任何使用合成渗透者的企图都将会被证明是徒劳的。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: GFX_evt_robot_assembly_plant

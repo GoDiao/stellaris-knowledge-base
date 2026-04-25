@@ -1,0 +1,32 @@
+id: tech_enigmatic_decoder
+name:
+  en: Enigmatic Decoder
+  zh: 神秘解码器
+category: technology
+subcategory: physics
+dlc: Leviathans
+lore: 虽然神秘解码器在标准测试中表现平平，但目标的飞行路径越不规则，该解码器预测算法的准确度似乎就越高。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '@guardiantechtier'
+  cost: '@guardiantechcost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_pd_tracking_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

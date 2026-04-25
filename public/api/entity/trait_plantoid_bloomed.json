@@ -1,0 +1,45 @@
+{
+  "id": "trait_plantoid_bloomed",
+  "name": {
+    "en": "Bloomed",
+    "zh": "盛放"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这个物种受到盖亚播种器的转化效应的影响，在盖亚星球生活时会萌发出互惠的地衣花朵。",
+  "traits": [],
+  "species": {
+    "cost": 0,
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "trait_presapient_docile_livestock",
+  "name": {
+    "en": "Docile Livestock",
+    "zh": "温顺家畜"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L温顺而又美味！这个物种因其被改造了高级脑部机能而成为一种无害的牲畜，可以自我照料，且免受社交与自我决定的繁琐。§!",
+  "traits": [
+    "pop_growth_speed: 0.3",
+    "planet_jobs_unity_produces_mult: 0.1",
+    "planet_jobs_energy_produces_mult: -0.5",
+    "planet_jobs_physics_research_produces_mult: -0.75",
+    "planet_jobs_society_research_produces_mult: -0.75",
+    "planet_jobs_engineering_research_produces_mult: -0.75"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "PRESAPIENT",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "presapient",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_delicious"
+    },
+    {
+      "type": "提及",
+      "target": "trait_docile"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    }
+  ]
+}

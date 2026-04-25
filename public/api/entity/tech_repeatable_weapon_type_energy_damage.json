@@ -1,0 +1,49 @@
+{
+  "id": "tech_repeatable_weapon_type_energy_damage",
+  "name": {
+    "en": "Focusing Arrays",
+    "zh": "聚焦阵列"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "完善激光武器的发射节奏是一个可以让任何行星的工程精英忙几个世纪的任务。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics",
+    "repeatable"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "@repeatableTechTier",
+    "cost": "@repeatableTechBaseCost",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@repeatableTechWeight",
+    "is_repeatable": true
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

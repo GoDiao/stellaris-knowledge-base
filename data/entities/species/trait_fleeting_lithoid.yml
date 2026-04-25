@@ -1,0 +1,30 @@
+id: trait_fleeting_lithoid
+name:
+  en: 0 "Fleeting"
+  zh: 快节奏
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L对于这个物种来说，时光就如白驹过隙。他们无法延长寿命的长度，因此决定拓展生命的广度。§!
+traits:
+  - 'leader_lifespan_add: -25'
+species:
+  cost: '-1'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

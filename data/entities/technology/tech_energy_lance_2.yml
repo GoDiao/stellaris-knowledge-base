@@ -1,0 +1,32 @@
+id: tech_energy_lance_2
+name:
+  en: Tachyon Lances
+  zh: 快子光矛
+category: technology
+subcategory: physics
+dlc: null
+lore: 粒子光矛更为强力的版本，该武器发射携带有巨大能量的快子光束。和它的之前版本一样，只能运用在战列舰和泰坦上。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '4'
+  cost: '@tier4cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_battleships
+  - type: 提及
+    target: tech_energy_lance_1
+  - type: 提及
+    target: tech_titans
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy

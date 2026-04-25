@@ -1,0 +1,34 @@
+id: trait_cyborg_double_jointed
+name:
+  en: Double-Jointed
+  zh: 双向关节
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这些可折叠的劳工单位有着灵活的关节，这使他们能在运输过程中整齐地折叠成一堆，然后在现场自行组装。§!
+traits:
+  - 'pop_housing_usage_mult: -0.1'
+  - 'pop_growth_from_immigration: 0.15'
+  - 'pop_resettlement_cost_mult: -0.25'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

@@ -1,0 +1,28 @@
+id: crisis_1250
+name:
+  en: The Warlock
+  zh: 术士
+category: crisis
+subcategory: contingency
+dlc: null
+lore: |-
+  当最后一个维度传送门被摧毁后留下的能量旋涡最终消散时，我们的部队发现附近有一个虚弱的异次元体在飘荡。我们捕获了这个生物并进行了审讯。
+
+  这显然是它们的一个“§H术士§!”，即便是以它们的标准来评判，它也是一位强大的异次元体。它负责维持我们和他们的现实之间的传送门。如果我们能够研究或者引用它的灵能，我们应该能够极大的提高我们的亚光速航速和跃迁引擎的跃迁范围。
+traits: []
+tags:
+  - crisis_event
+  - contingency
+relations:
+  - type: 所属
+    target: contingency
+  - type: 提及
+    target: tech_jump_drive_1
+  - type: 提及
+    target: trait_exd
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: contingency
+event_type: country_event
+picture: GFX_evt_surreal_visions

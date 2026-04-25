@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1117",
+  "name": {
+    "en": "Second Portal Destroyed",
+    "zh": "第二传送门已摧毁"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.not_last_portal$",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_wormhole"
+}

@@ -1,0 +1,33 @@
+id: tech_mass_drivers_5
+name:
+  en: Gauss Cannons
+  zh: 高斯炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 在对老式电磁线圈的设计进行升级后，新版本的破坏性甚至高于最先进的轨道炮。它能够发射得更准，速度更快。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost1'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:kinetic_weapons
+  weight: '@tier4weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_mass_drivers_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

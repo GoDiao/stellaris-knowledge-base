@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2042",
+  "name": {
+    "en": "Conquest of [From.From.GetName]",
+    "zh": "征服[From.From.GetName]"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们为了争夺§H[From.From.GetName]§!的控制权与肃正协议的战斗单元展开了一场血战，现在战斗终于结束了。那些曾经屠杀了[From.From.GetPlanetMoon]上的原生居民并窃踞这颗星球的徘徊着的监护者机器人最终被我们军队的拆解。\n\n在新的殖民者到达之前，这颗星球都还不会有智慧生命。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_ground_combat"
+}

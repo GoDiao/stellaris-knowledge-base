@@ -1,0 +1,48 @@
+{
+  "id": "tech_telepathy",
+  "name": {
+    "en": "Telepathy",
+    "zh": "心灵感应"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "只要夯实灵能基础，就能与他人建立思想连接，成就伟业。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

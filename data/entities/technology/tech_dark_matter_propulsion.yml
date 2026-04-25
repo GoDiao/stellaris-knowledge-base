@@ -1,0 +1,32 @@
+id: tech_dark_matter_propulsion
+name:
+  en: Dark Matter Propulsion
+  zh: 暗物质推进
+category: technology
+subcategory: engineering
+dlc: Fallen Empires
+lore: 这些舰船推进器利用暗物质技术，以一种似乎违反了多个物理法则的方式来产生推进力。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '@fallentechtier'
+  cost: '@fallentechcost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

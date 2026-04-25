@@ -1,0 +1,51 @@
+{
+  "id": "trait_pc_gaia_preference_terraforming",
+  "name": {
+    "en": "0 \"Gaia World Preference\"",
+    "zh": "盖亚星球偏好"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L气候偏好是在基因层面决定的，在当下这个情况，是因为一场事故。§!",
+  "traits": [
+    "pc_gaia_habitability: 1.0"
+  ],
+  "species": {
+    "cost": 0,
+    "archetypes": [
+      "BIOLOGICAL",
+      "PRESAPIENT",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "presapient",
+    "lithoid",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

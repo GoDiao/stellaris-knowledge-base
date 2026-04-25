@@ -1,0 +1,32 @@
+id: tech_archaeo_pk_devolving_beam
+name:
+  en: Devolving Beam
+  zh: 降智光束
+category: technology
+subcategory: society
+dlc: Ancient Relics
+lore: 这是一种巨像级心智抹除武器，可以释放覆盖整颗行星的能量波，将大多数感性生命变回未开智状态。工程师们预估在进行进一步调整之后，它甚至还可以用来抹除机器单元的记忆体使其瘫痪。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_colossus
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

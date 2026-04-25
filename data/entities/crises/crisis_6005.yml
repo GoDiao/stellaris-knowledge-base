@@ -1,0 +1,28 @@
+id: crisis_6005
+name:
+  en: The Aetherophasic Engine
+  zh: 以太相引擎
+category: crisis
+subcategory: become_crisis
+dlc: Nemesis
+lore: |-
+  以太相引擎的第一阶段建设已经宣告完工。我们开始研究虚境的能量，后者已经在全星系范围内发送灵能激波。
+
+  我们在虚境已经立下了一个脆弱的立足点——但我们必须继续建设引擎，以拓展我们在虚境的存在。
+traits: []
+tags:
+  - crisis_event
+  - become_crisis
+relations:
+  - type: 所属
+    target: become_crisis
+  - type: 提及
+    target: crisis_6000
+  - type: 提及
+    target: crisis_6006
+  - type: 提及
+    target: crisis_6007
+  - type: 提及
+    target: crisis_6010
+event_type: country_event
+picture: GFX_evt_surreal_visions

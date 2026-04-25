@@ -1,0 +1,34 @@
+id: trait_cyborg_neural_limiters
+name:
+  en: Neural Limiters
+  zh: 神经限位器
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L通过限制劳工的认知能力我们就能促使他们专注于简单的任务。§!
+traits:
+  - 'species_leader_exp_gain: -0.10'
+  - 'negative_leader_traits_species: 1'
+  - 'leaders_upkeep_mult: 0.1'
+species:
+  cost: '-2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

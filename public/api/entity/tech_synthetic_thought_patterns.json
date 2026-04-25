@@ -1,0 +1,48 @@
+{
+  "id": "tech_synthetic_thought_patterns",
+  "name": {
+    "en": "Synthetic Thought Patterns",
+    "zh": "综合思维模式"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "跳出囹圄思考，唯一能够发现的是明白自己身处另一个更大的囹圄之内。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

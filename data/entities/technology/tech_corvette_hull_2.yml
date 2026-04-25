@@ -1,0 +1,32 @@
+id: tech_corvette_hull_2
+name:
+  en: Advanced Corvette Hulls
+  zh: 先进护卫舰船体
+category: technology
+subcategory: engineering
+dlc: null
+lore: 最新一代的护卫舰优化了结构的整体性并改进了舱壁。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_corvettes
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

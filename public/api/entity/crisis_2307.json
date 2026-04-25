@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2307",
+  "name": {
+    "en": "Unit Stack Error Alert",
+    "zh": "单元存栈错误警报"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们发现有几个存栈单位的错误率远远高于平均水平。尽管我们有完善的保护措施，但他们被幽灵信号腐化的可能性依旧存在。尽管终止这几个栈的工作将会阻止进一步的传染和故障， 但我们将失去几个功能存栈。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2010"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_glitchy_matrix"
+}

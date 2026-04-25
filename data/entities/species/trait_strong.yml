@@ -1,0 +1,33 @@
+id: trait_strong
+name:
+  en: Strong
+  zh: 强壮
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种的肢体发达，在执行地面作战时它们会化为锐不可当的战士。§!
+traits:
+  - 'army_damage_mult: 0.20'
+  - 'planet_jobs_worker_produces_mult: 0.025'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

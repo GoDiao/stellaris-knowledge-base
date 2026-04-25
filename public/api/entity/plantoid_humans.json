@@ -58,6 +58,18 @@
     {
       "type": "同种族",
       "target": "maweer"
+    },
+    {
+      "type": "提及",
+      "target": "ai"
+    },
+    {
+      "type": "提及",
+      "target": "mam"
+    },
+    {
+      "type": "提及",
+      "target": "plant"
     }
   ],
   "tags": [

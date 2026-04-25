@@ -1,0 +1,48 @@
+{
+  "id": "tech_archaeoshield",
+  "name": {
+    "en": "Ancient Suspension Field",
+    "zh": "远古延留力场"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Ancient Relics",
+  "lore": "延留力场的投射距离远超普通护盾，它能在着弹瞬间利用远古文物将时间流速减缓，给予护盾更长的时间窗口来消耗来袭攻击的能量。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

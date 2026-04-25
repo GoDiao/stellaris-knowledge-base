@@ -1,0 +1,33 @@
+id: tech_astral_harvesting
+name:
+  en: Astral Harvesting
+  zh: 星界采收
+category: technology
+subcategory: physics
+dlc: Astral Planes
+lore: 收集从时空裂隙的边缘上剥离的星界纤维让我们可以精妙地改进我们的研究站。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '2'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features:
+    - unlock_astral_threads_actions
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

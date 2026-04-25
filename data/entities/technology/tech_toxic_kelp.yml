@@ -1,0 +1,32 @@
+id: tech_toxic_kelp
+name:
+  en: Ocean Ecology Management
+  zh: 海洋生态管理
+category: technology
+subcategory: society
+dlc: null
+lore: 只要有足够的处理能力、传感器网络以及分站，即使洋流也能在一定程度上实现精确控制。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '1'
+  cost: '@tier1cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

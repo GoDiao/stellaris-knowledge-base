@@ -1,0 +1,34 @@
+id: trait_aquatic
+name:
+  en: Aquatic
+  zh: 水生
+category: species
+subcategory: trait
+dlc: null
+lore: |-
+  §L这个物种完美地适应了海洋深层的生活。然而，在干燥的陆地上，它们就像没水之鱼一样。§!
+
+  §R需要§!§Y海洋星球§!§R母星§!。
+traits:
+  - 'pc_ocean_habitability: 0.2'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

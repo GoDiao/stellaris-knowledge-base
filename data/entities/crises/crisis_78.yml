@@ -1,0 +1,30 @@
+id: crisis_78
+name:
+  en: The Sentinel Order
+  zh: 哨兵组织
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  这里是哨兵一号。星系已经到了危难时刻，但我还是要告诉你们一些好消息。
+
+  通过在漫长的战斗中吸取到的经验，以及艰苦的研究，我们的特工终于编制出来了极为详尽的虫群天灾生物的解剖资料。例如，你们是否知道索林原虫幼虫在主胆囊和副胆囊同时被刺穿的情况下就会剧烈燃烧？
+
+  我们要将这些文件公之于众。你们可以瞄准我们发现的这些弱点进行攻击，这样你们的飞船就能够更加高效地进行战斗。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 提及
+    target: sentinels_digsite
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: null

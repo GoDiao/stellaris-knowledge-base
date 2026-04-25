@@ -1,0 +1,28 @@
+id: crisis_2098
+name:
+  en: Commander exposed as Synth!
+  zh: 指挥官被发现是合成人！
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  指挥官令§H[admiral.GetName]§!竟然是一个合成人奸细！一连串的反常活动与异常行为报告引起了海军情报局的注意，情报局对指挥官展开内部调查。当那个合成人被揭发，开始逃窜时，一个陆战队小组逮住了它。在一段短暂的交火后，它打开气闸，将自己弹射到了太空中。尽管当局立马对本宇域进行彻查，它们未能发现逃离的合成人。
+
+  指挥官本人的尸体被合成人塞进了[admiral.GetHerHis]寝室的衣柜中，从尸体的腐烂程度来看，合成人是在大约四个月前将[admiral.GetHerHim]替换掉的。似乎那个合成人即将把包含我们部署情况等军事机密的数据包发送出去，但它没能得逞。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: GFX_evt_interior_battle

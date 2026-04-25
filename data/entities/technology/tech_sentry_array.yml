@@ -1,0 +1,32 @@
+id: tech_sentry_array
+name:
+  en: 0 "Sentry Array"
+  zh: 哨兵阵列
+category: technology
+subcategory: physics
+dlc: null
+lore: 随着工程的不断推进，§Y$spy_orb_4$§!会逐步的扩展探测范围，最终将囊括整个星系。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

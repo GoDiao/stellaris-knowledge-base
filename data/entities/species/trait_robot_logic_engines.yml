@@ -1,0 +1,34 @@
+id: trait_robot_logic_engines
+name:
+  en: Logic Engines
+  zh: 逻辑引擎
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L为了驾驭愈发复杂的科学研究，我们需要一种比片面真理的三进制或者是四进制更为先进的算法逻辑。§!
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+species:
+  cost: '2'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

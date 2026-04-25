@@ -1,0 +1,32 @@
+id: tech_archaeo_mass_accelerator
+name:
+  en: Ancient Saturator Artillery
+  zh: 远古饱和剂发射炮
+category: technology
+subcategory: society
+dlc: Ancient Relics
+lore: 这种火炮发射一系列微小的离子化球体弹幕用来中和大部分的力场，使其拥有极高的护盾穿透率。虽有理论认为这些漂亮的球体可以用作珠宝，但在一场熔毁了整间实验室的严重事故后，所有相关提案都被驳回了。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 提及
+    target: INTEMPORAL_ORB_CAT
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

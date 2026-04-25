@@ -1,0 +1,639 @@
+{
+  "id": "become_crisis",
+  "name": {
+    "en": "Become the Crisis",
+    "zh": "成为危机"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis",
+  "dlc": "Nemesis",
+  "lore": "{\r",
+  "traits": [],
+  "events": [
+    {
+      "id": "crisis.6000",
+      "name": {
+        "en": "The Aetherophasic Engine",
+        "zh": "以太相引擎"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Paradise awaits.",
+          "zh": "天堂近在咫尺。"
+        },
+        {
+          "en": "We shall be as gods.",
+          "zh": "我们应当同神明等位。"
+        },
+        {
+          "en": "Everything will be subsumed.",
+          "zh": "万事万物皆将臣服。"
+        },
+        {
+          "en": "Our Mind will encompass the galaxy.",
+          "zh": "我们的意识将涵盖整个星系。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6001",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6001",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6001",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6001",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6001",
+      "name": {
+        "en": "The Star-Eaters",
+        "zh": "焚天神兵"
+      },
+      "desc": {
+        "en": "Only the detonation of entire stars will release enough energy to generate the vast quantities of §HDark Matter§! needed to finish the Aetherophasic Engine. To this end, we have devised the §HStar-Eaters§! - the most powerful starships the galaxy has ever seen. Not only can they blow up stars, but they are also strong enough to decimate entire fleets on their own.\\n\\nFor now, we only have two but more can be built. Their construction requires great amounts of Dark Matter, so we will have to balance our need to finish the Aetherophasic Engine with the need for additional Star-Eaters.",
+        "zh": "只有引爆一整颗恒星才能释放足够的能量来产生用以完成以太相引擎所需的大量§H暗物质§!。为了达成这一目的，我们发明了§H焚天神兵§!——本星系有史以来最强大的星舰。它们不仅可以直接引爆恒星，还强大到仅仅凭借一船之力就能毁灭一整支舰队。\n\n目前，我们仅仅拥有两艘这样的舰船，但是我们可以建造更多。建造焚天神兵需要大量的暗物质，因此我们必须拿捏好完成以太相引擎和扩建额外的焚天神兵两者之间的平衡。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Each destroyed star brings us one step closer.",
+          "zh": "每一颗陨灭的星辰都让我们离成功更近一步。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6005",
+      "name": {
+        "en": "The Aetherophasic Engine",
+        "zh": "以太相引擎"
+      },
+      "desc": {
+        "en": "The first phase of the construction of the Aetherophasic Engine has been completed. We are beginning to tap into the energies of the Shroud, which is sending psionic shockwaves across the galaxy.\\n\\nA tenuous foothold has been established - work must continue on the Engine to expand our presence in the Shroud.",
+        "zh": "以太相引擎的第一阶段建设已经宣告完工。我们开始研究虚境的能量，后者已经在全星系范围内发送灵能激波。\n\n我们在虚境已经立下了一个脆弱的立足点——但我们必须继续建设引擎，以拓展我们在虚境的存在。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "We must gather more dark matter.",
+          "zh": "我们必须收集更多的暗物质。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6010",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6006",
+      "name": {
+        "en": "The Aetherophasic Engine",
+        "zh": "以太相引擎"
+      },
+      "desc": {
+        "en": "The tendrils of the Aetherophasic Engine now reach deep into the Shroud, and our beachhead has widened. The entities that dwell there have started to take notice of our efforts to invade their realm, but so far there have been no significant attempts to intervene.\\n\\nIt is now time to force open a more permanent conduit between our worlds. Work on the Engine must continue.",
+        "zh": "以太相引擎的卷须已经探入了虚境的深处，我们的滩头阵地得以进一步拓展。居住在此处的存在已经注意到我们正在入侵这个领域，但是到目前为止，我们尚未探明显著的干涉行径。\n\n是时候在两边的世界强制打开一个更加永久的回路了。我们必须继续引擎方面的工作。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "More dark matter is needed!",
+          "zh": "我们需要更多的暗物质！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6015",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6007",
+      "name": {
+        "en": "The Aetherophasic Engine",
+        "zh": "以太相引擎"
+      },
+      "desc": {
+        "en": "The Aetherophasic Engine has ripped a massive hole in the fabric of the Shroud. It is not yet large enough for us to fully subvert the realm, but the rupture has spurred a lot of activity among the Shroud entities.\\n\\nThey have finally recognized the threat we pose, but their efforts will amount to nothing. The tendrils of the Engine are embedded too deeply in the Shroud to be severed now.\\n\\nWe are close now. So very close.",
+        "zh": "以太相引擎已经在虚境的薄幕上撕开了一个巨大的洞口。尽管洞口尚不够大到让我们颠覆整个领域，但是裂口已经激发了虚境各种存在的一系列活动。\n\n它们最终意识到了我们的威胁，但是没有作出任何实质行动。引擎的卷须已经深深地嵌入到虚境内部，现在已经无法切断了。\n\n我们已经很接近了。非常接近。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Nothing will stop us.",
+          "zh": "没有什么能够阻止我们。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6010",
+      "name": {
+        "en": "Psionic Shockwave",
+        "zh": "灵能激波"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "This is very troubling.",
+          "zh": "麻烦大了。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6015",
+      "name": {
+        "en": "The Aetherophasic Engine",
+        "zh": "以太相引擎"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "They must be stopped!",
+          "zh": "必须阻止它们！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6050",
+      "name": {
+        "en": "A Beginning and an End",
+        "zh": "始与终"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Do it.",
+          "zh": "放手去做吧。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6052",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6051",
+      "name": {
+        "en": "The End Times",
+        "zh": "终焉之时"
+      },
+      "desc": {
+        "en": "It is over. The Aetherophasic Engine has been finished by the §H[From.GetName]§! and the Shroud itself is now at their mercy.\\n\\nAs they ascended to a higher plane of existence where they will be as gods, an incredible amount of subspace energy was released by the Engine, sweeping across the galaxy and destroying everything in its path.\\n\\nFor the denizens of this galaxy, it is the end of all things.",
+        "zh": "一切都结束了。§H[From.GetName]§!完成了以太相引擎的建造，虚境的本体落入其手，任由其处置。\n\n当他们飞升前往一个存在的更高位面并成为神明的时候，一股当量大到难以置信的亚空间能量从引擎中释放出来，横扫了整个星系，摧毁了途径的一切。\n\n对于这片星系的住民来说，此时便是万物的终焉之时。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "All is lost...",
+          "zh": "一切都毁于一旦……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6051",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "system_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6102",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6101",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6103",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6101",
+      "name": {
+        "en": "Aetherophasic Engine Destroyed",
+        "zh": "以太相引擎被毁"
+      },
+      "desc": {
+        "en": "With the loss of the §H[crisis_sphere_system.GetName]§! system, the vile §H[sphere_destroyers.GetName]§! has destroyed our Aetherophasic Engine! Losing this megastructure also means that we no longer have the technological means to build new Star-Eaters.\\n\\nOur invasion of the Shroud cannot proceed! All is lost!",
+        "zh": "由于§H[crisis_sphere_system.GetName]§!星系的失陷，恶毒的§H[sphere_destroyers.GetName]§!摧毁了以太相引擎！失去这个巨型结构也意味着我们不再拥有建造新焚天神兵的技术手段。\n\n我们无法继续推进入侵虚境的计划了！全完了！"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "All our work...",
+          "zh": "我们所作的一切工作……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6102",
+      "name": {
+        "en": "Aetherophasic Engine Destroyed",
+        "zh": "以太相引擎被毁"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "The galaxy is a safer place.",
+          "zh": "星系更加安全了。"
+        },
+        {
+          "en": "Now to finish our Engine...",
+          "zh": "现在只需要完成我们的引擎……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6103",
+      "name": {
+        "en": "Aetherophasic Engine Destroyed",
+        "zh": "以太相引擎被毁"
+      },
+      "desc": {
+        "en": "After seizing control of the §H[crisis_sphere_system.GetName]§! system, the §H[sphere_destroyers.GetName]§! has destroyed the Aetherophasic Engine that was under construction there.\\n\\nThe §H[sphere_builders.GetName]§! can no longer threaten the future of our galaxy.",
+        "zh": "在夺取§H[crisis_sphere_system.GetName]§!星系的控制权之后，§H[sphere_destroyers.GetName]§!摧毁了正在于此地建造的以太相引擎。\n\n§H[sphere_builders.GetName]§!无法再对星系的未来产生威胁了。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Good.",
+          "zh": "好。"
+        },
+        {
+          "en": "We, however, can...",
+          "zh": "然而，我们可以……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6151",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6151",
+      "name": {
+        "en": "A Great Disturbance",
+        "zh": "大骚乱"
+      },
+      "desc": {
+        "en": "The construction of the Aetherophasic Engine in the §H[From.GetName]§! has left the Shroud in a state of turmoil. As the psionic realm is slowly ripped apart by the partially functioning megastructure, many of the beings who dwell there are lashing out in anger and desperation.\\n\\nSeveral have burrowed through the rapidly disintegrating barriers between our two worlds and manifested as powerful psionic entities. Consisting of raw, barely contained psionic energy, the confused beings are attacking everything in sight.",
+        "zh": "位于§H[From.GetName]§!的以太相引擎建设让虚境陷入了骚动不安的状态。由于部分运转的巨型结构在慢慢地撕裂当前的灵能领域，居住在其中的存在，裹挟着愤怒和绝望，被强行释放出来。\n\n其中的几枚存在穿过了正在迅速消解的两界屏障，以强大的灵能实体的形态在我们的世界显现。他们由纯粹的、原始的灵能能量组成，心中充满着困惑与不解，对视线内的所有生命发动了进攻。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "More chaos...",
+          "zh": "越来越混乱了……"
+        },
+        {
+          "en": "We will make short work of them.",
+          "zh": "我们得尽快解决他们。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6161",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6161",
+      "name": {
+        "en": "The Dying Gasps of the Shroud",
+        "zh": "虚境的濒死之息"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "We are running out of time...",
+          "zh": "我们没多少时间了……"
+        },
+        {
+          "en": "They will find no solace here.",
+          "zh": "他们在这里可找不到安宁。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6171",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6171",
+      "name": {
+        "en": "Psionic Pulse Sweeps Galaxy",
+        "zh": "灵能震荡横扫星海"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "A terrible fate.",
+          "zh": "糟透的命运。"
+        },
+        {
+          "en": "Good.",
+          "zh": "好。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6180",
+      "name": {
+        "en": "Mysterious Supernova",
+        "zh": "神秘的超新星"
+      },
+      "desc": {
+        "en": "We are receiving puzzling subspace telemetry from the §H[destroyed_system.GetName]§! system. If our readings are correct, the primary star seems to have spontaneously gone supernova to devastating effect. All planets have been shattered, and any starships or stations that were present in the system must have also been destroyed. The star itself appears to have collapsed into a black hole.\\n\\nUnconfirmed reports indicate a single survivor of this cataclysm - some sort of massive vessel belonging to the §H[crisis_country.GetName]§!...",
+        "zh": "我们收到了来自§H[destroyed_system.GetName]§!星系的十分古怪的亚空间遥测信号。如果我们的读数正确，那么该星系的首星在一瞬间变成了超新星，产生了极具毁灭性的效应。所有的行星被粉碎，任何在这个恒星系出现的星舰和空间站都被摧毁。恒星本身发生了坍缩，变成了一个黑洞。\n\n未经证实的报告指明，这场毁天灭地的灾难仅有一个幸存者——那是属于§H[crisis_country.GetName]§!的某种体型庞大的舰船……"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "What are they up to?",
+          "zh": "他们在暗中计划着什么？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6181",
+      "name": {
+        "en": "Star System Destroyed",
+        "zh": "恒星系被毁"
+      },
+      "desc": {
+        "en": "The entire §H[destroyed_system.GetName]§! system has been destroyed! A massive starship belonging to the §H[crisis_country.GetName]§! took up position above the primary star and somehow triggered what can only be described as a supernova, which utterly devastated the rest of the system. The star then collapsed into a black hole.\\n\\nOnly the [crisis_country.GetSpeciesName] starship, which they apparently refer to as a \"§HStar-Eater§!,\" survived the cataclysm. Evidently, the [crisis_country.GetName] now possesses both the technology and the means to destroy entire star systems.",
+        "zh": "整个§H[destroyed_system.GetName]§!星系被彻底地摧毁了！一艘属于§H[crisis_country.GetName]§!的体型庞大的舰船停驻在了星系的首星上方，然后以某种方式引发了一场只能称之为超新星爆炸的事件，彻底地摧毁了这个恒星系的其他部分。恒星本体坍缩成了一个黑洞。\n\n只有[crisis_country.GetSpeciesName]的星舰，显然他们称其为“§H焚天神兵§!”，在这场灾厄中幸存了下来。事情已经证据确凿，[crisis_country.GetName]现在拥有了彻底摧毁一整个恒星系的技术和手段。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "This changes everything...",
+          "zh": "这改变了一切……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6182",
+      "name": {
+        "en": "Foreign Star-Eater Activated",
+        "zh": "外国焚天神兵已激活"
+      },
+      "desc": {
+        "en": "Telemetry received from §H[destroyed_system.GetName]§! indicates that the system's primary star has spontaneously gone supernova. A massive shockwave has destroyed everything in the system, and the star itself has collapsed into a black hole.\\n\\nIt would seem that the §H[crisis_country.GetName]§! now also possess Star-Eater technology!  ",
+        "zh": "来自§H[destroyed_system.GetName]§!的遥测数据表明，这个恒星系的首星在一瞬间发生了超新星爆炸。极其猛烈的冲击波摧毁了这个恒星系内的所有事物，恒星本体坍缩成了一个黑洞。\n\n看来§H[crisis_country.GetName]§!已经掌握了焚天神兵科技！  "
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "They must be dealt with.",
+          "zh": "他们必须被正法。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6200",
+      "name": {
+        "en": "crisis.6200.name\r",
+        "zh": "crisis.6200.name\r"
+      },
+      "desc": {
+        "en": "crisis.6200.desc\r",
+        "zh": "crisis.6200.desc\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "It must be destroyed!",
+          "zh": "必须摧毁它！"
+        },
+        {
+          "en": "We can make use of this.",
+          "zh": "我们能够化为己用。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6101",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6103",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    }
+  ],
+  "tags": [
+    "crisis",
+    "become_crisis"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6001"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6005"
+    }
+  ]
+}

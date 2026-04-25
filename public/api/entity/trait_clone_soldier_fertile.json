@@ -1,0 +1,49 @@
+{
+  "id": "trait_clone_soldier_fertile",
+  "name": {
+    "en": "Clone Soldier Descendant",
+    "zh": "克隆人士兵末裔"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L曾被以服从和战争为目的绝育和修饰。现在他们的遗传修饰被弥消了，稳定到足以自然生育。§!",
+  "traits": [
+    "pop_government_ethic_attraction: 0.20",
+    "army_damage_mult: 0.2"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

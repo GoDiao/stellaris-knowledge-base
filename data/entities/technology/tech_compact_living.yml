@@ -1,0 +1,32 @@
+id: tech_compact_living
+name:
+  en: Compact Living
+  zh: 蜗居
+category: technology
+subcategory: society
+dlc: First Contact
+lore: 尽管没有一个文明在治理管辖一个不断发展的国家时找到了解决不断扩增的挑战的完美解决方案，我们还是发现了部分的解决办法。在研究了数个物种及其政府之后，我们发现了在灵活性和功能性之间的卓越的平衡点。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

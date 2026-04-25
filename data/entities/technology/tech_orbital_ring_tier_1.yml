@@ -1,0 +1,33 @@
+id: tech_orbital_ring_tier_1
+name:
+  en: Orbital Rings
+  zh: 星环基地
+category: technology
+subcategory: engineering
+dlc: Overlord
+lore: 可围绕已殖民行星的稳定轨道建设一座巨大的、环带状恒星基地。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '3'
+  cost: '@tier3cost2'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:infrastructure
+  weight: '@tier3weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

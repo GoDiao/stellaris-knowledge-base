@@ -1,0 +1,44 @@
+{
+  "id": "ai",
+  "name": {
+    "en": "SPECIES_CLASS_AI",
+    "zh": "SPECIES_CLASS_AI"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "BIOLOGICAL",
+    "portraits": [],
+    "graphical_culture": "ai_01",
+    "gender": false
+  },
+  "tags": [
+    "species_class",
+    "biological"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

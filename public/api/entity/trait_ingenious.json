@@ -1,0 +1,49 @@
+{
+  "id": "trait_ingenious",
+  "name": {
+    "en": "Ingenious",
+    "zh": "足智多谋"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L该物种头脑灵活，善于打破陈规，他们懂得如何最大化利用其基础设施和电力网。§!\n",
+  "traits": [
+    "planet_jobs_energy_produces_mult: 0.15"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "tech_repeatable_improved_shield_output",
+  "name": {
+    "en": "Shield Harmonics",
+    "zh": "护盾数律分析"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "舰体护盾的基本力学是很复杂的，但是他们可以用多种方式进行调整和改进。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics",
+    "repeatable"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "@repeatableTechTier",
+    "cost": "@repeatableTechBaseCost",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@repeatableTechWeight",
+    "is_repeatable": true
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

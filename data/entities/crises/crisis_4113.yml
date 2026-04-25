@@ -1,0 +1,25 @@
+id: crisis_4113
+name:
+  en: Crisis Repealed
+  zh: 天灾指定已废止
+category: crisis
+subcategory: become_crisis_events
+dlc: Nemesis
+lore: 星海帝国已经废止了宣布我们为“星系危机”的议案，所有帝国军队均接到指令原地待命。[gal_emperor.GetRulerTitle]下令中止一切针对我们的敌对行动……暂时如此。
+traits: []
+tags:
+  - crisis_event
+  - become_crisis_events
+relations:
+  - type: 所属
+    target: become_crisis_events
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_diplomatic_visit

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2474",
+  "name": {
+    "en": "Incoming Transmission",
+    "zh": "信号传输接入"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们对你方以全力对抗肃正协议的壮举深表感激。现在，鉴于这个波及全星系的威胁已被处理，我方必须遗憾的通知你，所有外派的赛博勒克斯船只将被收回。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

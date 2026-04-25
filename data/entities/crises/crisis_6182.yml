@@ -1,0 +1,25 @@
+id: crisis_6182
+name:
+  en: null
+  zh: null
+category: crisis
+subcategory: become_crisis_events
+dlc: Nemesis
+lore: ''
+traits: []
+tags:
+  - crisis_event
+  - become_crisis_events
+relations:
+  - type: 所属
+    target: become_crisis_events
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: null

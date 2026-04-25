@@ -1,0 +1,42 @@
+{
+  "id": "trait_ruler_military_pioneer_2",
+  "name": {
+    "en": "0 \"Military Pioneer\" II",
+    "zh": "军事先驱 II"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这位领袖热衷于发展战斗科技，推动舰船建造。",
+  "traits": [],
+  "species": {
+    "cost": 0,
+    "archetypes": []
+  },
+  "tags": [
+    "trait",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_phototrophic"
+    }
+  ]
+}

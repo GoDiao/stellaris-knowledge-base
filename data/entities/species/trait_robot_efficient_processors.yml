@@ -1,0 +1,31 @@
+id: trait_robot_efficient_processors
+name:
+  en: Efficient Processors
+  zh: 高效处理器
+category: species
+subcategory: trait
+dlc: null
+lore: §L这些极其高效的处理器有助于提高所有单位的工作量和持久度。§!
+traits:
+  - 'planet_jobs_produces_mult: 0.05'
+species:
+  cost: '3'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

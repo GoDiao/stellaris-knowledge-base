@@ -1,0 +1,30 @@
+id: trait_adaptive_lithoid
+name:
+  en: 0 "Adaptive"
+  zh: 善于适应
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种可以很好地适应一个陌生的环境。§!
+traits:
+  - 'pop_environment_tolerance: 0.10'
+species:
+  cost: '2'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts

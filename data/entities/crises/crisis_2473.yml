@@ -1,0 +1,28 @@
+id: crisis_2473
+name:
+  en: Incoming Transmission
+  zh: 信号传输接入
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  我们注意到了你方舰队在对抗肃正协议的战斗中作出的努力。这对全星系而言乃无退路之斗争，我们深受你方真心抵抗所鼓舞。
+
+  鉴于你方保卫[Root.GetName]的英勇行为，赛博勒克斯将对你方提供我们一支新的战斗舰队的完全指挥权以示奖励。如同你自己的任何一个舰队一样，它会遵守你的命令，不过我们会要求你只在应对肃正协议的战斗中使用它。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: null

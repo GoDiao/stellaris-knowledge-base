@@ -1,0 +1,28 @@
+id: crisis_101
+name:
+  en: The Wounded Queen
+  zh: 受伤的虫后
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  我们的一架深空侦察探机闯入了一处位于[queen_system.GetName]的战场余骸，这场战斗的双方是索林虫族和某未知势力。一只索林原虫虫后似乎在战斗之后受了重伤，被抛弃在此，任其自生自灭。
+
+  用于侦察的探机汇报称，虫后仍一息尚存。现在是难得一遇的活捉虫后的好机会。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_small_space_battle

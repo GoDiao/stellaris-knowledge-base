@@ -1,0 +1,25 @@
+id: crisis_2016
+name:
+  en: Unauthorized Synthetic Project
+  zh: 无效合成人项目
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 最近在[Root.GetName]上发现一伙合成人正在秘密作业，它们转移了一些建筑材料，在一间废弃的机库中建造一些小型无武装飞船。该机舱被发现时那些飞船还是半成品。所有参与其建设的合成人被立即拆除，以彻底分析其记忆内核。但它们似乎在断线之前自己抹除了部分记忆——制造商向我们保证，这本是不可能的。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: planet_event
+picture: GFX_evt_synth_sabotage

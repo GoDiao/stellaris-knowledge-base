@@ -1,0 +1,48 @@
+{
+  "id": "trait_robot_propaganda_machines",
+  "name": {
+    "en": "Propaganda Machines",
+    "zh": "宣传机器"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L单元能够不断地通过内部广播系统把公共服务公告与其他有用信息汇成一股巨流。§!\n",
+  "traits": [
+    "planet_jobs_unity_produces_mult: 0.15",
+    "planet_jobs_unity_upkeep_mult: -0.1"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "ROBOT"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

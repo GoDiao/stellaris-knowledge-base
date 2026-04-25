@@ -1,0 +1,28 @@
+id: trait_advanced_volatile_excretions
+name:
+  en: 0 "Volatile Excretions"
+  zh: 易爆排泄物
+category: species
+subcategory: trait
+dlc: null
+lore: §L对基因编码的调控使得该物种可以产出高价值的复合排出物。通过合理运用这些物质可以释放出极高的能量。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - positive
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

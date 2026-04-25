@@ -1,0 +1,49 @@
+{
+  "id": "tech_repeatable_weapon_type_strike_craft_fire_damage",
+  "name": {
+    "en": "Synapse Interceptors",
+    "zh": "突触拦截器"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "提高战斗机飞行员处理敌人位置信息并做出反应的速度，提高战斗机在战场食物链中的位置。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society",
+    "repeatable"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "@repeatableTechTier",
+    "cost": "@repeatableTechBaseCost",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@repeatableTechWeight",
+    "is_repeatable": true
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

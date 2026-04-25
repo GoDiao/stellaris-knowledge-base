@@ -1,0 +1,50 @@
+{
+  "id": "trait_natural_machinist",
+  "name": {
+    "en": "Natural Machinist",
+    "zh": "天生巧匠"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L该物种被编辑为极其熟于与机械打交道。§!",
+  "traits": [
+    "planet_jobs_alloys_produces_mult: 0.10",
+    "planet_jobs_consumer_goods_produces_mult: 0.10"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

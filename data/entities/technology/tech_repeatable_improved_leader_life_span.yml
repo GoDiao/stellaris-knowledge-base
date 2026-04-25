@@ -1,0 +1,33 @@
+id: tech_repeatable_improved_leader_life_span
+name:
+  en: Cell Revitalization
+  zh: 细胞活力
+category: technology
+subcategory: society
+dlc: null
+lore: 周期性细胞再生疗法能让领袖阶层保持活力，延年益寿。
+traits: []
+tags:
+  - technology
+  - society
+  - repeatable
+technology:
+  area: society
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 提及
+    target: trait_enduring
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

@@ -1,0 +1,49 @@
+{
+  "id": "tech_repeatable_weapon_type_kinetic_damage",
+  "name": {
+    "en": "High-Density Munitions",
+    "zh": "高密度弹药"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "超高密度的子弹可以击穿最强大的护盾。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering",
+    "repeatable"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "@repeatableTechTier",
+    "cost": "@repeatableTechBaseCost",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@repeatableTechWeight",
+    "is_repeatable": true
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

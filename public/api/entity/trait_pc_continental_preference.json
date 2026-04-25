@@ -1,0 +1,59 @@
+{
+  "id": "trait_pc_continental_preference",
+  "name": {
+    "en": "Continental Preference",
+    "zh": "陆地星球偏好"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L气候偏好由亿万年来的进化、设计，或是人工基因操纵所决定。§!",
+  "traits": [
+    "pc_continental_habitability: @primary",
+    "pc_tropical_habitability: @secondary",
+    "pc_ocean_habitability: @secondary",
+    "pc_desert_habitability: @tertiary",
+    "pc_arid_habitability: @tertiary",
+    "pc_tundra_habitability: @tertiary",
+    "pc_arctic_habitability: @tertiary",
+    "pc_alpine_habitability: @tertiary",
+    "pc_savannah_habitability: @tertiary"
+  ],
+  "species": {
+    "cost": 0,
+    "archetypes": [
+      "BIOLOGICAL",
+      "PRESAPIENT",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "presapient",
+    "lithoid",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "id": "prethoryn_scourge",
+  "name": {
+    "en": "Prethoryn Scourge",
+    "zh": "PRETHORYN_SCOURGE"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "events": [
+    {
+      "id": "crisis.17",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "observer.27",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.11",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.11",
+      "name": {
+        "en": "Subspace Echoes",
+        "zh": "亚空间回声"
+      },
+      "desc": {
+        "en": "Several of our tracking stations have picked up peculiar subspace echoes coming from somewhere in intergalactic space. The echoes are faint but getting stronger, and they seem to be approaching our galaxy...",
+        "zh": "我方的几处跟踪站都截获了一种奇怪的亚空间回声。声音来源于其他星系。回声刚开始时较弱，但后来逐渐变强，似乎有什么正在靠近我方星系……"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "A storm is on the horizon.",
+          "zh": "新的风暴即将出现。"
+        }
+      ]
+    },
+    {
+      "id": "observer.28",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.13",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.13",
+      "name": {
+        "en": "Approaching the Outer Rim",
+        "zh": "接近星系外缘"
+      },
+      "desc": {
+        "en": "The strange subspace echoes we detected in intergalactic space are now approaching the outer rim of our galaxy. Several smaller contacts appear to be racing ahead of the main body of echoes, towards a number of rim systems.\\n\\nWe have entered the positions of these systems into the Situation Log and will continue to monitor the situation.",
+        "zh": "我们在星系际空间探测到的奇怪亚空间回声现已接近我们的星系外缘。在回声主体前进的方向上似乎出现了一系列微小的联络信号，并指向许多的边缘恒星系。\n\n我们已经把这些星系坐标输入状态日志并将持续监控情况发展。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "They are almost upon us...",
+          "zh": "他们即将降临……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.15",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.15",
+      "name": {
+        "en": "Subspace Signal",
+        "zh": "亚空间信号"
+      },
+      "desc": {
+        "en": "We are picking up a strong subspace signal washing over the galaxy! Its point of origin appears to be the contacts approaching from intergalactic space.",
+        "zh": "我们接收到了席卷整个星系的强烈亚空间信号！信号源似乎正是来自此前位于星系际空间的联络。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Establish visual feed.",
+          "zh": "进行影像交流。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.16",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.16",
+      "name": {
+        "en": "Incoming Transmission",
+        "zh": "信号传输接入"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Main screen off.",
+          "zh": "关闭主屏幕。"
+        },
+        {
+          "en": "Break the link.",
+          "zh": "中断连接。"
+        }
+      ]
+    },
+    {
+      "id": "observer.29",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.18",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.19",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.18",
+      "name": {
+        "en": "The First Wave",
+        "zh": "第一波接触"
+      },
+      "desc": {
+        "en": "We have received word that several outlying systems along the galactic rim are being overrun by some sort of invasion force. This appears to have been the source of the subspace echoes we detected approaching our galaxy.\\n\\nWhat we are encountering now is only the vanguard - the main body of contacts has yet to arrive. Reports have so far been confused, but the \"ships\" used by the invaders appear organic in nature and do not respond to hails.\\n\\nOur entire galaxy may be facing an invasion of unprecedented scope.",
+        "zh": "我们收到的资料显示一些位于星系边缘的恒星系正在被某种入侵势力蹂蹑。这似乎就是我们探测到的，之前不断接近我们星系的亚空间回声本体。\n\n我们现在遭遇到的只是先锋，其主体尚未到来。目前为止，接踵而至的报告都令人十分困惑，入侵者所使用的舰船似乎是由有机质构成，并且入侵者暂未对我们做出任何回应。\n\n我们整个星系或将面对史无前例的入侵。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Spirits protect us...",
+          "zh": "愿众神保佑我们……"
+        },
+        {
+          "en": "Brief all fleet commanders.",
+          "zh": "将消息传达给所有舰队指挥官。"
+        },
+        {
+          "en": "These creatures must be studied closer.",
+          "zh": "必须近距离研究这些生物。"
+        },
+        {
+          "en": "Are we sure they can't be reasoned with?",
+          "zh": "真的无法与他们进行理论吗？"
+        },
+        {
+          "en": "This will cut into our profit margins...",
+          "zh": "这将损害我们的利润……"
+        },
+        {
+          "en": "Dark days lie ahead.",
+          "zh": "黑暗即将来临。"
+        },
+        {
+          "en": "These wretched xenos will be purged.",
+          "zh": "可恶的外星生物，一定要把它们统统干掉。"
+        },
+        {
+          "en": "Fascinating... alien life from beyond our galaxy.",
+          "zh": "真是令人着迷……系外的生命体。"
+        },
+        {
+          "en": "They act as a single mind. Remarkable.",
+          "zh": "他们的思维是完全统一的。真神奇。"
+        },
+        {
+          "en": "This is a threat to all sapient life.",
+          "zh": "这对任何有感知的生物来说都是个威胁。"
+        }
+      ]
+    },
+    {
+      "id": "origin.6125",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "observer.30",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.20",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "custodian.50",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "emperor.90",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.20",
+      "name": {
+        "en": "The Second Wave",
+        "zh": "第二波接触"
+      },
+      "desc": {
+        "en": "We are no longer able to discern the main body of approaching subspace echoes from our own galaxy's background radiation, which can mean only one thing... they have arrived.\\n\\nIf the size of their vanguard is any indication, the main host of these invaders must be massive.",
+        "zh": "我们已经无法从星系的背景辐射中分辨出亚空间回声的主体，这只意味着一件事情……他们已经到来。\n\n如果以他们先锋的规模作为参考，那么这些入侵者的军队数量将是无比巨大的。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "They are here...",
+          "zh": "他们来了……"
+        }
+      ]
+    },
+    {
+      "id": "crisis.30",
+      "name": {
+        "en": "Incoming Transmission",
+        "zh": "信号传输接入"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "View screen off.",
+          "zh": "显示屏关闭。"
+        },
+        {
+          "en": "There must be some way for us to co-exist in peace!",
+          "zh": "我们一定还有和平共处的办法！"
+        },
+        {
+          "en": "Run back to whichever galaxy you crawled out of.",
+          "zh": "滚回你们老家去吧。"
+        },
+        {
+          "en": "You are the most disgusting life form we have encountered.",
+          "zh": "你是我们见过的最恶心的生物。"
+        },
+        {
+          "en": "This is clearly an important species we're dealing with.",
+          "zh": "显然，这次我们对付的种群可不一般。"
+        },
+        {
+          "en": "Return to the hell which spawned you, demon!",
+          "zh": "滚回自己老巢去吧，你们这些恶魔！"
+        },
+        {
+          "en": "Can there be peace between us?",
+          "zh": "我们之间难道不可以和平相处吗？"
+        },
+        {
+          "en": "Who are these \"Hunters\" you speak of?",
+          "zh": "你口中的“猎人”到底是什么人？"
+        },
+        {
+          "en": "What does \"Prethoryn\" mean?",
+          "zh": "那“普雷索林”是什么意思呢？"
+        },
+        {
+          "en": "We will scour this galaxy of your kind.",
+          "zh": "我们会把你们从星系中清除掉。"
+        },
+        {
+          "en": "View screen off.",
+          "zh": "显示屏关闭。"
+        },
+        {
+          "en": "Break the link.",
+          "zh": "中断连接。"
+        },
+        {
+          "en": "Your Mind is as ours. Can we not coexist?",
+          "zh": "你的意识与我们同在。我们为何不能共存？"
+        },
+        {
+          "en": "Who are these \"Hunters\" you speak of?",
+          "zh": "你口中的“猎人”到底是什么人？"
+        },
+        {
+          "en": "What does \"Prethoryn\" mean?",
+          "zh": "那“普雷索林”是什么意思呢？"
+        },
+        {
+          "en": "We will silence your Mind.",
+          "zh": "我们将消灭你的意识。"
+        }
+      ]
+    },
+    {
+      "id": "observer.31",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.51",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.60",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "fleet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.60",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "fleet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.51",
+      "name": {
+        "en": "Rise of the Sentinels",
+        "zh": "哨兵崛起"
+      },
+      "desc": {
+        "en": "Some kind of militant order dedicated towards fighting the Prethoryn has surfaced in the galaxy. Their membership seems to be made up primarily of the dispossessed and downtrodden - refugees, war veterans and others who have lost everything to the onslaught of the Scourge.\\n\\nDespite this, their ramshackle fleets have somehow managed to win several engagements against Prethoryn hunter-killer swarms. There are unconfirmed reports that their fleets include starships of unusual design...",
+        "zh": "一个同索林原虫进行战斗的组织最近在星系崭露头角。这个组织似乎主要由被放逐和受压迫的群体组成——难民、退役军人、以及其他在冲击中失去一切的人。\n\n尽管如此，他们拼凑出来的舰队仍旧设法在几场同索林猎杀虫群的战斗中取胜。有些未证实的报告称他们的舰队中有一些设计奇特的战舰……"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Who are these people?",
+          "zh": "这些人到底是什么来历？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.52",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.52",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "We are the Sentinels. Our order has sworn to halt the murderous rampage of the Prethoryn no matter the cost. Where other empires crumble, we stand firm. Where they abandon their own to the Scourge, we give them the means to fight back.\\n\\nI am Grand Master Korgas, the first of our order. Do not be deceived by my appearance - Sentinels are recruited from all species in the galaxy, including yours. We ask only that your government keep up the fight against the Prethoryn and support our Sentinels where possible.",
+        "zh": "我们是哨兵。我们的教团已宣誓无论付出任何代价也要阻止嗜血的索林原虫。其他帝国支离破碎之时，我们仍旧坚持斗争。他们放弃抵抗而堕入黑暗之时，我们给予他们反击的手段。\n\n我是克加斯大团长，教团的首席。不要以貌取人——哨兵教团从星系中所有种族，包括你的种族——招兵买马。我们只希望你们的政府能够坚持对抗索林原虫的入侵，并在可能时支持我们。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "How are you able to fight back?",
+          "zh": "你们是如何成功抵御虫族的？"
+        },
+        {
+          "en": "How are you able to fight back?",
+          "zh": "你们是如何成功抵御虫族的？"
+        },
+        {
+          "en": "Where are you based?",
+          "zh": "你们的大本营在哪里？"
+        },
+        {
+          "en": "Where are you based?",
+          "zh": "你们的大本营在哪里？"
+        },
+        {
+          "en": "Goodbye.",
+          "zh": "再会了。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.55",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "What can you tell us about the Prethoryn?",
+          "zh": "关于虫族，你们知道多少？"
+        },
+        {
+          "en": "Goodbye.",
+          "zh": "再会了。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.71",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "The Sentinels have taken note of your valiant struggle against the Prethoryn Scourge. Since the fleet commanders of the [Root.GetName] clearly know how to win battles, we would like to permanently transfer one of our battle fleets over to your control. We currently lack the manpower to effectively crew these vessels, but that shouldn't be a problem for you.\\n\\nYou must solemnly promise to only use these warships against the Scourge, however!",
+        "zh": "星际护卫舰对于你们抵抗虫群天灾的英勇事迹十分赞赏。既然[Root.GetName]的舰队指挥官连连获胜，我们希望将自己的舰队之一永久交予你方。我方目前人力不足，无法将舰队的威力发挥到最大，但对你们来说这应该不成问题。\n\n不过你们一定要郑重承诺，只会用这些飞船对抗虫群天灾！"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Of course... only against the Scourge.",
+          "zh": "当然……我们只会用来对抗虫族。"
+        },
+        {
+          "en": "We have no need of your warships.",
+          "zh": "我们不需要你们的飞船。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.76",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.76",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "Against all odds, our galaxy has prevailed. The Prethoryn have been vanquished. I feared this day would never come, but now that victory is here, one last task remains for me.\\n\\nAs the current Grand Master of the Sentinels, I hereby disband our order. Our sole purpose was to see to the defeat of the Scourge, and now that this has been accomplished, it is time for our members to go their separate ways. To prevent their misuse, our surviving battle fleets will be dismantled.\\n\\nMay the defeat of this intergalactic menace herald a new era of peace. This is Sentinel One, signing off.",
+        "zh": "历经艰难险阻，我们星系终于获得了胜利，索林原虫被击败。曾经，我还担心这一天永远不会到来。但现在，我就只剩下最后一项任务了。\n\n身为哨兵组织的大团长，我特此宣布解散此组织。我们唯一的目的就是击败索林原虫。既然此目标已经达成，那就该是我们分道扬镳的时候了。为了防止我们现有的战舰遭到滥用，这些战舰将被拆解。\n\n愿此次星河浩劫的结束标志着和平的新纪元的开始。这里是哨兵一号，通信结束。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "End communications.",
+          "zh": "终止通讯。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.78",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.78",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "This is Sentinel One. These are truly desperate times for the galaxy, but I am here to bring you some good news.\\n\\nThrough extensive combat experience and painstaking research, Sentinel agents have compiled extremely detailed anatomy files on the creatures of the Prethoryn Scourge. For example, did you know that Prethoryn Swarmlings have been known to violently combust if both their primary and secondary gallbladders are punctured at the same time?\\n\\nWe are making these files available to everyone in the galaxy. By targeting the weaknesses we have found, you should find that your fleets are much more effective in battle against the Scourge.",
+        "zh": "这里是哨兵一号。星系已经到了危难时刻，但我还是要告诉你们一些好消息。\n\n通过在漫长的战斗中吸取到的经验，以及艰苦的研究，我们的特工终于编制出来了极为详尽的虫群天灾生物的解剖资料。例如，你们是否知道索林原虫幼虫在主胆囊和副胆囊同时被刺穿的情况下就会剧烈燃烧？\n\n我们要将这些文件公之于众。你们可以瞄准我们发现的这些弱点进行攻击，这样你们的飞船就能够更加高效地进行战斗。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Upload this data to our targeting computers.",
+          "zh": "将这些资料上传至瞄准计算机。"
+        }
+      ]
+    },
+    {
+      "id": "observer.32",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.81",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.81",
+      "name": {
+        "en": "The Fall of the Sentinels",
+        "zh": "哨兵的末路"
+      },
+      "desc": {
+        "en": "Intense fighting has been reported in the immediate vicinity of §H[sentinel_system.GetName]§!. The home system of the Sentinels is on the verge of being overrun.\\n\\nWe have picked up a partial long-range transmission from §HSentinel Alpha§!, the battlestation that serves as the headquarters of the Sentinel Order. Jamming and residual energy pockets from the massive amount of weapon discharges now occurring within the system are causing heavy signal interference.",
+        "zh": "据报告，§H[sentinel_system.GetName]§!附近出现激烈的战斗。哨兵组织的母星系处于崩溃的边缘。\n\n我们收到了一段从§H哨兵阿尔法§!——哨兵组织用作总部的军用空间站，传来的长程通讯片段。该恒星系因大量武器发射和能量残余造成了严重的信号干扰。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "On screen.",
+          "zh": "显示在屏幕上。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.82",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.82",
+      "name": {
+        "en": "The Sentinel Order",
+        "zh": "哨兵组织"
+      },
+      "desc": {
+        "en": "This... this is Sentinel Alpha. We have §R###SIGNAL CORRUPTION###§! ...sustained critical damage. The hull is buckling, and §R###SIGNAL CORRUPTION###§! ...Grand Master confirmed dead. There are simply too many of them!\\n\\nIt's... it's over for us. Keep up the fight. For the sake of future generations, you must not yield. Do not let our sacrifice be in vain! We have... we... AAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH---- §R<SIGNAL LOST>§!",
+        "zh": "这里……这里是哨兵阿尔法。我们遭遇§R###信号损坏###§!……致命损伤。舰体已经凹陷，并且§R###信号损坏###§!……团长已确认牺牲。敌人数量实在太多！\n\n我们……已经完蛋了。不要放弃。为了我们的未来，你们绝对不能投降。不要让我们的努力白费！我们……我们……啊啊啊啊啊啊啊啊啊——§R<信号丢失>§!"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "End communications.",
+          "zh": "终止通讯。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.101",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.101",
+      "name": {
+        "en": "The Wounded Queen",
+        "zh": "受伤的虫后"
+      },
+      "desc": {
+        "en": "A deep space spy drone has stumbled upon the site of what appears to have been a recent space battle between the Prethoryn and a second, as yet unidentified, party in the [queen_system.GetName] system. A Prethoryn Queen was badly injured in the fighting, and seems to have been left for dead.\\n\\nThe spy drone has reported that the creature is still alive, however. This could be a priceless opportunity to capture the Queen alive.",
+        "zh": "我们的一架深空侦察探机闯入了一处位于[queen_system.GetName]的战场余骸，这场战斗的双方是索林虫族和某未知势力。一只索林原虫虫后似乎在战斗之后受了重伤，被抛弃在此，任其自生自灭。\n\n用于侦察的探机汇报称，虫后仍一息尚存。现在是难得一遇的活捉虫后的好机会。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Perhaps we should send an expedition.",
+          "zh": "派遣一支考察队过去。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.105",
+      "name": {
+        "en": "Long live the Queen!",
+        "zh": "虫后万岁！"
+      },
+      "desc": {
+        "en": "The [Root.GetName] has managed to heal the worst of the Prethoryn Queen's injuries. Science Officer [Root.GetLeaderName] removed the organ responsible for the creature's subspace connection with the rest of the Scourge, and replaced it with a small positronic implant that gives us control over it.\\n\\nWe can now order the Queen around, and it has already started breeding new Prethoryn creatures that are loyal to it, and thus, by extension, us. As long as we can keep the Queen alive, we should be able to grow a fleet of domesticated Prethoryn creatures!",
+        "zh": "[Root.GetName]治愈了虫后的几处重伤。科学专员[Root.GetLeaderName]切除了虫后用来与同族联系的器官，并植入了小型正电子装置，完全控制了虫后。现在虫后任由我们差遣，肚子里也正在孕育虫族的幼体。这些幼体只会听命于这只虫后，也就是说，只会听命于我们。只要虫后活着，我们就能培育出大量被奴役的虫族大军！"
+      },
+      "type": "ship_event",
+      "options": [
+        {
+          "en": "They should prove an extremely useful asset!",
+          "zh": "想必这会是有用的战力！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.107",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.107",
+      "name": {
+        "en": "Someone Else Got The Queen",
+        "zh": "虫后被抢走"
+      },
+      "desc": {
+        "en": "Someone else has captured the injured Prethoryn Queen that was discovered in the [queen_system_1.GetName] system! The creature has not only been fully healed, but its connection to the rest of the Scourge has been severed. It now serves its new masters, and reports suggest that it has already started a new brood.",
+        "zh": "我们在[queen_system_1.GetName]星系发现的受伤的普雷索林虫后不幸被别人抢走了！他们在治愈了虫后之后，又切断了虫后用来与同族联系的器官。这下虫后可完全听命于他们了。报告还称，虫后已经在孕育幼虫了。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "We were too slow!",
+          "zh": "我们果然还是去晚了！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.121",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.121",
+      "name": {
+        "en": "Feral Prethoryn Sighted",
+        "zh": "发现野生索林原虫"
+      },
+      "desc": {
+        "en": "Many Prethoryn creatures remain unaccounted for after the defeat of the Scourge, having slipped away into the depths of space in the ensuing chaos. With no central hive consciousness to guide them, most of these mindless beasts will eventually wither and perish.\\n\\nHowever, recent sightings have confirmed that a large number of these feral Prethoryn have established a new lair in the §H[feral_prethoryn_system.GetName]§! system.\\n\\nIn the coming years, we will likely face the possibility of more feral Prethoryn nesting in unoccupied systems where the Scourge once had a presence. They are unlikely to develop into a major threat - these wild creatures are prone to infighting and do not exhibit the calculating intelligence that drove the Scourge onwards.",
+        "zh": "在虫群天灾被击败后，我们未能掌握一些趁乱逃跑地索林原虫的踪迹。没有中枢主巢的指引，这些没有心智的野兽大部分会凋谢消散。\n\n然而，最近有目击报告确认，一大群野生索林原虫在§H[feral_prethoryn_system.GetName]§!星系建立了一个新巢穴。\n\n在今后，我们有很大可能在虫群天灾曾经出现过的无人占领星系遇见野生虫群巢穴。不过它们不太可能发展成一个大威胁——这些野生生物易于陷入内斗，也没有表现出发展智力并驱使天灾继续进行的迹象。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Issue a travel advisory.",
+          "zh": "发出旅行警示。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.124",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.216",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.215",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.215",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.207",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "observer.33",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event",
+      "options": []
+    },
+    {
+      "id": "crisis.211",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.119",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.75",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.211",
+      "name": {
+        "en": "The End of the Scourge",
+        "zh": "灾难终平"
+      },
+      "desc": {
+        "en": "The galaxy breathed a collective sigh of relief today, as the last significant pockets of the Prethoryn Scourge were expunged. Their extragalactic invasion has failed, and all that remains of the Prethoryn's once colossal swarm are the innumerable charred husks that now drift quietly through the void.\\n\\nA sense of elation and utter joy is spreading across the galaxy at a speed greater than light, and spontaneous victory celebrations have erupted on countless worlds. Could this be the beginning of a new age of galactic peace and stability?",
+        "zh": "随着最后一批虫群天灾被消灭，整个宇宙都松了一口气。它们的入侵已经完全失败，曾令无数生物恐惧的索林原虫，如今也只留下了不计其数的被烈焰灼过的尸体，在虚空中缓慢漂浮。\n\n轻松与愉快的气息以超光速散播到整个宇宙，无数星球都开始自发举办活动庆祝这一伟大胜利。也许，我们可以借助这一契机，翻开宇宙和平稳定的新篇章？"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Those profane creatures will not be missed.",
+          "zh": "这些不敬的生物，早死早完。"
+        },
+        {
+          "en": "They were worthy opponents.",
+          "zh": "他们是可敬的对手。"
+        },
+        {
+          "en": "Their organic technology was most intriguing.",
+          "zh": "他们的有机科技真是十分有趣啊。"
+        },
+        {
+          "en": "Finally an end to all this senseless violence.",
+          "zh": "总算为这毫无意义的好斗画上了一个句号。"
+        },
+        {
+          "en": "Those critters were bad for business.",
+          "zh": "那些生物有损我们的生意。"
+        },
+        {
+          "en": "We shall see.",
+          "zh": "这还有待观察。"
+        },
+        {
+          "en": "One of the vilest xeno breeds we've had the misfortune to encounter.",
+          "zh": "真是我们有史以来遭遇的最恶毒的外星种群啊。"
+        },
+        {
+          "en": "Tragic in a way. They were a unique form of life.",
+          "zh": "真是悲剧。他们可是十分独特的生命体呢。"
+        }
+      ]
+    },
+    {
+      "id": "origin.6136",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.234",
+      "name": {
+        "en": "Hole in the Void",
+        "zh": "虚空之洞"
+      },
+      "desc": {
+        "en": "Over the last few months, the Prethoryn Queen we captured has appeared increasingly restless and uneasy. At first, we thought it was simply missing its connection with the rest of its kind, until our Telepaths told us that it had been in communication with them, speaking of a 'Hole in the Void'.\\n\\nWhat it meant by this we found out only when a team of scientists researching Prethoryn intergalactic travel methods discovered a discrepancy in our astronomical database. While charting the likely path the Prethoryn had been following, they found that a small spiral galaxy some 30 million light-years distant from our own was... missing.\\n\\nThe galaxy, discovered and studied during the early space era of our species, is simply no longer emanating any form of light observable by our instruments. This bizarre and unexpected discovery sent our scientists into a scramble to try and explain what could cause an entire galaxy to simply vanish from the sky.\\n\\nTwo explanations emerged: Either the stars of the galaxy simply went out, all at once, or there is something, something so vast as to eclipse an entire galaxy, blocking its light from reaching us. Both theories seem equally implausible, and many have simply decried them as ludicrous, preferring to think that the missing galaxy never existed at all, invented by some erroneous use of a primitive telescope. Nonetheless, a palpable sense of dread and foreboding surrounds the whole incident...",
+        "zh": "最近几个月，我们捕捉到的普雷索林虫后越发地暴躁不安。起初，我们仅仅以为原因是它和人民断开了联系，但后来我们的通灵者告诉我们，它一直在和他们交流，提到了一个叫“虚空之洞”的东西。\n\n我们的一个科研团队在研究普雷索林的星际航行方式时，发现我们的天文学数据库存在偏差，这才让我们明白了它的意思。他们在测绘普雷索林的来路时，发现距离我们3千万光年的一个小型螺旋星系……消失了。\n\n我们种族在太空时代早期就发现并研究了该星系，但现在，我们的观察设备表明那里没有任何光线发出。这一既怪诞又意外的发现让我们的科学家十分震惊，他们开始焦头烂额地寻找一整个星系凭空消失的原因。\n\n目前有两种解释：其一，该星系的所有恒星一同熄灭；其二，某种东西庞大到能遮盖整个星系，阻拦光线传播到我们这里。但两种理论都十分站不住脚，简直就是天方夜谭，还不如认为这个星系原本就不存在，先前的记录是原始天文望远镜造成的错误。不论如何，整个事件都被笼罩在浓厚的恐怖与不详之中……"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Disturbing.",
+          "zh": "令人不安。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.250",
+      "name": {
+        "en": "New Brood",
+        "zh": "新虫群"
+      },
+      "desc": {
+        "en": "The Brood-Queen has spawned a new Prethoryn fleet which has assumed orbit over [Root.Capital.GetName]. With the Queen under our control, the creatures are utterly loyal and will obey our every command.",
+        "zh": "虫后已经孕育出了一支新的索林原虫舰队，该舰队将环绕[Root.Capital.GetName]的轨道。当女王处于我们的控制下时，这些生物是绝对忠诚的，并会服从我们的全部命令。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Good.",
+          "zh": "好。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.252",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.252",
+      "name": {
+        "en": "Brood-Queen Captured",
+        "zh": "捕获虫后"
+      },
+      "desc": {
+        "en": "In the recent fleet engagement against the Prethoryn in the [battle_system.GetName] system, our forces managed to capture some sort of egg that was being transported by one of their Queens. The egg hatched shortly afterwards, and a §HBrood-Queen§! emerged.\\n\\nThrough the use of neural transmitters, our scientists have managed to pacify the creature. It will now obey our commands as if they had been issued by the Prethoryn hive mind itself. We could potentially use this Queen to grow a small Prethoryn brood of our own.",
+        "zh": "在最近于[battle_system.GetName]星系中与索林原虫的舰队交火中，我们的部队设法夺取了它们的一只虫后运送的某种卵。卵不久后就孵化了，显露出其中的§H虫后§!。\n\n我们的科学家使用神经递质已经安抚了这只虫后。它现在仿佛服从索林原虫蜂巢思维本体一样服从我们下达的命令。我们或许可以利用这只虫后培育一个属于我们自己的小型索林原虫虫群。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Excellent.",
+          "zh": "棒极了。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.266",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    }
+  ],
+  "tags": [
+    "crisis",
+    "prethoryn"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "become_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_triggers"
+    },
+    {
+      "type": "关联",
+      "target": "extradimensional_invaders"
+    }
+  ]
+}

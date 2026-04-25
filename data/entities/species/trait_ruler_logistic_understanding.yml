@@ -1,0 +1,26 @@
+id: trait_ruler_logistic_understanding
+name:
+  en: Logistic Understanding
+  zh: 深通后勤
+category: species
+subcategory: trait
+dlc: null
+lore: 这位领袖深知合理构建补给链的重要性。
+traits: []
+species:
+  cost: '1'
+  archetypes: []
+tags:
+  - trait
+  - positive
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

@@ -1,0 +1,33 @@
+id: trait_weak
+name:
+  en: Weak
+  zh: 纤弱
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种的肉体比一般生物要弱小，使他们无法成为优秀的战士。§!
+traits:
+  - 'army_damage_mult: -0.20'
+  - 'planet_jobs_worker_produces_mult: -0.025'
+species:
+  cost: '-1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

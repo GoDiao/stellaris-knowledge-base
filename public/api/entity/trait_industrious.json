@@ -1,0 +1,49 @@
+{
+  "id": "trait_industrious",
+  "name": {
+    "en": "Industrious",
+    "zh": "勤勉"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种非常吃苦耐劳，总是试着超越自我努力的极限。§!\n",
+  "traits": [
+    "planet_jobs_minerals_produces_mult: 0.15"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+id: trait_void_dweller_1
+name:
+  en: Void Dweller
+  zh: 虚空居者
+category: species
+subcategory: trait
+dlc: null
+lore: §L这一物种在轨道居住站上繁荣昌盛，本能地可以在他们迷宫般的回廊及复杂的建筑结构中找到方向。然而他们的免疫系统功能衰弱，无法很好地适应行星环境。§!
+traits:
+  - 'habitat_jobs_produces_mult: 0.15'
+  - 'non_artificial_planet_jobs_produces_mult: -0.15'
+species:
+  cost: 0
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - neutral
+relations:
+  - type: 提及
+    target: tech_habitat_1
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

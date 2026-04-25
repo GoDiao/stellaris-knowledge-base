@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2305",
+  "name": {
+    "en": "Contingency Intrusion Averted",
+    "zh": "肃正协议入侵转移"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "肃正协议开始瞄准了我们的矿物生产线，他们操纵矿场中控驱动区向外发出错误指令，使生产线陷入无序与混乱中。幸运的是，因为我们已经加强了生产线的安全系统和标准化控制系统，我们在损害发生前就阻止了这次入侵。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_synth_sabotage"
+}

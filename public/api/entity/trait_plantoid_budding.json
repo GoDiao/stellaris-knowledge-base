@@ -1,0 +1,45 @@
+{
+  "id": "trait_plantoid_budding",
+  "name": {
+    "en": "Budding",
+    "zh": "出芽生殖"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L除了通常的受精卵或者孢子生殖之外，这个物种还可以进行出芽生殖。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

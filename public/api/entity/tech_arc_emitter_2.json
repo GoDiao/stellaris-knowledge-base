@@ -1,0 +1,48 @@
+{
+  "id": "tech_arc_emitter_2",
+  "name": {
+    "en": "Focused Arc Emitters",
+    "zh": "聚能电弧发射器"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "这些升级后的发射器装备了更优秀的聚焦透镜，这使得它们可以发射出更加强大的能量。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "4",
+    "cost": "@tier4cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

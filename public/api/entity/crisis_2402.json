@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2402",
+  "name": {
+    "en": "Incoming Transmission",
+    "zh": "信号传输接入"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们是塞博勒克斯。\n\n自数十万周期以来，吾辈隐居幕后，不干涉星系事务。不过，我们现在已经检测到被你们称为肃正协议的机械体出现在本星系，而现在吾辈无法再维持公正观察员身份不变了。\n\n为保护星系的智慧体，我们正进行积极的军事行动来对抗肃正协议。不要因我们的舰队通过而感到恐慌——你们不会受到伤害。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "提及",
+      "target": "trait_mechanical"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

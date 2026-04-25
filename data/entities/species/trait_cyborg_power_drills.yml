@@ -1,0 +1,31 @@
+id: trait_cyborg_power_drills
+name:
+  en: Power Drills
+  zh: 动力钻头
+category: species
+subcategory: trait
+dlc: null
+lore: §L要是给义体人装上电钻，那什么都看起来像矿。§!
+traits:
+  - 'planet_jobs_minerals_produces_mult: 0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 提及
+    target: trait_cybernetic
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

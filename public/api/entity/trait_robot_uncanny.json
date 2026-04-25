@@ -1,0 +1,47 @@
+{
+  "id": "trait_robot_uncanny",
+  "name": {
+    "en": "Uncanny",
+    "zh": "可怕"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这些可怕的机器是以宇宙中最可怕的物种之一为蓝本创造出来的，这使他们恐怖至极。 §!\n",
+  "traits": [
+    "pop_job_amenities_mult: -0.20"
+  ],
+  "species": {
+    "cost": "-1",
+    "archetypes": [
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "machine",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

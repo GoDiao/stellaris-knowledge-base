@@ -1,0 +1,32 @@
+id: tech_shield_hardeners_2
+name:
+  en: Advanced Shield Hardening
+  zh: 先进护盾硬化
+category: technology
+subcategory: physics
+dlc: null
+lore: 提升至高能态的泽珞微粒可以在我们的护盾上产生波动，可以折射那些能穿透传统护盾的攻击。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 提及
+    target: trait_traditional
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

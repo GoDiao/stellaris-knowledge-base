@@ -1,0 +1,32 @@
+id: tech_construction_templates
+name:
+  en: Construction Templates
+  zh: 建造模板
+category: technology
+subcategory: engineering
+dlc: null
+lore: 标准化的预制模板大大减少了实地设施的建造工期。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '3'
+  cost: '@tier3cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

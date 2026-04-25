@@ -1,0 +1,42 @@
+{
+  "id": "trait_ruler_recruiter",
+  "name": {
+    "en": "Recruiter",
+    "zh": "征兵官"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这位领袖拥有独特魅力，能让新兵争先恐后地为帝国效力。",
+  "traits": [],
+  "species": {
+    "cost": 0,
+    "archetypes": []
+  },
+  "tags": [
+    "trait",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_phototrophic"
+    }
+  ]
+}

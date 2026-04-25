@@ -1,0 +1,48 @@
+{
+  "id": "tech_crystal_armor_1",
+  "name": {
+    "en": "Crystal-Infused Plating",
+    "zh": "水晶复合镀层"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "灌注水晶的镀层可使船体更加耐用。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_cyborg_durable"
+    },
+    {
+      "type": "提及",
+      "target": "trait_robot_durable"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    }
+  ]
+}

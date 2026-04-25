@@ -1,0 +1,31 @@
+id: trait_crack_miner
+name:
+  en: Dedicated Miner
+  zh: 职业矿工
+category: species
+subcategory: trait
+dlc: null
+lore: §L超强的手眼协调，几乎无限的耐力和自净化的肺部催生出了完美的采矿团队。只可惜他们因远离阳光而变得易于骨折。§!
+traits:
+  - 'leader_lifespan_add: -10'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

@@ -1,0 +1,32 @@
+id: tech_new_numbers
+name:
+  en: New Numbers
+  zh: 新数字
+category: technology
+subcategory: physics
+dlc: First Contact
+lore: 通过研究数个前超光速文明，我们意识到还存在很多计量宇宙的方法。这甚至能够将新的数字引入到我们的数学体系中。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

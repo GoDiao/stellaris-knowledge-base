@@ -1,0 +1,32 @@
+id: tech_executive_retreat
+name:
+  en: Executive Leisure Program
+  zh: 高管休闲项目
+category: technology
+subcategory: society
+dlc: MegaCorp
+lore: 为企业高层人员而建的豪华度假村。他们可以在这高度安全的环境中品味当地的星球文化。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

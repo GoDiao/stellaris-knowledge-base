@@ -1,0 +1,31 @@
+id: trait_survivor
+name:
+  en: Survivor
+  zh: 幸存者
+category: species
+subcategory: trait
+dlc: null
+lore: §L这个物种在经历了一场核子天启后最终幸存了下来。他们在极端恶劣环境下的生存能力不容小觑。§!
+traits:
+  - 'pc_nuked_habitability: 0.7'
+  - 'leader_lifespan_add: 10'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

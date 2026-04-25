@@ -1,0 +1,32 @@
+id: tech_hydroponics
+name:
+  en: Hydroponics Farming
+  zh: 水培农业
+category: technology
+subcategory: society
+dlc: null
+lore: 在受控制的生态环境下进行水培耕作可使谷物在正常来说不可能农作的地方生长。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '1'
+  cost: '@tier1cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

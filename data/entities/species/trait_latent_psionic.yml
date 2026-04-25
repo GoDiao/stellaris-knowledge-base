@@ -1,0 +1,34 @@
+id: trait_latent_psionic
+name:
+  en: Latent Psionic
+  zh: 灵能潜势
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种有潜在的灵能天赋，不过这个天赋还在大部分的成员体内潜伏。虽然非常难得，但是这个能力会在部分领袖身上体现。§!
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+  - 'planet_jobs_unity_produces_mult: 0.05'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

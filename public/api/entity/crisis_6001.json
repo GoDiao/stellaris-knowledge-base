@@ -1,0 +1,40 @@
+{
+  "id": "crisis_6001",
+  "name": {
+    "en": "The Star-Eaters",
+    "zh": "焚天神兵"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis",
+  "dlc": "Nemesis",
+  "lore": "只有引爆一整颗恒星才能释放足够的能量来产生用以完成以太相引擎所需的大量§H暗物质§!。为了达成这一目的，我们发明了§H焚天神兵§!——本星系有史以来最强大的星舰。它们不仅可以直接引爆恒星，还强大到仅仅凭借一船之力就能毁灭一整支舰队。\n\n目前，我们仅仅拥有两艘这样的舰船，但是我们可以建造更多。建造焚天神兵需要大量的暗物质，因此我们必须拿捏好完成以太相引擎和扩建额外的焚天神兵两者之间的平衡。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "become_crisis"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "become_crisis"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6000"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6005"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6006"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6007"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_binary_stars"
+}

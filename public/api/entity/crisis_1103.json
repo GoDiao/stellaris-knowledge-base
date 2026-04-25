@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1103",
+  "name": {
+    "en": null,
+    "zh": null
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "fleet_event",
+  "picture": null
+}

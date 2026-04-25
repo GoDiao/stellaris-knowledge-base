@@ -1,0 +1,32 @@
+id: tech_advanced_metallurgy_1
+name:
+  en: Ceramo-Metal Alloys
+  zh: 陶瓷合金
+category: technology
+subcategory: engineering
+dlc: null
+lore: 改良陶瓷在工业中的广泛运用能够提高冶金产量。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_2

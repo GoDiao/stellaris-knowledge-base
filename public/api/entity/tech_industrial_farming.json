@@ -1,0 +1,48 @@
+{
+  "id": "tech_industrial_farming",
+  "name": {
+    "en": "Industrial Agriculture",
+    "zh": "农业工业化"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "通过大规模工业化农场生产富含养分的农作物，可以让一个文明的人口成倍地增长。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "0",
+    "cost": "0",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": null,
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

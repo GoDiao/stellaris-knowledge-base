@@ -1,0 +1,35 @@
+id: trait_psionic
+name:
+  en: Psionic
+  zh: 灵能
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种的全体人员都掌握了强大的灵能力量。这代表着他们之间用心灵感应沟通。§!
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+  - 'planet_jobs_unity_produces_mult: 0.10'
+  - 'pop_happiness: 0.05'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 提及
+    target: tech_telepathy
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

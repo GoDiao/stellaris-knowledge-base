@@ -1,0 +1,44 @@
+{
+  "id": "mol",
+  "name": {
+    "en": "SPECIES_CLASS_MOL",
+    "zh": "SPECIES_CLASS_MOL"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "BIOLOGICAL",
+    "portraits": [],
+    "graphical_culture": "molluscoid_01",
+    "gender": true
+  },
+  "tags": [
+    "species_class",
+    "biological"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    }
+  ]
+}

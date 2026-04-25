@@ -1,0 +1,30 @@
+id: trait_agrarian
+name:
+  en: Agrarian
+  zh: 农民
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这一物种与土地有着难以割舍的关系，使他们成为了农业和园林的专家。§!
+traits:
+  - 'planet_jobs_food_produces_mult: 0.15'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - positive
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

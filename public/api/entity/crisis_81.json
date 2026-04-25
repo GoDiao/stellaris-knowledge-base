@@ -1,0 +1,40 @@
+{
+  "id": "crisis_81",
+  "name": {
+    "en": "The Fall of the Sentinels",
+    "zh": "哨兵的末路"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "据报告，§H[sentinel_system.GetName]§!附近出现激烈的战斗。哨兵组织的母星系处于崩溃的边缘。\n\n我们收到了一段从§H哨兵阿尔法§!——哨兵组织用作总部的军用空间站，传来的长程通讯片段。该恒星系因大量武器发射和能量残余造成了严重的信号干扰。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_52"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_55"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_71"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_76"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_federation_fleet"
+}

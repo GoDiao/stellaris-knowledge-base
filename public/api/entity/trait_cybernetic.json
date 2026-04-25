@@ -1,0 +1,50 @@
+{
+  "id": "trait_cybernetic",
+  "name": {
+    "en": "Cybernetic",
+    "zh": "义体人"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种已经接受了义体化，他们物种的绝大多数成员都变成了义体人。他们会定期用更为先进的机械版本代替他们的有机身体组织。§!\n",
+  "traits": [
+    "pop_environment_tolerance: 0.20",
+    "army_damage_mult: 0.1",
+    "leader_lifespan_add: 40"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

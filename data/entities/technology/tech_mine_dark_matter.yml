@@ -1,0 +1,32 @@
+id: tech_mine_dark_matter
+name:
+  en: Dark Matter Drawing
+  zh: 暗物质收集
+category: technology
+subcategory: physics
+dlc: null
+lore: 这种独特的物质具有许多打破物理原理的特性。仅在黑洞周围或部分星云附近能获得。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

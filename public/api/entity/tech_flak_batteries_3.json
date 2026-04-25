@@ -1,0 +1,48 @@
+{
+  "id": "tech_flak_batteries_3",
+  "name": {
+    "en": "Flak Artillery",
+    "zh": "重型高射炮"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "使用预测跟踪算法和更强大的齐射，使得这些高射炮拥有了难以置信的打击敌军舰载机的能力。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "4",
+    "cost": "@tier4cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_flak_batteries_1"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

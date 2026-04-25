@@ -1,0 +1,32 @@
+id: tech_power_hub_1
+name:
+  en: Global Energy Management
+  zh: 全球能源管理
+category: technology
+subcategory: physics
+dlc: null
+lore: 负载平衡设施可以大幅提升本地电网的稳定性，并将多余的能源返还中央电容器。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '1'
+  cost: '@tier1cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

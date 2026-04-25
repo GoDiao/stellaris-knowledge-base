@@ -1,0 +1,40 @@
+{
+  "id": "crisis_105",
+  "name": {
+    "en": "Long live the Queen!",
+    "zh": "虫后万岁！"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "[Root.GetName]治愈了虫后的几处重伤。科学专员[Root.GetLeaderName]切除了虫后用来与同族联系的器官，并植入了小型正电子装置，完全控制了虫后。现在虫后任由我们差遣，肚子里也正在孕育虫族的幼体。这些幼体只会听命于这只虫后，也就是说，只会听命于我们。只要虫后活着，我们就能培育出大量被奴役的虫族大军！",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "ship_event",
+  "picture": "GFX_evt_society_research"
+}

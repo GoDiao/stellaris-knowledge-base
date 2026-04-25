@@ -1,0 +1,26 @@
+id: trait_ruler_industrialist
+name:
+  en: Mining Rush
+  zh: 矿业狂潮
+category: species
+subcategory: trait
+dlc: null
+lore: 这位领袖密切关注矿业产出的提升。
+traits: []
+species:
+  cost: '1'
+  archetypes: []
+tags:
+  - trait
+  - positive
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

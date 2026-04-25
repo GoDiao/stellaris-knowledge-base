@@ -1,0 +1,48 @@
+{
+  "id": "tech_corvette_build_speed",
+  "name": {
+    "en": "Standardized Corvette Patterns",
+    "zh": "标准化护卫舰模板"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "建立新的护卫舰模板和建造标准将会大大提高生产线的效率。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "1",
+    "cost": "@tier1cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_corvettes"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

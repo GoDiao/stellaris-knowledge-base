@@ -1,0 +1,50 @@
+{
+  "id": "tech_gateway_construction",
+  "name": {
+    "en": "Gateway Construction",
+    "zh": "星门建造"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "建造新的星门空间站使我们可以建立一个快速通行网络，给星际通行带来革命。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "5",
+    "cost": "@tier5cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "gateway_construction"
+    ],
+    "weight": "@tier5weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

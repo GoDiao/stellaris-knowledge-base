@@ -1,0 +1,49 @@
+{
+  "id": "trait_expressed_tradition",
+  "name": {
+    "en": "Expressed Tradition",
+    "zh": "宣泄传统"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L按需狂热：信念只不过是激素的调和，我们已对其了如指掌。至于信念最终将走向何处取决于后续如何引导。§!",
+  "traits": [
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tech_corvettes",
+  "name": {
+    "en": "Corvettes",
+    "zh": "护卫舰"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "超光速航行技术的突破将使得我们将传统的地空军用穿梭机最终改造成体型相对小，速度快，操纵性强但是火力有限的机动战舰。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "0",
+    "cost": "@tier0cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": null,
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_traditional"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+id: crisis_2099
+name:
+  en: Sapient Combat Computers Malfunction
+  zh: 智慧作战电脑故障
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  §H幽灵信号§!扰乱了我们配备§H智慧作战电脑§!的飞船！它们的人工智能算法极大的退化，大部分电脑的效率和反应时间极大的劣化。
+
+  我们的工程师报告说他们无法离析这个问题。他们提议，把我们所有的舰船更换成不与人工智能连接的战斗电脑。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: crisis_2010
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_glitchy_matrix

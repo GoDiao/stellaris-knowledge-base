@@ -1,0 +1,25 @@
+id: crisis_1113
+name:
+  en: Incoming Transmission
+  zh: 信号传输接入
+category: crisis
+subcategory: contingency
+dlc: null
+lore: ……原来你们…逃到了这里……休想……躲到……这个次元……我们会干掉你们，占据觅食区……
+traits: []
+tags:
+  - crisis_event
+  - contingency
+relations:
+  - type: 所属
+    target: contingency
+  - type: 关联
+    target: contingency
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: null

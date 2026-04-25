@@ -1,0 +1,32 @@
+id: trait_solitary
+name:
+  en: Solitary
+  zh: 孤僻
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种在拥挤的社会环境下会变得暴躁，它们喜欢一个人呆着。§!
+traits:
+  - 'pop_housing_usage_mult: 0.1'
+species:
+  cost: '-1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

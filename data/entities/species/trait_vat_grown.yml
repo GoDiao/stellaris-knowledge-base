@@ -1,0 +1,32 @@
+id: trait_vat_grown
+name:
+  en: Vat-Grown
+  zh: 仓内生养
+category: species
+subcategory: trait
+dlc: null
+lore: §L在克隆仓内人工助长，该物种的自然繁衍能力受到了负面的影响。§!
+traits:
+  - 'planet_pop_assembly_organic_mult: 0.25'
+  - 'pop_housing_usage_mult: -0.1'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 提及
+    target: tech_cloning
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

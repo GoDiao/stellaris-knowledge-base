@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2407",
+  "name": {
+    "en": "Cybrex Activity",
+    "zh": "赛博勒克斯活动"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "赛博勒克斯自肃正协议被击败以来一直较为平静，但据最近发现，一艘大型船只单独离开了赛博勒克斯-贝塔星系。其离开星系后，沿着一条超出我们星系边界的轨道而行。\n\n船只在离开我们的跟踪范围之前，向全星系发送了唯一的一条的信息。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_ringworld"
+}

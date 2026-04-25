@@ -1,0 +1,32 @@
+id: trait_charismatic
+name:
+  en: Charismatic
+  zh: 魅力非凡
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种拥有一种特别的魅力，任何其他生物都愿意与他们亲近。§!
+traits:
+  - 'pop_job_amenities_mult: 0.20'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

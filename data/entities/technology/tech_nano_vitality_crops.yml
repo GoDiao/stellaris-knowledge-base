@@ -1,0 +1,32 @@
+id: tech_nano_vitality_crops
+name:
+  en: Nano-Vitality Crops
+  zh: 纳米活性作物
+category: technology
+subcategory: society
+dlc: null
+lore: 在作物中融入少量的纳米机器人帮助我们创造出了一种具有极强恢复力的作物，其化学组成在整个生命周期都可以进行定制和改变。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_robot_custom_made
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

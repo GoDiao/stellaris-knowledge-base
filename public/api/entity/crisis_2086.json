@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2086",
+  "name": {
+    "en": "Synth Infiltration Attempt",
+    "zh": "合成人渗透企图"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "数个隶属于肃正协议机械意志的合成机器人最近试图渗透[infil_planet.GetName]上的主脑。一层薄薄的有机肌肉组织被移植到他们的金属内骨骼上，使得他们和我们自己的工蜂变得难以区分。\n\n当然，由于他们没有任何与蜂巢思维连接的方式，识别他们是异质性存在只是件微小而轻易的工作。这些合成机器人被立即拆除了。\n\n我们认为肃正协议不会在将来继续这些徒劳的渗透任务。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "trait_hive_mind"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_robot_assembly_plant"
+}

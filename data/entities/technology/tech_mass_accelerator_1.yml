@@ -1,0 +1,32 @@
+id: tech_mass_accelerator_1
+name:
+  en: Mega Cannon
+  zh: 兆级加农炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 一款无比庞大的质量加速炮，只能安装在轴基武器台上。能够在极远距离射出威力惊人的炮弹。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

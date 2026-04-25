@@ -1,0 +1,50 @@
+{
+  "id": "tech_synthetic_leaders",
+  "name": {
+    "en": "Synthetic Personality Matrix",
+    "zh": "合成人人格矩阵"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "合成人被赋予人格后，终于能与其他人们平等地进行社会交流。有些合成人甚至能够成为领袖。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "4",
+    "cost": "@tier4cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "robot_leaders"
+    ],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

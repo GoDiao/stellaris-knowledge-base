@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2202",
+  "name": {
+    "en": "Synth Detection Project",
+    "zh": "合成人侦查项目"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "现在已经出现了与[Root.GetSpeciesNamePlural]外观上毫无二致的合成人，我们必须在他们造成更大破坏之前找出识别他们的办法。我们的科学家准备了一个特殊项目，以研发侦测方法。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_synth_sabotage"
+}

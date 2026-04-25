@@ -1,0 +1,32 @@
+id: tech_torpedoes_1
+name:
+  en: Space Torpedoes
+  zh: 太空鱼雷
+category: technology
+subcategory: engineering
+dlc: null
+lore: 这些鱼雷其实都是速度缓慢的巨大导弹。它们装备了更加强大的弹头和护盾调制器，这使得它们可以安然穿过能量屏障。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '1'
+  cost: '@tier1cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

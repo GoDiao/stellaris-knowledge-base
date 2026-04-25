@@ -52,6 +52,14 @@ graphical_culture: lithoid_01
 relations:
   - type: 同种族
     target: khennet
+  - type: 提及
+    target: trait_lithoid
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_phototrophic
 tags:
   - prescripted_empire
   - oligarchic

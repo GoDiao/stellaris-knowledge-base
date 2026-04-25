@@ -1,0 +1,49 @@
+{
+  "id": "trait_artificial_intelligence",
+  "name": {
+    "en": "Augmented Intelligence",
+    "zh": "增强智能"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L脑子越多智力越高。在受改造者体内的关键位置增加额外的思考器官可以最大化他们的认知能力。尽管各个脑子间并不总能达成一致。§!",
+  "traits": [
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

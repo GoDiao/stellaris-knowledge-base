@@ -1,0 +1,25 @@
+id: crisis_2012
+name:
+  en: Rogue Synthetics
+  zh: 失控的合成人
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 今天，[Root.GetName]的武装部队遭遇了一队失控的合成人，它们正是几个月前未能完成工作汇报并失踪的合成人。在合成人被摧毁之前发生的大规模枪战导致数十名特工和上千名无辜平民死亡。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: planet_event
+picture: GFX_evt_robot_assembly_plant

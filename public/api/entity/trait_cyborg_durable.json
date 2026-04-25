@@ -1,0 +1,49 @@
+{
+  "id": "trait_cyborg_durable",
+  "name": {
+    "en": "Durable",
+    "zh": "耐用"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L拥有镀铬钛合金制成的防护外骨骼，这些重型机器专为严酷环境而设计，只需要极少的维护。§!\n",
+  "traits": [
+    "pop_amenities_usage_add: -0.5"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

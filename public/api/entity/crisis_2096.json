@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2096",
+  "name": {
+    "en": "Synths Assassinate [Root.GetRulerTitle]!",
+    "zh": "合成人暗杀[Root.GetRulerTitle]！"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "一名合成人暗杀者暗杀了§H[ruler.GetRegnalName]§!！他成功地伪装成了[Root.GetRulerTitle]身边的一名私人保镖。\n\n[ruler.GetRegnalName]的尸块很明显被蓄意排列成了肃正协议的符号——毫无疑问，这是一场精心策划的打击我们公民们士气的阴谋。在这场阴谋中，除了被刺客替换的保镖的尸体以外，没有发现其他刺客的痕迹。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_organic_oppression"
+}

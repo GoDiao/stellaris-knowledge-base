@@ -1,0 +1,48 @@
+{
+  "id": "tech_decryption_3",
+  "name": {
+    "en": "Quasi-Dimensional Reflection",
+    "zh": "准维映射"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "我们的特工可以在临近的现实映射中获取数据，这样就不用冒着在真实现实中触发警报的风险来获取情报。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "4",
+    "cost": "@tier4cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

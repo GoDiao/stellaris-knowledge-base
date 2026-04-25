@@ -1,0 +1,30 @@
+id: trait_fleeting
+name:
+  en: Fleeting
+  zh: 快节奏
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L对于这个物种来说，时光就如白驹过隙。他们无法延长寿命的长度，因此决定拓展生命的广度。§!
+traits:
+  - 'leader_lifespan_add: -10'
+species:
+  cost: '-1'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - negative
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

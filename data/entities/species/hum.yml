@@ -1,0 +1,28 @@
+id: hum
+name:
+  en: SPECIES_CLASS_HUM
+  zh: SPECIES_CLASS_HUM
+category: species
+subcategory: species_class
+dlc: null
+lore: ''
+traits: []
+species:
+  archetype: BIOLOGICAL
+  portraits: []
+  graphical_culture: humanoid_01
+  gender: true
+tags:
+  - species_class
+  - biological
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: exd

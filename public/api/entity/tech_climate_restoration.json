@@ -1,0 +1,48 @@
+{
+  "id": "tech_climate_restoration",
+  "name": {
+    "en": "Climate Restoration",
+    "zh": "气候复苏"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "通过提升我们对大气改造的理解，我们将能对大多数的生态荒芜的世界进行环境改造。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

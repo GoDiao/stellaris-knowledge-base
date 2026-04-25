@@ -1,0 +1,480 @@
+{
+  "id": "become_crisis_events",
+  "name": {
+    "en": "Crisis Path Events",
+    "zh": "成为危机"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis",
+  "dlc": "Nemesis",
+  "lore": "",
+  "traits": [],
+  "events": [
+    {
+      "id": "crisis.4110",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.4111",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.4105",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.4100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.4100",
+      "name": {
+        "en": "Galactic Crisis Declared",
+        "zh": "宣告星系危机"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Can their rampage be stopped?",
+          "zh": "我们能够阻止他们的蹂躏吗？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4101",
+      "name": {
+        "en": "Galactic Crisis Declared",
+        "zh": "宣告星系危机"
+      },
+      "desc": {
+        "en": "The Imperial Senate has passed a resolution declaring the §H[new_crisis.GetName]§! a threat to all sapient life and a crisis of galactic proportions. As a consequence, the [new_crisis.GetName] finds itself in a state of war with the entirety of the Imperium.\\n\\nIn a public announcement transmitted from [gal_emperor.Capital.GetName], the [gal_emperor.GetRulerTitle] called upon all members of the Imperium to mobilize their fleets and launch a concerted attack on [new_crisis.GetSpeciesName] territory: \"The galaxy and the Imperium will not know peace until the [new_crisis.GetSpeciesName] menace has been dealt with once and for all.\"",
+        "zh": "帝国参议院通过了一项议案，宣布§H[new_crisis.GetName]§!是一切智慧生命体的威胁、是一场全星系范围的危机。从结果来说，[new_crisis.GetName]在今日同整个星海帝国开战了。\n\n在一场自[gal_emperor.Capital.GetName]对外播放的公开演讲中，[gal_emperor.GetRulerTitle]呼吁帝国的全体成员国对舰队进行总动员，并针对[new_crisis.GetSpeciesName]的领域发动联合攻击：“直到[new_crisis.GetSpeciesName]威胁被彻底地、一劳永逸地扫除干净，否则星系不会见证真正的和平。”"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Can their rampage be stopped?",
+          "zh": "我们能够阻止他们的蹂躏吗？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4105",
+      "name": {
+        "en": "Community Declares Us \"Galactic Crisis\"",
+        "zh": "共同体指定我方为“星系危机”"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "This will be glorious.",
+          "zh": "荣光无垠！"
+        },
+        {
+          "en": "This is madness!",
+          "zh": "疯了，全他妈疯了！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4106",
+      "name": {
+        "en": "Imperium Declares Us \"Galactic Crisis\"",
+        "zh": "帝国指定我方为“星系危机”"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "This will be glorious.",
+          "zh": "荣光无垠！"
+        },
+        {
+          "en": "This is madness!",
+          "zh": "疯了，全他妈疯了！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4110",
+      "name": {
+        "en": "Crisis Repealed",
+        "zh": "天灾指定已废止"
+      },
+      "desc": {
+        "en": "The resolution designating the §H[former_crisis.GetName]§! as a \"galactic crisis\" has been repealed by the Galactic Senate. As a result, all ongoing military operations being conducted by Community members against the [former_crisis.GetSpeciesNamePlural] are to cease at once. For now, peace has returned to this corner of the galaxy.",
+        "zh": "指定§H[former_crisis.GetName]§!为“星系危机”的议案如今已被星海参议院废止。作为结果，所有由星海共同体成员国针对[former_crisis.GetSpeciesNamePlural]展开的军事行动都被立马叫停。现在，和平已经降临了星系的这一隅。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Will it last?",
+          "zh": "和平又能持续多久呢？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4111",
+      "name": {
+        "en": "Crisis Repealed",
+        "zh": "天灾指定已废止"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "So they came to their senses.",
+          "zh": "理智终于占领了他们大脑的高地了。"
+        },
+        {
+          "en": "They fear us!",
+          "zh": "怕了吧，怕了吧！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4112",
+      "name": {
+        "en": "Crisis Repealed",
+        "zh": "天灾指定已废止"
+      },
+      "desc": {
+        "en": "The resolution designating the §H[former_crisis.GetName]§! as a \"galactic crisis\" has been repealed by the Imperial Senate. Consequently, the [gal_emperor.GetRulerTitle] has ordered an immediate cessation of all ongoing Imperial military operations targeting the [former_crisis.GetSpeciesNamePlural]. For now, peace has returned to this corner of the galaxy.",
+        "zh": "指定§H[former_crisis.GetName]§!为“星系危机”的议案如今已被帝国参议院废止。作为结果，[gal_emperor.GetRulerTitle]正式下令停止一切针对[former_crisis.GetSpeciesNamePlural]的帝国军事行动。现在，和平已经降临了星系的这一隅。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Will it last?",
+          "zh": "和平又能持续多久呢？"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4113",
+      "name": {
+        "en": "Crisis Repealed",
+        "zh": "天灾指定已废止"
+      },
+      "desc": {
+        "en": "The Galactic Imperium has repealed the resolution declaring us a \"crisis\" and all Imperial forces have been ordered to stand down. Their [gal_emperor.GetRulerTitle] has commanded the cessation of all hostilities against us... for now.",
+        "zh": "星海帝国已经废止了宣布我们为“星系危机”的议案，所有帝国军队均接到指令原地待命。[gal_emperor.GetRulerTitle]下令中止一切针对我们的敌对行动……暂时如此。"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "So they came to their senses.",
+          "zh": "理智终于占领了他们大脑的高地了。"
+        },
+        {
+          "en": "They fear us!",
+          "zh": "怕了吧，怕了吧！"
+        }
+      ]
+    },
+    {
+      "id": "crisis.6180",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6181",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.6182",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "planet_destruction.605",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event",
+      "options": []
+    },
+    {
+      "id": "crisis.4120",
+      "name": {
+        "en": "The Great Prospect",
+        "zh": "鸿景"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Magnificent!",
+          "zh": "叹为观止！"
+        },
+        {
+          "en": "Confirmed.",
+          "zh": "已确认。"
+        },
+        {
+          "en": "Fascinating.",
+          "zh": "很迷人。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4125",
+      "name": {
+        "en": "Well of Power",
+        "zh": "能量之泉"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Excellent news.",
+          "zh": "这消息太好了。"
+        },
+        {
+          "en": "Proceed.",
+          "zh": "进行研究。"
+        },
+        {
+          "en": "Beautiful.",
+          "zh": "美不胜收。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4130",
+      "name": {
+        "en": "Fuel From Another World",
+        "zh": "异界注能"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "We must accomplish this!",
+          "zh": "我们必须实现这个！"
+        },
+        {
+          "en": "Exceeding positive prediction.",
+          "zh": "超出正面预测。"
+        },
+        {
+          "en": "There is a way.",
+          "zh": "此举必为正道。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4135",
+      "name": {
+        "en": "The End Is Nigh",
+        "zh": "终焉将临"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Our time has come.",
+          "zh": "我们的时代来临了。"
+        },
+        {
+          "en": "Execute.",
+          "zh": "执行。"
+        },
+        {
+          "en": "All will be one.",
+          "zh": "万物归一。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4140",
+      "name": {
+        "en": "The Universe Shall Tremble",
+        "zh": "星海战栗"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "It is our destiny.",
+          "zh": "这是我们的宿命。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4145",
+      "name": {
+        "en": "We Are Legion",
+        "zh": "吾乃军团"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "This is the way.",
+          "zh": "这就是我们的道路。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4150",
+      "name": {
+        "en": "They Will Kneel",
+        "zh": "他们将跪服"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "Go forth and conquer.",
+          "zh": "前进，征服。"
+        }
+      ]
+    },
+    {
+      "id": "crisis.4155",
+      "name": {
+        "en": "The Prime Sovereignty",
+        "zh": "至高主权"
+      },
+      "desc": {
+        "en": "{",
+        "zh": "{"
+      },
+      "type": "country_event",
+      "options": [
+        {
+          "en": "One after another, they will yield.",
+          "zh": "一个接着一个，他们都终将臣服。"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "crisis",
+    "become_crisis"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "become_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6001"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_6005"
+    }
+  ]
+}

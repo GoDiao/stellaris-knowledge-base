@@ -1,0 +1,49 @@
+{
+  "id": "trait_robot_power_drills",
+  "name": {
+    "en": "Power Drills",
+    "zh": "动力钻头"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L要是给机器人装上电钻，那什么都看起来像矿。§!\n",
+  "traits": [
+    "planet_jobs_minerals_produces_mult: 0.15"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "ROBOT",
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "machine",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    }
+  ]
+}

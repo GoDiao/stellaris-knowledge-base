@@ -1,0 +1,48 @@
+{
+  "id": "tech_thought_enforcement",
+  "name": {
+    "en": "Thought Enforcement",
+    "zh": "思想钢印"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "心灵感应者可以监视具有错误思想的公民，在对心灵感应技术经过一定的研究之后，他们也可以纠正他们在公民中发现的思想错误。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_telepathy"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

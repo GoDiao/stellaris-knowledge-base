@@ -1,0 +1,32 @@
+id: tech_hyper_drive_2
+name:
+  en: Hyperlane Breach Points
+  zh: 超空间航道突破点
+category: technology
+subcategory: physics
+dlc: null
+lore: 我们已经确定太空中有能使舰船消耗更少的能源“突破”并进入一个超空间航道的点的存在。这将产生新一代的超级引擎。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

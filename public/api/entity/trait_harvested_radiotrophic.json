@@ -1,0 +1,45 @@
+{
+  "id": "trait_harvested_radiotrophic",
+  "name": {
+    "en": "0 \"Radiotrophic\"",
+    "zh": "辐射合成"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种需要食物和低能辐射维生，因此可以在环境最恶劣的星球上生存。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2302",
+  "name": {
+    "en": "Science Processing Unit Terminated!",
+    "zh": "科研处理单元被终止！"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "肃正协议对我们的自律研究处理单元进行了攻击，这次攻击在绕过我们的安全协议之后终止了科学单元[scientist.GetName]。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_synth_sabotage"
+}

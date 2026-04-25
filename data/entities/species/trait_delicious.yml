@@ -1,0 +1,30 @@
+id: trait_delicious
+name:
+  en: Delicious
+  zh: 美味
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种奇妙地进化成吃起来营养丰富，嘎嘣脆的物种了。§!
+traits:
+  - 'planet_livestock_food_produces_add: 2'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - positive
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

@@ -1,0 +1,48 @@
+{
+  "id": "tech_planetary_defenses",
+  "name": {
+    "en": "Planetary Defenses",
+    "zh": "行星防御"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "宇宙浩瀚冰冷，觊觎谋划者狡诈无情，保护我们的家园，时刻准备着。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "0",
+    "cost": "0",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": null,
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

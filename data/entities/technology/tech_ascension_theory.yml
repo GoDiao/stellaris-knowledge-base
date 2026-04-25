@@ -1,0 +1,33 @@
+id: tech_ascension_theory
+name:
+  en: Ascension Theory
+  zh: 飞升理论
+category: technology
+subcategory: society
+dlc: null
+lore: 我们的历史就是一个不断螺旋上升的过程。每次循环中，我们的科技、政治和文化水平都会出现飞跃式的发展。这些飞跃通常都出现在动乱之后，随后又带来相对平稳的时代。通过甄别这样的核心前提，我们也许能够大大缩短循环的时间，这样有利于缩短我们的发展周期。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost2'
+  category: null
+  prerequisites: []
+  features:
+    - unity_ambitions
+  weight: '@tier5weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

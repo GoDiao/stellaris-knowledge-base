@@ -1,0 +1,40 @@
+{
+  "id": "crisis_6161",
+  "name": {
+    "en": "The Dying Gasps of the Shroud",
+    "zh": "虚境的濒死之息"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis",
+  "dlc": "Nemesis",
+  "lore": "{\r",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "become_crisis"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "become_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "become_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_surreal_visions"
+}

@@ -1,0 +1,32 @@
+id: crisis_234
+name:
+  en: Hole in the Void
+  zh: 虚空之洞
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  最近几个月，我们捕捉到的普雷索林虫后越发地暴躁不安。起初，我们仅仅以为原因是它和人民断开了联系，但后来我们的通灵者告诉我们，它一直在和他们交流，提到了一个叫“虚空之洞”的东西。
+
+  我们的一个科研团队在研究普雷索林的星际航行方式时，发现我们的天文学数据库存在偏差，这才让我们明白了它的意思。他们在测绘普雷索林的来路时，发现距离我们3千万光年的一个小型螺旋星系……消失了。
+
+  我们种族在太空时代早期就发现并研究了该星系，但现在，我们的观察设备表明那里没有任何光线发出。这一既怪诞又意外的发现让我们的科学家十分震惊，他们开始焦头烂额地寻找一整个星系凭空消失的原因。
+
+  目前有两种解释：其一，该星系的所有恒星一同熄灭；其二，某种东西庞大到能遮盖整个星系，阻拦光线传播到我们这里。但两种理论都十分站不住脚，简直就是天方夜谭，还不如认为这个星系原本就不存在，先前的记录是原始天文望远镜造成的错误。不论如何，整个事件都被笼罩在浓厚的恐怖与不详之中……
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_physics_research

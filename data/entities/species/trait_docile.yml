@@ -1,0 +1,31 @@
+id: trait_docile
+name:
+  en: Docile
+  zh: 温顺
+category: species
+subcategory: trait
+dlc: null
+lore: §L该物种的个体易于管理和组织。他们更加友善且乐于合作。§!
+traits:
+  - 'species_empire_size_mult: -0.10'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

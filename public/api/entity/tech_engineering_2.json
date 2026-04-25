@@ -1,0 +1,48 @@
+{
+  "id": "tech_engineering_2",
+  "name": {
+    "en": "0 \"Supersolid Materials\" # As above, could be Supersolid Matter",
+    "zh": "超固体材料"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "充分了解与并生产这种超固体，可以使任何一个太空文明受益匪浅。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+id: trait_advanced_scintillating
+name:
+  en: 0 "Scintillating Skin"
+  zh: 闪烁表皮
+category: species
+subcategory: trait
+dlc: null
+lore: §L通过先进的基因工程，该物种的体表长满了由晶体和宝石构成的便于收割的鳞屑。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - positive
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

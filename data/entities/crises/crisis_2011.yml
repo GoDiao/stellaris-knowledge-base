@@ -1,0 +1,28 @@
+id: crisis_2011
+name:
+  en: Malfunctioning Synthetics
+  zh: 合成人故障
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  近日，[Root.GetName]上的一队合成人劳工在住宅区中大开杀戒，在被当地安保部门拿下之前已杀害了超过一千名我方公民。法庭的取证人员正在调查合成人的残骸，他们怀疑是合成人体内某种神经处理器发生故障，才导致了这次悲剧。
+
+  这次事件在[Root.GetPlanetMoon]上引发了数起针对合成人的报复式袭击，导致数千名合成人损毁。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: planet_event
+picture: GFX_evt_robot_assembly_plant

@@ -1,0 +1,48 @@
+{
+  "id": "tech_unity_of_purpose",
+  "name": {
+    "en": "Unity of Purpose",
+    "zh": "齐心协力"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "一个人的目标就是所有人的目标。唯有齐心协力，方可众志成城。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

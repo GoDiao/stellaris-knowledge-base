@@ -1,0 +1,33 @@
+id: tech_glandular_acclimation
+name:
+  en: Glandular Acclimation
+  zh: 腺体适应
+category: technology
+subcategory: society
+dlc: null
+lore: 通过改变腺体的生物特性，可定制物种的环境适应性。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features:
+    - habitability_gene_modding
+  weight: '@tier3weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_robot_custom_made
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

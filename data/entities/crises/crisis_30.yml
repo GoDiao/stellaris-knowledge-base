@@ -1,0 +1,25 @@
+id: crisis_30
+name:
+  en: Incoming Transmission
+  zh: 信号传输接入
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: "{\r"
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: null

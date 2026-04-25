@@ -1,0 +1,31 @@
+id: trait_robot_luxurious
+name:
+  en: Luxurious
+  zh: 奢华
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L以质量无价为原则而设计，这些一流的单位价格不菲，但是闪亮亮。§!
+traits: []
+species:
+  cost: '-2'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - negative
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

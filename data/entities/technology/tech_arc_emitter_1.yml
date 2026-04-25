@@ -1,0 +1,32 @@
+id: tech_arc_emitter_1
+name:
+  en: Arc Emitters
+  zh: 电弧发射器
+category: technology
+subcategory: physics
+dlc: null
+lore: 该武器可以向目标发射带有混乱能量的电弧。可以在某种程度上无视装甲和护盾。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

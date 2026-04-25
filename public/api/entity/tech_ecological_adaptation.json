@@ -1,0 +1,50 @@
+{
+  "id": "tech_ecological_adaptation",
+  "name": {
+    "en": "Ecological Adaptation",
+    "zh": "生态适应"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "通过改造行星生态系统使其更能适应大规模环境变化，我们能更有条不紊的进行环境改造。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "terraform_inhabited"
+    ],
+    "weight": "@tier3weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

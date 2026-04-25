@@ -1,0 +1,32 @@
+id: tech_pk_cracker
+name:
+  en: Core Cracking
+  zh: 地爆天星
+category: technology
+subcategory: engineering
+dlc: Apocalypse
+lore: 发射的热能流能够加热行星大气，并引爆行星核心，此举将彻底的毁灭星球的地壳构造。 最后，一个相对较小的冲击波会将行星炸得四分五裂。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

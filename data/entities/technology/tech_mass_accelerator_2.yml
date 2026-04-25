@@ -1,0 +1,32 @@
+id: tech_mass_accelerator_2
+name:
+  en: Giga Cannon
+  zh: 千兆级加农炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 更加强大的质量加速炮，能够轻易撕毁最坚固的护盾。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

@@ -1,0 +1,45 @@
+{
+  "id": "trait_lithoid_gaseous_byproducts",
+  "name": {
+    "en": "Gaseous Byproducts",
+    "zh": "气态副产物"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这一物种在代谢过程中会有规律地排放有工业价值的气体。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "trait_plantoid_phototrophic",
+  "name": {
+    "en": "Phototrophic",
+    "zh": "光合作用"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种需要食物和阳光维生。§!\n",
+  "traits": [],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

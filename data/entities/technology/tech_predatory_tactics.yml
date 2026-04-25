@@ -1,0 +1,32 @@
+id: tech_predatory_tactics
+name:
+  en: Predatory Tactics
+  zh: 掠食策略
+category: technology
+subcategory: society
+dlc: First Contact
+lore: 就像聪明的前超光速文明如何运动以在面对敌人的时候隐藏彼此一样，我们的飞行员可以学习到如何飞行的更快且不干扰到隐形场。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: DISTAR_SIGNAL_CAT
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

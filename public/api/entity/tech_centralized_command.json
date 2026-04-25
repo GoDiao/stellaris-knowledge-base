@@ -1,0 +1,48 @@
+{
+  "id": "tech_centralized_command",
+  "name": {
+    "en": "Centralized Command",
+    "zh": "集中指挥"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "为各级军事行动打造专门的指挥部以形成高效的舰队，为未来的军事训练打下良好的基础。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

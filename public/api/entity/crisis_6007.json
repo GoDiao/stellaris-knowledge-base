@@ -1,0 +1,40 @@
+{
+  "id": "crisis_6007",
+  "name": {
+    "en": "The Aetherophasic Engine",
+    "zh": "以太相引擎"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis",
+  "dlc": "Nemesis",
+  "lore": "以太相引擎已经在虚境的薄幕上撕开了一个巨大的洞口。尽管洞口尚不够大到让我们颠覆整个领域，但是裂口已经激发了虚境各种存在的一系列活动。\n\n它们最终意识到了我们的威胁，但是没有作出任何实质行动。引擎的卷须已经深深地嵌入到虚境内部，现在已经无法切断了。\n\n我们已经很接近了。非常接近。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "become_crisis"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "become_crisis"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6000"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6005"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6006"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_6015"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_space_monster"
+}

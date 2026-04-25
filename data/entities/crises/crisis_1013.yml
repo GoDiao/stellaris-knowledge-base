@@ -1,0 +1,25 @@
+id: crisis_1013
+name:
+  en: Dimensional Portal Destroyed
+  zh: 异次元传送门被摧毁
+category: crisis
+subcategory: contingency
+dlc: null
+lore: 位于[extradimensional_system.GetName]星系的高维传送门已经被摧毁了！这些可恶的高维入侵者没法再叫来援兵了。摧毁了传送门后，这场战争终于迎来了胜利的曙光。星系中的广大民众都在欢呼雀跃。同时，[portal_killer.GetName]也倍受称赞，因为他们的飞船给了传送门最后一击。他们的英雄事迹将被代代传颂。
+traits: []
+tags:
+  - crisis_event
+  - contingency
+relations:
+  - type: 所属
+    target: contingency
+  - type: 提及
+    target: trait_exd
+  - type: 关联
+    target: contingency
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_wormhole

@@ -1,0 +1,25 @@
+id: crisis_107
+name:
+  en: Someone Else Got The Queen
+  zh: 虫后被抢走
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: 我们在[queen_system_1.GetName]星系发现的受伤的普雷索林虫后不幸被别人抢走了！他们在治愈了虫后之后，又切断了虫后用来与同族联系的器官。这下虫后可完全听命于他们了。报告还称，虫后已经在孕育幼虫了。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_society_research

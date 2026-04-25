@@ -1,0 +1,47 @@
+{
+  "id": "trait_robot_emotion_emulators",
+  "name": {
+    "en": "Emotion Emulators",
+    "zh": "情感模拟器"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L复杂的社会预测模型不仅帮助自动单元适当地模仿情绪，而且还使它能从有机体与合成体得到正面的反馈。§!\n",
+  "traits": [
+    "pop_job_amenities_mult: 0.20"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "machine",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

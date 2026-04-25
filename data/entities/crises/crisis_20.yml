@@ -1,0 +1,28 @@
+id: crisis_20
+name:
+  en: The Second Wave
+  zh: 第二波接触
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  我们已经无法从星系的背景辐射中分辨出亚空间回声的主体，这只意味着一件事情……他们已经到来。
+
+  如果以他们先锋的规模作为参考，那么这些入侵者的军队数量将是无比巨大的。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 提及
+    target: crisis_11
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: GFX_evt_physics_research

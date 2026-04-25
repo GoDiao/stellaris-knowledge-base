@@ -1,0 +1,51 @@
+{
+  "id": "trait_cyborg_logic_engines",
+  "name": {
+    "en": "Logic Engines",
+    "zh": "逻辑引擎"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L驾驭愈发复杂的科学前沿研究需要并行处理器以增强有机大脑。§!",
+  "traits": [
+    "planet_jobs_physics_research_produces_mult: 0.10",
+    "planet_jobs_society_research_produces_mult: 0.10",
+    "planet_jobs_engineering_research_produces_mult: 0.10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

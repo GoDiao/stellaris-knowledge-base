@@ -1,0 +1,28 @@
+id: trait_lithoid_scintillating
+name:
+  en: Scintillating Skin
+  zh: 闪烁表皮
+category: species
+subcategory: trait
+dlc: null
+lore: §L这一物种的体表布满了闪闪发光的晶体和宝石，间或剥落而下。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

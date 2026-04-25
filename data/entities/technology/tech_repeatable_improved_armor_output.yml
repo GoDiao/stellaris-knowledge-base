@@ -1,0 +1,33 @@
+id: tech_repeatable_improved_armor_output
+name:
+  en: Matter Compression
+  zh: 物质压缩
+category: technology
+subcategory: engineering
+dlc: null
+lore: 把合适的材料压缩成超高密度，是一种便宜又有效的提高防护力的方式。
+traits: []
+tags:
+  - technology
+  - engineering
+  - repeatable
+technology:
+  area: engineering
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

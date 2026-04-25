@@ -1,0 +1,51 @@
+{
+  "id": "tech_synthetic_workers",
+  "name": {
+    "en": "Synthetics",
+    "zh": "合成人"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "高级机器人，比绝大多数有机生物更强，更快，更耐用。其神经处理器有很大提高，拥有独立运作的能力。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "4",
+    "cost": "@tier4cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "synths",
+      "gateway:robotics"
+    ],
+    "weight": "@tier4weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_cyborg_durable"
+    },
+    {
+      "type": "提及",
+      "target": "trait_robot_durable"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    }
+  ]
+}

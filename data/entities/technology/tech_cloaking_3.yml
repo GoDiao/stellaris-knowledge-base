@@ -1,0 +1,32 @@
+id: tech_cloaking_3
+name:
+  en: Elite Cloaking Fields
+  zh: 精英隐形场
+category: technology
+subcategory: physics
+dlc: First Contact
+lore: 以往典型的隐形技术会对舰船上相对精密的仪器造成严重的损害。但是精英隐形场的出现让这样的担忧显得过时。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '4'
+  cost: '@tier4cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

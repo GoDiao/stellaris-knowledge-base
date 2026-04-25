@@ -1,0 +1,33 @@
+id: tech_repeatable_improved_tile_energy_output
+name:
+  en: Applied Superconductivity
+  zh: 超导应用
+category: technology
+subcategory: physics
+dlc: null
+lore: 轻微改善传输效率可以相当大的减少总能量损失。
+traits: []
+tags:
+  - technology
+  - physics
+  - repeatable
+technology:
+  area: physics
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

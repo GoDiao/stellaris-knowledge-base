@@ -1,0 +1,32 @@
+id: tech_mining_2
+name:
+  en: Deep Core Mining
+  zh: 地心开采
+category: technology
+subcategory: engineering
+dlc: null
+lore: 借助这些大型钻机，我们可以开采接近地心附近常见的深层富矿。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

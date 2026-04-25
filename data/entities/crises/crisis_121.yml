@@ -1,0 +1,30 @@
+id: crisis_121
+name:
+  en: Feral Prethoryn Sighted
+  zh: 发现野生索林原虫
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  在虫群天灾被击败后，我们未能掌握一些趁乱逃跑地索林原虫的踪迹。没有中枢主巢的指引，这些没有心智的野兽大部分会凋谢消散。
+
+  然而，最近有目击报告确认，一大群野生索林原虫在§H[feral_prethoryn_system.GetName]§!星系建立了一个新巢穴。
+
+  在今后，我们有很大可能在虫群天灾曾经出现过的无人占领星系遇见野生虫群巢穴。不过它们不太可能发展成一个大威胁——这些野生生物易于陷入内斗，也没有表现出发展智力并驱使天灾继续进行的迹象。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_society_research

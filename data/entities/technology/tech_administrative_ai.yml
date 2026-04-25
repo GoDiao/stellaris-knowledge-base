@@ -1,0 +1,32 @@
+id: tech_administrative_ai
+name:
+  en: Administrative AI
+  zh: 管理型人工智能
+category: technology
+subcategory: physics
+dlc: null
+lore: 逻辑电路经特殊重组后有着相当的学术热情。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '1'
+  cost: '@tier1cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_advanced_metallurgy_1
+  - type: 关联
+    target: tech_advanced_metallurgy_2

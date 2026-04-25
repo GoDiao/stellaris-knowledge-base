@@ -1,0 +1,49 @@
+{
+  "id": "trait_limited_regeneration",
+  "name": {
+    "en": "Limited Regeneration",
+    "zh": "有限再生"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L该物种经过改造，使其伤口愈合得更快，不仅战斗力更强，同时也稍微延长了寿命。§!",
+  "traits": [
+    "army_damage_mult: 0.1",
+    "leader_lifespan_add: 10"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

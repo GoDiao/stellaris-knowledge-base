@@ -1,0 +1,53 @@
+{
+  "id": "trait_erudite",
+  "name": {
+    "en": "Erudite",
+    "zh": "博学多识"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L生物工程学解开了以前这个物种大脑休眠的部分，使其才智更加敏锐。§!\n",
+  "traits": [
+    "planet_jobs_physics_research_produces_mult: 0.2",
+    "planet_jobs_society_research_produces_mult: 0.2",
+    "planet_jobs_engineering_research_produces_mult: 0.2",
+    "negative_leader_traits_species: -1",
+    "leaders_upkeep_mult: -0.1"
+  ],
+  "species": {
+    "cost": "4",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "trait_cyborg_learning_algorithms",
+  "name": {
+    "en": "Learning Algorithms",
+    "zh": "学习算法"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L复杂的自我学习算法，能够模拟单元神经丛的快速演化。§!\n",
+  "traits": [
+    "species_leader_exp_gain: 0.10",
+    "negative_leader_traits_species: -1",
+    "leaders_upkeep_mult: -0.1"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_robot_learning_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

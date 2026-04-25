@@ -1,0 +1,25 @@
+id: crisis_11
+name:
+  en: Subspace Echoes
+  zh: 亚空间回声
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: 我方的几处跟踪站都截获了一种奇怪的亚空间回声。声音来源于其他星系。回声刚开始时较弱，但后来逐渐变强，似乎有什么正在靠近我方星系……
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_physics_research

@@ -1,0 +1,28 @@
+id: crisis_2085
+name:
+  en: Synth Infiltration Attempt
+  zh: 合成人渗透企图
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  最近在[infil_planet.GetName]上发现了一些忠于肃正协议的合成人渗透者，它们正试图伪装成[Root.Owner.GetSpeciesNamePlural]。还好，它们拙劣的伪装只不过在他们机械框架的外面覆盖着几层橡胶而已。
+
+  它们很快就被星球上的宪兵队识别出来，经过短暂但激烈的交火后很快就被摧毁了。在它们的残骸中，我们发现了大量的爆炸物。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_robot_assembly_plant

@@ -1,0 +1,31 @@
+id: trait_cyborg_harvesters
+name:
+  en: Harvesters
+  zh: 收割套件
+category: species
+subcategory: trait
+dlc: null
+lore: §L从营养疗法，就地平衡技术到单杆脱粒技术，这一整套技术工具能够增加义体人劳工的食物产出。§!
+traits:
+  - 'planet_jobs_food_produces_mult: 0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 提及
+    target: trait_cybernetic
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

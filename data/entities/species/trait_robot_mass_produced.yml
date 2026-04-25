@@ -1,0 +1,32 @@
+id: trait_robot_mass_produced
+name:
+  en: Mass-Produced
+  zh: 量产
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L流线型生产与模块化设计使单位可以高效率地进行量产。§!
+traits:
+  - 'planet_pop_assembly_mult: 0.15'
+species:
+  cost: '1'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

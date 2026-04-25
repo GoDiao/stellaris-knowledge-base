@@ -1,0 +1,25 @@
+id: crisis_2308
+name:
+  en: Erroneous Units Confirmed Healthy
+  zh: 故障单元证实未被腐化
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 看来我们对故障单元的评估是正确的。他们并没有被幽灵信号腐化，只是缺乏维护而已。为了减轻信号的干扰，我们的系统目前正在超负荷运转。现在各单元已经检修完毕且运行正常。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: crisis_2010
+  - type: 提及
+    target: DISTAR_SIGNAL_CAT
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: crisis_10
+event_type: country_event
+picture: GFX_evt_circuitry_modification

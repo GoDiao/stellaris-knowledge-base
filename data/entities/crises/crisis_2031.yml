@@ -1,0 +1,28 @@
+id: crisis_2031
+name:
+  en: Second Machine World
+  zh: 第二颗机械星球
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  我们又检测到了巨大的能源激增现象，这次是来自§H[From.solar_system.GetName]§!星系！该星系中的一颗灼热的熔融行星被人为以某种方式进行了骤冷处理，导致该行星彻底开裂，行星内部那巨大的行星工厂也随之展露在世人眼前。
+
+  现在，人工智能所控制的飞船正从那机械星球中蜂拥而出。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: crisis_2030
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_contingency_planet

@@ -1,0 +1,47 @@
+{
+  "id": "trait_robot_loyalty_circuits",
+  "name": {
+    "en": "Loyalty Circuits",
+    "zh": "忠诚电路"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L忠诚该概念只属于有机生物。因此要把忠诚想像成即使最遥远的终端也必须满足的生理需求。§!\n",
+  "traits": [
+    "pop_happiness: 0.1"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "ROBOT"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

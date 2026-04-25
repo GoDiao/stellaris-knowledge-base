@@ -1,0 +1,32 @@
+id: tech_volcano
+name:
+  en: Deep Crust Engineering
+  zh: 地壳深部工程
+category: technology
+subcategory: society
+dlc: null
+lore: 材料科技的发展与深井开采技术可使我们在过去无法想象的深度与温度中开展地质工程。岩浆热点现在已可以进行开发，抑制甚至迁移。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

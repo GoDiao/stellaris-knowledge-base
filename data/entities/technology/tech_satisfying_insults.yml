@@ -1,0 +1,32 @@
+id: tech_satisfying_insults
+name:
+  en: Satisfying Insults
+  zh: 令人满意的侮辱技巧
+category: technology
+subcategory: society
+dlc: First Contact
+lore: 没有什么比恰到好处的侮辱更强力的了，我们现在已经知道了如何用数种语言辱骂其他一个物种的祖先。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

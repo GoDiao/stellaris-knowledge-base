@@ -1,0 +1,48 @@
+{
+  "id": "tech_rare_crystals",
+  "name": {
+    "en": "Rare Crystal Manufacturing",
+    "zh": "稀有水晶生产"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "结晶化的过程复杂且困难，但只要有专门的生产工厂，我们就可以生产人工制造水晶。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

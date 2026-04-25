@@ -1,0 +1,32 @@
+id: tech_missiles_3
+name:
+  en: Antimatter Missiles
+  zh: 反物质导弹
+category: technology
+subcategory: engineering
+dlc: null
+lore: 这些先进的导弹配备有强劲的反物质弹头。更加完善的导航系统大大提高了索敌能力。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

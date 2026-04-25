@@ -1,0 +1,48 @@
+{
+  "id": "tech_biomechanics",
+  "name": {
+    "en": "Biomechanics",
+    "zh": "生物力学"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "经过数百万年坚持不懈的进化，有机生命有时也会进化出优雅简洁的解决方案，这可以应用到机械设计中。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+id: tech_planetary_government
+name:
+  en: Planetary Government
+  zh: 行星政府
+category: technology
+subcategory: society
+dlc: null
+lore: 殖民地建立完毕后，开拓者就变成了公民，殖民时期的灵活机关也就必须转变为能维持稳定的强力地方政府。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '0'
+  cost: '@tier0cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: null
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

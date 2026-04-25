@@ -1,0 +1,32 @@
+id: tech_nanite_repair_system
+name:
+  en: Nanite Repair System
+  zh: 纳米修复系统
+category: technology
+subcategory: engineering
+dlc: Distant Stars
+lore: 在拾荒者机器人的残骸里发现了一种高效的船壳自动维修系统，由数十亿个微型纳米机器人组成，并已改造成可为我们所用。至于拾荒者是从远古残骸中夺取了这个系统，还是原本就自带该系统则不得而知。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

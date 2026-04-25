@@ -1,0 +1,32 @@
+id: tech_cloaking_psi
+name:
+  en: Psi-Phase Field Generator
+  zh: 灵能相位场发生器
+category: technology
+subcategory: society
+dlc: First Contact
+lore: 灵能相位场发生器能够聚焦船员的灵能潜势，从而将舰船部分相位潜入到虚境中。这将使得舰船只能被最好的传感阵列探测到，尽管在这种情况下船员被迫要面对的事还是最好别说了。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_latent_psionic
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

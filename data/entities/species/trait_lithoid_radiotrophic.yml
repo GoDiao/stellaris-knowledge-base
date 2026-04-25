@@ -1,0 +1,28 @@
+id: trait_lithoid_radiotrophic
+name:
+  en: 0 "Radiotrophic"
+  zh: 辐射合成
+category: species
+subcategory: trait
+dlc: null
+lore: §L这个物种需要食物和低能辐射维生，因此可以在环境最恶劣的星球上生存。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

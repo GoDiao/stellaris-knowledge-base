@@ -1,0 +1,32 @@
+id: tech_mine_exotic_gases
+name:
+  en: Exotic Gas Extraction
+  zh: 异星天然气开采
+category: technology
+subcategory: engineering
+dlc: null
+lore: 异星天然气十分珍贵，但以传统方式进行采集是不可取的。只有特殊的采集技术才能对其进行收集。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_traditional
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

@@ -1,0 +1,51 @@
+{
+  "id": "trait_pc_ringworld_habitable_preference",
+  "name": {
+    "en": "Ring World Preference",
+    "zh": "环形世界偏好"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L气候偏好由亿万年来的进化、设计，或是人工基因操纵所决定。§!",
+  "traits": [
+    "pc_ringworld_habitable_habitability: 1.0"
+  ],
+  "species": {
+    "cost": 0,
+    "archetypes": [
+      "BIOLOGICAL",
+      "PRESAPIENT",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "presapient",
+    "lithoid",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

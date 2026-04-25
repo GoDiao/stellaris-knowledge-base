@@ -1,0 +1,25 @@
+id: crisis_2314
+name:
+  en: Security Breach
+  zh: 防线突破
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 幽灵信号已经突破了我们的所有防线。我们发现一个敌对的自我复制序列正在连接到我们的安全系统。序列中内嵌了一段来自肃正协议的友情提示：§Y<杀戮。致残。肢解！>§!。现在他们已经骇进了我们的核心功能区，在我们找到办法屏蔽它之前，我们随时暴露在它的攻击之下。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: crisis_2010
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_glitchy_matrix

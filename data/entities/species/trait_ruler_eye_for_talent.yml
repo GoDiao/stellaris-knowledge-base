@@ -1,0 +1,26 @@
+id: trait_ruler_eye_for_talent
+name:
+  en: Eye for Talent
+  zh: 伯乐之眼
+category: species
+subcategory: trait
+dlc: null
+lore: 这位领袖洞察力异常敏锐，寻常人眼中只是古怪或无用的人，他能够发现其中的天才。
+traits: []
+species:
+  cost: '1'
+  archetypes: []
+tags:
+  - trait
+  - positive
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

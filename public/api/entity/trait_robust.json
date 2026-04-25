@@ -1,0 +1,49 @@
+{
+  "id": "trait_robust",
+  "name": {
+    "en": "Robust",
+    "zh": "强健"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L经过生物学优化并带有富余功能的器官，使得这个物种对环境灾害和疾病有非同寻常的抵抗力。§!\n",
+  "traits": [
+    "pop_environment_tolerance: 0.30",
+    "planet_jobs_produces_mult: 0.05",
+    "leader_lifespan_add: 50"
+  ],
+  "species": {
+    "cost": "4",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

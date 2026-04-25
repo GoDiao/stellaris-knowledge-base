@@ -1,0 +1,32 @@
+id: trait_enduring
+name:
+  en: Enduring
+  zh: 延年益寿
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种的寿命令人惊讶地长。§!
+traits:
+  - 'leader_lifespan_add: 20'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

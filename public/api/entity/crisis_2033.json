@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2033",
+  "name": {
+    "en": "Fourth Machine World",
+    "zh": "第四颗机械星球"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "第四颗机械星球出现在§H[From.solar_system.GetName]§!星系。该星系的第六颗行星被有毒的烟雾所覆盖，但最近这颗行星却在短短的数天之内将自己的大气层全部排除干净了，然后行星地表发生了开裂，巨型机械工厂随之出现。\n\n由人工智能控制的古代舰队从工厂的地下机库中一跃而出，随时准备对宇宙中的有机生物文明发动新一轮的绝罚。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2030"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_contingency_planet"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1271",
+  "name": {
+    "en": "Invasion Defeated",
+    "zh": "击退入侵"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "最后残存的高维入侵者也已被彻底消灭，希望我们这回算是一劳永逸地消除了这些家伙对宇宙的威胁。全宇宙的智能生物都在庆祝这一伟大的胜利，在得知不必再惧怕成为他们盘中之餐的消息后，所有人都松了一口气。也许，这会成为宇宙新一轮全面合作与友谊的开端呢？",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_crisis_defeated"
+}

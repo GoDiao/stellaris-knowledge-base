@@ -1,0 +1,26 @@
+id: trait_ruler_home_in_the_sky
+name:
+  en: Home in the Sky
+  zh: 星辰大海
+category: species
+subcategory: trait
+dlc: null
+lore: 这位领袖的梦想是星辰大海。
+traits: []
+species:
+  cost: 0
+  archetypes: []
+tags:
+  - trait
+  - neutral
+relations:
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts
+  - type: 关联
+    target: trait_advanced_phototrophic

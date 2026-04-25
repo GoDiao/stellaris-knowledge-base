@@ -1,0 +1,28 @@
+id: crisis_51
+name:
+  en: Rise of the Sentinels
+  zh: 哨兵崛起
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  一个同索林原虫进行战斗的组织最近在星系崭露头角。这个组织似乎主要由被放逐和受压迫的群体组成——难民、退役军人、以及其他在冲击中失去一切的人。
+
+  尽管如此，他们拼凑出来的舰队仍旧设法在几场同索林猎杀虫群的战斗中取胜。有些未证实的报告称他们的舰队中有一些设计奇特的战舰……
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_federation_fleet

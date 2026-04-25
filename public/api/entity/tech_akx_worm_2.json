@@ -1,0 +1,48 @@
+{
+  "id": "tech_akx_worm_2",
+  "name": {
+    "en": "Doctrine: Strange Loop",
+    "zh": "学说：奇异循环"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Horizon Signal",
+  "lore": "这是一整套基于自相矛盾的直觉，还有爱，之上的社会准则。当我们通晓圆环之理后，我们了解到，无论是发出指令抑或是接受指令，我们都可以对其产生影响。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "@horizontechtier",
+    "cost": "@horizontechcost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "60",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

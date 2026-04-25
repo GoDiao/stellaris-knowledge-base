@@ -1,0 +1,40 @@
+{
+  "id": "crisis_215",
+  "name": {
+    "en": null,
+    "zh": null
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "planet_event",
+  "picture": null
+}

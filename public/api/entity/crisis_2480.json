@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2480",
+  "name": {
+    "en": "Mainframe Core Salvaged",
+    "zh": "寻回主机核心"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们的部队已经从肃正协议的最后一个机械星球的残骸中寻回了一个部分完好的§H肃正协议主机核心§!。这台功能极其强大的计算机被用于计划和维护肃正协议的建筑程序，它将极大的加快我们的机器人和巨型结构的建造速度。\n\n当然，必须设置多层次的防护措施，以防止任何残留的肃正协议代码再次运作，那将会带来……很不舒服的副作用。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2030"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_shattered_planet"
+}

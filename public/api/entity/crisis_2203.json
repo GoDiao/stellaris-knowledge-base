@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2203",
+  "name": {
+    "en": "Special Project Completed",
+    "zh": "特殊项目完成"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "在大量实验之后，我们的科学家成功研发出了识别伪装成[Root.GetSpeciesNamePlural]的合成人的有效方法。我们的安保措施上安装了扫描设备，一些合成人已经被发现并摧毁。希望这足以终结它们的渗透行动。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_circuitry_modification"
+}

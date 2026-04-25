@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1211",
+  "name": {
+    "en": "Incoming Transmission",
+    "zh": "信号传输接入"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "……笨蛋……居然躲到了这里……你们逃不掉的……我们会摧毁你俩的帝国……然后……最终……永恒的王座将属于我们……",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

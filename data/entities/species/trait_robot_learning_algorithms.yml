@@ -1,0 +1,32 @@
+id: trait_robot_learning_algorithms
+name:
+  en: Learning Algorithms
+  zh: 学习算法
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L复杂的自我学习的算法，能够刺激单元的神经节点快速进化。§!
+traits:
+  - 'species_leader_exp_gain: 0.10'
+species:
+  cost: '1'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

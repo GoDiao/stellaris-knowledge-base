@@ -1,0 +1,49 @@
+{
+  "id": "trait_deviants",
+  "name": {
+    "en": "Deviants",
+    "zh": "天性反常"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种天生反骨，会不断尝试挑战现状。§!\n",
+  "traits": [
+    "pop_government_ethic_attraction: -0.15"
+  ],
+  "species": {
+    "cost": "-1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "trait_sedentary",
+  "name": {
+    "en": "Sedentary",
+    "zh": "安土重迁"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种有一段安土重迁的过往，其人口十分不愿迁离成长的地方。§!\n",
+  "traits": [
+    "pop_growth_from_immigration: -0.15",
+    "pop_resettlement_cost_mult: 0.25"
+  ],
+  "species": {
+    "cost": "-1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

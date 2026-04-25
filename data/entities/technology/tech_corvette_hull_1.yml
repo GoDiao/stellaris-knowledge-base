@@ -1,0 +1,32 @@
+id: tech_corvette_hull_1
+name:
+  en: Improved Corvette Hulls
+  zh: 改进护卫舰船体
+category: technology
+subcategory: engineering
+dlc: null
+lore: 建造技术的进步将使得我们能够进行更坚固更耐用的护卫舰的建造。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '1'
+  cost: '@tier1cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_corvettes
+  - type: 提及
+    target: trait_cyborg_durable
+  - type: 提及
+    target: trait_robot_durable
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy

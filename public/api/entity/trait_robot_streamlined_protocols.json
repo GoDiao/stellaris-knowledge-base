@@ -1,0 +1,49 @@
+{
+  "id": "trait_robot_streamlined_protocols",
+  "name": {
+    "en": "Streamlined Protocols",
+    "zh": "流线协议"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L高度批次化的AI处理使这些单位得以在极大规模的集群行动时只有最小的效率损失。§!",
+  "traits": [
+    "species_empire_size_mult: -0.10"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "ROBOT",
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "machine",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    }
+  ]
+}

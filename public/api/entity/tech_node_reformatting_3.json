@@ -1,0 +1,48 @@
+{
+  "id": "tech_node_reformatting_3",
+  "name": {
+    "en": "Advanced Node Reformatting",
+    "zh": "先进节点格式化"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "使用一个失败的软件来开发它的继任者可以快速重建。从错误的记忆路径中学习可以产生更高级的内阁指令。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

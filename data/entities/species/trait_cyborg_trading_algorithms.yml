@@ -1,0 +1,31 @@
+id: trait_cyborg_trading_algorithms
+name:
+  en: Trading Algorithms
+  zh: 贸易算法
+category: species
+subcategory: trait
+dlc: null
+lore: §L预测算法可以实现最大的优化。市场上无穷小的波动，无论是流通率、库存情况、有机客户的情绪反应都会被纳入考量。§!
+traits:
+  - 'pop_job_trade_mult: 0.25'
+species:
+  cost: '1'
+  archetypes:
+    - '0'
+    - '1'
+tags:
+  - trait
+  - '0'
+  - '1'
+  - positive
+relations:
+  - type: 提及
+    target: tech_pd_tracking_3
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding
+  - type: 关联
+    target: trait_advanced_gaseous_byproducts

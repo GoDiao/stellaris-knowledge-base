@@ -1,0 +1,51 @@
+{
+  "id": "trait_cyborg_bulky",
+  "name": {
+    "en": "Bulky",
+    "zh": "笨重"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这些高度先进的超级机器并不是为装在箱子里遨游宇宙而设计的。§!\n",
+  "traits": [
+    "pop_housing_usage_mult: 0.1",
+    "pop_growth_from_immigration: -0.15",
+    "pop_resettlement_cost_mult: 0.25"
+  ],
+  "species": {
+    "cost": "-2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

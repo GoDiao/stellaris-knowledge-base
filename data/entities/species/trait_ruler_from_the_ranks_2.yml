@@ -1,0 +1,26 @@
+id: trait_ruler_from_the_ranks_2
+name:
+  en: trait_ruler_from_the_ranks_2
+  zh: trait_ruler_from_the_ranks_2
+category: species
+subcategory: trait
+dlc: null
+lore: trait_ruler_from_the_ranks_2_desc
+traits: []
+species:
+  cost: 0
+  archetypes: []
+tags:
+  - trait
+  - neutral
+relations:
+  - type: 提及
+    target: trait_ruler_from_the_ranks
+  - type: 提及
+    target: ai
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

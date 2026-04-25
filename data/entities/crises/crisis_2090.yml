@@ -1,0 +1,28 @@
+id: crisis_2090
+name:
+  en: Synth Infiltrator Discovered
+  zh: 合成人渗透者被发现
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  最近在§H[infil_planet2.GetName]§!发生的一场悲剧性的悬浮汽车事故夺取了几条生命，但是负责事故处理的应急医疗人员震惊地发现在遇难者中有合成人的残骸！
+
+  该单位通过在机械骨骼外覆盖一层薄薄的有机肌肉伪装成[Root.Owner.GetSpeciesName]。与我们之前遭遇的肃正协议的渗透者模型不同，这个合成人从外表看上去和[Root.Owner.GetSpeciesName]别无二致！
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_cybernetics

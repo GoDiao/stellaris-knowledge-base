@@ -1,0 +1,32 @@
+id: tech_lgate_activation
+name:
+  en: L-Gate Activation
+  zh: L-星门启动
+category: technology
+subcategory: physics
+dlc: Distant Stars
+lore: L-星门超出了我们对亚空间原理的理解。在将其开启之前，我们必须对此进行补救。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

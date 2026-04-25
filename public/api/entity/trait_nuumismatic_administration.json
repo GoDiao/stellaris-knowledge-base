@@ -1,0 +1,42 @@
+{
+  "id": "trait_nuumismatic_administration",
+  "name": {
+    "en": "Numistic Administration",
+    "zh": "拜金教管理模式"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这个物种通过训练掌握了拜金教神圣的管理艺术。",
+  "traits": [],
+  "species": {
+    "cost": "1",
+    "archetypes": []
+  },
+  "tags": [
+    "trait",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_phototrophic"
+    }
+  ]
+}

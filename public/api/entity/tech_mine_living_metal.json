@@ -1,0 +1,48 @@
+{
+  "id": "tech_mine_living_metal",
+  "name": {
+    "en": "Living Metal",
+    "zh": "活体金属"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "开采和处理罕见的活体金属极其困难，但如果成功使用这些易变金属，获得的收益也无法估量。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "5",
+    "cost": "@tier5cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

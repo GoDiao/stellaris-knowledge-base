@@ -1,0 +1,50 @@
+{
+  "id": "tech_jump_drive_1",
+  "name": {
+    "en": "Jump Drive",
+    "zh": "跃迁引擎"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "一项开创性科技奇迹，跃迁引擎可以粉碎当地的时空连续性并在量子层面上重组至与目标地点完全相同的状态，于是这艘舰船基几乎在一瞬间完成了星系间的“跃迁”。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "5",
+    "cost": "@tier5cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "jump_method"
+    ],
+    "weight": "@tier5weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

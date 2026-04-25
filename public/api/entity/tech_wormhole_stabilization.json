@@ -1,0 +1,50 @@
+{
+  "id": "tech_wormhole_stabilization",
+  "name": {
+    "en": "Wormhole Stabilization",
+    "zh": "虫洞稳定"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "天然产生的虫洞变幻无常，而其波动的能级通常使舰船无法安全地穿行其连接的开口。不过，暂时稳定其基体的方法还是存在的。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "3",
+    "cost": "@tier3cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "wormhole_stabilization"
+    ],
+    "weight": "@tier3weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

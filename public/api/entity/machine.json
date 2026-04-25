@@ -1,0 +1,44 @@
+{
+  "id": "machine",
+  "name": {
+    "en": "SPECIES_CLASS_MACHINE",
+    "zh": "SPECIES_CLASS_MACHINE"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "MACHINE",
+    "portraits": [],
+    "graphical_culture": "mammalian_01",
+    "gender": false
+  },
+  "tags": [
+    "species_class",
+    "machine"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    }
+  ]
+}

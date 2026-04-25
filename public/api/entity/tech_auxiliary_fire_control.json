@@ -1,0 +1,48 @@
+{
+  "id": "tech_auxiliary_fire_control",
+  "name": {
+    "en": "Auxiliary Fire-control",
+    "zh": "辅助火控"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "安装辅助火控系统后，我们的舰船可以完成更加精密的计算以及准确的射击。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "1",
+    "cost": "@tier1cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

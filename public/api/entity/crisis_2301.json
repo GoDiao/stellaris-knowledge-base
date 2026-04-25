@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2301",
+  "name": {
+    "en": "Starbase Hijacked",
+    "zh": "恒星基地被劫持"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们失去了位于§H[space_port_hijacked_planet.GetName]§!上方恒星基地的控制权。肃正协议使用幽灵信号阻塞了我们的上行链路，劫持了恒星基地的控制模块并将其设置为自毁模式。虽然我们无法及时拯救这座基地，好在我们成功地堵住了这个安全漏洞，以保证我们的港口在今后免受类似的袭击。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2010"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_sabotaged_ship"
+}

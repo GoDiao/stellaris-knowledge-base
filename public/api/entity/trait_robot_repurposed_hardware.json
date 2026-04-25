@@ -1,0 +1,49 @@
+{
+  "id": "trait_robot_repurposed_hardware",
+  "name": {
+    "en": "Repurposed Hardware",
+    "zh": "特制硬件"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这一系列的机器原本是为了特定的目的而设计，自主思考能力并不在其原本的设计范围内，而改造也只能做到一定程度。§!\n",
+  "traits": [
+    "species_leader_exp_gain: -0.10"
+  ],
+  "species": {
+    "cost": "-1",
+    "archetypes": [
+      "ROBOT",
+      "MACHINE"
+    ]
+  },
+  "tags": [
+    "trait",
+    "robot",
+    "machine",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "machine"
+    },
+    {
+      "type": "关联",
+      "target": "robot"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    }
+  ]
+}

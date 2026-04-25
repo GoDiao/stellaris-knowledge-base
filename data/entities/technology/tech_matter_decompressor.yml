@@ -1,0 +1,32 @@
+id: tech_matter_decompressor
+name:
+  en: 0 "Matter Decompressor"
+  zh: 物质解压器
+category: technology
+subcategory: physics
+dlc: null
+lore: 这个§Y$matter_decompressor_4$§!将黑洞的引力聚焦于一处，形成了一个引力钻头，我们可以用这个钻头从黑洞的奇点中钻取物质，并转化为£minerals£矿物。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_71",
+  "name": {
+    "en": "The Sentinel Order",
+    "zh": "哨兵组织"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "星际护卫舰对于你们抵抗虫群天灾的英勇事迹十分赞赏。既然[Root.GetName]的舰队指挥官连连获胜，我们希望将自己的舰队之一永久交予你方。我方目前人力不足，无法将舰队的威力发挥到最大，但对你们来说这应该不成问题。\n\n不过你们一定要郑重承诺，只会用这些飞船对抗虫群天灾！",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "提及",
+      "target": "tech_corvettes"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

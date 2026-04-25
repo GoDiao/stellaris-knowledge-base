@@ -1,0 +1,49 @@
+{
+  "id": "trait_technical_skill",
+  "name": {
+    "en": "Technical Talent",
+    "zh": "技工天赋"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L额外的内部器官可以大大提高对电和磁场的先天敏感性。受改造者在反应堆里听到尖叫和低语的报告应该被忽略。§!",
+  "traits": [
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1011",
+  "name": {
+    "en": "[Root.GetName] Lost",
+    "zh": "[Root.GetName]殖民地被毁"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "我们失去了[Root.GetName]殖民地！这些来自异次元的侵略者先是摧毁了轨道空间站，而后对着星球表面狂轰滥炸，收割了地表上的所有生命。[Root.GetPlanetMoon]的整个生物圈都被毁灭殆尽——连一点生命的痕迹都没有了。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "planet_event",
+  "picture": "GFX_evt_city_ruins"
+}

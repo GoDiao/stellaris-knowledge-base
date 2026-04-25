@@ -1,0 +1,50 @@
+{
+  "id": "tech_plantoid_transgenesis",
+  "name": {
+    "en": "Botanical Transgenesis",
+    "zh": "植物体转基因技术"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "通过一些人工的促长手段，我们在植物类物种中发现的进化适应性也可以复制到其他形式的生命体中。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "5",
+    "cost": "@tier5cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "gateway:biological"
+    ],
+    "weight": "@tier5weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

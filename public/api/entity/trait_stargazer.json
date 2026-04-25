@@ -1,0 +1,50 @@
+{
+  "id": "trait_stargazer",
+  "name": {
+    "en": "Stargazer",
+    "zh": "观星者"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种对星辰大海总有一种根深蒂固的向往。§!\n",
+  "traits": [
+    "pop_growth_from_immigration: 0.25",
+    "pop_resettlement_cost_mult: -0.25",
+    "pop_environment_tolerance: 0.1"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_ruler_home_in_the_sky"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

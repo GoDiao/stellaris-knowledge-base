@@ -1,0 +1,32 @@
+id: tech_dangerous_wildlife
+name:
+  en: Dangerous Wildlife Removal
+  zh: 清除危险野生动物
+category: technology
+subcategory: society
+dlc: null
+lore: 破坏自然栖息地配合围剿扫荡可以有效地在短时间内清除危险的野生动物。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

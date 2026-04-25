@@ -1,0 +1,33 @@
+id: tech_mass_drivers_2
+name:
+  en: Coilguns
+  zh: 线圈炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 线圈炮是早期质量投射器的升级版，使用电磁线圈更有效地加速弹药。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '1'
+  cost: '@tier1cost2'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:kinetic_weapons
+  weight: '@tier1weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_mass_drivers_1
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

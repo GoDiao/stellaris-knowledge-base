@@ -1,0 +1,30 @@
+id: trait_rapid_breeders_lithoid
+name:
+  en: 0 "Rapid Breeders"
+  zh: 快速繁殖
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种繁殖的周期较短，致使他们的人口增长迅速。§!
+traits:
+  - 'pop_growth_speed: 0.10'
+species:
+  cost: '2'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

@@ -1,0 +1,32 @@
+id: tech_autocannons_2
+name:
+  en: Ripper Cannons
+  zh: 撕裂者机关炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 这些升级版机关炮具备更完善的追踪能力和开火控制系统，因此也提升了射速。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_autocannons_1
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

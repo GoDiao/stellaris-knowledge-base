@@ -1,0 +1,28 @@
+id: crisis_2405
+name:
+  en: The Fall of the Cybrex
+  zh: 塞博勒克斯的陨落
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  赛博勒克斯-贝塔已沦陷。据探测，整个星系陷入黑暗前，没有一艘赛博勒克斯舰船逃出去。
+
+  看来赛博勒克斯文明是真的灭亡了。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_city_ruins

@@ -1,0 +1,48 @@
+{
+  "id": "tech_titans",
+  "name": {
+    "en": "Titans",
+    "zh": "泰坦"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "设计这种规模的战舰，可以结合卓越的火力和尖端的辅助，达到摧枯拉朽的效果。泰坦型战舰可充当全能的旗舰，也可支援周围的舰船，抑或诱敌深入。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "5",
+    "cost": "@tier5cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

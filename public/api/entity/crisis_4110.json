@@ -1,0 +1,40 @@
+{
+  "id": "crisis_4110",
+  "name": {
+    "en": "Crisis Repealed",
+    "zh": "天灾指定已废止"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis_events",
+  "dlc": "Nemesis",
+  "lore": "指定§H[former_crisis.GetName]§!为“星系危机”的议案如今已被星海参议院废止。作为结果，所有由星海共同体成员国针对[former_crisis.GetSpeciesNamePlural]展开的军事行动都被立马叫停。现在，和平已经降临了星系的这一隅。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "become_crisis_events"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_diplomatic_visit"
+}

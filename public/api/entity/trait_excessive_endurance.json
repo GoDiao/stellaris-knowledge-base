@@ -1,0 +1,49 @@
+{
+  "id": "trait_excessive_endurance",
+  "name": {
+    "en": "Excessive Endurance",
+    "zh": "过度忍耐"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L在这些个体上，最强的适应性基因被过度表达了。我们达成了约30%的变异率，足以宣告实验稳定且成功。§!",
+  "traits": [
+    "leader_lifespan_add: -30"
+  ],
+  "species": {
+    "cost": "3",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

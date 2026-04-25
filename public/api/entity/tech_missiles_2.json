@@ -1,0 +1,48 @@
+{
+  "id": "tech_missiles_2",
+  "name": {
+    "en": "Fusion Missiles",
+    "zh": "聚变核导弹"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "升级版的深空导弹，配备了更强大的核聚变弹头，飞行能力进一步提升。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "1",
+    "cost": "@tier1cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

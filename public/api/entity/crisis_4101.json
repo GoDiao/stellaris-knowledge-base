@@ -1,0 +1,40 @@
+{
+  "id": "crisis_4101",
+  "name": {
+    "en": "Galactic Crisis Declared",
+    "zh": "宣告星系危机"
+  },
+  "category": "crisis",
+  "subcategory": "become_crisis_events",
+  "dlc": "Nemesis",
+  "lore": "帝国参议院通过了一项议案，宣布§H[new_crisis.GetName]§!是一切智慧生命体的威胁、是一场全星系范围的危机。从结果来说，[new_crisis.GetName]在今日同整个星海帝国开战了。\n\n在一场自[gal_emperor.Capital.GetName]对外播放的公开演讲中，[gal_emperor.GetRulerTitle]呼吁帝国的全体成员国对舰队进行总动员，并针对[new_crisis.GetSpeciesName]的领域发动联合攻击：“直到[new_crisis.GetSpeciesName]威胁被彻底地、一劳永逸地扫除干净，否则星系不会见证真正的和平。”",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "become_crisis_events"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_crisis_declared"
+}

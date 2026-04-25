@@ -1,0 +1,32 @@
+id: trait_wasteful
+name:
+  en: Wasteful
+  zh: 挥霍
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种似乎没有节俭的概念，喜欢进行无意义的消费。§!
+traits:
+  - 'planet_pops_consumer_goods_upkeep_mult: 0.10'
+species:
+  cost: '-1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 提及
+    target: trait_thrifty
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

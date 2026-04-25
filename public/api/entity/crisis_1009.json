@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1009",
+  "name": {
+    "en": "The Unbidden",
+    "zh": "破界者"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "我们已经对之前检测到的巨大能源波完成了甄别。它来源于[extradimensional_system.GetName]星系中一个巨大的亚空间裂缝。奇怪的飞船从传送门中蜂拥而出，初步报告显示，这些飞船会对接触到的任何事物发动无差别的攻击。\n\n我方截获了这些飞船发往传送门另一边的一段高能信号。听起来……像是狩猎的哨音一样。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "提及",
+      "target": "trait_exd"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_wormhole"
+}

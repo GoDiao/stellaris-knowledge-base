@@ -1,0 +1,34 @@
+id: trait_presapient_earthbound
+name:
+  en: Earthbound
+  zh: 故土情怀
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种对他们称之为家园的星球寸土不让。§!
+traits:
+  - 'planet_jobs_energy_produces_mult: 0.1'
+  - 'army_defense_damage_mult: 0.5'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - PRESAPIENT
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - presapient
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

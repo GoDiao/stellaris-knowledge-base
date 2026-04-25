@@ -1,0 +1,40 @@
+{
+  "id": "crisis_211",
+  "name": {
+    "en": "The End of the Scourge",
+    "zh": "灾难终平"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "随着最后一批虫群天灾被消灭，整个宇宙都松了一口气。它们的入侵已经完全失败，曾令无数生物恐惧的索林原虫，如今也只留下了不计其数的被烈焰灼过的尸体，在虚空中缓慢漂浮。\n\n轻松与愉快的气息以超光速散播到整个宇宙，无数星球都开始自发举办活动庆祝这一伟大胜利。也许，我们可以借助这一契机，翻开宇宙和平稳定的新篇章？",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_crisis_defeated"
+}

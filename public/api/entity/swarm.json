@@ -1,0 +1,44 @@
+{
+  "id": "swarm",
+  "name": {
+    "en": "SPECIES_CLASS_SWARM",
+    "zh": "SPECIES_CLASS_SWARM"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "OTHER",
+    "portraits": [],
+    "graphical_culture": "swarm_01",
+    "gender": false
+  },
+  "tags": [
+    "species_class",
+    "other"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    }
+  ]
+}

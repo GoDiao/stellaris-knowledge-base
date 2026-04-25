@@ -1,0 +1,33 @@
+id: tech_experimental_subspace_navigation
+name:
+  en: Speculative Hyperlane Breaching
+  zh: 试验性超空间导航
+category: technology
+subcategory: physics
+dlc: Distant Stars
+lore: 单独的科研船可以突破自然形成的超空间来抵达那些用正常手段无法抵达的已知星域。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features:
+    - experimental_subspace_navigation
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: crisis_2022
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

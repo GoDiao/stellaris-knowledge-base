@@ -1,0 +1,31 @@
+id: trait_gene_mentorship
+name:
+  en: Gene Mentorship
+  zh: 基因辅导
+category: species
+subcategory: trait
+dlc: null
+lore: §L通过基因层面重构的“本能知识”和外部化学刺激的组合，我们得以大大加速学习过程。尽管这会导致极为罕见的妄想症个案出现。§!
+traits:
+  - 'leader_lifespan_add: -10'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

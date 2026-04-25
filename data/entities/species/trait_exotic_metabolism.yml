@@ -1,0 +1,31 @@
+id: trait_exotic_metabolism
+name:
+  en: Exotic Metabolism
+  zh: 异星新陈代谢
+category: species
+subcategory: trait
+dlc: null
+lore: §L基于异星——奢侈——气体的新陈代谢过程，能够极大地提升这个物种的能力。§!
+traits:
+  - 'leader_lifespan_add: 50'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

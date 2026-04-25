@@ -1,0 +1,31 @@
+id: trait_traditional
+name:
+  en: Traditional
+  zh: 传统
+category: species
+subcategory: trait
+dlc: null
+lore: §L这个物种由于某些方面的认知，从而导致其特别注重历史研究以及族群团结。§!
+traits:
+  - 'planet_jobs_unity_produces_mult: 0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

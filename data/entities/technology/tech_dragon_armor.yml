@@ -1,0 +1,32 @@
+id: tech_dragon_armor
+name:
+  en: Artificial Dragonscales
+  zh: 人造龙鳞装甲
+category: technology
+subcategory: engineering
+dlc: Leviathans
+lore: 以太龙麟由多层独特矿物质纳米结构构成，具自我修复能力。采用非常规制造手段能够让我们精确仿制出这些能够自我修复的结构。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '@guardiantechtier'
+  cost: '@guardiantechcost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,32 @@
+id: tech_habitat_3
+name:
+  en: Advanced Space Habitation
+  zh: 高级太空居住站
+category: technology
+subcategory: engineering
+dlc: null
+lore: 多年来对§Y轨道居住站§!的改进让我们能够创造效率更高的新设计。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier5cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_habitat_1
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

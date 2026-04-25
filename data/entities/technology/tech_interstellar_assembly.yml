@@ -1,0 +1,32 @@
+id: tech_interstellar_assembly
+name:
+  en: 0 "Interstellar Assembly"
+  zh: 星际集会
+category: technology
+subcategory: society
+dlc: null
+lore: 星际各国的会议场地，可提高我国对外来移民的吸引力以及他国对我国的评价。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

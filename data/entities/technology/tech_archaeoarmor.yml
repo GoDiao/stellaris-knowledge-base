@@ -1,0 +1,32 @@
+id: tech_archaeoarmor
+name:
+  en: Ancient Pulse Armor
+  zh: 远古脉冲装甲
+category: technology
+subcategory: society
+dlc: Ancient Relics
+lore: 利用磁能脉冲和场投射原理，这种离子化的装甲板可以负载反应装药，缓解碰撞的能量。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

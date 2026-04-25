@@ -1,0 +1,48 @@
+{
+  "id": "tech_orbital_trash_dispersal",
+  "name": {
+    "en": "Orbital Trash Dispersal",
+    "zh": "轨道垃圾散布"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": "MegaCorp",
+  "lore": "这种轨道轰炸管理系统将会向目标星球同时发射上百万高速小型投射物，用垃圾数据过载该星球的防卫系统。装有该装置的船只在进行轨道轰炸时，将会造成更多伤害。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "1",
+    "cost": "@tier3cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

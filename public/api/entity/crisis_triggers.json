@@ -1,0 +1,79 @@
+{
+  "id": "crisis_triggers",
+  "name": {
+    "en": "crisis_triggers",
+    "zh": "crisis_triggers"
+  },
+  "category": "crisis",
+  "subcategory": "endgame_crisis",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "events": [
+    {
+      "id": "crisis.10",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.1000",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    },
+    {
+      "id": "crisis.2005",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event",
+      "options": []
+    }
+  ],
+  "tags": [
+    "crisis",
+    "endgame_crisis"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "become_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "become_crisis_events"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "prethoryn_scourge"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+id: tech_thrusters_4
+name:
+  en: Impulse Thrusters
+  zh: 脉冲推进器
+category: technology
+subcategory: engineering
+dlc: null
+lore: 在亚光速条件下，此种高级聚变推进器可赋予舰船无与伦比的机动性和速度优势。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,50 @@
+{
+  "id": "trait_nomadic",
+  "name": {
+    "en": "Nomadic",
+    "zh": "四海为家"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种有一个四海为家的进化史，它们对迁徙和扩张习以为常。§!\n",
+  "traits": [
+    "pop_growth_from_immigration: 0.15",
+    "pop_resettlement_cost_mult: -0.25"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

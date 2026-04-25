@@ -1,0 +1,50 @@
+{
+  "id": "tech_decryption_2",
+  "name": {
+    "en": "Simulated Social Engineering",
+    "zh": "模拟社会工程"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "任何安保机制中最脆弱的环节一定是其中的人。通过计算机模拟，我们能够建立他们的弱点模型，从而发现崭新的方法避开他们的安保系统——又或者骗过他们瞒天过海。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "2",
+    "cost": "@tier2cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "gateway:espionage"
+    ],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

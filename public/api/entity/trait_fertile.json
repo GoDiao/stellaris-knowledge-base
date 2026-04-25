@@ -1,0 +1,48 @@
+{
+  "id": "trait_fertile",
+  "name": {
+    "en": "Fertile",
+    "zh": "好生养"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L通过在身体结构和行为上大刀阔斧的塑造，这个物种的自然受孕力和受青睐感得到显著的提高。§!\n",
+  "traits": [
+    "pop_growth_speed: 0.3",
+    "pop_housing_usage_mult: -0.1"
+  ],
+  "species": {
+    "cost": "4",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

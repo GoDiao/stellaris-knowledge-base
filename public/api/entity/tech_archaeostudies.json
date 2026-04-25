@@ -1,0 +1,48 @@
+{
+  "id": "tech_archaeostudies",
+  "name": {
+    "en": "Archaeostudies",
+    "zh": "远古学"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Ancient Relics",
+  "lore": "该领域的研究致力于开发远古文物的可行性应用。我们远不是星系里第一批涉足繁星的文明。只要加以努力，他们的遗产便能照亮我们的前程。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "2",
+    "cost": "@tier2cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

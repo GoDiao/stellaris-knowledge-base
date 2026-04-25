@@ -1,0 +1,28 @@
+id: trait_advanced_radiotrophic
+name:
+  en: 0 "Radiotrophic"
+  zh: 辐射合成
+category: species
+subcategory: trait
+dlc: null
+lore: §L通过先进的基因科技，该物种现在可以部分依靠低能辐射自养，并因此可以在环境最恶劣的星球上生存。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+tags:
+  - trait
+  - biological
+  - positive
+relations:
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi
+  - type: 关联
+    target: fun

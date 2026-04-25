@@ -1,0 +1,49 @@
+{
+  "id": "trait_inorganic_breath",
+  "name": {
+    "en": "Inorganic Breath",
+    "zh": "无机体呼吸"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种拥有稍带毒性的消化方式，因此呼出的气体成分中带有浓度很高的异星气体。§!",
+  "traits": [
+    "planet_pops_upkeep_mult: 0.5"
+  ],
+  "species": {
+    "cost": "3",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "TOX_PLANET_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2097",
+  "name": {
+    "en": "Scientist exposed as Synth!",
+    "zh": "科学家被发现是合成人！"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "最近，一次临时安排的医疗体检让某个伪装成我们首席科学家之一§H[scientist.GetName]§!的合成人渗透者的身份被曝光！该合成人在杀害了五名安保人员之后终于被重武器小队击倒。\n\n真正的[scientist.GetName]的尸体还没有找到，我们推测本人应该是在过去的六个月里的被合成人暗杀并被秘密替换了。更糟的是，当合成人意识到自己的身份暴露之后，他在研究终端上启动了某种电脑病毒，目前技术人员正在全力以赴的控制损害，但很多重要的研究数据还是无可挽回了。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_interior_battle"
+}

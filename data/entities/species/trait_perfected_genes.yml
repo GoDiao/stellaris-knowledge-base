@@ -1,0 +1,31 @@
+id: trait_perfected_genes
+name:
+  en: Perfected Genes
+  zh: 纯化基因
+category: species
+subcategory: trait
+dlc: null
+lore: §L数千年的基因实验和战争造就了一个极具适应力的物种。§!
+traits:
+  - 'leader_lifespan_add: 25'
+  - 'species_leader_exp_gain: -0.20'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

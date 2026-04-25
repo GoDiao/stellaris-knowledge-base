@@ -1,0 +1,33 @@
+id: tech_node_reformatting_1
+name:
+  en: Rudimentary Node Reformatting
+  zh: 初步节点格式化
+category: technology
+subcategory: society
+dlc: null
+lore: 在快速发展的星系舞台，自决协议和制导算法可能会过时。它们将被像其他垃圾数据一样被覆盖掉。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:node_reformatting
+  weight: '@tier2weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

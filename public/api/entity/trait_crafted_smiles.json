@@ -1,0 +1,49 @@
+{
+  "id": "trait_crafted_smiles",
+  "name": {
+    "en": "Crafted Smiles",
+    "zh": "匠心微笑"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L面部特征的轻微调整、肌肉发育增强和松弛相互结合，再加上一些外在化学物质，创造了永恒完美的微笑。 §!",
+  "traits": [
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

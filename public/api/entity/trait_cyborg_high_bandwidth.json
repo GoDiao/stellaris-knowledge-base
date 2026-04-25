@@ -1,0 +1,49 @@
+{
+  "id": "trait_cyborg_high_bandwidth",
+  "name": {
+    "en": "High Bandwidth",
+    "zh": "高带宽"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L每个个体单位均会发送和接收大量的重复数据，使得各中央处理单元附属的单位数量增加时带来的延迟指数增长。§!",
+  "traits": [
+    "species_empire_size_mult: 0.10"
+  ],
+  "species": {
+    "cost": "-2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

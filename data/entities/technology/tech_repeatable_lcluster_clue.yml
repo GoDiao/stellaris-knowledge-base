@@ -1,0 +1,33 @@
+id: tech_repeatable_lcluster_clue
+name:
+  en: 1 "L-Gate Insight"
+  zh: L-星门线索
+category: technology
+subcategory: engineering
+dlc: Distant Stars
+lore: 对纳米机器与亚空间现象进行大量研究，最终将为瘫痪的L-星门谜团揭开新的§YL-星门线索§!。
+traits: []
+tags:
+  - technology
+  - engineering
+  - repeatable
+technology:
+  area: engineering
+  tier: '2'
+  cost: '2000'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '70'
+  is_repeatable: true
+relations:
+  - type: 提及
+    target: AIANOM_CLUE_CAT
+  - type: 提及
+    target: GEN_MYSTICAL_CAT
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

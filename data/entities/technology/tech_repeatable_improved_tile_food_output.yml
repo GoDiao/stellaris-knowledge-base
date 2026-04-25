@@ -1,0 +1,33 @@
+id: tech_repeatable_improved_tile_food_output
+name:
+  en: Transgenic Crops
+  zh: 转基因作物
+category: technology
+subcategory: society
+dlc: null
+lore: 仅仅一盒转基因作物就能提供多种普通食物的营养元素。
+traits: []
+tags:
+  - technology
+  - society
+  - repeatable
+technology:
+  area: society
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 提及
+    target: tech_gene_crops
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

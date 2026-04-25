@@ -64,6 +64,10 @@
     {
       "type": "同DLC预设",
       "target": "lokken"
+    },
+    {
+      "type": "提及",
+      "target": "ai"
     }
   ],
   "tags": [

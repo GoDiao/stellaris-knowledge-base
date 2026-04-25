@@ -1,0 +1,48 @@
+{
+  "id": "tech_noxious_swamp",
+  "name": {
+    "en": "Xeno-Hydraulic Mastery",
+    "zh": "异种水力掌控"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "智慧物种从数千年前就已经开始开垦沼地。通过模块化引水渠、水泵站、化学整治装置与自动土壤压缩机之间的协调配合，我们能以前所未有的速度开垦沼地。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "1",
+    "cost": "@tier1cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

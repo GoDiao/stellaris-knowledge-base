@@ -1,0 +1,48 @@
+{
+  "id": "tech_archaeo_overcharger",
+  "name": {
+    "en": "Ancient Shield Overcharger",
+    "zh": "远古护盾超频器"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Ancient Relics",
+  "lore": "得益于远古稳定化线圈和阻尼器，护盾可以安全地进行超频。除了产生的力场更强以外，这也可以直接汽化掉部分来袭的弹丸。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tech_archaeo_strike_crafts",
+  "name": {
+    "en": "Ancient Driller Drones",
+    "zh": "远古钻孔机无人机"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Ancient Relics",
+  "lore": "这些高速无人机装备有独特的采矿激光，它们几乎可以无视目标的任何镀层防护。这么好的科技只用来采矿岂不是太浪费了。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "3",
+    "cost": "@tier3cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

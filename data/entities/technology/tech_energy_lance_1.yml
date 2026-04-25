@@ -1,0 +1,32 @@
+id: tech_energy_lance_1
+name:
+  en: Particle Lances
+  zh: 粒子光矛
+category: technology
+subcategory: physics
+dlc: null
+lore: 这些重型能量武器能够发射聚焦的粒子射线并造成巨幅伤害。发射阵列的规模限制了它们只能运用在战列舰和泰坦上。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_battleships
+  - type: 提及
+    target: tech_titans
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

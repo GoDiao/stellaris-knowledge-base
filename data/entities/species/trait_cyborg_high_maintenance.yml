@@ -1,0 +1,32 @@
+id: trait_cyborg_high_maintenance
+name:
+  en: High Maintenance
+  zh: 维护频繁
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这些机器的设计完全没有考虑到使用年限的问题，因此故障频发。它们经常需要进行维护。§!
+traits:
+  - 'pop_amenities_usage_add: 0.5'
+species:
+  cost: '-2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

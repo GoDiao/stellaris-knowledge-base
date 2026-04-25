@@ -1,0 +1,30 @@
+id: trait_robot_notofthisworld
+name:
+  en: Not of This World
+  zh: 来自异世
+category: species
+subcategory: trait
+dlc: null
+lore: §B该机械并不来自我们的宇宙，目前正在缓慢衰变§!。
+traits:
+  - 'planet_pops_upkeep_mult: 0.10'
+species:
+  cost: '0'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+relations:
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

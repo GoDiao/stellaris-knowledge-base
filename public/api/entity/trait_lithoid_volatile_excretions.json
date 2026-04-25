@@ -1,0 +1,45 @@
+{
+  "id": "trait_lithoid_volatile_excretions",
+  "name": {
+    "en": "Volatile Excretions",
+    "zh": "易爆排泄物"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这一物种产生的高度浓缩的臭迹并不稳定，其中包含难以置信的能量。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    }
+  ]
+}

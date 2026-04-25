@@ -1,0 +1,30 @@
+id: crisis_18
+name:
+  en: The First Wave
+  zh: 第一波接触
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  我们收到的资料显示一些位于星系边缘的恒星系正在被某种入侵势力蹂蹑。这似乎就是我们探测到的，之前不断接近我们星系的亚空间回声本体。
+
+  我们现在遭遇到的只是先锋，其主体尚未到来。目前为止，接踵而至的报告都令人十分困惑，入侵者所使用的舰船似乎是由有机质构成，并且入侵者暂未对我们做出任何回应。
+
+  我们整个星系或将面对史无前例的入侵。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 提及
+    target: crisis_11
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: GFX_evt_physics_research

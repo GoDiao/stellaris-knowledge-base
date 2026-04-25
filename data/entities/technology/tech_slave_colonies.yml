@@ -1,0 +1,32 @@
+id: tech_slave_colonies
+name:
+  en: Thrall-Worlds
+  zh: 奴隶星球
+category: technology
+subcategory: society
+dlc: null
+lore: 通过创造特殊的奴隶繁殖世界，我们可以确保廉价劳工的稳定供应。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

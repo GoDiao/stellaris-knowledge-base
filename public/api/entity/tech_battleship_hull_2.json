@@ -1,0 +1,48 @@
+{
+  "id": "tech_battleship_hull_2",
+  "name": {
+    "en": "Advanced Battleship Hulls",
+    "zh": "先进战列舰船体"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "最新一代的战列舰优化了结构的整体性并改进了舱壁。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "5",
+    "cost": "@tier5cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier5weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_battleships"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

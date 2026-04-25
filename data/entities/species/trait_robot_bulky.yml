@@ -1,0 +1,32 @@
+id: trait_robot_bulky
+name:
+  en: Bulky
+  zh: 笨重
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这些高度先进的超级机器并不是为装在箱子里遨游宇宙而设计的。§!
+traits:
+  - 'pop_housing_usage_mult: 0.1'
+species:
+  cost: '-1'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - negative
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

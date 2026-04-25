@@ -1,0 +1,33 @@
+id: trait_enigmatic_intelligence
+name:
+  en: Uplifted
+  zh: 受提升
+category: species
+subcategory: trait
+dlc: null
+lore: 这个物种被一个外来星系的仁慈智者指引获得了提升，抛弃了自己未开智的过去。
+traits:
+  - 'planet_jobs_physics_research_produces_mult: 0.10'
+  - 'planet_jobs_society_research_produces_mult: 0.10'
+  - 'planet_jobs_engineering_research_produces_mult: 0.10'
+  - 'species_leader_exp_gain: 0.10'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

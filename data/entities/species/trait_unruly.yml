@@ -1,0 +1,31 @@
+id: trait_unruly
+name:
+  en: Unruly
+  zh: 桀骜不驯
+category: species
+subcategory: trait
+dlc: null
+lore: §L桀骜不驯的物种难以组织和管理。他们不喜欢被人告知该干什么，并且总是在无休止地争吵和质问。§!
+traits:
+  - 'species_empire_size_mult: 0.10'
+species:
+  cost: '-2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

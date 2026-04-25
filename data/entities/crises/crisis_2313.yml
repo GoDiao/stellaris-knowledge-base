@@ -1,0 +1,25 @@
+id: crisis_2313
+name:
+  en: A Change in the Ghost Signal
+  zh: 幽灵信号的改变
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 肃正协议正在暗中谋划着什么。幽灵信号正在发生着某些改变，似乎是通过不断的变化来试探我们的下一个弱点。尽管我们现在尚且可以阻挡它，但是对于幽灵信号来说，突破我们的防火墙只是时间问题。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 提及
+    target: crisis_2010
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+event_type: country_event
+picture: GFX_evt_glitchy_matrix

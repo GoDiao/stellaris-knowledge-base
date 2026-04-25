@@ -1,0 +1,33 @@
+id: tech_repeatable_weapon_type_explosive_fire_rate
+name:
+  en: Miniaturized Pre-Igniters
+  zh: 小型预点火装置
+category: technology
+subcategory: engineering
+dlc: null
+lore: 小型化技术的进步可以让火箭拥有更快的装载与卸货速度。
+traits: []
+tags:
+  - technology
+  - engineering
+  - repeatable
+technology:
+  area: engineering
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,42 @@
+{
+  "id": "trait_ruler_charismatic",
+  "name": {
+    "en": "Charisma",
+    "zh": "魅力非凡"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这位领袖魅力非凡，能够轻松推行自己的政策。",
+  "traits": [],
+  "species": {
+    "cost": "1",
+    "archetypes": []
+  },
+  "tags": [
+    "trait",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_charismatic"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

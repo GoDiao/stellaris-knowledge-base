@@ -1,0 +1,32 @@
+id: tech_covenant_instrument
+name:
+  en: 0 "Mark of the Instrument"
+  zh: 器具刻印
+category: technology
+subcategory: society
+dlc: null
+lore: 我们已经发现如何让灵能能量自我们的舰船中流通。有了这等知识，我们就能将超主的权能灌输到我们的舰船内。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '@guardiantechtier'
+  cost: '@guardiantechcost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

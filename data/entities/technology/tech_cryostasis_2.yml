@@ -1,0 +1,32 @@
+id: tech_cryostasis_2
+name:
+  en: Self-Aware Colony Ships
+  zh: 自我意识殖民船
+category: technology
+subcategory: physics
+dlc: null
+lore: 相当先进的系统，知悉目标后，能自动选择执行最优方案。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

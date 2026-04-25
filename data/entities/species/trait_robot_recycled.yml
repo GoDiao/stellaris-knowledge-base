@@ -1,0 +1,31 @@
+id: trait_robot_recycled
+name:
+  en: Recycled
+  zh: 循环利用
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L单元生产过程被优化为尽可能节约成本，使用回收的原料，以及从上一世代继承下来的部件。§!
+traits: []
+species:
+  cost: '2'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 提及
+    target: trait_conservational
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

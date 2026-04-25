@@ -1,0 +1,50 @@
+{
+  "id": "trait_brainslug",
+  "name": {
+    "en": "Brain Slug Host",
+    "zh": "脑蛞蝓宿主"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种正享受着与神经共生体的共存：一种良性蛞蝓附着于宿主的脑干上。§!",
+  "traits": [
+    "planet_jobs_physics_research_produces_mult: 0.10",
+    "planet_jobs_society_research_produces_mult: 0.10",
+    "planet_jobs_engineering_research_produces_mult: 0.10",
+    "planet_jobs_unity_produces_mult: 0.10",
+    "pop_growth_speed: -0.25"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

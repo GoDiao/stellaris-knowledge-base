@@ -1,0 +1,33 @@
+id: tech_repeatable_naval_cap
+name:
+  en: Fleet Management Procedures
+  zh: 舰队管理规程
+category: technology
+subcategory: society
+dlc: null
+lore: 改善舰队管理规程将腾出资源，用以维持更大的舰队。
+traits: []
+tags:
+  - technology
+  - society
+  - repeatable
+technology:
+  area: society
+  tier: '@repeatableTechTier'
+  cost: '@repeatableTechBaseCost'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@repeatableTechWeight'
+  is_repeatable: true
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

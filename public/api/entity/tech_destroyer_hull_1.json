@@ -1,0 +1,48 @@
+{
+  "id": "tech_destroyer_hull_1",
+  "name": {
+    "en": "Improved Destroyer Hulls",
+    "zh": "改进驱逐舰船体"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "建造技术的进步将使得我们能够进行更坚固更耐用的驱逐舰的建造。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_destroyers"
+    },
+    {
+      "type": "提及",
+      "target": "trait_cyborg_durable"
+    },
+    {
+      "type": "提及",
+      "target": "trait_robot_durable"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    }
+  ]
+}

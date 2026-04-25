@@ -1,0 +1,32 @@
+id: tech_engineering_3
+name:
+  en: Superfluid Materials
+  zh: 超流体材料
+category: technology
+subcategory: engineering
+dlc: null
+lore: 对于超流态材料的研究，有望将量子力学与重力基本相互作用结合起来。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

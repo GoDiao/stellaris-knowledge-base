@@ -1,0 +1,32 @@
+id: tech_dark_matter_detection
+name:
+  en: Dark Matter Detection
+  zh: 暗物质探测
+category: technology
+subcategory: physics
+dlc: First Contact
+lore: 暗物质共振室能够显著地提升我们探测阵列的性能。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_detection_array
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

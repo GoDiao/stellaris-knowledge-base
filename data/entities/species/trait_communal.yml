@@ -1,0 +1,32 @@
+id: trait_communal
+name:
+  en: Communal
+  zh: 合群
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种拥有很高的集群社会性，它们很乐意与其他生物生活在一起。§!
+traits:
+  - 'pop_housing_usage_mult: -0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

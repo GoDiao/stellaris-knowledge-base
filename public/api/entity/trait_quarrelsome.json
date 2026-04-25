@@ -1,0 +1,49 @@
+{
+  "id": "trait_quarrelsome",
+  "name": {
+    "en": "Quarrelsome",
+    "zh": "好斗"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L虽然并非天生多疑，这个物种的个体却常常发生社会纠纷。§!",
+  "traits": [
+    "planet_jobs_unity_produces_mult: -0.1"
+  ],
+  "species": {
+    "cost": "-1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "negative"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

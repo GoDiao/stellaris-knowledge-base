@@ -1,0 +1,51 @@
+{
+  "id": "trait_elevated_synapses",
+  "name": {
+    "en": "Elevated Synapses",
+    "zh": "升格突触"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L大脑作为计算设备其实并非在100%功率下运转。然而我们已经大大超出了平均水平。如果遇到问题请重新启动。§!",
+  "traits": [
+    "leader_lifespan_add: -30",
+    "negative_leader_traits_species: -1",
+    "leaders_upkeep_mult: -0.25"
+  ],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "trait_resilient",
+  "name": {
+    "en": "Resilient",
+    "zh": "快速复原"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种在受伤之后能够快速复原，并会像狂怒的育母蜘蛛一样通过战斗来保护他们的星球。§!\n",
+  "traits": [
+    "army_defense_damage_mult: 0.5"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

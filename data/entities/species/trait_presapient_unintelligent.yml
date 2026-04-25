@@ -1,0 +1,36 @@
+id: trait_presapient_unintelligent
+name:
+  en: Unintelligent
+  zh: 不聪明
+category: species
+subcategory: trait
+dlc: null
+lore: §H这个物种甚至无法完成最简单的任务。它们唯一的技能是它们的繁殖速度令人难以置信。§!
+traits:
+  - 'pop_growth_speed: 0.2'
+  - 'planet_jobs_energy_produces_mult: -1'
+  - 'planet_jobs_physics_research_produces_mult: -1'
+  - 'planet_jobs_society_research_produces_mult: -1'
+  - 'planet_jobs_engineering_research_produces_mult: -1'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - PRESAPIENT
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - presapient
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

@@ -1,0 +1,51 @@
+{
+  "id": "tech_planetary_unification",
+  "name": {
+    "en": "Planetary Unification",
+    "zh": "行星统一"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "上古时期的诸国家、部族曾经兵戎相见，然而现在一切都统一在帝国的旗帜之下。我们绝不会，也永远不会，灭亡。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "1",
+    "cost": "@tier1cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "campaign_edicts",
+      "gateway:capital"
+    ],
+    "weight": "@tier1weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

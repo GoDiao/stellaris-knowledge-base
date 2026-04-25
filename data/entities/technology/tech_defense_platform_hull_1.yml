@@ -1,0 +1,32 @@
+id: tech_defense_platform_hull_1
+name:
+  en: Improved Structural Integrity
+  zh: 改善结构完整性
+category: technology
+subcategory: engineering
+dlc: null
+lore: 强化过的构架与增强了冲击吸收能力的防爆护盾即使在巨大的压力下，也可以确保平台的结构完整性。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

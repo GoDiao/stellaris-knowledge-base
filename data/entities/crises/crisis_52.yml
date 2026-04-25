@@ -1,0 +1,28 @@
+id: crisis_52
+name:
+  en: The Sentinel Order
+  zh: 哨兵组织
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  我们是哨兵。我们的教团已宣誓无论付出任何代价也要阻止嗜血的索林原虫。其他帝国支离破碎之时，我们仍旧坚持斗争。他们放弃抵抗而堕入黑暗之时，我们给予他们反击的手段。
+
+  我是克加斯大团长，教团的首席。不要以貌取人——哨兵教团从星系中所有种族，包括你的种族——招兵买马。我们只希望你们的政府能够坚持对抗索林原虫的入侵，并在可能时支持我们。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 提及
+    target: sentinels_digsite
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+event_type: country_event
+picture: null

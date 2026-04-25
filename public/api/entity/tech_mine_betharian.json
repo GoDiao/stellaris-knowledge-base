@@ -1,0 +1,48 @@
+{
+  "id": "tech_mine_betharian",
+  "name": {
+    "en": "Betharian Refining",
+    "zh": "贝赛里安精炼"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "贝塞里安矿最早似乎出自单一矿源，但千年前，开始出现于星系各处。此类矿物成鹅卵石大小，群状分布，并且高度易燃。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier1cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "trait_advanced_budding",
+  "name": {
+    "en": "0 \"Budding\"",
+    "zh": "出芽生殖"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L对他们的遗传物质序列的修改使得物种可以在保有通常繁殖方式的同时，以出芽的方式进行繁殖。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

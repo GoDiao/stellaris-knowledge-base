@@ -1,0 +1,33 @@
+id: tech_physics_3
+name:
+  en: Space-Time Theory
+  zh: 时空理论
+category: technology
+subcategory: physics
+dlc: null
+lore: 三维空间，离不开第四个维度。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:espionage
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

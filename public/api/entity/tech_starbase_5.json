@@ -1,0 +1,48 @@
+{
+  "id": "tech_starbase_5",
+  "name": {
+    "en": "Citadel",
+    "zh": "擎天堡"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "一个用一座巨型军用空间站就能抵挡数支攻击舰队的构想正在制定当中。一旦实现，这些擎天堡将会成为恒星系中心的伟大纪念碑。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "4",
+    "cost": "@tier4cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

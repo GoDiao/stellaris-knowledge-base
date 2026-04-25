@@ -1,0 +1,48 @@
+{
+  "id": "tech_morphogenetic_field_mastery",
+  "name": {
+    "en": "Morphogenetic Field Mastery",
+    "zh": "形态发生学精通"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "形态发生研究本是药学领域的尝试，但深入理解其中玄妙后，开发出了有机体潜意识直连技术。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

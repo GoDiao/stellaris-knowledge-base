@@ -1,0 +1,40 @@
+{
+  "id": "crisis_13",
+  "name": {
+    "en": "Approaching the Outer Rim",
+    "zh": "接近星系外缘"
+  },
+  "category": "crisis",
+  "subcategory": "prethoryn_scourge",
+  "dlc": null,
+  "lore": "我们在星系际空间探测到的奇怪亚空间回声现已接近我们的星系外缘。在回声主体前进的方向上似乎出现了一系列微小的联络信号，并指向许多的边缘恒星系。\n\n我们已经把这些星系坐标输入状态日志并将持续监控情况发展。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "prethoryn_scourge"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "prethoryn_scourge"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_11"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_physics_research"
+}

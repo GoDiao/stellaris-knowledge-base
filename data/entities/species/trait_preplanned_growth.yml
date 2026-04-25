@@ -1,0 +1,31 @@
+id: trait_preplanned_growth
+name:
+  en: Pre-Planned Growth
+  zh: 预计划增长
+category: species
+subcategory: trait
+dlc: null
+lore: §L计划繁育、计划吸引、计划婚配。按需增长可以塑造强大而稳定的人口——只要前前后后进行一些简单的基因编辑即可得偿所愿。产生嫉妒的个体会被引导前往最近的生育中心，进行强制训练。§!
+traits:
+  - 'leader_lifespan_add: -30'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

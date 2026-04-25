@@ -1,0 +1,42 @@
+{
+  "id": "trait_ruler_battleship_focus",
+  "name": {
+    "en": "Battleship Production Focus",
+    "zh": "战列舰建造专精"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "这位领袖专注于推动战列舰的建造。",
+  "traits": [],
+  "species": {
+    "cost": 0,
+    "archetypes": []
+  },
+  "tags": [
+    "trait",
+    "neutral"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_battleships"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive"
+    },
+    {
+      "type": "关联",
+      "target": "trait_adaptive_lithoid"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_budding"
+    },
+    {
+      "type": "关联",
+      "target": "trait_advanced_gaseous_byproducts"
+    }
+  ]
+}

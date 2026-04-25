@@ -1,0 +1,32 @@
+id: tech_embodied_dynamism
+name:
+  en: Embodied Dynamism
+  zh: 具现物力论
+category: technology
+subcategory: society
+dlc: null
+lore: 有必要向我们的自主领袖单位提倡积极主动和抱负，但同时也要确保他们不会偏离核心智能的指示。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

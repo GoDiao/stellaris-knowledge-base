@@ -1,0 +1,32 @@
+id: trait_robot_superconductive
+name:
+  en: Superconductive
+  zh: 超导性
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L超导性材料在单元设计中的应用将能源传输过程中的损耗降低至百分之零。§!
+traits:
+  - 'planet_jobs_energy_produces_mult: 0.15'
+species:
+  cost: '2'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 提及
+    target: trait_cyborg_superconductive
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

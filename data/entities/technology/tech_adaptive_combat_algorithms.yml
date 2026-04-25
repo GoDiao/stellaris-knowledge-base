@@ -1,0 +1,32 @@
+id: tech_adaptive_combat_algorithms
+name:
+  en: Adaptive Combat Algorithms
+  zh: 自适应作战算法
+category: technology
+subcategory: society
+dlc: null
+lore: 有机生命体经常采用不合逻辑且不可预测的战术，这对我们来说很难有效应对。但采用自适应的战术以及新的、机动性更好的战体将能提供决定性的优势。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1
+  - type: 关联
+    target: tech_advanced_metallurgy_2

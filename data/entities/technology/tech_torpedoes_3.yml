@@ -1,0 +1,32 @@
+id: tech_torpedoes_3
+name:
+  en: Devastator Torpedoes
+  zh: 毁灭者鱼雷
+category: technology
+subcategory: engineering
+dlc: null
+lore: 装备有超强弹头的先进鱼雷。拥有更加光滑的设计，更快的引擎以及改良的护盾调解器，可以轻松穿过能量屏障。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_shields_3
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

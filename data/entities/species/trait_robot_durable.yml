@@ -1,0 +1,32 @@
+id: trait_robot_durable
+name:
+  en: Durable
+  zh: 耐用
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L拥有镀铬钛合金制成的防护外骨骼，这些重型机器专为严酷环境而设计，只需要极少的维护。§!
+traits:
+  - 'planet_pops_robotics_upkeep_mult: -0.10'
+species:
+  cost: '1'
+  archetypes:
+    - ROBOT
+    - MACHINE
+tags:
+  - trait
+  - robot
+  - machine
+  - positive
+relations:
+  - type: 关联
+    target: machine
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid
+  - type: 关联
+    target: trait_advanced_budding

@@ -1,0 +1,32 @@
+id: tech_combat_training
+name:
+  en: Combat Training
+  zh: 战斗训练
+category: technology
+subcategory: society
+dlc: null
+lore: 这是为新兵准备的更完善的培训计划，包括现实的战斗场景，让他们做好进入战场的准备。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

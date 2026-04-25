@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2032",
+  "name": {
+    "en": "Third Machine World",
+    "zh": "第三颗机械星球"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "我们在§H[From.solar_system.GetName]§!星系发现了第三颗机械星球，星系内的一颗气态巨行星发生了自燃，剧烈的燃烧持续了一整天，并发出了小型恒星一般的耀眼亮光。\n\n该行星很快就冷却了下来，其金属内核也随之显露无疑——和其他机械星球一样，这颗行星的内部也有一个巨大的行星工厂。由人工智能所控制的防卫舰队已经在行星轨道上摆好了阵型。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2030"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_contingency_planet"
+}

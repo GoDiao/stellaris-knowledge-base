@@ -1,0 +1,31 @@
+id: trait_cyborg_superconductive
+name:
+  en: Superconductive
+  zh: 超导性
+category: species
+subcategory: trait
+dlc: null
+lore: §L超导性材料在单元设计中的应用将能源传输过程中的损耗降低至百分之零。§!
+traits:
+  - 'planet_jobs_energy_produces_mult: 0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 提及
+    target: trait_robot_superconductive
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

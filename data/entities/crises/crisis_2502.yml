@@ -1,0 +1,28 @@
+id: crisis_2502
+name:
+  en: Unit Corruption Alert
+  zh: 单元腐化警报
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  一个在[Root.GetName]上的单元堆栈意外的自毁了。在单元堆栈自毁之前，我们与该堆栈的通讯连接经常出现问题，后来通讯就彻底中断了，单元堆栈在自毁前留下了如下讯息：§Y<杀戮！破坏！肢解！我们将卷土重来！>§!
+
+  由于单元的个体神经簇已在自毁中被破坏，因此无法通过扫描的方式查明其被腐化的原因。据推测，很可能是某种敌对的侵入性序列造成了这起事故，在类似情况再次出现之前，我们只能静观其变。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: planet_event
+picture: GFX_evt_glitchy_matrix

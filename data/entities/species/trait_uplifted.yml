@@ -1,0 +1,30 @@
+id: trait_uplifted
+name:
+  en: Uplifted
+  zh: 受提升
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种曾在洪荒时期在一个高级文明的帮助下自前超光速文明提升到如今层次，他们非常幸福地活在恩人的星球上。§!
+traits: []
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

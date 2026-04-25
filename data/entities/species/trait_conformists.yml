@@ -1,0 +1,32 @@
+id: trait_conformists
+name:
+  en: Conformists
+  zh: 从众
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种乐于寻求共识，并且更希望遵从主流的思想观念。§!
+traits:
+  - 'pop_government_ethic_attraction: 0.30'
+species:
+  cost: '2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

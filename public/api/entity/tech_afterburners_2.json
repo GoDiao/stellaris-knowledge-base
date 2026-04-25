@@ -1,0 +1,48 @@
+{
+  "id": "tech_afterburners_2",
+  "name": {
+    "en": "Advanced Afterburners",
+    "zh": "先进加力燃烧室"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "这种改进版的标准加力燃烧室能够极大提升舰船的战斗速度。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "3",
+    "cost": "@tier3cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier3weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_afterburners_1"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tech_gargantuan_evolution",
+  "name": {
+    "en": "Gargantuan Evolution",
+    "zh": "超体进化"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "Distant Stars",
+  "lore": "虚空孳孽的卵进化出了通过吸收邻近恒星的能源来忍受严酷太空环境的能力。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "1",
+    "cost": "@tier3cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

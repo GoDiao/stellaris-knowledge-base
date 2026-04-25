@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2093",
+  "name": {
+    "en": "Fear and Suspicion",
+    "zh": "恐惧与猜疑"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "最近合成人的一系列渗透破坏行动让§H[Root.GetName]§!上的大部分人口陷入了恐惧与猜疑之中。我们的居民开始指控他们的邻居、同事甚至家人是合成人伪装的。\n\n现在已经有好几例居民被误认为是合成人并被处以私刑的案例。甚至有些挑拨者认为整个[Root.Owner.GetName]的所有领袖都是合成人渗透者假扮的。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "planet_event",
+  "picture": "GFX_evt_alien_propaganda"
+}

@@ -1,0 +1,33 @@
+id: tech_lithoid_transgenesis
+name:
+  en: Silicate Transgenesis
+  zh: 硅体转基因技术
+category: technology
+subcategory: society
+dlc: null
+lore: 硅基生物和碳基生物具有许多相似性，这能让我们将石质类生物的进化特质同碳基生物结合起来。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost1'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:biological
+  weight: '@tier5weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_lithoid
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

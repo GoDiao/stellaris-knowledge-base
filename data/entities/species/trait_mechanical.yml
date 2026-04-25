@@ -1,0 +1,29 @@
+id: trait_mechanical
+name:
+  en: Mechanical
+  zh: 机械体
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L机械体比传统的专用机器人复杂好几个数量级，但是大多数也只掌握着有限的处理能力。§!
+traits:
+  - 'pop_environment_tolerance: 2.0'
+species:
+  cost: '0'
+  archetypes:
+    - ROBOT
+tags:
+  - trait
+  - robot
+relations:
+  - type: 提及
+    target: trait_machine_unit
+  - type: 提及
+    target: trait_traditional
+  - type: 关联
+    target: robot
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

@@ -1,0 +1,35 @@
+id: trait_presapient_forcefully_devolved
+name:
+  en: Forcefully Devolved
+  zh: 强制退化
+category: species
+subcategory: trait
+dlc: null
+lore: 这一物种所经历的残暴的退化流程对他们的能力造成的严重的负面影响。
+traits:
+  - 'army_damage_mult: -0.10'
+  - 'planet_jobs_produces_mult: -0.1'
+  - 'pop_growth_speed: -0.1'
+  - 'species_leader_exp_gain: -0.20'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - PRESAPIENT
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - presapient
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

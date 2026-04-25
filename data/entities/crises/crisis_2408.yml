@@ -1,0 +1,32 @@
+id: crisis_2408
+name:
+  en: Incoming Transmission
+  zh: 信号传输接入
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  星系的诸位：
+
+  鉴于肃正协议已不再是威胁，我们认为吾辈在星系的现有角色也走到了尽头。我们的家园现在因其声名远播也无法帮助我们保持低调了，此外，我们还被各类希望在不同小规模星际冲突中表态的声音所淹没。
+
+  经过多番审议，我们认为唯一的办法是让自己永远离开星系，寻找新的家园。我们衷心希望希望诸位能从过去悲惨的错误中吸取教训，学会通过和平手段解决分歧。
+
+  宇宙很小，世界很大，我们终将再会。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: null

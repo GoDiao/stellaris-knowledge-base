@@ -1,0 +1,32 @@
+id: tech_titan_hull_2
+name:
+  en: Advanced Titan Hulls
+  zh: 先进泰坦船体
+category: technology
+subcategory: engineering
+dlc: null
+lore: 最新一代的泰坦已经改善了结构的整体性并改进了舱壁。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_titans
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

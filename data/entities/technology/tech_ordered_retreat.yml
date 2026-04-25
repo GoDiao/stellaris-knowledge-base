@@ -1,0 +1,32 @@
+id: tech_ordered_retreat
+name:
+  en: Ordered Retreat
+  zh: 有序撤退
+category: technology
+subcategory: engineering
+dlc: First Contact
+lore: 尽管研究战斗中的胜利者可能是能从战斗中获得见解最明显的办法，但观察前超光速文明中的落败者也教会了我们如何组织更有效率的撤退。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

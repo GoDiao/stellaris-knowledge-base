@@ -1,0 +1,44 @@
+{
+  "id": "art",
+  "name": {
+    "en": "SPECIES_CLASS_ART",
+    "zh": "SPECIES_CLASS_ART"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "BIOLOGICAL",
+    "portraits": [],
+    "graphical_culture": "arthropoid_01",
+    "gender": true
+  },
+  "tags": [
+    "species_class",
+    "biological"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

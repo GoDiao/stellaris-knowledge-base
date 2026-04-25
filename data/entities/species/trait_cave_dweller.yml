@@ -1,0 +1,32 @@
+id: trait_cave_dweller
+name:
+  en: Cave Dweller
+  zh: 穴居者
+category: species
+subcategory: trait
+dlc: null
+lore: §L该物种能在任何他们能找到的星球地下繁衍，但代价是人口增长速度。§!
+traits:
+  - 'habitability_floor_add: 0.5'
+  - 'planet_jobs_minerals_produces_mult: 0.15'
+  - 'species_empire_size_mult: 0.10'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

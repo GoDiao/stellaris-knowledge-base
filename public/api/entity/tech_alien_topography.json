@@ -1,0 +1,48 @@
+{
+  "id": "tech_alien_topography",
+  "name": {
+    "en": "Alien Topography",
+    "zh": "外星地形学"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": "First Contact",
+  "lore": "文明通常在能够促进其成长的位置勃勃生机，通过分析前太空文明定居发展的主要地点，我们的殖民地可以学习到很多。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

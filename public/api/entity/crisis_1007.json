@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1007",
+  "name": {
+    "en": "The Unbidden",
+    "zh": "破界者"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "[extradimensional_system.GetName]星系出现了巨大的空间裂缝！虽然我们还不知道原因，但这似乎是另一个次元的单向传送门。奇怪的飞船从裂缝中蜂拥而出，无论见到什么都大肆攻击。这似乎预告着一场大型进攻宣战的来临。我方截获了这些飞船发往传送门另一边的信号。听起来……像是狩猎的哨音一样。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "提及",
+      "target": "trait_exd"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_wormhole"
+}

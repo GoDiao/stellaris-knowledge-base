@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2039",
+  "name": {
+    "en": "Incoming Transmission",
+    "zh": "信号传输接入"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "致命错误。失去与所有净化中心的连接。正在尝试重新连接…请等待…\n\n§Y<注-注意-请注意。尽管最近发生了回档/延迟/故障，肃正协议仍旧在运行。不要接近CX-9881。§!§R不·要·接·近。§!\n\n§Y我们正在再评估我们的战略决策，任何试图阻碍肃正协议的人都逃不掉我们防御单元的§!§R最终清算§!§Y>§!",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1006"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

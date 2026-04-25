@@ -1,0 +1,48 @@
+{
+  "id": "trait_bioadaptability",
+  "name": {
+    "en": "Bioadaptability",
+    "zh": "生物适应性"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L该物种经过改造，略微提高了其环境适应性，可以忍耐更加严酷的气候。§!",
+  "traits": [
+    "pop_environment_tolerance: 0.05"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

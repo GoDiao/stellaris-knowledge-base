@@ -1,0 +1,33 @@
+id: tech_robomodding
+name:
+  en: Machine Template System
+  zh: 机械模板系统
+category: technology
+subcategory: engineering
+dlc: null
+lore: 可擦写的配装模板允许我们创造定制的合成人劳工的设计。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '1'
+  cost: '@tier2cost1'
+  category: null
+  prerequisites: []
+  features:
+    - modify_robots
+  weight: '@tier2weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_synthetic_workers
+  - type: 提及
+    target: trait_robot_custom_made
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms

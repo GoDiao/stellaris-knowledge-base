@@ -1,0 +1,32 @@
+id: tech_mine_zro
+name:
+  en: Zro Distillation
+  zh: 蒸馏泽珞
+category: technology
+subcategory: society
+dlc: null
+lore: 一种在异星粒子中存在的极其稀有的气溶胶，随着陨石撞击被一起发现。不过其真正的来源依然是个未解之谜。若拥有灵能天赋的人将其摄入体内，泽珞将会极大的提高灵能力量（并可能导致成瘾）。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

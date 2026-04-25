@@ -1,0 +1,32 @@
+id: tech_missiles_5
+name:
+  en: Marauder Missiles
+  zh: 掠夺者导弹
+category: technology
+subcategory: engineering
+dlc: null
+lore: 这些最尖端的导弹配备有限程度的人工智能导航，极大地提高导弹追踪目标的能力和表现。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

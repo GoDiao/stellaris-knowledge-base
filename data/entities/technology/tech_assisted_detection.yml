@@ -1,0 +1,33 @@
+id: tech_assisted_detection
+name:
+  en: Advanced Detection Algorithms
+  zh: 先进探测算法
+category: technology
+subcategory: physics
+dlc: First Contact
+lore: 将探测阵列和科研舰舰载电脑耦合在一起能够极大地提升扫描分辨率。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '2'
+  cost: '@tier2cost3'
+  category: null
+  prerequisites: []
+  features:
+    - assist_cloaking_detection_unlocked
+  weight: '@tier2weight3'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_detection_array
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

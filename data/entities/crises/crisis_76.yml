@@ -1,0 +1,30 @@
+id: crisis_76
+name:
+  en: The Sentinel Order
+  zh: 哨兵组织
+category: crisis
+subcategory: prethoryn_scourge
+dlc: null
+lore: |-
+  历经艰难险阻，我们星系终于获得了胜利，索林原虫被击败。曾经，我还担心这一天永远不会到来。但现在，我就只剩下最后一项任务了。
+
+  身为哨兵组织的大团长，我特此宣布解散此组织。我们唯一的目的就是击败索林原虫。既然此目标已经达成，那就该是我们分道扬镳的时候了。为了防止我们现有的战舰遭到滥用，这些战舰将被拆解。
+
+  愿此次星河浩劫的结束标志着和平的新纪元的开始。这里是哨兵一号，通信结束。
+traits: []
+tags:
+  - crisis_event
+  - prethoryn_scourge
+relations:
+  - type: 所属
+    target: prethoryn_scourge
+  - type: 提及
+    target: crisis_52
+  - type: 提及
+    target: crisis_55
+  - type: 提及
+    target: crisis_71
+  - type: 提及
+    target: crisis_78
+event_type: country_event
+picture: null

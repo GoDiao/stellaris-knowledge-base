@@ -1,0 +1,32 @@
+id: tech_precognition_interface
+name:
+  en: Precognition Interface
+  zh: 预知接口
+category: technology
+subcategory: society
+dlc: null
+lore: 不断探索灵能领域，读取心灵波动先于获得实际感知，从而制造出预知接口作战计算机。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '4'
+  cost: '@tier4cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight2'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

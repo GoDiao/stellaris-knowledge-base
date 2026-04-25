@@ -1,0 +1,32 @@
+id: tech_colossus
+name:
+  en: Colossi
+  zh: 巨像
+category: technology
+subcategory: engineering
+dlc: Apocalypse
+lore: 巨构工程学的进步孕育出了巨像型战舰，模糊了现实与幻想的界限。只需按下按钮，这些巨大的单一武器平台就能凭一己之力改变或抹去一整个世界。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

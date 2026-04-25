@@ -1,0 +1,33 @@
+id: trait_lithoid
+name:
+  en: Lithoid
+  zh: 石质
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这一物种属于硅基生命体，靠矿物而非食物维生。它们比传统的有机生命更为坚韧，代谢缓慢，因而寿命更长却也繁殖缓慢。§!
+traits:
+  - 'pop_growth_speed: -0.25'
+  - 'planet_pop_assembly_organic_mult: -0.25'
+  - 'pop_environment_tolerance: 0.5'
+  - 'army_health: 0.5'
+  - 'leader_lifespan_add: 50'
+species:
+  cost: '0'
+  archetypes:
+    - LITHOID
+tags:
+  - trait
+  - lithoid
+relations:
+  - type: 提及
+    target: trait_traditional
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: lithoid
+  - type: 关联
+    target: trait_adaptive
+  - type: 关联
+    target: trait_adaptive_lithoid

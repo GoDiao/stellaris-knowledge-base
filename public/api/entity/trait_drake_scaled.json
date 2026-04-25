@@ -1,0 +1,49 @@
+{
+  "id": "trait_drake_scaled",
+  "name": {
+    "en": "Drake-Scaled",
+    "zh": "龙鳞化"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L该物种拥有嫁接自星际龙族的基因物质。他们身上脱落的鳞片可以被回收为有用的合金。§!",
+  "traits": [
+    "army_health: 0.5"
+  ],
+  "species": {
+    "cost": "3",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

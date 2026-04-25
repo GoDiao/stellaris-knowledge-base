@@ -1,0 +1,50 @@
+{
+  "id": "trait_plasmic",
+  "name": {
+    "en": "Plasmic",
+    "zh": "等离子体"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "该物种的外膜和无定型躯体使其可以轻易适应任何环境，并且完全免疫各种疾病。",
+  "traits": [
+    "pop_growth_speed: 0.15",
+    "pop_housing_usage_mult: -0.15",
+    "pop_environment_tolerance: 0.15"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

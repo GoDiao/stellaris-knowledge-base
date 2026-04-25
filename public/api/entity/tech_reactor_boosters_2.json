@@ -1,0 +1,48 @@
+{
+  "id": "tech_reactor_boosters_2",
+  "name": {
+    "en": "Improved Reactor Boosters",
+    "zh": "改良反应堆增压器"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": null,
+  "lore": "聚变能力的发现允许更好的反应堆增压器被安装到我们的船上。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "1",
+    "cost": "@tier1cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_reactor_boosters_1"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

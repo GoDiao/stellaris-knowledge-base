@@ -1,0 +1,48 @@
+{
+  "id": "tech_trinary_computing",
+  "name": {
+    "en": "Trinary Computing",
+    "zh": "三元计算技术"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": "First Contact",
+  "lore": "不同的社会发展出了不同的解答方案以适应它们的逻辑和计算机技术。这些外星人的思考方式能让我们更轻易地适应外星帝国的社会结构。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "0",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

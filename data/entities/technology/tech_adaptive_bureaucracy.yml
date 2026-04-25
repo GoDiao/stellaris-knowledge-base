@@ -1,0 +1,33 @@
+id: tech_adaptive_bureaucracy
+name:
+  en: Adaptive Bureaucracy
+  zh: 灵活机构
+category: technology
+subcategory: society
+dlc: null
+lore: 由于发展需要，新时代政府形式必须更加灵活有效，而不是碍手碍脚。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '1'
+  cost: '@tier1cost2'
+  category: null
+  prerequisites: []
+  features:
+    - gateway:espionage
+  weight: '@tier1weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1
+  - type: 关联
+    target: tech_advanced_metallurgy_2

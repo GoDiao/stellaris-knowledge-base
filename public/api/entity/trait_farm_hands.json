@@ -1,0 +1,47 @@
+{
+  "id": "trait_farm_hands",
+  "name": {
+    "en": "Farm Appendages",
+    "zh": "农业附肢"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L附肢越多，种地就越强。其中一些附肢甚至可以在主体进入睡眠后继续工作。至于主体被自己新的附肢勒死一事，我们最新的调查显示纯属谣言。§!",
+  "traits": [
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "fun"
+    }
+  ]
+}

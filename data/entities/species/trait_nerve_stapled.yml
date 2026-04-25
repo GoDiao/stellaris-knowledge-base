@@ -1,0 +1,33 @@
+id: trait_nerve_stapled
+name:
+  en: Nerve Stapled
+  zh: 精神阉割
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L通过切断自我防护和自由意志这类无关紧要的神经，我们能够创造一个温顺、驯化的物种。§!
+traits:
+  - 'planet_jobs_produces_mult: 0.05'
+  - 'species_leader_exp_gain: -1'
+species:
+  cost: '3'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 提及
+    target: trait_docile
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art

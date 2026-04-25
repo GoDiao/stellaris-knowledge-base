@@ -1,0 +1,32 @@
+id: tech_doctrine_navy_size_3
+name:
+  en: 'Doctrine: Interstellar Logistics'
+  zh: 学说：星际后勤
+category: technology
+subcategory: society
+dlc: null
+lore: 新手谈论战术，专家研究后勤。我们可以通过确保舰队能够定期而高效地获得补给，来增加我们能够有效地支持的舰船数量。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '4'
+  cost: '@tier4cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

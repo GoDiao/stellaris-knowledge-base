@@ -1,0 +1,33 @@
+id: trait_talented
+name:
+  en: Talented
+  zh: 天赋异禀
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种拥有与生俱来的天赋。§!
+traits:
+  - 'negative_leader_traits_species: -1'
+  - 'leaders_upkeep_mult: -0.1'
+species:
+  cost: '1'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - positive
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

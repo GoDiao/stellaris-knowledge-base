@@ -1,0 +1,51 @@
+{
+  "id": "tech_cloaking_1",
+  "name": {
+    "en": "Basic Cloaking Fields",
+    "zh": "基础隐形场"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": "First Contact",
+  "lore": "一个经修饰的粒子场可以有效地将我们的舰船“隐藏”在开阔的太空中。然而，作为代价，这将会破坏通常情况下能够保护舰船的能量护盾的稳定性。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "2",
+    "cost": "@tier2cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "active_reconnaissance_unlocked",
+      "gateway:cloaking"
+    ],
+    "weight": "@tier2weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

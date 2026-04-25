@@ -1,0 +1,50 @@
+{
+  "id": "tech_psi_jump_drive_1",
+  "name": {
+    "en": "Psi Jump Drive",
+    "zh": "灵能跃迁引擎"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "灵能跳跃引擎利用船员放射的灵能使舰体穿越现实的空间结构，立即“跳跃”过超长的距离。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "5",
+    "cost": "@tier5cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [
+      "jump_method"
+    ],
+    "weight": "@tier5weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

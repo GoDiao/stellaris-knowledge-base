@@ -1,0 +1,48 @@
+{
+  "id": "tech_doctrine_fleet_size_4",
+  "name": {
+    "en": "Doctrine: Fluid Fleet Templates",
+    "zh": "学说：机动舰队模板"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "逐步适应深空作战的现实使我们能够有效地协调更大规模的调动。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "4",
+    "cost": "@tier4cost1",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier4weight1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

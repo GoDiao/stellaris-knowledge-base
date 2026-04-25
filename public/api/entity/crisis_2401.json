@@ -1,0 +1,40 @@
+{
+  "id": "crisis_2401",
+  "name": {
+    "en": "Energy Spike",
+    "zh": "能源脉冲"
+  },
+  "category": "crisis",
+  "subcategory": "extradimensional_invaders",
+  "dlc": null,
+  "lore": "又从之前未发现的星系检测到一道强烈的能量脉冲！其能量水平和肃正协议启动机械星球时发出的一样，但能量信号本身……有些不同。这是否说明某种肃正协议的新武器系统出现了？\n\n我们从能量源处接收到了很强的传输信号。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "extradimensional_invaders"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "extradimensional_invaders"
+    },
+    {
+      "type": "提及",
+      "target": "crisis_2030"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "提及",
+      "target": "trait_machine_unit"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_physics_research"
+}

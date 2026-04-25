@@ -1,0 +1,53 @@
+{
+  "id": "trait_clone_soldier_infertile_full_potential",
+  "name": {
+    "en": "Clone Soldier Ascendant",
+    "zh": "克隆人士兵先裔"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L在基因工程巅峰的克隆人，更加强健、高效、耐久和长寿——但放弃了生育能力。§!",
+  "traits": [
+    "pop_government_ethic_attraction: 0.50",
+    "pop_environment_tolerance: 0.20",
+    "planet_jobs_ruler_produces_mult: 0.4",
+    "planet_jobs_specialist_produces_mult: 0.25",
+    "army_damage_mult: 0.75",
+    "army_health: 0.25"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_robust"
+    },
+    {
+      "type": "提及",
+      "target": "tech_cloning"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    }
+  ]
+}

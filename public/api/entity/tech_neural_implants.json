@@ -1,0 +1,48 @@
+{
+  "id": "tech_neural_implants",
+  "name": {
+    "en": "Neural Implants",
+    "zh": "神经植入体"
+  },
+  "category": "technology",
+  "subcategory": "society",
+  "dlc": null,
+  "lore": "所谓认知，不过是对感官信号的处理而已。它是可以被改变的。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "society"
+  ],
+  "technology": {
+    "area": "society",
+    "tier": "1",
+    "cost": "@tier1cost3",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier1weight3",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

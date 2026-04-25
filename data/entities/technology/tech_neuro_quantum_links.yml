@@ -1,0 +1,32 @@
+id: tech_neuro_quantum_links
+name:
+  en: Quantum Neuro-Links
+  zh: 量子神经链接
+category: technology
+subcategory: physics
+dlc: null
+lore: 先进的神经植入体连接着量子计算集群，让人能够进行并行思考。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '3'
+  cost: '@tier3cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier3weight1'
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: tech_neural_implants
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai

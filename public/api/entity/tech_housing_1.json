@@ -1,0 +1,48 @@
+{
+  "id": "tech_housing_1",
+  "name": {
+    "en": "Weather Control Systems",
+    "zh": "气候控制系统"
+  },
+  "category": "technology",
+  "subcategory": "engineering",
+  "dlc": null,
+  "lore": "改变行星气候规律以压制灾难性气候现象的能力可使住房建筑更容易维护，并开放新的可居住区域。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "engineering"
+  ],
+  "technology": {
+    "area": "engineering",
+    "tier": "2",
+    "cost": "@tier2cost2",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "@tier2weight2",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    },
+    {
+      "type": "关联",
+      "target": "tech_advanced_metallurgy_1"
+    }
+  ]
+}

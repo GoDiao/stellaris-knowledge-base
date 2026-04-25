@@ -1,0 +1,32 @@
+id: tech_strike_craft_skrand
+name:
+  en: Skravird Strike Craft
+  zh: 斯卡拉维德舰载机
+category: technology
+subcategory: engineering
+dlc: null
+lore: 从斯克兰德和他的人那儿学到的设计经验，这些先进的舰载机可以运用灵活适应的战术进行长时间作战。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '4'
+  cost: '@tier4cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '0'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

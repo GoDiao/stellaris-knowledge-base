@@ -1,0 +1,44 @@
+{
+  "id": "pre_rep",
+  "name": {
+    "en": "SPECIES_CLASS_PRE_REP",
+    "zh": "SPECIES_CLASS_PRE_REP"
+  },
+  "category": "species",
+  "subcategory": "species_class",
+  "dlc": null,
+  "lore": "",
+  "traits": [],
+  "species": {
+    "archetype": "PRESAPIENT",
+    "portraits": [],
+    "graphical_culture": "reptilian_01",
+    "gender": true
+  },
+  "tags": [
+    "species_class",
+    "presapient"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    },
+    {
+      "type": "关联",
+      "target": "exd"
+    }
+  ]
+}

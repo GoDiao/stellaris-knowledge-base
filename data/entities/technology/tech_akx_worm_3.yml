@@ -1,0 +1,32 @@
+id: tech_akx_worm_3
+name:
+  en: Omega Theory
+  zh: 欧米伽理论
+category: technology
+subcategory: physics
+dlc: Horizon Signal
+lore: 当时间悖论开始相互纠缠之时，一个难以形容的意识在黑暗深处渐渐苏醒，它渴望着，索求着。之前发生的一切就是这个意识——某些人口中所称的“时之螶”所引起的。如果我们能够让自己同这个意识进行同调的话，我们或许可以触摸到永生的大门。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '@horizontechtier'
+  cost: '@horizontechcost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '60'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

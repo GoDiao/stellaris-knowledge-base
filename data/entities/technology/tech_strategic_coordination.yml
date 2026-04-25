@@ -1,0 +1,32 @@
+id: tech_strategic_coordination
+name:
+  en: 0 "Strategic Coordination Center"
+  zh: 战略指挥中心
+category: technology
+subcategory: society
+dlc: null
+lore: 可以将全国上下恒星基地网络进行同步化处理的设施，提升基地的防御及攻击能力。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '5'
+  cost: '@tier5cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier5weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

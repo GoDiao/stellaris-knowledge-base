@@ -1,0 +1,47 @@
+{
+  "id": "trait_incubator",
+  "name": {
+    "en": "Incubators",
+    "zh": "孵化者"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L当被隔离开或者种群的人口数量很少时，拥有这个特质的物种就会集中精力以一种其他物种难以接受的程度繁衍生产。反之，在人口众多时，该效应则会反转，繁衍会更加困难。§!",
+  "traits": [],
+  "species": {
+    "cost": "2",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

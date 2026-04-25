@@ -1,0 +1,29 @@
+id: trait_self_modified
+name:
+  en: Self-Modified
+  zh: 自我改造
+category: species
+subcategory: trait
+dlc: null
+lore: §L这个亚种的个体自发地对自我的基因序列进行了改造，以期为他们自己带来某种形式上的优势。§!
+traits: []
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

@@ -1,0 +1,50 @@
+{
+  "id": "trait_juiced_power",
+  "name": {
+    "en": "Juiced Power",
+    "zh": "激素强健"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L根据需要释放的肾上腺素和超强力生长激素使其变得无比强健。只需要无视体内偶尔发出撕裂的声音即可。§!",
+  "traits": [
+    "army_damage_mult: 0.40",
+    "leader_lifespan_add: -10"
+  ],
+  "species": {
+    "cost": "1",
+    "archetypes": [
+      "BIOLOGICAL",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "lithoid",
+    "positive"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "trait_robust"
+    },
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    }
+  ]
+}

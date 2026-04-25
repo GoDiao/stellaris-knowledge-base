@@ -1,0 +1,40 @@
+{
+  "id": "crisis_1110",
+  "name": {
+    "en": "A Second Portal",
+    "zh": "第二道传送门"
+  },
+  "category": "crisis",
+  "subcategory": "contingency",
+  "dlc": null,
+  "lore": "我方仪器又侦测到了新的亚空间能源波，这次的源头位于[second_portal_system.GetName]星系！那里又出现了一个巨大的虫洞，从能源特征来看，这与我们星系中出现的传送门十分相似。看来入侵者打开了第二个通向他们界域的传送门，想要搬运来更多的援军。",
+  "traits": [],
+  "tags": [
+    "crisis_event",
+    "contingency"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "contingency"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_10"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1000"
+    },
+    {
+      "type": "关联",
+      "target": "crisis_1003"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_wormhole"
+}

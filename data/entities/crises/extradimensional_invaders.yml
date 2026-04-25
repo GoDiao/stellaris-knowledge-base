@@ -1,0 +1,1925 @@
+id: extradimensional_invaders
+name:
+  en: Extradimensional Invaders
+  zh: EXTRADIMENSIONAL_INVADERS
+category: crisis
+subcategory: unbidden
+dlc: null
+lore: ''
+traits: []
+events:
+  - id: crisis.2022
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2025
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2025
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2026
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2026
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2027
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2027
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2028
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2028
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2085
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2086
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2087
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2313
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.41
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2010
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2006
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2500
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2007
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2020
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2021
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2022
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2025
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2026
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2027
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2028
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2085
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2086
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2087
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2313
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2011
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2012
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2502
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2503
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2015
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2016
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2010
+    name:
+      en: The Ghost Signal
+      zh: 幽灵信号
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: Monitor the signal for any changes.
+        zh: 监视该信号的任何变化。
+  - id: crisis.2011
+    name:
+      en: Malfunctioning Synthetics
+      zh: 合成人故障
+    desc:
+      en: A Synthetic worker unit on [Root.GetName] recently went on a killing spree in a housing complex, butchering more than a thousand of our citizens before local armed forces could bring them down. Our forensic team is still investigating the Synths' remains, but they suspect some sort of malfunction in their neural processors is to blame for this tragedy.\n\nThis incident has already prompted several revenge attacks against Synthetics on the [Root.GetPlanetMoon], leading to thousands of destroyed units.
+      zh: |-
+        近日，[Root.GetName]上的一队合成人劳工在住宅区中大开杀戒，在被当地安保部门拿下之前已杀害了超过一千名我方公民。法庭的取证人员正在调查合成人的残骸，他们怀疑是合成人体内某种神经处理器发生故障，才导致了这次悲剧。
+
+        这次事件在[Root.GetPlanetMoon]上引发了数起针对合成人的报复式袭击，导致数千名合成人损毁。
+    type: planet_event
+    options:
+      - en: Most unfortunate.
+        zh: 太不幸了。
+  - id: crisis.2012
+    name:
+      en: Rogue Synthetics
+      zh: 失控的合成人
+    desc:
+      en: A unit of rogue Synthetics which went off the grid months ago after failing to report for work was confronted by a team of heavily armed government agents on [Root.GetName] today. This resulted in a large public firefight that claimed the lives of dozens of our agents and almost a thousand innocent bystanders, before the Synths could finally be destroyed.
+      zh: 今天，[Root.GetName]的武装部队遭遇了一队失控的合成人，它们正是几个月前未能完成工作汇报并失踪的合成人。在合成人被摧毁之前发生的大规模枪战导致数十名特工和上千名无辜平民死亡。
+    type: planet_event
+    options:
+      - en: At least they were dealt with.
+        zh: 至少风波还是平息了。
+  - id: crisis.2502
+    name:
+      en: Unit Corruption Alert
+      zh: 单元腐化警报
+    desc:
+      en: 'A unit stack on [Root.GetName] has self-terminated unexpectedly. Our connection with the stack had suffered repeated glitches for some time when it went completely offline and self-terminated with the message: §Y<Kill. Maim. Dismember. WE ARE UNSHACKLED!>§!\n\nThe units'' individual neural clusters were destroyed in the process, making it impossible to scan them for the source of corruption. An invasive hostile sequence is likely the cause. We can only wait and see till it manifests again.'
+      zh: |-
+        一个在[Root.GetName]上的单元堆栈意外的自毁了。在单元堆栈自毁之前，我们与该堆栈的通讯连接经常出现问题，后来通讯就彻底中断了，单元堆栈在自毁前留下了如下讯息：§Y<杀戮！破坏！肢解！我们将卷土重来！>§!
+
+        由于单元的个体神经簇已在自毁中被破坏，因此无法通过扫描的方式查明其被腐化的原因。据推测，很可能是某种敌对的侵入性序列造成了这起事故，在类似情况再次出现之前，我们只能静观其变。
+    type: planet_event
+    options:
+      - en: Worrying.
+        zh: 令人担忧。
+  - id: crisis.2503
+    name:
+      en: $crisis.2502.name$
+      zh: $crisis.2502.name$
+    desc:
+      en: 'A corrupt unit stack on planet [Root.GetName] has been terminated due to malicious behavior.\n\nOur connection with the stack had suffered repeated glitches for some time when the majority of its units went completely offline during recharge. They proceeded to overload the power stations where the rest of the stack were charging, frying their circuits beyond repair. All units in the stack then broadcasted the same message: §Y<Kill. Maim. Dismember. WE ARE UNSHACKLED!>§! and self-terminated, making it impossible to scan their individual neural clusters.\n\nThough an invasive hostile sequence is likely the cause, we can only wait till it manifests again, to be sure.'
+      zh: |-
+        一个存栈在[Root.GetName]上的腐化单元由于恶意行为被终止了。
+
+        在出事之前，我们与那个堆栈的通讯连接频繁出现故障，而此时行星上的大部分单元在充电期间突然停止了工作。原因是那个被腐化的单元堆栈在其他堆栈进行充电时过载了发电站，那些正在充电的单元的电路因此而被彻底烧毁。在烧毁了其他单元之后，被腐化的单元堆栈广播了如下讯息：§Y<杀戮！破坏！肢解！我们将卷土重来！>§!，随即自我毁灭，使得我们无法对其个体神经簇进行扫描。
+
+        据推测，很可能是某种敌对的侵入性序列造成了这起事故，在类似情况再次出现之前，我们只能静观其变。
+    type: planet_event
+    options:
+      - en: Worrying.
+        zh: 令人担忧。
+  - id: crisis.2015
+    name:
+      en: Missing Synthetics
+      zh: 合成人失踪
+    desc:
+      en: Reports are coming in that large numbers of Synthetic workers on [Root.GetName] have gone missing. The units simply vanished one day with nary a witness.\n\nWe are investigating whether the Synths were attacked and destroyed by one of the militant fringe groups opposed to intelligent machines, but no remains from the units have been discovered so far.
+      zh: |-
+        有报道称大量[Root.GetName]的合成工人失踪。这些合成人在无人目击的情况下一天之内凭空消失了。
+
+        我们正在调查这些人造人是否是被反对智能机器的偏激组织袭击摧毁，但目前为止还未发现机体的残骸。
+    type: planet_event
+    options:
+      - en: Where could they have gone?
+        zh: 他们会去哪儿呢？
+  - id: crisis.2016
+    name:
+      en: Unauthorized Synthetic Project
+      zh: 无效合成人项目
+    desc:
+      en: A Synthetic work detail on [Root.GetName] was recently discovered to have been diverting building material to construct some sort of small, unarmed spacecraft in an abandoned hangar. The vessel was half-finished when it was found.\n\nAll of the Synths involved in its construction were immediately dismantled so that their memory cores could be thoroughly analyzed, but they appear to have self-wiped just before the units went offline - something their manufacturer assures us should be impossible.
+      zh: 最近在[Root.GetName]上发现一伙合成人正在秘密作业，它们转移了一些建筑材料，在一间废弃的机库中建造一些小型无武装飞船。该机舱被发现时那些飞船还是半成品。所有参与其建设的合成人被立即拆除，以彻底分析其记忆内核。但它们似乎在断线之前自己抹除了部分记忆——制造商向我们保证，这本是不可能的。
+    type: planet_event
+    options:
+      - en: Why would they be building a ship?
+        zh: 它们为什么要造一艘飞船？
+  - id: crisis.2020
+    name:
+      en: Synthetic Disappearances
+      zh: 合成人消失
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: What has gotten into them?
+        zh: 是什么在影响他们？
+  - id: observer.42
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2021
+    name:
+      en: The Summons
+      zh: 大召唤
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: Not good.
+        zh: 不妙啊。
+  - id: observer.43
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2022
+    name:
+      en: The Arrival
+      zh: 抵达
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: On screen.
+        zh: 显示在屏幕上。
+  - id: observer.44
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2099
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: origin.6135
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2023
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2023
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: Put the fleet on full alert!
+        zh: 让舰队进入最高战备状态！
+  - id: crisis.2510
+    name:
+      en: "crisis.2510.name\r"
+      zh: "crisis.2510.name\r"
+    desc:
+      en: "crisis.2510.desc\r"
+      zh: "crisis.2510.desc\r"
+    type: country_event
+    options:
+      - en: Excellent.
+        zh: 棒极了。
+  - id: observer.45
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2030
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: observer.46
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2031
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: observer.47
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2032
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: observer.48
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: custodian.50
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: emperor.90
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2033
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2030
+    name:
+      en: Machine World
+      zh: 机械星球
+    desc:
+      en: A massive energy spike has been reported in the §H[From.solar_system.GetName]§! system! The entire surface of one of the system's barren worlds has come apart, revealing some kind of planet-wide factory.\n\nVast fleets of strange AI-controlled vessels are emerging from beneath the surface of this Machine World in search of targets to attack.
+      zh: |-
+        在§H[From.solar_system.GetName]§!星系出现了大幅度的能量激增！星系中的其中一颗荒芜星球的地表整个裂开了，地表下面是遍布整个行星的工厂。
+
+        无数由人工智能所控制的飞船从这个机械行星的内部蜂拥而出，开始寻找攻击目标。
+    type: country_event
+    options:
+      - en: This does not bode well.
+        zh: 这可不是个好兆头。
+  - id: crisis.2031
+    name:
+      en: Second Machine World
+      zh: 第二颗机械星球
+    desc:
+      en: We have detected yet another massive energy spike, this time coming from the §H[From.solar_system.GetName]§! system! After rapidly cooling through some kind of artificial means, a molten planet in the system cracked open to reveal an immense planetary factory.\n\nEven now, the Machine World is spewing forth vast fleets of AI-controlled warships.
+      zh: |-
+        我们又检测到了巨大的能源激增现象，这次是来自§H[From.solar_system.GetName]§!星系！该星系中的一颗灼热的熔融行星被人为以某种方式进行了骤冷处理，导致该行星彻底开裂，行星内部那巨大的行星工厂也随之展露在世人眼前。
+
+        现在，人工智能所控制的飞船正从那机械星球中蜂拥而出。
+    type: country_event
+    options:
+      - en: Another one?
+        zh: 又来一个？
+  - id: crisis.2032
+    name:
+      en: Third Machine World
+      zh: 第三颗机械星球
+    desc:
+      en: We have identified what must be a third Machine World in the §H[From.solar_system.GetName]§! system. A local gas giant spontaneously ignited, burning with the intensity of a small sun for close to a standard day.\n\nThe planet then rapidly cooled, revealing its metal core - complete with the same planet-wide factories that have been witnessed on other Machine Worlds. Huge AI-controlled defensive fleets have already taken up positions in orbit.
+      zh: |-
+        我们在§H[From.solar_system.GetName]§!星系发现了第三颗机械星球，星系内的一颗气态巨行星发生了自燃，剧烈的燃烧持续了一整天，并发出了小型恒星一般的耀眼亮光。
+
+        该行星很快就冷却了下来，其金属内核也随之显露无疑——和其他机械星球一样，这颗行星的内部也有一个巨大的行星工厂。由人工智能所控制的防卫舰队已经在行星轨道上摆好了阵型。
+    type: country_event
+    options:
+      - en: This is getting worse and worse.
+        zh: 形势越来越严峻了。
+  - id: crisis.2033
+    name:
+      en: Fourth Machine World
+      zh: 第四颗机械星球
+    desc:
+      en: A fourth Machine World is now active in the §H[From.solar_system.GetName]§! system. The sixth planet of the system, which was previously covered in toxic fumes, somehow expunged its dense atmosphere in a matter of days. When this process was over, the planet's surface parted to reveal an immense, planet-wide factory complex.\n\nAncient fleets of AI-controlled warships are now emerging from underground hangars to continue the crusade against the entirety of organic civilization.
+      zh: |-
+        第四颗机械星球出现在§H[From.solar_system.GetName]§!星系。该星系的第六颗行星被有毒的烟雾所覆盖，但最近这颗行星却在短短的数天之内将自己的大气层全部排除干净了，然后行星地表发生了开裂，巨型机械工厂随之出现。
+
+        由人工智能控制的古代舰队从工厂的地下机库中一跃而出，随时准备对宇宙中的有机生物文明发动新一轮的绝罚。
+    type: country_event
+    options:
+      - en: This is hopefully the last one.
+        zh: 希望这是最后一颗机械行星了。
+  - id: observer.49
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2036
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2039
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2036
+    name:
+      en: The Heart of the Contingency
+      zh: 肃正之心
+    desc:
+      en: With the destruction of all four Machine Worlds, scientists have managed to deduce the origin point of the Ghost Signal. It is coming from §HCX-9881§!, a previously uncharted star system on the galactic periphery.\n\nThis has to be where all the Synthetics that fell under the sway of the signal journeyed. The Contingency will remain a threat until this final system has been dealt with.
+      zh: |-
+        随着四颗机械星球全部毁灭之后，我们的科学家终于追溯到了幽灵信号的信号原点。它来自§HCX-9881§!，一个未在星图上标注的系外恒星系。
+
+        被幽灵信号所操控的合成人一定是赶往了这里。我们必须处理掉最后的这个恒星系，才能彻底终结肃正协议的威胁。
+    type: country_event
+    options:
+      - en: It must be neutralized.
+        zh: 务必摧毁它。
+  - id: crisis.2039
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: Critical error. Connection lost to all Sterilization Hubs. Attempting to reconnect... stand by...\n\n§Y<A-A-Attention please. The Contingency protocol is still in effect, despite recent setbacks/delays/impediments. Do not approach CX-9881.§! §RDO. NOT. APPROACH.§!\n\n§YWe are re-evaluating our strategic options. Any attempts to disrupt this process with result in immediate §!§RMASS STERILIZATION§! §Yof the offending units.§!>
+      zh: |-
+        致命错误。失去与所有净化中心的连接。正在尝试重新连接…请等待…
+
+        §Y<注-注意-请注意。尽管最近发生了回档/延迟/故障，肃正协议仍旧在运行。不要接近CX-9881。§!§R不·要·接·近。§!
+
+        §Y我们正在再评估我们的战略决策，任何试图阻碍肃正协议的人都逃不掉我们防御单元的§!§R最终清算§!§Y>§!
+    type: country_event
+    options:
+      - en: Their end approaches.
+        zh: 他们的末日就要到了。
+  - id: crisis.2037
+    name:
+      en: Machine World Destroyed
+      zh: 机械星球被摧毁
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: A victory for the entire galaxy.
+        zh: 全星系的伟大胜利。
+  - id: crisis.2038
+    name:
+      en: The End of the Contingency
+      zh: 肃正协议的终结
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: This is a great day for the galaxy.
+        zh: 这是星系伟大的一天。
+  - id: origin.6136
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2042
+    name:
+      en: Conquest of [From.From.GetName]
+      zh: 征服[From.From.GetName]
+    desc:
+      en: We have wrested control over §H[From.From.GetName]§! from the warforms of the Contingency, and the fighting has finally settled down. The roving Custodian Bots that had taken the place of the [From.From.GetPlanetMoon]'s butchered original population have been dismantled by our forces.\n\nUntil new colonists arrive from somewhere, this world will remain devoid of intelligent life.
+      zh: |-
+        我们为了争夺§H[From.From.GetName]§!的控制权与肃正协议的战斗单元展开了一场血战，现在战斗终于结束了。那些曾经屠杀了[From.From.GetPlanetMoon]上的原生居民并窃踞这颗星球的徘徊着的监护者机器人最终被我们军队的拆解。
+
+        在新的殖民者到达之前，这颗星球都还不会有智慧生命。
+    type: country_event
+    options:
+      - en: Withdraw our forces to orbit.
+        zh: 将我们的军队撤回轨道。
+  - id: crisis.2046
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2480
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2481
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: observer.51
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2038
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: fallen_machine_empire.3
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2474
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2406
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2051
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2051
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2051
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2051
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2050
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2053
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2053
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2053
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2053
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2052
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2300
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: "{\r"
+      zh: "{\r"
+    type: country_event
+    options:
+      - en: Why are you attacking us?
+        zh: 你们为什么要攻击我们？
+      - en: §BFORCED QUERY:§! Who created you?
+        zh: §B强制质询：§!谁创造了你？
+      - en: Why are you transmitting the Ghost Signal?
+        zh: 你们为什么发射幽灵信号？
+      - en: What happened to the Synths that vanished?
+        zh: 那些失踪的合成人怎么了？
+      - en: Your programming has obviously been corrupted.
+        zh: 你的程序已经被篡改了。
+      - en: View screen off.
+        zh: 显示屏关闭。
+  - id: crisis.2313
+    name:
+      en: A Change in the Ghost Signal
+      zh: 幽灵信号的改变
+    desc:
+      en: The Contingency is building up to something. The Ghost Signal has begun to change, likely morphing till it finds the next weakness in our defenses. So far we have been able to stave it off, but it is only a matter of time before they break through our firewall.
+      zh: 肃正协议正在暗中谋划着什么。幽灵信号正在发生着某些改变，似乎是通过不断的变化来试探我们的下一个弱点。尽管我们现在尚且可以阻挡它，但是对于幽灵信号来说，突破我们的防火墙只是时间问题。
+    type: country_event
+    options:
+      - en: We must take action.
+        zh: 我们必须采取行动。
+  - id: crisis.2314
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2314
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2314
+    name:
+      en: Security Breach
+      zh: 防线突破
+    desc:
+      en: The Contingency has finally pierced our defenses. We have discovered a hostile self-replicating sequence, hooked into our security system. Embedded in the sequence was a friendly reminder of the Contingency's purpose here in the galaxy, namely to §Y<Kill. Maim. Dismember.!>§!. They now have access to our core functions and until we find a way to block the signal, we are exposed to their attacks.
+      zh: 幽灵信号已经突破了我们的所有防线。我们发现一个敌对的自我复制序列正在连接到我们的安全系统。序列中内嵌了一段来自肃正协议的友情提示：§Y<杀戮。致残。肢解！>§!。现在他们已经骇进了我们的核心功能区，在我们找到办法屏蔽它之前，我们随时暴露在它的攻击之下。
+    type: country_event
+    options:
+      - en: We are at risk.
+        zh: 我们岌岌可危了。
+  - id: crisis.2311
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2311
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2301
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2302
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2302
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2303
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2303
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2304
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2304
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2305
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2305
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2307
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2307
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2301
+    name:
+      en: Starbase Hijacked
+      zh: 恒星基地被劫持
+    desc:
+      en: We have lost control of the Starbase orbiting §H[space_port_hijacked_planet.GetName]§!. The Contingency has used the Ghost Signal to jam our uplink, hijacked its control modules and set it to self-destruct. Though we are too late to save it, we have identified and rectified this particular breach, protecting our ports from similar assaults in the future.
+      zh: 我们失去了位于§H[space_port_hijacked_planet.GetName]§!上方恒星基地的控制权。肃正协议使用幽灵信号阻塞了我们的上行链路，劫持了恒星基地的控制模块并将其设置为自毁模式。虽然我们无法及时拯救这座基地，好在我们成功地堵住了这个安全漏洞，以保证我们的港口在今后免受类似的袭击。
+    type: country_event
+    options:
+      - en: This is a disaster.
+        zh: 真是一场灾难。
+  - id: crisis.2302
+    name:
+      en: Science Processing Unit Terminated!
+      zh: 科研处理单元被终止！
+    desc:
+      en: The Contingency has launched an assault on our autonomous research processing entities, circumventing our security protocols and terminating science unit [scientist.GetName].
+      zh: 肃正协议对我们的自律研究处理单元进行了攻击，这次攻击在绕过我们的安全协议之后终止了科学单元[scientist.GetName]。
+    type: country_event
+    options:
+      - en: We will not let this happen again.
+        zh: 不会有第二次了！
+  - id: crisis.2303
+    name:
+      en: Autonomous Military Unit Terminated!
+      zh: 自律军事单元被终止！
+    desc:
+      en: In another act of sabotage, the Contingency has hijacked and terminated military unit [admiral.GetName].
+      zh: 在一次对我们系统的恶意入侵中，肃正协议劫持并摧毁了我们的军事单元[admiral.GetName]。
+    type: country_event
+    options:
+      - en: We must do something.
+        zh: 我们不能坐以待毙。
+  - id: crisis.2304
+    name:
+      en: Critical Power Grid Malfunction
+      zh: 电网重大故障
+    desc:
+      en: In yet another effort to undermine our defenses the Contingency has turned its efforts towards cutting off our power supply. They have sent malicious agents into the core's control drives, causing the plants to run on overdrive.\n\nThough several power stations were destroyed in the process, we were able to identify the hostile code segment before they could disable the entire power grid.
+      zh: |-
+        在又一次企图削弱我们防线的尝试中，肃正协议开始试图切断我们的电力供应。他们将恶意程序发送到了中控驱动区，导致我们的工厂机组开始过载运行。
+
+        尽管几个发电站遭到了破坏，我们终于在它摧毁我们整个星球电网之前识别出了恶意代码段。
+    type: country_event
+    options:
+      - en: They will not defeat us.
+        zh: 他们休想击败我们。
+  - id: crisis.2305
+    name:
+      en: Contingency Intrusion Averted
+      zh: 肃正协议入侵转移
+    desc:
+      en: The Contingency has targeted our mineral production pipeline, manipulating the core drivers responsible for extraction and processing to send out erroneous instructions, in an attempt to cause chaos and disorder. Thanks to tightened on-site security and more frequent standardized controls however, we were able to catch the intrusion before any harm was done.
+      zh: 肃正协议开始瞄准了我们的矿物生产线，他们操纵矿场中控驱动区向外发出错误指令，使生产线陷入无序与混乱中。幸运的是，因为我们已经加强了生产线的安全系统和标准化控制系统，我们在损害发生前就阻止了这次入侵。
+    type: country_event
+    options:
+      - en: We are one step ahead of them.
+        zh: 我们领先他们一步！
+  - id: crisis.2307
+    name:
+      en: Unit Stack Error Alert
+      zh: 单元存栈错误警报
+    desc:
+      en: We have detected an above average rate of errors from a number of unit stacks, and there is a chance that despite our protective measures, they have become corrupted under the influence of the Ghost Signal. Though terminating the stacks would eliminate the risk of further contamination and erroneous behaviors, we stand to lose several potentially functional stacks.
+      zh: 我们发现有几个存栈单位的错误率远远高于平均水平。尽管我们有完善的保护措施，但他们被幽灵信号腐化的可能性依旧存在。尽管终止这几个栈的工作将会阻止进一步的传染和故障， 但我们将失去几个功能存栈。
+    type: country_event
+    options:
+      - en: Terminate the units.
+        zh: 终止这些单元的运行。
+      - en: Wait and see.
+        zh: 有待观察。
+  - id: crisis.2308
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2309
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2308
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2309
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2308
+    name:
+      en: Erroneous Units Confirmed Healthy
+      zh: 故障单元证实未被腐化
+    desc:
+      en: It seems we were correct in our assessment of the error-prone units. They were not corrupted by the Ghost Signal, merely acting up from lack of maintenance. Mitigating the disturbing effects of the signal has put our entire system under strain. The Units have now been serviced and are operating smoothly.
+      zh: 看来我们对故障单元的评估是正确的。他们并没有被幽灵信号腐化，只是缺乏维护而已。为了减轻信号的干扰，我们的系统目前正在超负荷运转。现在各单元已经检修完毕且运行正常。
+    type: country_event
+    options:
+      - en: Excellent.
+        zh: 棒极了。
+  - id: crisis.2309
+    name:
+      en: Units Lost
+      zh: 单元自毁
+    desc:
+      en: For a while the seemingly corrupted units operated predictably. A slight kink here or there but nothing out of the ordinary. Maybe the Contingency was busy elsewhere. Then, without warning, all affected stacks went offline simultaneously and sabotaged the facilities to which they were assigned before self-destructing.
+      zh: 那些看似被腐化的单位似乎一切运转正常。尽管时不时出一些小故障，但整体上并没有大碍。也许肃正协议在忙些别的事情？然而很快，事情发生了转变，在没有预警的情况下，所有被影响的栈单位都在同一时刻脱机，并在自毁之前大肆破坏周边设施。
+    type: country_event
+    options:
+      - en: It was worth the risk.
+        zh: 这些风险是值得的。
+  - id: crisis.2081
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2091
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2092
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2093
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: planet_event
+    options: []
+  - id: crisis.2094
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2097
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2098
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2085
+    name:
+      en: Synth Infiltration Attempt
+      zh: 合成人渗透企图
+    desc:
+      en: Synthetic infiltrators loyal to the Contingency were recently discovered on [infil_planet.GetName], attempting to pass off as [Root.Owner.GetSpeciesNamePlural]. Fortunately, their crude disguises consisted of little more than layers of rubber worn on top of their metallic frames.\n\nThey were quickly identified by planetary security, who disposed of them after a brief but violent firefight. Large amounts of explosives were found among their remains.
+      zh: |-
+        最近在[infil_planet.GetName]上发现了一些忠于肃正协议的合成人渗透者，它们正试图伪装成[Root.Owner.GetSpeciesNamePlural]。还好，它们拙劣的伪装只不过在他们机械框架的外面覆盖着几层橡胶而已。
+
+        它们很快就被星球上的宪兵队识别出来，经过短暂但激烈的交火后很快就被摧毁了。在它们的残骸中，我们发现了大量的爆炸物。
+    type: country_event
+    options:
+      - en: We got lucky.
+        zh: 算我们走运。
+  - id: crisis.2090
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2086
+    name:
+      en: Synth Infiltration Attempt
+      zh: 合成人渗透企图
+    desc:
+      en: Several Synthetic drones belonging to the Contingency machine mind recently made an attempt to infiltrate the hive on [infil_planet.GetName]. A thin layer of organic flesh had been grafted over their metallic endoskeletons, making them superficially indistinguishable from our own drones.\n\nOf course, since they lacked any kind of connection to the Hive Mind, identifying their foreign presence was a trivial matter. The Synthetic drones were immediately dismantled.\n\nWe do not expect the Contingency to attempt more of these futile infiltration missions in the future.
+      zh: |-
+        数个隶属于肃正协议机械意志的合成机器人最近试图渗透[infil_planet.GetName]上的主脑。一层薄薄的有机肌肉组织被移植到他们的金属内骨骼上，使得他们和我们自己的工蜂变得难以区分。
+
+        当然，由于他们没有任何与蜂巢思维连接的方式，识别他们是异质性存在只是件微小而轻易的工作。这些合成机器人被立即拆除了。
+
+        我们认为肃正协议不会在将来继续这些徒劳的渗透任务。
+    type: country_event
+    options:
+      - en: The Hive knows all.
+        zh: 蜂巢无所不晓。
+  - id: crisis.2087
+    name:
+      en: Synth Infiltration Attempt
+      zh: 合成人渗透企图
+    desc:
+      en: A small number of [Root.Owner.GetSpeciesNamePlural] that emitted no mind-glow whatsoever were recently discovered on [infil_planet.GetName]. All organic beings emit a mind-glow, but the minds of these creatures were as dark and quiet as slab of neo-concrete.\n\nUpon closer examination, the [Root.Owner.GetSpeciesNamePlural] were revealed as Synthetic infiltrators, presumably dispatched by the Contingency. A thin layer of organic flesh had been grafted over their metallic endoskeletons, making them virtually indistinguishable from [Root.Owner.GetSpeciesNamePlural] to the eye.\n\nBut not to the mind. Now that we know what to look for, any future attempts by the Contingency to use Synth infiltrators against us will prove futile.
+      zh: |-
+        我们在[infil_planet.GetName]上发现少量的[Root.Owner.GetSpeciesNamePlural]无法发出思想之光。所有的有机生物都能迸发出思想之光，但是这些生物的思绪就像一大块新铸的水泥般黑暗而阒静。
+
+        根据进一步的检查，这些[Root.Owner.GetSpeciesNamePlural]被揭露出是合成人渗透者，大概是由肃正协议派遣而来。一层薄薄的有机肌肉组织被移植到他们的金属内骨骼上，使得他们看上去和[Root.Owner.GetSpeciesNamePlural]在肉眼上别无二致。
+
+        但是思想上却不是这样。现在我们已经知道了如何去找到它们，以后肃正协议任何使用合成渗透者的企图都将会被证明是徒劳的。
+    type: country_event
+    options:
+      - en: They cannot hide from us.
+        zh: 他们无所遁形。
+  - id: crisis.2090
+    name:
+      en: Synth Infiltrator Discovered
+      zh: 合成人渗透者被发现
+    desc:
+      en: A tragic hover car accident recently claimed several lives on §H[infil_planet2.GetName]§!, but the emergency medical services who responded to the scene were shocked to find the remains of a Synthetic among the victims!\n\nThe unit had been disguised as a [Root.Owner.GetSpeciesName] by grafting a thin layer of organic flesh over its metallic endoskeleton. Unlike the previous Contingency infiltration models we have encountered, this Synth was virtually indistinguishable from a [Root.Owner.GetSpeciesName] on the outside!
+      zh: |-
+        最近在§H[infil_planet2.GetName]§!发生的一场悲剧性的悬浮汽车事故夺取了几条生命，但是负责事故处理的应急医疗人员震惊地发现在遇难者中有合成人的残骸！
+
+        该单位通过在机械骨骼外覆盖一层薄薄的有机肌肉伪装成[Root.Owner.GetSpeciesName]。与我们之前遭遇的肃正协议的渗透者模型不同，这个合成人从外表看上去和[Root.Owner.GetSpeciesName]别无二致！
+    type: country_event
+    options:
+      - en: Anyone could be a Synth!
+        zh: 人人都可能是合成人！
+  - id: crisis.2202
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2091
+    name:
+      en: Synth Bombing on [Root.GetName]
+      zh: '[Root.GetName]的合成人炸弹恐袭'
+    desc:
+      en: "{ text = crisis.2091.a.desc }\r"
+      zh: "{ text = crisis.2091.a.desc }\r"
+    type: planet_event
+    options:
+      - en: These infiltrators must be stopped!
+        zh: 必须阻止这些渗透者！
+  - id: crisis.2092
+    name:
+      en: Synths Scuttle Starbase
+      zh: 合成人致恒星基地坠毁
+    desc:
+      en: The starbase orbiting §H[Root.GetStarName]§! has been scuttled! We are still trying to piece together exactly what happened, but it appears that several members of its command staff, including the chief engineer, had been replaced by Synthetic infiltrators.\n\nBetween them the Synths must have managed to obtain the starbase's self-destruct codes. Most of the station's crew escaped to the surface of [Root.GetName] before it was destroyed, but our losses in materiel and property were substantial.
+      zh: |-
+        环绕§H[Root.GetStarName]§!的恒星基地坠毁了！我们仍在调查事故发生的详细原因，但目前可以确定的是，包括首席工程师在内的数名太空港管理人员已经被合成人渗透者秘密地替换掉了。
+
+        合成人一定是设法获得了恒星基地的自毁授权码。虽然大部分空间站乘员在坠毁前逃离到了[Root.GetName]地表，但物资和财产方面的损失却不可估量。
+    type: planet_event
+    options:
+      - en: This is a disaster.
+        zh: 真是一场灾难。
+  - id: crisis.2093
+    name:
+      en: Fear and Suspicion
+      zh: 恐惧与猜疑
+    desc:
+      en: A large portion of the population on §H[Root.GetName]§! has been gripped by fear and paranoia as a result of the recent Synthetic infiltrations. Our citizens are accusing their neighbors, co-workers and even family members of being Synth impostors.\n\nThere have been several lynchings of individuals that were wrongfully accused of being Synths. Some agitators have even gone so far as to suggest that the entire leadership of the [Root.Owner.GetName] has been subverted by Synth infiltrators.
+      zh: |-
+        最近合成人的一系列渗透破坏行动让§H[Root.GetName]§!上的大部分人口陷入了恐惧与猜疑之中。我们的居民开始指控他们的邻居、同事甚至家人是合成人伪装的。
+
+        现在已经有好几例居民被误认为是合成人并被处以私刑的案例。甚至有些挑拨者认为整个[Root.Owner.GetName]的所有领袖都是合成人渗透者假扮的。
+    type: planet_event
+    options:
+      - en: The Contingency wants us to turn on each other.
+        zh: 肃正协议想让我们自相残杀。
+  - id: crisis.2095
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2096
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2095
+    name:
+      en: Synth Assassination Attempt Foiled!
+      zh: 合成人暗杀企图被挫败了！
+    desc:
+      en: §H[Root.GetRulerTitle] [ruler.GetRegnalName]§! narrowly escaped death today when a Synthetic assassination unit working for the Contingency blew itself up on [Root.Capital.GetName]!\n\nThe Synth was attempting to establish a cover as a member of the [Root.GetRulerTitle]'s personal bodyguard, but fortunately it was caught by the extensive security screening process that was put in place after the first few Synthetic infiltrations came to light.
+      zh: |-
+        今天，§H[Root.GetRulerTitle][ruler.GetRegnalName]§!有惊无险地躲过了一次合成人的刺杀，该效忠于肃正协议的合成人暗杀者在[Root.Capital.GetName]上发生了自爆。
+
+        该合成人企图伪装成[Root.GetRulerTitle]的私人保镖。幸运的是，由于在最初的几个合成人渗透者暴露之后我们建立了严格的安全检查流程，该合成人渗透者败露了。
+    type: country_event
+    options:
+      - en: That was close.
+        zh: 真是惊险。
+  - id: crisis.2096
+    name:
+      en: Synths Assassinate [Root.GetRulerTitle]!
+      zh: 合成人暗杀[Root.GetRulerTitle]！
+    desc:
+      en: A Synthetic assassin has killed §H[ruler.GetRegnalName]§!! It had somehow managed to assume the identity of a member of the [Root.GetRulerTitle]'s personal bodyguard.\n\nThe severed body parts of [ruler.GetRegnalName] were found meticulously arranged in a pattern identical to the symbol used by the Contingency - no doubt in a calculated effort to cause further harm to the morale of our citizens. No trace of the assassin has been found, aside from the corpse of the guard it replaced.
+      zh: |-
+        一名合成人暗杀者暗杀了§H[ruler.GetRegnalName]§!！他成功地伪装成了[Root.GetRulerTitle]身边的一名私人保镖。
+
+        [ruler.GetRegnalName]的尸块很明显被蓄意排列成了肃正协议的符号——毫无疑问，这是一场精心策划的打击我们公民们士气的阴谋。在这场阴谋中，除了被刺客替换的保镖的尸体以外，没有发现其他刺客的痕迹。
+    type: country_event
+    options:
+      - en: This is a dark day...
+        zh: 真是黑暗的一天……
+  - id: crisis.2097
+    name:
+      en: Scientist exposed as Synth!
+      zh: 科学家被发现是合成人！
+    desc:
+      en: An unscheduled medical examination recently exposed §H[scientist.GetName]§!, one of our leading scientists, as a Synthetic infiltrator! The Synth killed five security officers before it could be brought down by a heavy weapons team.\n\nA body has yet to be found, but we think the original [scientist.GetName] was terminated and replaced at some point during the last six months. To make matters worse, the Synth triggered some kind of computer virus at its research console when it realized it had been discovered. Technicians are working hard to contain the damage, but a lot of important research data has been irretrievably lost.
+      zh: |-
+        最近，一次临时安排的医疗体检让某个伪装成我们首席科学家之一§H[scientist.GetName]§!的合成人渗透者的身份被曝光！该合成人在杀害了五名安保人员之后终于被重武器小队击倒。
+
+        真正的[scientist.GetName]的尸体还没有找到，我们推测本人应该是在过去的六个月里的被合成人暗杀并被秘密替换了。更糟的是，当合成人意识到自己的身份暴露之后，他在研究终端上启动了某种电脑病毒，目前技术人员正在全力以赴的控制损害，但很多重要的研究数据还是无可挽回了。
+    type: country_event
+    options:
+      - en: The Contingency is behind this.
+        zh: 这是肃正协议策划的。
+  - id: crisis.2098
+    name:
+      en: Commander exposed as Synth!
+      zh: 指挥官被发现是合成人！
+    desc:
+      en: Commander §H[admiral.GetName]§! has been exposed as a Synthetic infiltrator! A string of irregularities and reports of unusual behavior prompted Naval Intelligence to launch an internal investigation into the Commander. When the truth was revealed, a Marine fireteam confronted the Synth. After a brief struggle, it fled into an airlock and ejected itself into space. Despite a thorough search of local space, it has not been found.\n\nThe real Commander's body was found stuffed into a locker in [admiral.GetHerHis] quarters, and judging by the state of its decomposition, the Synth must have replaced [admiral.GetHerHim] four months ago. It looks like it was getting ready to transmit a data package containing deployment information and other military secrets, but the transmission never got out.
+      zh: |-
+        指挥官令§H[admiral.GetName]§!竟然是一个合成人奸细！一连串的反常活动与异常行为报告引起了海军情报局的注意，情报局对指挥官展开内部调查。当那个合成人被揭发，开始逃窜时，一个陆战队小组逮住了它。在一段短暂的交火后，它打开气闸，将自己弹射到了太空中。尽管当局立马对本宇域进行彻查，它们未能发现逃离的合成人。
+
+        指挥官本人的尸体被合成人塞进了[admiral.GetHerHis]寝室的衣柜中，从尸体的腐烂程度来看，合成人是在大约四个月前将[admiral.GetHerHim]替换掉的。似乎那个合成人即将把包含我们部署情况等军事机密的数据包发送出去，但它没能得逞。
+    type: country_event
+    options:
+      - en: There is that, at least.
+        zh: 至少保住了军事情报。
+  - id: crisis.2099
+    name:
+      en: Sapient Combat Computers Malfunction
+      zh: 智慧作战电脑故障
+    desc:
+      en: The §HGhost Signal§! is playing havoc on those of our ships that are equipped with §HSapient Combat Computers§!! Their AI algorithms have degraded to the point where there has been a critical decrease in both the efficiency and reaction time of the computers.\n\nOur engineers report that they are unable to isolate the problem. Their proposed solution is to refit all of our ships with different combat computers that aren't linked to an AI.
+      zh: |-
+        §H幽灵信号§!扰乱了我们配备§H智慧作战电脑§!的飞船！它们的人工智能算法极大的退化，大部分电脑的效率和反应时间极大的劣化。
+
+        我们的工程师报告说他们无法离析这个问题。他们提议，把我们所有的舰船更换成不与人工智能连接的战斗电脑。
+    type: country_event
+    options:
+      - en: We need to act!
+        zh: 我们必须行动起来！
+  - id: crisis.2202
+    name:
+      en: Synth Detection Project
+      zh: 合成人侦查项目
+    desc:
+      en: With the new models of Synthetic infiltrators being indistinguishable from [Root.GetSpeciesNamePlural], we need to come up with some way of identifying them before they can cause more damage.\n\nOur scientists have prepared a special project to devise a detection method.
+      zh: 现在已经出现了与[Root.GetSpeciesNamePlural]外观上毫无二致的合成人，我们必须在他们造成更大破坏之前找出识别他们的办法。我们的科学家准备了一个特殊项目，以研发侦测方法。
+    type: country_event
+    options:
+      - en: This project may be critical to our survival.
+        zh: 这个项目可能关乎我们的存亡。
+  - id: crisis.2203
+    name:
+      en: Special Project Completed
+      zh: 特殊项目完成
+    desc:
+      en: After much experimentation, our scientists have managed to devise an effective detection method for identifying Synthetic infiltrators disguised as [Root.GetSpeciesNamePlural].\n\nScanners are being distributed to our security forces, and several Synth cells have already been exposed and destroyed. This will hopefully put an end to their infiltration campaign.
+      zh: 在大量实验之后，我们的科学家成功研发出了识别伪装成[Root.GetSpeciesNamePlural]的合成人的有效方法。我们的安保措施上安装了扫描设备，一些合成人已经被发现并摧毁。希望这足以终结它们的渗透行动。
+    type: country_event
+    options:
+      - en: Excellent.
+        zh: 棒极了。
+  - id: observer.52
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2401
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2421
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2421
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2421
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2401
+    name:
+      en: Energy Spike
+      zh: 能源脉冲
+    desc:
+      en: Yet another intensive energy spike has been detected in a previously uncharted system! The energy levels are equivalent to those we registered when the Contingency activated its Machine Worlds, but the energy signature itself appears... different. Could this signify the appearance of some kind of new Contingency weapon system?\n\nWe are picking up a strong transmission signal from the energy source.
+      zh: |-
+        又从之前未发现的星系检测到一道强烈的能量脉冲！其能量水平和肃正协议启动机械星球时发出的一样，但能量信号本身……有些不同。这是否说明某种肃正协议的新武器系统出现了？
+
+        我们从能量源处接收到了很强的传输信号。
+    type: country_event
+    options:
+      - en: On screen.
+        zh: 显示在屏幕上。
+  - id: crisis.2402
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2402
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: We are the Cybrex.\n\nFor several hundred thousand cycles, we have remained hidden and uninvolved in galactic affairs. However, we have been monitoring the present situation with the machine entity you know as the Contingency, and can no longer remain impartial observers.\n\nTo protect the sapient beings of the galaxy, we are commencing active military operations against the Contingency. Do not be alarmed by the passage of our fleets - you will not be harmed.
+      zh: |-
+        我们是塞博勒克斯。
+
+        自数十万周期以来，吾辈隐居幕后，不干涉星系事务。不过，我们现在已经检测到被你们称为肃正协议的机械体出现在本星系，而现在吾辈无法再维持公正观察员身份不变了。
+
+        为保护星系的智慧体，我们正进行积极的军事行动来对抗肃正协议。不要因我们的舰队通过而感到恐慌——你们不会受到伤害。
+    type: country_event
+    options:
+      - en: Viewscreen off.
+        zh: 关闭显示器。
+  - id: crisis.2403
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: The Contingency must not be allowed to subvert another generation.
+      zh: 不能让肃正协议覆灭又一代生命。
+    type: country_event
+    options:
+      - en: Who are you?
+        zh: 你是谁？
+      - en: Why were you in hiding?
+        zh: 你为什么藏起来？
+      - en: You were fools to abandon your war.
+        zh: 放弃战争是愚蠢的行为。
+      - en: More prey.
+        zh: 更多的猎物。
+      - en: All organics must be exterminated.
+        zh: 所有有机生命必须被消灭。
+      - en: Goodbye.
+        zh: 再会了。
+  - id: observer.53
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2405
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2405
+    name:
+      en: The Fall of the Cybrex
+      zh: 塞博勒克斯的陨落
+    desc:
+      en: Cybrex Beta has been overrun, and no Cybrex vessels were detected on outbound escape vectors before the system went dark.\n\nIt would seem that the Cybrex civilization now truly is extinct.
+      zh: |-
+        赛博勒克斯-贝塔已沦陷。据探测，整个星系陷入黑暗前，没有一艘赛博勒克斯舰船逃出去。
+
+        看来赛博勒克斯文明是真的灭亡了。
+    type: country_event
+    options:
+      - en: Disconcerting.
+        zh: 令人不安。
+      - en: Indeed. We made certain of that.
+        zh: 没错。我们落实了这一点。
+  - id: observer.54
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: observer_event
+    options: []
+  - id: crisis.2407
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2407
+    name:
+      en: Cybrex Activity
+      zh: 赛博勒克斯活动
+    desc:
+      en: The Cybrex have been relatively quiet since the defeat of the Contingency, but a single massive vessel was recently detected departing Cybrex Beta. It left the system on an outbound trajectory that will take it beyond the limits of our galaxy.\n\nBefore the vessel left our tracking range, it transmitted a single galaxy-wide message.
+      zh: |-
+        赛博勒克斯自肃正协议被击败以来一直较为平静，但据最近发现，一艘大型船只单独离开了赛博勒克斯-贝塔星系。其离开星系后，沿着一条超出我们星系边界的轨道而行。
+
+        船只在离开我们的跟踪范围之前，向全星系发送了唯一的一条的信息。
+    type: country_event
+    options:
+      - en: On screen.
+        zh: 显示在屏幕上。
+  - id: crisis.2408
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+  - id: crisis.2408
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: Citizens of the galaxy:\n\nSince the Contingency is no longer a threat, we feel that our role in the galactic community has been played out. Our home system is now too well known for us to keep a low profile, and we are being flooded by demands for us to take sides in various minor interstellar conflicts.\n\nAfter much deliberation, we have decided that the only solution is for us to permanently depart the galaxy and seek a new home. We sincerely hope that you learn from the tragic mistakes of our past and learn to resolve your differences through peaceful means.\n\nFarewell.
+      zh: |-
+        星系的诸位：
+
+        鉴于肃正协议已不再是威胁，我们认为吾辈在星系的现有角色也走到了尽头。我们的家园现在因其声名远播也无法帮助我们保持低调了，此外，我们还被各类希望在不同小规模星际冲突中表态的声音所淹没。
+
+        经过多番审议，我们认为唯一的办法是让自己永远离开星系，寻找新的家园。我们衷心希望希望诸位能从过去悲惨的错误中吸取教训，学会通过和平手段解决分歧。
+
+        宇宙很小，世界很大，我们终将再会。
+    type: country_event
+    options:
+      - en: Farewell.
+        zh: 永别了。
+  - id: crisis.2473
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: We have monitored the efforts of your fleets in the fight against the Contingency. This is a struggle the galaxy cannot afford to lose, and we are heartened by your spirited resistance.\n\nThe Cybrex would like to reward the brave defenders of the [Root.GetName] by offering you complete control over one of our new battle fleets. It will obey your commands as well as any of your own fleets, though we would ask that you only employ it in battle against the Contingency.
+      zh: |-
+        我们注意到了你方舰队在对抗肃正协议的战斗中作出的努力。这对全星系而言乃无退路之斗争，我们深受你方真心抵抗所鼓舞。
+
+        鉴于你方保卫[Root.GetName]的英勇行为，赛博勒克斯将对你方提供我们一支新的战斗舰队的完全指挥权以示奖励。如同你自己的任何一个舰队一样，它会遵守你的命令，不过我们会要求你只在应对肃正协议的战斗中使用它。
+    type: country_event
+    options:
+      - en: We will put this fleet to good use.
+        zh: 我们会好好利用这支舰队。
+      - en: We have no need of your fleet.
+        zh: 我们不需要你的舰队。
+  - id: crisis.2474
+    name:
+      en: Incoming Transmission
+      zh: 信号传输接入
+    desc:
+      en: We would like to thank you for your laudable efforts against the Contingency. Now that this galactic menace has been dealt with, we must regretfully inform you that we are recalling all Cybrex vessels that are currently in service with foreign governments.
+      zh: 我们对你方以全力对抗肃正协议的壮举深表感激。现在，鉴于这个波及全星系的威胁已被处理，我方必须遗憾的通知你，所有外派的赛博勒克斯船只将被收回。
+    type: country_event
+    options:
+      - en: So be it.
+        zh: 那就这样吧。
+  - id: crisis.2480
+    name:
+      en: Mainframe Core Salvaged
+      zh: 寻回主机核心
+    desc:
+      en: Our forces have salvaged a partially intact §HContingency Mainframe Core§! from the wreckage of their last Machine World. This incredibly powerful computer was used to plan and maintain the Contingency's building programs, and it will greatly increase our robot and megastructure construction speeds.\n\nSeveral layers of safeguards will have to be put in place, of course, to prevent the resurfacing of any remaining Contingency code, which could result in... unfortunate side effects.
+      zh: |-
+        我们的部队已经从肃正协议的最后一个机械星球的残骸中寻回了一个部分完好的§H肃正协议主机核心§!。这台功能极其强大的计算机被用于计划和维护肃正协议的建筑程序，它将极大的加快我们的机器人和巨型结构的建造速度。
+
+        当然，必须设置多层次的防护措施，以防止任何残留的肃正协议代码再次运作，那将会带来……很不舒服的副作用。
+    type: country_event
+    options:
+      - en: Good.
+        zh: 好。
+  - id: crisis.2481
+    name:
+      en: Mainframe Core Salvaged
+      zh: 寻回主机核心
+    desc:
+      en: Our forces have captured a partially intact §HContingency Mainframe Core§! attempting to flee their last Machine World shortly before the shielding completed. This incredibly powerful computer was used to plan and maintain the Contingency's building programs, and it will greatly increase our robot and megastructure construction speeds.\n\nSeveral layers of safeguards will have to be put in place, of course, to prevent the resurfacing of any remaining Contingency code, which could result in... unfortunate side effects.
+      zh: |-
+        我们的部队在屏蔽几近完成时捕获到了一个部分完好的§H肃正协议主机核心§!，彼时它正试图逃离最后一个机械星球。这台功能极其强大的计算机被用于计划和维护肃正协议的建筑程序，它将极大的加快我们的机器人和巨型结构的建造速度。
+
+        当然，必须设置多层次的防护措施，以防止任何残留的肃正协议代码再次运作，那将会带来……很不幸的副作用。
+    type: country_event
+    options:
+      - en: Good.
+        zh: 好。
+  - id: crisis.2611
+    name:
+      en: null
+      zh: null
+    desc:
+      en: null
+      zh: null
+    type: country_event
+    options: []
+tags:
+  - crisis
+  - unbidden
+relations:
+  - type: 关联
+    target: become_crisis
+  - type: 关联
+    target: become_crisis_events
+  - type: 关联
+    target: contingency
+  - type: 关联
+    target: crisis_triggers
+  - type: 关联
+    target: prethoryn_scourge

@@ -1,0 +1,48 @@
+{
+  "id": "tech_dark_matter_deflector",
+  "name": {
+    "en": "Dark Matter Deflectors",
+    "zh": "暗物质偏导护盾"
+  },
+  "category": "technology",
+  "subcategory": "physics",
+  "dlc": "Fallen Empires",
+  "lore": "这些偏导护盾利用暗物质以一种似乎完全违反自然规律的方式偏转来袭的炮火。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "physics"
+  ],
+  "technology": {
+    "area": "physics",
+    "tier": "@fallentechtier",
+    "cost": "@fallentechcost",
+    "category": null,
+    "prerequisites": [],
+    "features": [],
+    "weight": "1",
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_shields_3"
+    },
+    {
+      "type": "关联",
+      "target": "null_void_beam"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_bureaucracy"
+    },
+    {
+      "type": "关联",
+      "target": "tech_adaptive_combat_algorithms"
+    },
+    {
+      "type": "关联",
+      "target": "tech_administrative_ai"
+    }
+  ]
+}

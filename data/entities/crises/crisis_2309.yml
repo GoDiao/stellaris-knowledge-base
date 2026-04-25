@@ -1,0 +1,25 @@
+id: crisis_2309
+name:
+  en: Units Lost
+  zh: 单元自毁
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: 那些看似被腐化的单位似乎一切运转正常。尽管时不时出一些小故障，但整体上并没有大碍。也许肃正协议在忙些别的事情？然而很快，事情发生了转变，在没有预警的情况下，所有被影响的栈单位都在同一时刻脱机，并在自毁之前大肆破坏周边设施。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_glitchy_matrix

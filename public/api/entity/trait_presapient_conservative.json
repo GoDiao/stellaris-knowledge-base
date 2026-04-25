@@ -1,0 +1,52 @@
+{
+  "id": "trait_presapient_conservative",
+  "name": {
+    "en": "Conservative",
+    "zh": "保守主义"
+  },
+  "category": "species",
+  "subcategory": "trait",
+  "dlc": null,
+  "lore": "§L这个物种相对新的事物往往更愿意相信老的经验。§!\n",
+  "traits": [
+    "pop_happiness: 0.05",
+    "pop_government_ethic_attraction: 0.25",
+    "species_leader_exp_gain: -0.50"
+  ],
+  "species": {
+    "cost": "0",
+    "archetypes": [
+      "BIOLOGICAL",
+      "PRESAPIENT",
+      "LITHOID"
+    ]
+  },
+  "tags": [
+    "trait",
+    "biological",
+    "presapient",
+    "lithoid"
+  ],
+  "relations": [
+    {
+      "type": "关联",
+      "target": "lithoid_humans"
+    },
+    {
+      "type": "关联",
+      "target": "ai"
+    },
+    {
+      "type": "关联",
+      "target": "aquatic"
+    },
+    {
+      "type": "关联",
+      "target": "art"
+    },
+    {
+      "type": "关联",
+      "target": "avi"
+    }
+  ]
+}

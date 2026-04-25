@@ -1,0 +1,32 @@
+id: tech_space_science_1
+name:
+  en: Zero-G Laboratories
+  zh: 零重力实验室
+category: technology
+subcategory: physics
+dlc: null
+lore: 许多重要的特殊实验只有在零重力环境下才能进行。因此我们设计了这种专用实验室。
+traits: []
+tags:
+  - technology
+  - physics
+technology:
+  area: physics
+  tier: '1'
+  cost: '@tier1cost1'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier1weight1'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

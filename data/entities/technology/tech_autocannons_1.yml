@@ -1,0 +1,32 @@
+id: tech_autocannons_1
+name:
+  en: Autocannons
+  zh: 机关炮
+category: technology
+subcategory: engineering
+dlc: null
+lore: 大口径的弹道武器，发抛射壳炮弹。这些机炮的主要优势在于极高的射速。
+traits: []
+tags:
+  - technology
+  - engineering
+technology:
+  area: engineering
+  tier: '2'
+  cost: '@tier2cost2'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier2weight2'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

@@ -1,0 +1,32 @@
+id: trait_repugnant
+name:
+  en: Repugnant
+  zh: 令人厌恶
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种的外貌与行为习惯往往令其他生物感到反感，只有少部分生物愿意与它们打交道。§!
+traits:
+  - 'pop_job_amenities_mult: -0.20'
+species:
+  cost: '-2'
+  archetypes:
+    - BIOLOGICAL
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - lithoid
+  - negative
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

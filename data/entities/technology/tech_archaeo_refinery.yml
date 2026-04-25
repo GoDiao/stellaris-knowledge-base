@@ -1,0 +1,32 @@
+id: tech_archaeo_refinery
+name:
+  en: Ancient Refinery
+  zh: 远古精炼厂
+category: technology
+subcategory: society
+dlc: Ancient Relics
+lore: 这种具有数百万年历史的处理设施拥有着超过100%的效率。它的运作方式依旧是个谜，但它对产出的巨大提升是难以估量的。
+traits: []
+tags:
+  - technology
+  - society
+technology:
+  area: society
+  tier: '3'
+  cost: '@tier3cost3'
+  category: null
+  prerequisites: []
+  features: []
+  weight: '@tier4weight3'
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: null_void_beam
+  - type: 关联
+    target: tech_adaptive_bureaucracy
+  - type: 关联
+    target: tech_adaptive_combat_algorithms
+  - type: 关联
+    target: tech_administrative_ai
+  - type: 关联
+    target: tech_advanced_metallurgy_1

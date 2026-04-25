@@ -1,0 +1,37 @@
+id: trait_presapient_natural_intellectuals
+name:
+  en: Natural Intellectuals
+  zh: 天资聪颖
+category: species
+subcategory: trait
+dlc: null
+lore: |
+  §L这个物种比其他生物更加贤明。§!
+traits:
+  - 'planet_jobs_unity_produces_mult: 0.05'
+  - 'planet_jobs_physics_research_produces_mult: 0.1'
+  - 'planet_jobs_society_research_produces_mult: 0.1'
+  - 'planet_jobs_engineering_research_produces_mult: 0.1'
+  - 'planet_jobs_minerals_produces_mult: -0.1'
+species:
+  cost: '0'
+  archetypes:
+    - BIOLOGICAL
+    - PRESAPIENT
+    - LITHOID
+tags:
+  - trait
+  - biological
+  - presapient
+  - lithoid
+relations:
+  - type: 关联
+    target: lithoid_humans
+  - type: 关联
+    target: ai
+  - type: 关联
+    target: aquatic
+  - type: 关联
+    target: art
+  - type: 关联
+    target: avi

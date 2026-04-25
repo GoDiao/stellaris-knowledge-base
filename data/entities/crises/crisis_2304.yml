@@ -1,0 +1,28 @@
+id: crisis_2304
+name:
+  en: Critical Power Grid Malfunction
+  zh: 电网重大故障
+category: crisis
+subcategory: extradimensional_invaders
+dlc: null
+lore: |-
+  在又一次企图削弱我们防线的尝试中，肃正协议开始试图切断我们的电力供应。他们将恶意程序发送到了中控驱动区，导致我们的工厂机组开始过载运行。
+
+  尽管几个发电站遭到了破坏，我们终于在它摧毁我们整个星球电网之前识别出了恶意代码段。
+traits: []
+tags:
+  - crisis_event
+  - extradimensional_invaders
+relations:
+  - type: 所属
+    target: extradimensional_invaders
+  - type: 关联
+    target: crisis_10
+  - type: 关联
+    target: crisis_1000
+  - type: 关联
+    target: crisis_1003
+  - type: 关联
+    target: crisis_1006
+event_type: country_event
+picture: GFX_evt_nuclear_explosion
