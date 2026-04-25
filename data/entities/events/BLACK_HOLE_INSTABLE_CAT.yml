@@ -1,0 +1,47 @@
+id: BLACK_HOLE_INSTABLE_CAT
+name:
+  en: 1 "$pc_black_hole$" Instability
+  zh: 不稳定$pc_black_hole$
+category: event
+subcategory: anomaly
+dlc: Astral Planes
+lore: 我们的扫描仪检测到了[from.System.GetName]恒星系中黑洞的物理特性与预期相比存在显著偏差。它的引力不可预测的，这导致空间中一个点到另一个点在时间上表现出显著的不一致性。
+picture: GFX_evt_black_hole
+level: 5
+spawn_chance:
+  base: '0'
+  modifier:
+    add: '30'
+    is_star: 'yes'
+    is_star_class: sc_black_hole
+    from:
+      owner:
+        has_technology: tech_astral_harvesting
+    solar_system:
+      NOR:
+        has_astral_rift: 'yes'
+        any_system_planet:
+          is_astral_scar: 'yes'
+on_success:
+  - astral_planes.6020
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - astral_planes

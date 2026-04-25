@@ -1,0 +1,44 @@
+id: fungal_emitters_category
+name:
+  en: 0 "Strange Emissions"
+  zh: 怪异辐射
+category: event
+subcategory: anomaly
+dlc: null
+lore: 从[From.GetName]的底下洞穴中发出的意料之外的辐射。这会不会是什么东西发出的信号？
+picture: GFX_evt_cold_barren
+level: 4
+spawn_chance:
+  modifier:
+    add: '30'
+    is_planet_class: pc_barren
+    has_global_flag: fumongus_spawned
+    closest_system:
+      limit:
+        has_star_flag: fumongus_system
+      min_steps: '1'
+      max_steps: '12'
+on_success:
+  - anomaly.6755
+  - anomaly.6760
+  - anomaly.6765
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

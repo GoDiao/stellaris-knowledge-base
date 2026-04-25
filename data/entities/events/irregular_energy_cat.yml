@@ -1,0 +1,46 @@
+id: irregular_energy_cat
+name:
+  en: 0 "Irregular Energy Emissions"
+  zh: 异常能源放射
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 我们的探测器发现[From.GetName]的能源放射规律存在异常。
+picture: GFX_evt_ship_in_orbit
+level: 4
+spawn_chance:
+  modifier:
+    - add: '0.1'
+      has_distar: 'yes'
+      is_star: 'yes'
+    - factor: '0'
+      from.owner:
+        OR:
+          has_ethic: ethic_gestalt_consciousness
+          owner_species:
+            has_trait:
+              - trait_mechanical
+              - trait_machine_unit
+on_success:
+  - distar.1070
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

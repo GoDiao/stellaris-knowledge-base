@@ -1,0 +1,39 @@
+id: CON_BIOLOGY_CAT
+name:
+  en: 0 "Continental Findings"
+  zh: 大陆上的发现
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗微型行星上的森林预示着有趣的发现。
+picture: GFX_evt_continental
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_continental
+on_success:
+  - anomaly.4095
+  - anomaly.4100
+  - anomaly.4115
+  - anomaly.4150
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

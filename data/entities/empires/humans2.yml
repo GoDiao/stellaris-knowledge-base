@@ -41,7 +41,17 @@ system:
     en: NAME_Deneb
     zh: NAME_Deneb
 graphical_culture: mammalian_01
-relations: []
+relations:
+  - type: 关联
+    target: humans2_1
+  - type: 同种族
+    target: certeran_covenant
+  - type: 同种族
+    target: default
+  - type: 同种族
+    target: humans1
+  - type: 同种族
+    target: humans1_1
 tags:
   - prescripted_empire
   - dictatorial

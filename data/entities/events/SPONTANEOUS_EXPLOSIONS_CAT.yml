@@ -1,0 +1,44 @@
+id: SPONTANEOUS_EXPLOSIONS_CAT
+name:
+  en: Spontaneous Explosions
+  zh: 自发爆炸
+category: event
+subcategory: anomaly
+dlc: Astral Planes
+lore: 我们检测到§Y[this.GetName]§!地表上的自发爆炸！在没有在轨战舰或可探测到的地表生命的情况下，这些巨大爆炸的产生原因仍然未知。
+picture: GFX_evt_nuclear_explosion
+level: 3
+spawn_chance:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_nuked
+    is_colonizable: 'yes'
+    solar_system:
+      NOR:
+        has_astral_rift: 'yes'
+        any_system_planet:
+          is_astral_scar: 'yes'
+on_success:
+  - astral_planes.6060
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - astral_planes

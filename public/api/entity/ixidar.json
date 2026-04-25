@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": "Utopia",
-  "lore": "第一窝伊科斯'伊达形成于伊克斯'阿斯拉克下方的地下洞穴网中。而当第一位伊科斯'伊达侦察兵探出地表，目睹到第一缕阳光的时候，这些类昆虫已经进入了繁荣的钢铁时代了。\n\n利用地表上丰富的资源，伊科斯'伊达人发展的非常迅速。仅仅几个世纪之后，他们的首个太空探测器就已经离开了星球轨道去观察阿斯拉克星系的其他星球了。",
+  "lore": "The first Ix'Idar broods developed in the subterranean cave networks deep beneath the surface of Ix'Athrak. By the time an Ix'Idar scout burrowed through to the surface and glimpsed sunlight for the first time, the insectoid race had already established a thriving Iron Age civilization.\n\nWith the resources they found on the surface, the Ix'Idar developed rapidly. Just a few centuries later their first space probes left orbit to survey the other worlds within the Athrak system.",
   "traits": [
     "trait_hive_mind",
     "trait_rapid_breeders",
@@ -51,7 +51,28 @@
     }
   },
   "graphical_culture": "arthropoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "kel_azaan"
+    },
+    {
+      "type": "同种族",
+      "target": "xanid"
+    },
+    {
+      "type": "同DLC预设",
+      "target": "lokken"
+    },
+    {
+      "type": "同起源",
+      "target": "blorg"
+    },
+    {
+      "type": "同起源",
+      "target": "chinorr"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "hive_mind",

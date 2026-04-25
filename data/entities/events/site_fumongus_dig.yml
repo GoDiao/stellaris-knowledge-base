@@ -1,0 +1,63 @@
+id: site_fumongus_dig
+name:
+  en: 0 "Desiccated"
+  zh: 脱水
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: |-
+  我们在星球各地都发现了水的迹象。 据我们所知，这些水应该还在这颗星球上。 星球温度在液态水存在的正常范围内，并且星球仍然存在大气，尽管很脆弱。 然而，这里的一切都是干燥的，存在的植被也枯死了。
+
+  此外，扫描还揭示了行星上另一个星际文明的踪迹。 考古团队将有两个目标：找出水发生了什么，并了解其他星际旅者在这里做了什么。 大多数假设已经将两者联系起来，团队中的一些人认为这可能是“偷水贼”干的。
+picture: GFX_evt_warm_barren
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_C1
+    event: ancrel.13100
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_C2
+    event: ancrel.13105
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_C3
+    event: ancrel.13110
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_C4
+    event: ancrel.13115
+  - stage_number: 5
+    difficulty: 5
+    icon: GFX_archaeology_runes_C5
+    event: ancrel.13120
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_fumongus_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site

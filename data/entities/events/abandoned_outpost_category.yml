@@ -1,0 +1,46 @@
+id: abandoned_outpost_category
+name:
+  en: 0 "Abandoned Observation Post"
+  zh: 废弃观测站
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 一座破旧的观测站围绕着[big_rip_planet.GetName]旋转，但地表上并没有智慧生命存在的迹象。进一步调查或许可以得知原因。
+picture: GFX_evt_ship_in_orbit
+level: 4
+spawn_chance:
+  modifier:
+    add: '4'
+    has_distar: 'yes'
+    solar_system:
+      has_star_flag: big_rip_system
+    from.owner:
+      NOT:
+        has_global_flag: l_cluster_opened
+        has_completed_event_chain_counter:
+          event_chain: l_cluster_chain
+          counter: clues
+      has_event_chain: l_cluster_chain
+on_success:
+  - distar.1030
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+  - type: 关联
+    target: AIANOM_RESEARCHDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

@@ -1,0 +1,36 @@
+id: ANCREL_MECHANO_CAT
+name:
+  en: 0 "A Planetary Machine"
+  zh: 行星规模的机器
+category: event
+subcategory: anomaly
+dlc: Ancient Relics
+lore: 这颗行星两极之间的所有表面均被锈迹斑斑的古老机械所覆盖，而这些机械中的大部分包裹着一种不明的有机组织。如此技术奇观是出自什么样的生物之手？他们又发生了什么？
+picture: GFX_evt_relic_world
+level: 5
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - ancrel.2050
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - ancient_relics

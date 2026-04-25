@@ -1,0 +1,72 @@
+{
+  "id": "moon_cat",
+  "name": {
+    "en": "0 \"Unusual Moon\"",
+    "zh": "奇特卫星"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "这颗卫星有些不太寻常。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "has_distar": "yes",
+      "is_moon": "yes",
+      "habitable_planet": "no",
+      "NOR": {
+        "has_deposit_for": [
+          "shipclass_research_station",
+          "shipclass_mining_station"
+        ]
+      },
+      "solar_system": {
+        "any_system_planet": {
+          "habitable_planet": "yes",
+          "has_moon": "yes",
+          "any_moon": {
+            "is_same_value": "prevprevprev"
+          }
+        }
+      }
+    }
+  },
+  "on_success": [
+    "distar.2025"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

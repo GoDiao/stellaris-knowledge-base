@@ -1,0 +1,82 @@
+{
+  "id": "asteroid_vault_1",
+  "name": {
+    "en": "0 \"Strange Asteroid\"",
+    "zh": "奇怪的小行星"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "虽然乍看上去平淡无奇，但对[From.Planet.GetName]进一步的检查表明它实际上是一个伪装成自然星体的人工结构。",
+  "picture": "GFX_evt_asteroid_field",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_C1",
+      "event": "ancrel.102"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_C2",
+      "event": "ancrel.103"
+    }
+  ],
+  "max_instances": 1,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "has_ancrel": "yes",
+      "is_planet_class": "pc_asteroid"
+    }
+  },
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

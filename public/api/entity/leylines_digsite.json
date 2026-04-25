@@ -1,0 +1,82 @@
+{
+  "id": "leylines_digsite",
+  "name": {
+    "en": "0 \"Chthonic Siren\"",
+    "zh": "地狱嗡鸣"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Federations",
+  "lore": "我们曾经以为，这不过是位于[From.Planet.GetName]上的鸡肋矿物层。但现在，这片矿物层却开始发出震耳欲聋的奇怪嗡嗡声。这还不是个例，联邦境内的诸星球上均可以听到类似的声音。这一异常现象背后究竟隐藏着什么？",
+  "picture": "GFX_evt_clocks",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A1",
+      "event": "federations3.2105"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "federations3.2110"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "federations3.2115"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_A4",
+      "event": "federations3.2120"
+    }
+  ],
+  "max_instances": 200,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_genius_caeli_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "federations"
+  ]
+}

@@ -1,0 +1,74 @@
+id: broken_world_digsite
+name:
+  en: 0 "The Broken Gates"
+  zh: 破损的大门
+category: event
+subcategory: archaeological_site
+dlc: Leviathans
+lore: 我们在[From.Planet.GetName]的一处破损的拱顶发现了奇怪的信号。
+picture: GFX_evt_baol_ruins
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.11000
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.11005
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.11010
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_D4
+    event: ancrel.11015
+max_instances: 1
+weight:
+  base: '10'
+  modifier:
+    factor: '0'
+    OR:
+      is_star: 'yes'
+      is_planet_class: pc_gas_giant
+      is_asteroid: 'yes'
+      has_leviathans: 'no'
+      solar_system:
+        OR:
+          starting_system: 'yes'
+          is_capital_system: 'yes'
+          is_star_class: sc_black_hole
+      AND:
+        exists: owner
+        owner:
+          is_gestalt: 'yes'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+  is_gestalt: 'no'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+tags:
+  - archaeological_site
+  - leviathans

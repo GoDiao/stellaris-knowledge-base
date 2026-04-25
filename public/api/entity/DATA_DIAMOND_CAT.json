@@ -1,0 +1,62 @@
+{
+  "id": "DATA_DIAMOND_CAT",
+  "name": {
+    "en": "0 \"Thin Ice\"",
+    "zh": "薄冰"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[From.GetName]地表冰层的最上层覆盖着规模异常巨大的晶体沉积。我们还检测到了一个微弱的信号存在。",
+  "picture": "GFX_evt_frozen",
+  "level": 4,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "1",
+        "is_planet_class": "pc_frozen"
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "has_ethic": "ethic_gestalt_consciousness"
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "anomaly.3145"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "signal_uninhabitable_category"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

@@ -1,0 +1,36 @@
+id: LEVELED_CAT
+name:
+  en: 0 "Steamrolled"
+  zh: 蒸汽翻腾
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]似乎有且只有一个有趣的地质特征……'
+picture: GFX_evt_ship_in_orbit
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    habitable_planet: 'yes'
+on_success:
+  - anomaly.205
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

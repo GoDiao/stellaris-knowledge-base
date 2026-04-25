@@ -1,0 +1,64 @@
+{
+  "id": "DISTAR_MERCURY_CAT",
+  "name": {
+    "en": "0 \"Deep Caverns\"",
+    "zh": "深层洞窟"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "[From.GetName]的内部扫描图像表明星球地表之下有非常巨大的地下洞窟，它们可能值得调查。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 7,
+  "spawn_chance": {
+    "modifier": {
+      "add": "0.1",
+      "has_distar": "yes",
+      "OR": {
+        "is_planet_class": [
+          "pc_molten",
+          "pc_barren",
+          "pc_barren_cold",
+          "pc_frozen",
+          "pc_toxic"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "distar.150"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

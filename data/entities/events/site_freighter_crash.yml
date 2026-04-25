@@ -1,0 +1,76 @@
+id: site_freighter_crash
+name:
+  en: 0 "Crashed Starship"
+  zh: 陨落星舰
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: '[From.Planet.GetPlanetMoon]的表面在受到一艘星际飞船的猛烈撞击后，凹陷出一个小峡谷。这艘飞船的残骸仍然可以在峡谷底部找到。虽然撞击肯定发生在亿万年前，但残骸似乎相当完好。派遣一支考古探险队将能了解更多信息。'
+picture: GFX_evt_crashed_station
+stages: 6
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.6300
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.6310
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.6320
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_D4
+    event: ancrel.6330
+  - stage_number: 5
+    difficulty: 6
+    icon: GFX_archaeology_runes_D5
+    event: ancrel.6340
+  - stage_number: 6
+    difficulty: 7
+    icon: GFX_archaeology_runes_D6
+    event: ancrel.6350
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    OR:
+      is_planet_class:
+        - pc_barren
+        - pc_barren_cold
+        - pc_molten
+        - pc_frozen
+        - pc_toxic
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

@@ -1,0 +1,70 @@
+{
+  "id": "irassian_7_cat",
+  "name": {
+    "en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "zh": "先驱者的活动迹象"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "在这个宜居的世界里有着古代先驱者文明活动的迹象。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": "@precursor_medium",
+  "spawn_chance": {
+    "modifier": {
+      "add": "10",
+      "NOT": {
+        "has_planet_flag": "precursor_world"
+      },
+      "habitable_planet": "yes",
+      "solar_system": {
+        "has_star_flag": "precursor_4"
+      },
+      "FROM": {
+        "owner": {
+          "is_ai": "no",
+          "NOT": {
+            "has_country_flag": "irassians_7"
+          },
+          "has_country_flag": "irassian_intro",
+          "has_event_chain": "irassian_chain"
+        }
+      }
+    }
+  },
+  "on_success": [
+    "precursor.1535"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

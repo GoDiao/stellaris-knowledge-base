@@ -1,0 +1,59 @@
+{
+  "id": "GAS_ZRO_ICE_CAT",
+  "name": {
+    "en": "0 \"Ice Ice Giant\"",
+    "zh": "冰冻冰巨星"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]缺乏氢和氦，无法被归为气态巨行星，而是冰冻巨行星。",
+  "picture": "GFX_evt_gas_giant",
+  "level": 6,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_gas_giant",
+      "FROM": {
+        "owner": {
+          "has_technology": "tech_mine_zro"
+        }
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.150"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

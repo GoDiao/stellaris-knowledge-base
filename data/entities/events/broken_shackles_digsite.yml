@@ -1,0 +1,61 @@
+id: broken_shackles_digsite
+name:
+  en: 0 "Crashed Slaver Ship"
+  zh: 坠毁的运奴船
+category: event
+subcategory: archaeological_site
+dlc: First Contact
+lore: 修复这艘坠毁的运奴船的电脑核心应该可以令我们找到自己母星的位置……同时也是弥那玛特种实业集团的母星。
+picture: GFX_evt_broken_shackles
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_C1
+    event: origin.5015
+  - stage_number: 2
+    difficulty: 1
+    icon: GFX_archaeology_runes_C2
+    event: origin.5020
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_C3
+    event: origin.5025
+  - stage_number: 4
+    difficulty: 3
+    icon: GFX_archaeology_runes_C4
+    event: origin.5030
+  - stage_number: 5
+    difficulty: 2
+    icon: GFX_archaeology_runes_C5
+    event: origin.5035
+max_instances: 999
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+  owner:
+    has_country_flag:
+      - broken_shackles_origin_arcsite_owner@from.planet
+      - built_first_science_ship
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: no_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site
+  - first_contact

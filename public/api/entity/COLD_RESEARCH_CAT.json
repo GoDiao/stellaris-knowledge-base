@@ -1,0 +1,62 @@
+{
+  "id": "COLD_RESEARCH_CAT",
+  "name": {
+    "en": "0 \"Cold Hard Potential\"",
+    "zh": "潜在发现"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "科学专员发现了一个异常现象。需要进行更广泛的探测，也许会有大量新发现。",
+  "picture": "GFX_evt_tundra",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "OR": {
+        "is_planet_class": [
+          "pc_frozen",
+          "pc_barren_cold"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.4055",
+    "anomaly.4075",
+    "anomaly.4120",
+    "anomaly.4140"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

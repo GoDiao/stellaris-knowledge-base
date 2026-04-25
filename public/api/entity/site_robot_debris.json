@@ -1,0 +1,95 @@
+{
+  "id": "site_robot_debris",
+  "name": {
+    "en": "0 \"Robot Debris\"",
+    "zh": "机器人碎片"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "这颗小行星的表面覆盖满了被其低重力束缚的机器人碎片。看起来它们都是由军事行动造成的。如果这些作战机器人没有被破坏到无法修复的话，本来是足够武装几只军队的。",
+  "picture": "GFX_evt_space_debris",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_F1",
+      "event": "ancrel.6250"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_F2",
+      "event": "ancrel.6255"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_F3",
+      "event": "ancrel.6260"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "OR": {
+        "is_planet_class": [
+          "pc_asteroid",
+          "pc_ice_asteroid"
+        ]
+      },
+      "has_ancrel": "yes"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

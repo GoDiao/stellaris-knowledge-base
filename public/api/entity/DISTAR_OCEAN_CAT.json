@@ -1,0 +1,56 @@
+{
+  "id": "DISTAR_OCEAN_CAT",
+  "name": {
+    "en": "0 \"Deep Tunnels\"",
+    "zh": "深层隧道"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "扫描显示在[From.GetName]的水层之下隐藏着一个错综复杂的隧道系统。是谁创造了它们？",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "has_distar": "yes",
+      "is_planet_class": "pc_ocean"
+    }
+  },
+  "on_success": [
+    "distar.120"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

@@ -1,0 +1,64 @@
+id: rubricator_digsite
+name:
+  en: 0 "Kleptomaniac Rats"
+  zh: 飞天鼠盗
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  这个星球上存在一个由一群沉迷于捡垃圾及囤垃圾的哺乳动物组成的社会。他们迷宫般的城市到处都是垃圾，高耸的建筑摇摇欲坠，由各种破烂拼成。目之所及尽是堆积成山的小摆件、饰品和手工艺品。
+
+   这些小家伙自己并不能生产任何东西，但他们精通太空旅行，他们可能从外人那里偷了不少用得着的东西，但同时也偷了不少没用的东西。
+picture: GFX_evt_relic_world
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_E1
+    event: ancrel.4013
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_E2
+    event: ancrel.4014
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_E3
+    event: ancrel.4015
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_E4
+    event: ancrel.4016
+  - stage_number: 5
+    difficulty: 7
+    icon: GFX_archaeology_runes_E5
+    event: ancrel.4017
+max_instances: 1
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  has_country_flag: discovered_rubricator_planet
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

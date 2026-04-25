@@ -1,0 +1,93 @@
+{
+  "id": "mutation_vats",
+  "name": {
+    "en": "0 \"Mutant Fossils\"",
+    "zh": "异变化石"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "我们在这个星球上发现了有着令人惊异数量的严重异变化石，它们都属于同一种已灭绝的智慧物种。\n\n究竟是什么导致了一个高等社会数百万成员的异变？我们的考古学家想进一步调查。",
+  "picture": "GFX_evt_scanning_remains",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A4",
+      "event": "ancrel.2045"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A5",
+      "event": "ancrel.2046"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A6",
+      "event": "ancrel.2047"
+    }
+  ],
+  "max_instances": 1,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "has_ancrel": "yes",
+      "is_planet_class": "pc_nuked",
+      "NOT": [
+        {
+          "has_planet_flag": "ratling_planet"
+        },
+        {
+          "has_planet_flag": "nuked_planet_anomalies_disabled"
+        }
+      ]
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

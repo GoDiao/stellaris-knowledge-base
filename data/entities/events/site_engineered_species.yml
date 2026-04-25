@@ -1,0 +1,65 @@
+id: site_engineered_species
+name:
+  en: 0 "Plentiful Fossils"
+  zh: 丰富化石
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: '[from.planet.GetName]乍一看是一颗普通的宜居行星，但我们的研究团队详细调查后发现了许多大型的化石矿藏，而且保存状况相当良好。有趣的是，一些大型的化石群在同一地层中包含许多物种，这表明要么它们是在同一时间死去，要么就是被人刻意这样安置的。对这些遗骸的检测让我们有机会进一步了解这颗行星上生活的物种的进化轨迹。'
+picture: GFX_evt_alien_wildlife
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty:
+      min: '2'
+      max: '3'
+    icon: GFX_archaeology_runes_A1
+    event: arcsite.2000
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_A2
+    event: arcsite.2010
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_A3
+    event: arcsite.2020
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_A4
+    event: arcsite.2030
+  - stage_number: 5
+    difficulty:
+      min: '5'
+      max: '7'
+    icon: GFX_archaeology_runes_A5
+    event: arcsite.2040
+max_instances: 1
+weight:
+  base: '0'
+  modifier:
+    add: '25'
+    habitable_planet: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_engineered_species_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site

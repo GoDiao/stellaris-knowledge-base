@@ -1,0 +1,37 @@
+id: object_gasgiant_category
+name:
+  en: 0 "Atmospheric Object"
+  zh: 大气层中的物体
+category: event
+subcategory: anomaly
+dlc: null
+lore: 传感器回波表明这颗庞大的气态巨行星的大气层内存在不明物体。
+picture: GFX_evt_gas_giant_station
+level: 4
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_gas_giant
+on_success:
+  - anomaly.325
+  - anomaly.335
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

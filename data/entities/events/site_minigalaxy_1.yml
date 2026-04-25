@@ -1,0 +1,53 @@
+id: site_minigalaxy_1
+name:
+  en: 0 "Moon Base"
+  zh: 卫星基地
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 在这颗卫星上的一个大陨石坑内，可以找到一个大型基地建筑群的遗迹。它已经被遗弃了几千年之久。围绕着附近行星的能量屏障似乎是源于这个古老的基地正下方的一个能量源。
+picture: GFX_evt_barren_dig_site
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.6155
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.6160
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.6165
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

@@ -1,0 +1,57 @@
+id: site_trench_world
+name:
+  en: 0 "Trench World"
+  zh: 堑壕星球
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  [From.Planet.GetName]的整个表面如同伤疤般布满了又长又浅的运河。它们随意地交错穿插，布局上没有明显的逻辑。目前还不确定它们是否是一种不寻常的自然特征，又或是别的什么。
+
+  需要进行一次地面考察以查明更多的情况。
+picture: GFX_evt_tundra
+stages: 2
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.9145
+  - stage_number: 2
+    difficulty: 5
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.9146
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_barren
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_trench_world_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

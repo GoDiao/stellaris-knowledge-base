@@ -1,0 +1,36 @@
+id: battle_uninhabitable_category
+name:
+  en: 0 "Signs of Battle"
+  zh: 战争迹象
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetPlanetMoon]的轨道上存在着大量的飞船残骸。这有可能是某次大型舰队行动遗留下来的。'
+picture: GFX_evt_small_space_battle
+level: 4
+spawn_chance:
+  modifier:
+    add: '3'
+    uninhabitable_regular_planet: 'yes'
+on_success:
+  - anomaly.2530
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

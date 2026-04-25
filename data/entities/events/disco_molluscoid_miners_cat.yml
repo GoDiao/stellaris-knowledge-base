@@ -1,0 +1,48 @@
+id: disco_molluscoid_miners_cat
+name:
+  en: 0 "Possible Inhabitants"
+  zh: 可能的居民
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 对[From.GetName]的光学扫描中，在其部分表面发现了类似小屋的建筑结构，证明此处之前可能有生物居住。
+picture: GFX_evt_warm_barren
+level: 3
+spawn_chance:
+  modifier:
+    - add: '2'
+      OR:
+        is_planet_class:
+          - pc_desert
+          - pc_arid
+          - pc_savannah
+      has_any_strategic_resource: 'no'
+    - factor: '0'
+      from.owner:
+        NOR:
+          has_ethic:
+            - ethic_gestalt_consciousness
+            - ethic_fanatic_xenophobe
+on_success:
+  - distar.3030
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

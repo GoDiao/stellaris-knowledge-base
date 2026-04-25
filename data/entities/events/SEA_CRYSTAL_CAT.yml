@@ -1,0 +1,40 @@
+id: SEA_CRYSTAL_CAT
+name:
+  en: 0 "Floating Value"
+  zh: 漂浮珍宝
+category: event
+subcategory: anomaly
+dlc: Federations
+lore: 在[Root.GetName]表面的大洋之下，有一个不同寻常的巨大物体正在发出星星点点的光芒。
+picture: GFX_evt_ship_in_orbit
+level: 3
+spawn_chance:
+  modifier:
+    add: '2'
+    is_planet_class: pc_ocean
+    from.owner:
+      NOT:
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - federations3.100
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - federations

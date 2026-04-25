@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "EMPIRE_DESIGN_VOOR_desc",
+  "lore": "The Voor evolved during an extended interglacial period on their home planet Hiverion, which eventually began its cyclical transformation back to a lifeless globe of ice.\n\nThe rapidly changing environment forced the Voor to adapt using technology and science. United under the draconian rule of a chief scientific officer, they sacrificed their individual freedoms and enhanced their bodies with rudimentary cybernetics to survive.\n\nHaving conquered the planet that once threatened to freeze them out of existence the Voor now have their sights set on the stars.",
   "traits": [
     "trait_quick_learners",
     "trait_talented",
@@ -52,7 +52,28 @@
     }
   },
   "graphical_culture": "humanoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "certeran_covenant"
+    },
+    {
+      "type": "同种族",
+      "target": "default"
+    },
+    {
+      "type": "同种族",
+      "target": "humans1"
+    },
+    {
+      "type": "同种族",
+      "target": "humans1_1"
+    },
+    {
+      "type": "同种族",
+      "target": "humans2"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "dictatorial",

@@ -1,0 +1,54 @@
+{
+  "id": "AST_ILLICIT_DARK_CAT",
+  "name": {
+    "en": "0 \"Radiating Asteroid\"",
+    "zh": "辐射小行星"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]周期性地向太空发射出骇人的粒子辐射混合体。",
+  "picture": "GFX_evt_asteroid_approaching_planet",
+  "level": 7,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.155"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

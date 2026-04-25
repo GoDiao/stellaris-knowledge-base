@@ -1,0 +1,63 @@
+id: lithoids_digsite
+name:
+  en: 0 "Whispers in the Stone"
+  zh: 石中低语
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  在[From.Planet.GetName]上的矿井的深处，是一个古老外星文明所遗留的痕迹。宏伟的装饰建筑和洞室告诉我们，一个有着丰富文化的文明已经能够巧妙地切割基岩和建设隧道系统，它们被厚实的闸门所保护，通往更加深入的山体之中。
+
+  由于山体中富集的，以爆炸性闻名的甲烷气体，继续探索下去会很危险。
+picture: GFX_evt_hidden_door
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_A1
+    event: ancrel.4001
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_A2
+    event: ancrel.4002
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_A3
+    event: ancrel.4003
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_A4
+    event: ancrel.4004
+  - stage_number: 5
+    difficulty: 5
+    icon: GFX_archaeology_runes_A5
+    event: ancrel.4005
+max_instances: 1
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

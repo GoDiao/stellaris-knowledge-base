@@ -1,0 +1,40 @@
+id: SUN_RAYS_CAT
+name:
+  en: 0 "Confounding Cosmic Rays"
+  zh: 令人疑惑的宇宙射线
+category: event
+subcategory: anomaly
+dlc: null
+lore: 我们探测到了奇怪的宇宙射线，科学专员要求对其进行调查。
+picture: GFX_evt_physics_research
+level: 5
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      is_planet_class:
+        - pc_desert
+        - pc_arid
+on_success:
+  - anomaly.4035
+  - anomaly.4040
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

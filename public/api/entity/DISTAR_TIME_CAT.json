@@ -1,0 +1,72 @@
+{
+  "id": "DISTAR_TIME_CAT",
+  "name": {
+    "en": "0 \"Ship Fragments\"",
+    "zh": "舰船碎片"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "在[From.GetName]的近距离轨道上发现不明舰体的碎片。",
+  "picture": "GFX_evt_space_debris",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "1",
+        "is_star": "yes",
+        "OR": {
+          "is_star_class": [
+            "sc_neutron_star",
+            "sc_pulsar"
+          ]
+        }
+      },
+      {
+        "factor": "0",
+        "OR": {
+          "has_distar": "no",
+          "from.owner": {
+            "species_portrait": "mol4"
+          }
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "distar.60"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

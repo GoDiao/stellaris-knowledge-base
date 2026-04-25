@@ -1,0 +1,37 @@
+id: HBL_MUSIC_1_CAT
+name:
+  en: 0 "What Hums in the Night"
+  zh: 深夜天籁
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]上有不同寻常的声波活动。'
+picture: GFX_evt_alien_nature
+level: 5
+spawn_chance:
+  modifier:
+    add: '3'
+    habitable_planet: 'yes'
+on_success:
+  - anomaly.145
+  - anomaly.3080
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

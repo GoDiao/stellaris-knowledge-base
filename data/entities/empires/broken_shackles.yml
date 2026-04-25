@@ -45,7 +45,17 @@ system:
     en: PRESCRIPTED_system_name_broken_shackles
     zh: PRESCRIPTED_system_name_broken_shackles
 graphical_culture: reptilian_01
-relations: []
+relations:
+  - type: 同种族
+    target: guardianship_of_nyrr
+  - type: 同种族
+    target: hazbuzan
+  - type: 同种族
+    target: lokken
+  - type: 同种族
+    target: orbis
+  - type: 同种族
+    target: tzynn
 tags:
   - prescripted_empire
   - democratic

@@ -55,7 +55,12 @@
     }
   },
   "graphical_culture": "toxoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "gorthikan"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "imperial",

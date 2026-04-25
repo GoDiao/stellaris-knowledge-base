@@ -1,0 +1,97 @@
+{
+  "id": "slingshot_digsite",
+  "name": {
+    "en": "1 \"Logs from the Quantum Architect\"",
+    "zh": "量子架构师的日志"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Overlord",
+  "lore": "我们已经找到了一个损毁的巨型结构残骸。该构造显然亟需修复，同时我们也在其数据库中发现了饱含着有关异星生物的见解的宝贵财富。尽管我们还在决定是否要重建这一远古科技的造物，我们的考古学家有机会去发掘并取回这宇宙设备起源的线索。它的其中一个发明者，“量子建筑师”相关的日志似乎格外有价值。恢复这些文件对我们解密遗留给我们科技的远古种族的文化和历史必然有着莫大的帮助。",
+  "picture": "GFX_evt_slingshot_stars",
+  "stages": 6,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "origin.3515"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "origin.3520"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.3525"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.3530"
+    },
+    {
+      "stage_number": 5,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.3535"
+    },
+    {
+      "stage_number": 6,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.3540"
+    }
+  ],
+  "max_instances": 999,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "slingshot_origin_arcsite_owner"
+    }
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "overlord"
+  ]
+}

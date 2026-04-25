@@ -1,0 +1,56 @@
+id: site_ruins_of_shallash
+name:
+  en: 0 "Ruined Star System"
+  zh: 被毁灭的恒星系
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: 显然，[From.Planet.GetName]曾是一个高度发达的文明的家园。该星球等距环绕着的六颗卫星就足以证明这一点。但是行星目前已经化作一片废墟，整个恒星系都有着各种各样争斗的痕迹。这里到底发生了什么？
+picture: GFX_evt_tomb_world
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_E1
+    event: federations2.2
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_E2
+    event: federations2.3
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_E3
+    event: federations2.4
+  - stage_number: 4
+    difficulty: 4
+    icon: GFX_archaeology_runes_E4
+    event: federations2.5
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_ruins_of_shallash_random_events
+relations:
+  - type: 提及
+    target: it_was_aliens_site
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+tags:
+  - archaeological_site

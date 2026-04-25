@@ -1,0 +1,58 @@
+id: site_fossilized_jellyfish
+name:
+  en: 0 "Dotted Archipelago"
+  zh: 星罗群岛
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 在[From.Planet.GetName]轨道上的科学船已经探测到遍布这个海洋星球表面的圆形岛屿群。从地质的角度来看，它们非常不寻常：其表面看起来很自然，没有人造结构，但它们都呈圆形，且几乎是完美的圆。我们需要前往那里收集更多数据。
+picture: GFX_evt_ocean
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_B6
+    event: ancrel.9360
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_B5
+    event: ancrel.9365
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_B4
+    event: ancrel.9366
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_ocean
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_ocean_sites_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

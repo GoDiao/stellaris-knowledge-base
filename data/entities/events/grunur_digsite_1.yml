@@ -1,0 +1,49 @@
+id: grunur_digsite_1
+name:
+  en: 0 "Grunur Ruins"
+  zh: 古茹努尔遗迹
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: |-
+  这些遗迹被认为是古代行政建筑群，它们属于一个自称为§Y古茹努尔§!的太空物种，该物种是在[From.Planet.GetName]上被发现的。
+
+  令人震惊的是，这个失落的文明似乎在七百万年前就居住在这个星球上了，我们的考古学家渴望揭开他们的秘密。
+picture: GFX_evt_baol_grunur
+stages: 2
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_C1
+    event: ancrel.2001
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_C2
+    event: ancrel.2002
+max_instances: 1
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  has_country_flag: baol_intro
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site

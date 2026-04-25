@@ -1,0 +1,42 @@
+id: GEN_DERELICT_SHIP_CAT
+name:
+  en: 0 "Distress Signal"
+  zh: 求救信号
+category: event
+subcategory: anomaly
+dlc: null
+lore: 经过初步探测，我们在求救频率中发现了异常的信号。
+picture: GFX_evt_ship_in_orbit
+level: 2
+spawn_chance:
+  modifier:
+    - add: '3'
+      OR:
+        is_planet_class:
+          - pc_tundra
+          - pc_barren_cold
+    - factor: '0'
+      from.owner:
+        has_authority: auth_machine_intelligence
+on_success:
+  - anomaly.4010
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

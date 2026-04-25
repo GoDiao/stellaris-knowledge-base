@@ -1,0 +1,56 @@
+id: zevox_digsite
+name:
+  en: 0 "The Crashed Ship"
+  zh: 坠毁的飞船
+category: event
+subcategory: archaeological_site
+dlc: Overlord
+lore: |-
+  一艘我们的飞船在探索[Root.solar_system.GetName]恒星系的时候偶然在位于[Root.Planet.GetName][Root.Planet.Orbit.GetName]的卫星上发现了一艘坠毁的小型飞船。
+
+  这艘飞船上的标志与符号我们从未见过。些许样本已经被提取并用于进一步研究，但飞船本身过大且不够牢固，无法移动，我们只能就地进行分析研究了。
+picture: GFX_evt_landing_ship_2
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_D3
+    event: unique.50
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_D2
+    event: unique.55
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_D5
+    event: unique.60
+  - stage_number: 4
+    difficulty: 1
+    icon: GFX_archaeology_runes_D6
+    event: unique.65
+max_instances: null
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site
+  - overlord

@@ -1,0 +1,65 @@
+id: site_echoes_inside
+name:
+  en: 0 "The Echoes Inside"
+  zh: 内部回响
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  来自[From.Planet.GetName]的探测读数显示，这颗星球曾经郁郁葱葱，被繁茂的植被所覆盖。然而现在一切皆为过往云烟，它只不过是一块荒芜光秃的巨岩。
+
+  虽然缺乏任何值得注意的构造运动，但使用感应器对这颗行星进行扫描之后，设备记录了下令人困惑的数据。数据表明，有东西正在在地下移动，绝对是一个“庞然大物”。这个发现值得我们进行深入调查。
+picture: GFX_evt_arid
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_B1
+    event: ancrel.9025
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_B2
+    event: ancrel.9030
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_B3
+    event: ancrel.9035
+  - stage_number: 4
+    difficulty: 3
+    icon: GFX_archaeology_runes_B4
+    event: ancrel.9040
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_barren
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_echoes_inside_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

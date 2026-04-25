@@ -1,0 +1,36 @@
+id: GAIA_MOVE_CAT
+name:
+  en: 0 "Paradise Anticipated"
+  zh: 似是天堂
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这是一颗盖亚级行星，[Root.GetName]预计会有丰富的生命体……
+picture: GFX_evt_alien_nature
+level: 3
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_gaia
+on_success:
+  - anomaly.245
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

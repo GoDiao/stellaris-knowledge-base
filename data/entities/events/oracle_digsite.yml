@@ -1,0 +1,59 @@
+id: oracle_digsite
+name:
+  en: 1 "Hidden Worlds"
+  zh: 隐蔽星球
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  [From.Planet.GetName]出土了一个埋藏了数千年的损坏空间站。 这座精湛的建筑曾维持着数百万人的生存，他们的尸体现在就保存在空间站内，探索该建筑庞大的内部实在是一种令人毛骨悚然的工作。
+
+  虽然我们的科学家还没有确定这些人死亡的原因，但可以确定的是，他们在空间站损坏之前就已经死亡。 有些人死相平静，死的时候手里抓着小型雕像；另一些人手里拿着武器，死前遭受了暴力伤害。
+picture: GFX_evt_crashed_station
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_B1
+    event: ancrel.4032
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_B2
+    event: ancrel.4033
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_B3
+    event: ancrel.4034
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_B4
+    event: ancrel.4035
+max_instances: 1
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 提及
+    target: station_uninhabitable_category
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+tags:
+  - archaeological_site
+  - ancient_relics

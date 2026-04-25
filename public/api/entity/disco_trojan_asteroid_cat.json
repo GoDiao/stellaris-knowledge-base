@@ -1,0 +1,64 @@
+{
+  "id": "disco_trojan_asteroid_cat",
+  "name": {
+    "en": "0 \"Unknown Insides\"",
+    "zh": "未知内部"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "对[From.GetName]的初步扫描结果表明，其内部含有大量致密的精加工金属，也许是某种机械或其他科技。若要获得更多细节数据，则需进行进一步扫描。",
+  "picture": "GFX_evt_asteroid_field",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "2",
+        "is_asteroid": "yes",
+        "has_any_strategic_resource": "no"
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "has_authority": "auth_machine_intelligence"
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "distar.3000"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

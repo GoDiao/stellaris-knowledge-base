@@ -1,0 +1,78 @@
+{
+  "id": "zroni_digsite_2",
+  "name": {
+    "en": "0 \"Zroni Beacon\"",
+    "zh": "泽珞族信标"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "在被遗弃的泽珞族殖民地中获得的坐标把我们带到了这里。我们需要再次展开探险，调查这颗初看平淡无奇的星球。",
+  "picture": "GFX_evt_overgrown_city",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_F1",
+      "event": "ancrel.5"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_F2",
+      "event": "ancrel.6"
+    }
+  ],
+  "max_instances": 1,
+  "weight": null,
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader",
+    "hidden_trigger": {
+      "owner": {
+        "has_country_flag": "zroni_arc_chain_@from.planet"
+      }
+    }
+  },
+  "visible": {
+    "has_country_flag": "zroni_intro",
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "zroni_arc_chain_@from.planet"
+    }
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

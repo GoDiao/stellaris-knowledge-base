@@ -1,0 +1,88 @@
+{
+  "id": "site_debris_belt",
+  "name": {
+    "en": "0 \"Debris Belt\"",
+    "zh": "碎片环带"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "我们对[From.Planet.System.GetName]恒星系的扫描显示，它的小行星带是一种非同寻常的类型。与通常组成这类结构的岩石、冰块加太空垃圾的大杂烩不同，它看起来像是许多大型的人造居住站所形成的残骸。这显然是在过去几千年内的某个时间被难以想象的暴力所摧毁的。这片残骸场中必然潜藏着许多不为人知的秘密，但由于体量巨大，进行测绘就需要花费挺长的时间。",
+  "picture": "GFX_evt_space_debris",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 9,
+      "icon": "GFX_archaeology_runes_C1",
+      "event": "arcsite.2500"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 8,
+      "icon": "GFX_archaeology_runes_C2",
+      "event": "arcsite.2505"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 6,
+      "icon": "GFX_archaeology_runes_C3",
+      "event": "arcsite.2515"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 6,
+      "icon": "GFX_archaeology_runes_C4",
+      "event": "arcsite.2520"
+    }
+  ],
+  "max_instances": null,
+  "weight": "0",
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "space_station_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "AST_DEBRIS_FIELD_1_CAT"
+    },
+    {
+      "type": "提及",
+      "target": "ast_debris_field_1_cat_2"
+    },
+    {
+      "type": "提及",
+      "target": "atomic_clock_cat"
+    },
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

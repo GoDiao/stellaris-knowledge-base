@@ -6,9 +6,9 @@ category: empire
 subcategory: prescripted
 dlc: null
 lore: |-
-  由数以百计的人类国家所构成的星际联合政府内部充满着差异，而又团结一致。这些两足哺乳动物已经发展出一种鼓励个人自由和文化差异的理念，甚至由此得益。因此，人类亦乐于和其他外星物种相互交融。
+  The myriad Human nations that constitute their interstellar government are disparate, yet united in purpose. These bipedal mammalians have developed a society that encourages and even thrives on individual freedoms and cultural differences - as a result, Humans tend to integrate well with alien populations.
 
-  尽管如此，他们仍有着很强的军事传统，这是由几千年间在他们的家园发生的大大小小的战争造成的。他们时隐时现的侵略性和不可预知的自然天性不应被忽视。
+  Despite this, they have strong martial traditions (produced by millennia of intermittent warfare on their homeworld) and their sometimes aggressive and unpredictable nature should not be underestimated.
 traits:
   - trait_adaptive
   - trait_nomadic
@@ -41,7 +41,17 @@ system:
     en: NAME_Sol
     zh: NAME_Sol
 graphical_culture: mammalian_01
-relations: []
+relations:
+  - type: 同种族
+    target: certeran_covenant
+  - type: 同种族
+    target: default
+  - type: 同种族
+    target: humans1_1
+  - type: 同种族
+    target: humans2
+  - type: 同种族
+    target: humans2_1
 tags:
   - prescripted_empire
   - democratic

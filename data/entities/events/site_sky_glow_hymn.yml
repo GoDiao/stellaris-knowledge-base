@@ -1,0 +1,58 @@
+id: site_sky_glow_hymn
+name:
+  en: 0 "Beautiful Bubble"
+  zh: 美丽泡沫
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: '[From.Planet.GetName]的地表扫描结果表明了一种迹象：曾经可能有一个科技文明在这个星球上活跃，但它现在已经灭绝了。我们需要组织一次地表考察以获得更多信息。'
+picture: GFX_evt_big_landing_ship
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_A1
+    event: ancrel.9190
+  - stage_number: 2
+    difficulty: 5
+    icon: GFX_archaeology_runes_A2
+    event: ancrel.9195
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_A3
+    event: ancrel.9196
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    uninhabitable_regular_planet: 'yes'
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_sky_glow_hymn_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

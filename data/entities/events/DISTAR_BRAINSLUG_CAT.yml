@@ -1,0 +1,41 @@
+id: DISTAR_BRAINSLUG_CAT
+name:
+  en: 0 "Abandoned Settlements"
+  zh: 废弃聚落
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]的扫描结果标示了一些被土著居民抛弃的聚落。在聚落的建造者身上究竟发生了什么事情？'
+picture: GFX_evt_alien_nature
+level: 4
+spawn_chance:
+  modifier:
+    add: '10'
+    has_distar: 'yes'
+    habitable_planet: 'yes'
+    OR:
+      has_deposit: d_dangerous_wildlife_blocker
+      has_planet_modifier: pm_dangerous_wildlife
+on_success:
+  - distar.170
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

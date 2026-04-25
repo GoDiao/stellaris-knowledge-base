@@ -1,0 +1,77 @@
+id: site_grand_herald
+name:
+  en: 0 "The Grand Herald"
+  zh: 伟大先驱
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 即使不依靠仪器，也可以很容易地看到[From.Planet.GetName]上存在着庞大的城市集群遗迹。显然，曾有一个高度发达的文明居住在那里，但现在已检测不到生命迹象，也不能收到符合技术社会特征的电磁信号。这颗行星似乎陷入了死寂。我们需要着陆去了解更多情况。
+picture: GFX_evt_ancient_alien_temple
+stages: 6
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_C1
+    event: ancrel.9270
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_C6
+    event: ancrel.9275
+  - stage_number: 3
+    difficulty: 4
+    icon: GFX_archaeology_runes_C3
+    event: ancrel.9280
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_C4
+    event: ancrel.9285
+  - stage_number: 5
+    difficulty: 5
+    icon: GFX_archaeology_runes_C5
+    event: ancrel.9290
+  - stage_number: 6
+    difficulty: 6
+    icon: GFX_archaeology_runes_C2
+    event: ancrel.9291
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '50'
+    OR:
+      is_planet_class:
+        - pc_nuked
+        - pc_desert
+        - pc_arid
+        - pc_savannah
+    has_ancrel: 'yes'
+    NOT:
+      has_planet_flag: nuked_planet_anomalies_disabled
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_grand_herald_random_events
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 提及
+    target: life_asteroid_category
+  - type: 提及
+    target: life_barren_category
+  - type: 提及
+    target: life_frozen_category
+  - type: 提及
+    target: life_gasgiant_category
+tags:
+  - archaeological_site
+  - ancient_relics

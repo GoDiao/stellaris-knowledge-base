@@ -1,0 +1,70 @@
+{
+  "id": "strange_signal_category",
+  "name": {
+    "en": "0 \"A Curious Signal\"",
+    "zh": "令人好奇的信号"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Federations",
+  "lore": "尽管[Root.GetName]看上去荒无人烟，但我们的扫描仪却接收了一段被加密的信号，正是从这上面发射出来的。",
+  "picture": "GFX_evt_cold_barren",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "2",
+      "OR": {
+        "is_planet_class": [
+          "pc_barren",
+          "pc_barren_cold"
+        ]
+      },
+      "has_any_strategic_resource": "no",
+      "from.owner": {
+        "NOR": {
+          "has_ethic": "ethic_gestalt_consciousness",
+          "has_origin": "origin_remnants"
+        }
+      },
+      "NOT": {
+        "years_passed": "300"
+      }
+    }
+  },
+  "on_success": [
+    "federations2.1"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "ARID_SENSOR_CAT"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "federations"
+  ]
+}

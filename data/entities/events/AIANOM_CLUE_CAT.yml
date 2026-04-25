@@ -1,0 +1,63 @@
+id: AIANOM_CLUE_CAT
+name:
+  en: 0 "1 "L-Gate Insight""
+  zh: L-星门线索
+category: event
+subcategory: anomaly
+dlc: null
+lore: |-
+  我们已经获悉在星系边缘的某个地方有一个神秘的星团。我们只能通过§HL-星门§!到达该星团，这是一种在特定恒星系中发现的人造亚空间入口。
+
+  这些星门已经被人蓄意地关闭了，并且现在我们对解除禁制所需要的亚空间原理缺乏足够的理解。
+picture: GFX_evt_mining_station
+level: 5
+spawn_chance:
+  modifier:
+    - add: '1'
+      is_planet_class: pc_barren
+      from.owner:
+        has_event_chain: l_cluster_chain
+        NOT:
+          has_completed_event_chain_counter:
+            event_chain: l_cluster_chain
+            counter: clues
+    - add: '1'
+      mid_game_years_passed: true
+      '>': '0'
+      from.owner:
+        has_event_chain: l_cluster_chain
+        NOT:
+          has_completed_event_chain_counter:
+            event_chain: l_cluster_chain
+            counter: clues
+    - add: '1'
+      end_game_years_passed: true
+      '>': '0'
+      from.owner:
+        has_event_chain: l_cluster_chain
+        NOT:
+          has_completed_event_chain_counter:
+            event_chain: l_cluster_chain
+            counter: clues
+on_success:
+  - aianom.11
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: 0.5
+should_ai_use: true
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+  - type: 关联
+    target: AIANOM_RESEARCHDEPO_CAT
+tags:
+  - anomaly

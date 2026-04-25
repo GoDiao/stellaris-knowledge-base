@@ -1,0 +1,38 @@
+id: origin_asteroid_category
+name:
+  en: 0 "Unknown Origin"
+  zh: 未知起源
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗小行星的成分与周围的小行星大不相同。它的起源可能与小行星带上的其他小行星截然不同，应该进行更进一步的研究。
+picture: GFX_evt_mining_station
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    is_asteroid: 'yes'
+on_success:
+  - distar.225
+  - anomaly.1
+  - anomaly.15
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

@@ -1,0 +1,84 @@
+{
+  "id": "site_moon_bump",
+  "name": {
+    "en": "0 \"Moon Bump\"",
+    "zh": "被撞肿的行星"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "即使用肉眼也很容易看出，[From.Planet.GetName]的地表上部分区域的地形极不规整。光滑的弧面上唐突地出现了一个巨大的球形凸起。也许在过去某一时刻，一颗卫星亦或是一颗巨大的小行星与这颗行星发生了碰撞，但碰撞的方式一定相当微妙，碰撞并未撕裂这颗行星，而仅仅是使不速之客寄宿在了行星地壳内部。",
+  "picture": "GFX_evt_relic_world_street",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_A1",
+      "event": "ancrel.9000"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "ancrel.9005"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "uninhabitable_regular_planet": "yes",
+      "has_ancrel": "yes"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_moon_bump_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

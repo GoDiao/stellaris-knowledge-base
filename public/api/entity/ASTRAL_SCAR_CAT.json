@@ -1,0 +1,52 @@
+{
+  "id": "ASTRAL_SCAR_CAT",
+  "name": {
+    "en": "Astral Scar",
+    "zh": "星界细缝"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Astral Planes",
+  "lore": "我们发现了一个时空中的异常裂缝。我们越靠近，已知的物理相对论定律越不适用。\n\n研究这一现象很可能将推动我们对宇宙机制的科学理解提升到一个更高的水平。",
+  "picture": "GFX_evt_astral_scar",
+  "level": 6,
+  "spawn_chance": {
+    "base": "0"
+  },
+  "on_success": [
+    "astral_planes.6000"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "astral_planes"
+  ]
+}

@@ -1,0 +1,39 @@
+id: energy_uninhabitable_category
+name:
+  en: 0 "Unusual Energy Readings"
+  zh: 异常能源示数
+category: event
+subcategory: anomaly
+dlc: null
+lore: 我们短暂地接收到了非比寻常的能源示数，发射源来自[Root.GetPlanetMoon]。这有可能是我们的系统出现了故障，也有可能预示着我们发现了不得了的东西。
+picture: GFX_evt_ship_in_orbit_3
+level: 2
+spawn_chance:
+  modifier:
+    add: '3'
+    uninhabitable_regular_planet: 'yes'
+on_success:
+  - anomaly.610
+  - anomaly.615
+  - anomaly.655
+  - distar.1040
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

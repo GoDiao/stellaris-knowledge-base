@@ -1,0 +1,94 @@
+{
+  "id": "site_the_last_stand",
+  "name": {
+    "en": "0 \"The Last Stand\"",
+    "zh": "最后的遗世之幢"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Federations",
+  "lore": "扫描仪从轨道上读取的数据表明下方的行星上存在一个人工构造。但与以前的不同，该构造并未埋于地下。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A1",
+      "event": "origin.1270"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "origin.1275"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": -2,
+      "icon": "GFX_archaeology_runes_A4",
+      "event": "origin.1280"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.1285"
+    }
+  ],
+  "max_instances": 999,
+  "weight": {
+    "base": "0"
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    },
+    "hidden_trigger": {
+      "owner": {
+        "has_country_flag": "shoulders_origin_@from.planet"
+      }
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "shoulders_origin_@from.planet"
+    }
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_the_last_stand_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "federations"
+  ]
+}

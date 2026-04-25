@@ -1,0 +1,54 @@
+{
+  "id": "DISTAR_COLLAPSE_CAT",
+  "name": {
+    "en": "0 \"Dilapidated Station\"",
+    "zh": "荒废站点"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "一座荒废的空间站悬浮在轨道上，无力地环绕着[From.GetName]，身披数个世纪里被残骸冲撞而留下的伤痕。考虑到它破损的状态和无法识别的科技，我们需要一个专家团队来对它进行调查。",
+  "picture": "GFX_evt_space_station",
+  "level": 6,
+  "spawn_chance": {
+    "modifier": {
+      "add": "0"
+    }
+  },
+  "on_success": [
+    "distar.125"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

@@ -1,0 +1,57 @@
+id: zroni_digsite_6
+name:
+  en: 0 "Zron"
+  zh: 泽珞星
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: 泽珞星可以说是一个灵能活动的漩涡。在我们尝试派遣一个离队小组到地表之前，我们需要对过去用来探测记忆水晶的工具进行重新校准。
+picture: GFX_evt_shrouded_planet
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_F2
+    event: ancrel.15
+  - stage_number: 2
+    difficulty: 5
+    icon: GFX_archaeology_runes_F3
+    event: ancrel.16
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_F4
+    event: ancrel.17
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_F5
+    event: ancrel.18
+  - stage_number: 5
+    difficulty: 6
+    icon: GFX_archaeology_runes_F6
+    event: ancrel.19
+max_instances: 1
+weight: null
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  has_country_flag: zroni_intro
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site

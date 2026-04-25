@@ -1,0 +1,59 @@
+{
+  "id": "GEN_ABANDONED_SHIP_CAT",
+  "name": {
+    "en": "0 \"Parked\"",
+    "zh": "停泊"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "对[Root.GetName]粗略扫描有了令人震惊的结果。\n\n似乎有东西也在扫描我们……",
+  "picture": "GFX_evt_landing_ship",
+  "level": 8,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "OR": {
+        "is_planet_class": [
+          "pc_continental",
+          "pc_arid"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.3030"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

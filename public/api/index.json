@@ -430,5 +430,3578 @@
       "imperial",
       "default"
     ]
+  },
+  {
+    "id": "abandoned_outpost_category",
+    "name_zh": "废弃观测站",
+    "name_en": "0 \"Abandoned Observation Post\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "aerostat_gasgiant_category",
+    "name_zh": "飞行器结构",
+    "name_en": "0 \"Aerostat Structures\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AIANOM_CLUE_CAT",
+    "name_zh": "L-星门线索",
+    "name_en": "0 \"1 \"L-Gate Insight\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AIANOM_LUMP_CAT",
+    "name_zh": "轨道残骸",
+    "name_en": "0 \"Orbital Debris\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AIANOM_MININGDEPO_CAT",
+    "name_zh": "地表读数",
+    "name_en": "0 \"Surface Pings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AIANOM_RESEARCHDEPO_CAT",
+    "name_zh": "地表读数",
+    "name_en": "0 \"0 \"Surface Pings\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "alien_life_cat",
+    "name_zh": "外星生命",
+    "name_en": "0 \"Alien Life\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "ALPHA_CENTAURI_CAT",
+    "name_zh": "稳态",
+    "name_en": "0 \"Stasis\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "ancient_battle_site",
+    "name_zh": "$ancrel.108.name$",
+    "name_en": "0 \"$ancrel.108.name$\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "ANCREL_ARC_CAT",
+    "name_zh": "外星遗址",
+    "name_en": "0 \"Alien Site\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "ANCREL_MECHANO_CAT",
+    "name_zh": "行星规模的机器",
+    "name_en": "0 \"A Planetary Machine\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "ANCREL_RUBRICATOR_CAT",
+    "name_zh": "武器痕迹",
+    "name_en": "0 \"Weapon Trails\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "ARID_PLANET_CAT",
+    "name_zh": "干燥的废土",
+    "name_en": "0 \"Arid Wastes\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "ARID_SENSOR_CAT",
+    "name_zh": "荒无人烟",
+    "name_en": "0 \"Arid and Abandoned\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "asteroid_uninhabitable_category",
+    "name_zh": "轨道小行星",
+    "name_en": "0 \"Asteroid in Orbit\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "asteroid_vault_1",
+    "name_zh": "奇怪的小行星",
+    "name_en": "0 \"Strange Asteroid\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "ASTRAL_SCAR_CAT",
+    "name_zh": "星界细缝",
+    "name_en": "Astral Scar",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "astral_planes"
+    ]
+  },
+  {
+    "id": "AST_CLUSTER_CAT",
+    "name_zh": "矿群",
+    "name_en": "0 \"Mineral Cluster\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_CRATER_CAT",
+    "name_zh": "尘暴区",
+    "name_en": "0 \"Dustbowl\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_DEBRIS_FIELD_1_CAT",
+    "name_zh": "残骸场",
+    "name_en": "0 \"Debris Field\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "ast_debris_field_1_cat_2",
+    "name_zh": "残骸场",
+    "name_en": "0 \"0 \"Debris Field\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "AST_GEAR_CAT",
+    "name_zh": "惊人的小行星",
+    "name_en": "0 \"Astonishing Asteroids\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_ILLICIT_DARK_CAT",
+    "name_zh": "辐射小行星",
+    "name_en": "0 \"Radiating Asteroid\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_MINING_CAT",
+    "name_zh": "留心矿物",
+    "name_en": "0 \"Mind the Minerals\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_SHRINE_1_CAT",
+    "name_zh": "被雕琢的小行星",
+    "name_en": "0 \"An Asteroid, Carved\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "AST_WAVELENGTHS_1_CAT",
+    "name_zh": "小行星电波",
+    "name_en": "0 \"Asteroid Waves\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "ATM_ANOMALY_CAT",
+    "name_zh": "大气异常现象",
+    "name_en": "0 \"Atmospheric Anomaly\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "atomic_clock_cat",
+    "name_zh": "残骸场",
+    "name_en": "0 \"0 \"Debris Field\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "baol_digsite_1",
+    "name_zh": "不毛之地",
+    "name_en": "0 \"The Barren\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "baol_digsite_2",
+    "name_zh": "破碎行星",
+    "name_en": "0 \"The Shattered\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "baol_digsite_3",
+    "name_zh": "寂静之地",
+    "name_en": "0 \"The Silenced\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "BARR_BASE_CAT",
+    "name_zh": "荒芜平原",
+    "name_en": "0 \"On the Barren Plains\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "BAR_COLONY_CAT",
+    "name_zh": "俯瞰",
+    "name_en": "0 \"Looking Down\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "battle_uninhabitable_category",
+    "name_zh": "战争迹象",
+    "name_en": "0 \"Signs of Battle\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "beacon_uninhabitable_category",
+    "name_zh": "地表信标",
+    "name_en": "0 \"Surface Beacon\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "BLACK_HOLE_INSTABLE_CAT",
+    "name_zh": "不稳定$pc_black_hole$",
+    "name_en": "1 \"$pc_black_hole$\" Instability",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "astral_planes"
+    ]
+  },
+  {
+    "id": "broken_shackles_digsite",
+    "name_zh": "坠毁的运奴船",
+    "name_en": "0 \"Crashed Slaver Ship\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "first_contact"
+    ]
+  },
+  {
+    "id": "broken_world_digsite",
+    "name_zh": "破损的大门",
+    "name_en": "0 \"The Broken Gates\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "leviathans"
+    ]
+  },
+  {
+    "id": "cargo_gasgiant_category",
+    "name_zh": "货舱",
+    "name_en": "0 \"Cargo Pod\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "city_of_bones",
+    "name_zh": "白骨之城",
+    "name_en": "0 \"City of Bones\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "clone_army_digsite",
+    "name_zh": "母星发掘",
+    "name_en": "0 \"Homeworld Excavation\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "humanoids"
+    ]
+  },
+  {
+    "id": "COLD_RESEARCH_CAT",
+    "name_zh": "潜在发现",
+    "name_en": "0 \"Cold Hard Potential\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "collision_asteroid_category",
+    "name_zh": "小行星碰撞",
+    "name_en": "0 \"Asteroid Collision\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "CONT_SIGNS_CAT",
+    "name_zh": "行星伤痕",
+    "name_en": "0 \"Planetary Scars\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "CON_BIOLOGY_CAT",
+    "name_zh": "大陆上的发现",
+    "name_en": "0 \"Continental Findings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "corrupt_data_cat",
+    "name_zh": "调查数据损坏",
+    "name_en": "0 \"Corrupt Survey Data\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "crashed_ship_asteroid_category",
+    "name_zh": "坠毁的飞船",
+    "name_en": "0 \"Crashed Ship\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "CRYSTAL_MANUFACTORY_CAT",
+    "name_zh": "古代工厂",
+    "name_en": "0 \"Ancient Manufactory\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_10_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_11_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_1_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_2_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_3_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_4_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_5_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_6_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_7_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_8_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "cybrex_9_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "DATA_DIAMOND_CAT",
+    "name_zh": "薄冰",
+    "name_en": "0 \"Thin Ice\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "debris_asteroid_category",
+    "name_zh": "覆盖着残骸",
+    "name_en": "0 \"Covered in Debris\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "debris_gasgiant_category",
+    "name_zh": "太空碎片",
+    "name_en": "0 \"Space Debris\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "debris_gasgiant_category_temp",
+    "name_zh": "远古船壳",
+    "name_en": "0 \"Ancient Hulk\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DES_BURIED_CAT",
+    "name_zh": "沙中迷藏",
+    "name_en": "0 \"Buried in the Sand\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "DES_PLANET_CAT",
+    "name_zh": "荒凉沙漠",
+    "name_en": "0 \"Desolate Sands\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "DIMENSIONAL_POCKET_CAT",
+    "name_zh": "维度扰动",
+    "name_en": "0 \"Dimensional Disturbance\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "disco_alien_machine_cat",
+    "name_zh": "外星机器",
+    "name_en": "0 \"Alien Machine\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_breathing_rift_cat",
+    "name_zh": "光学现象",
+    "name_en": "0 \"Light Phenomenon\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_gray_cat",
+    "name_zh": "地表信号",
+    "name_en": "0 \"Surface Signature\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_impossible_organism_cat",
+    "name_zh": "不可能的有机体",
+    "name_en": "0 \"Impossible Organism\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_molluscoid_miners_cat",
+    "name_zh": "可能的居民",
+    "name_en": "0 \"Possible Inhabitants\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_speed_demon_cat",
+    "name_zh": "轨道高速妖",
+    "name_en": "0 \"Orbital Speed Demon\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_stranded_scientist_cat",
+    "name_zh": "太空船遗留物",
+    "name_en": "0 \"Spacecraft Remains\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "disco_trojan_asteroid_cat",
+    "name_zh": "未知内部",
+    "name_en": "0 \"Unknown Insides\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_BRAINSLUG_CAT",
+    "name_zh": "废弃聚落",
+    "name_en": "0 \"Abandoned Settlements\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_CLONE_CAT",
+    "name_zh": "可疑的舱体",
+    "name_en": "0 \"Murky Vats\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_COLLAPSE_CAT",
+    "name_zh": "荒废站点",
+    "name_en": "0 \"Dilapidated Station\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_DEAD_GOD_CAT",
+    "name_zh": "沉默巨兽",
+    "name_en": "0 \"Silent Behemoth\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_DIAMOND_CAT",
+    "name_zh": "超重脉冲",
+    "name_en": "0 \"Heavy Pulse\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_ELECTRO_CAT",
+    "name_zh": "网状构造",
+    "name_en": "0 \"Webwork\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_EXO_CAT",
+    "name_zh": "奇异的植物毯子",
+    "name_en": "0 \"Bizarre Blanket\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_FLARE_CAT",
+    "name_zh": "文明的遗踪",
+    "name_en": "0 \"Traces of Civilization\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_FLOW_CAT",
+    "name_zh": "异常的读数",
+    "name_en": "0 \"Heavy Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_FLYTRAP_CAT",
+    "name_zh": "巨型植被",
+    "name_en": "0 \"Megaflora\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_FOES_CAT",
+    "name_zh": "二重身",
+    "name_en": "0 \"Doppelgangers\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_GEODE_CAT",
+    "name_zh": "隐秘核心",
+    "name_en": "0 \"Secret Heart\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_HOLO_CAT",
+    "name_zh": "舰队的信号",
+    "name_en": "0 \"Fleet Signatures\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_ICE_CAT",
+    "name_zh": "不一致的读数",
+    "name_en": "0 \"Inconsistent Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_LIVING_CAT",
+    "name_zh": "彷徨海",
+    "name_en": "0 \"Haunting Sea\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_LOST_CAT",
+    "name_zh": "云中的动静",
+    "name_en": "0 \"Movement in the Clouds\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_MEDGAS_CAT",
+    "name_zh": "坚固的核心",
+    "name_en": "0 \"Solid Core\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_MED_CAT",
+    "name_zh": "神秘箱体",
+    "name_en": "0 \"Mysterious Tanker\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_MERCURY_CAT",
+    "name_zh": "深层洞窟",
+    "name_en": "0 \"Deep Caverns\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_METAL_CAT",
+    "name_zh": "干扰云层",
+    "name_en": "0 \"Impenetrable Clouds\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_MOLTEN_CAT",
+    "name_zh": "火山喷口",
+    "name_en": "0 \"Volcanic Vents\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_NANOCITY_CAT",
+    "name_zh": "金属晶体结构",
+    "name_en": "0 \"Metallic Crystal Formations\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_NANOSAND_CAT",
+    "name_zh": "金属沙子",
+    "name_en": "0 \"Metallic Sands\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_NANO_CAT",
+    "name_zh": "灰蛊",
+    "name_en": "0 \"Gray Goo\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_OCEAN_CAT",
+    "name_zh": "深层隧道",
+    "name_en": "0 \"Deep Tunnels\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_PHASE_CAT",
+    "name_zh": "相变星球",
+    "name_en": "0 \"Phased Planet\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_POD_CAT",
+    "name_zh": "不明吊舱",
+    "name_en": "0 \"Unidentified Drop Pods\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_PUZZLE_CAT",
+    "name_zh": "无法扫描的物体",
+    "name_en": "1 \"Unscannable Object\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_RAINBOW_CAT",
+    "name_zh": "黑暗中的彩虹",
+    "name_en": "0 \"Rainbow in the Dark\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_RAT_CAT",
+    "name_zh": "残毁首都",
+    "name_en": "0 \"Ruined Capital\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_ROBO_CAT",
+    "name_zh": "对称结构",
+    "name_en": "0 \"Symmetrical Structures\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_RUM_CAT",
+    "name_zh": "熟悉的化合物",
+    "name_en": "0 \"Familiar Compounds\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_SIGNAL_CAT",
+    "name_zh": "干扰",
+    "name_en": "0 \"Interference\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_SOOTHE_CAT",
+    "name_zh": "共鸣水晶",
+    "name_en": "0 \"Resonant Crystals\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_SOOTHE_GC_CAT",
+    "name_zh": "高强磁性",
+    "name_en": "0 \"Attractive Magnetism\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_SOY_CAT",
+    "name_zh": "杂草丛生的遗迹",
+    "name_en": "0 \"Overgrown Ruins\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_THIRSTY_CAT",
+    "name_zh": "干涸峡谷",
+    "name_en": "0 \"Waterless Canyons\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_TIME_CAT",
+    "name_zh": "舰船碎片",
+    "name_en": "0 \"Ship Fragments\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_WARFORM_CAT",
+    "name_zh": "神秘构造",
+    "name_en": "0 \"Mysterious Construct\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_WRECK_CAT",
+    "name_zh": "补给船残骸",
+    "name_en": "0 \"Supply Ship Wreckage\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "DISTAR_ZONE_CAT",
+    "name_zh": "遗世废墟",
+    "name_en": "0 \"Isolated Ruin\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "emissions_asteroid_category",
+    "name_zh": "能量辐射",
+    "name_en": "0 \"Energy Emissions\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "endless_expanse_digsite",
+    "name_zh": "无边无垠",
+    "name_en": "0 \"The Endless Expanse\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "endless_expanse_digsite_2",
+    "name_zh": "埃克斯-柏楞",
+    "name_en": "0 \"Ix Belèn\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "energy_uninhabitable_category",
+    "name_zh": "异常能源示数",
+    "name_en": "0 \"Unusual Energy Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FEN_HABBANIS",
+    "name_zh": "哈本尼斯之泽",
+    "name_en": "0 \"Fen Habbanis\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FRBR_GRIMACING_CAT",
+    "name_zh": "瞬息万变",
+    "name_en": "0 \"Winking\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FROZEN_SPRINGS_CAT",
+    "name_zh": "神秘热源",
+    "name_en": "0 \"Mysterious Heat\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FROZ_BASE2_CAT",
+    "name_zh": "冰雪平原",
+    "name_en": "0 \"Icy Plains\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FROZ_BASE_CAT",
+    "name_zh": "冰冻荒原",
+    "name_en": "0 \"Cold Wastes\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FROZ_BOX_CAT",
+    "name_zh": "暗藏玄机",
+    "name_en": "0 \"Something Smells\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "FROZ_ILLUMINATED_CAT",
+    "name_zh": "冰雪发光",
+    "name_en": "0 \"Ice Lit\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "fungal_emitters_category",
+    "name_zh": "怪异辐射",
+    "name_en": "0 \"Strange Emissions\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GAEA_CHECKERED_CAT",
+    "name_zh": "扫雷",
+    "name_en": "0 \"Minesweeper\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GAIA_MOVE_CAT",
+    "name_zh": "似是天堂",
+    "name_en": "0 \"Paradise Anticipated\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "gaia_planet_cat",
+    "name_zh": "外星人活动",
+    "name_en": "0 \"Alien Activity\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "GAIA_RECORD_CAT",
+    "name_zh": "破釜沉舟",
+    "name_en": "0 \"Rubiconian Shores\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GAS_CLOUDY_CAT",
+    "name_zh": "云舞",
+    "name_en": "0 \"Clouds Dance\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GAS_ZRO_ICE_CAT",
+    "name_zh": "冰冻冰巨星",
+    "name_en": "0 \"Ice Ice Giant\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_ABANDONED_SHIP_CAT",
+    "name_zh": "停泊",
+    "name_en": "0 \"Parked\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_DERELICT_SHIP_CAT",
+    "name_zh": "求救信号",
+    "name_en": "0 \"Distress Signal\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_DESERT_CAT",
+    "name_zh": "沙丘",
+    "name_en": "0 \"Dunes\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_LOST_CARGO_CAT",
+    "name_zh": "古怪读数",
+    "name_en": "0 \"Odd Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_MYSTICAL_CAT",
+    "name_zh": "谜团",
+    "name_en": "0 \"Mystical\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_OLD_WAR_CAT",
+    "name_zh": "钢之追寻",
+    "name_en": "0 \"A Feel For Steel\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GEN_PLAYGROUND_CAT",
+    "name_zh": "令人玩味的遗迹",
+    "name_en": "0 \"Playful Ruins\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "GREATEST_SHOW_CAT",
+    "name_zh": "探测到光亮物体",
+    "name_en": "Bright Object Detected",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "astral_planes"
+    ]
+  },
+  {
+    "id": "grunur_digsite_1",
+    "name_zh": "古茹努尔遗迹",
+    "name_en": "0 \"Grunur Ruins\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "HAB_CORN_CAT",
+    "name_zh": "点点绿意",
+    "name_en": "0 \"Spotty Greenery\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "HAB_MAT_CAT",
+    "name_zh": "金属闪烁",
+    "name_en": "0 \"A Glint of Metal\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "hatch_asteroid_category",
+    "name_zh": "对接舱",
+    "name_en": "0 \"Docking Hatch\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "HBL_LUSH_PLANET_1_CAT",
+    "name_zh": "丰饶的星球",
+    "name_en": "0 \"A Lush Planet\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "HBL_MUSIC_1_CAT",
+    "name_zh": "深夜天籁",
+    "name_en": "0 \"What Hums in the Night\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "HOLE_RADIATION_CAT",
+    "name_zh": "黑暗中的彩虹",
+    "name_en": "0 \"Rainbow in the Dark\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "impact_uninhabitable_category",
+    "name_zh": "巨大撞击",
+    "name_en": "0 \"Massive Impact\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "inhabited_toxic_category",
+    "name_zh": "前人殖民的迹象",
+    "name_en": "0 \"Signs of Former Habitation\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "INTEMPORAL_ORB_CAT",
+    "name_zh": "球体",
+    "name_en": "0 \"The Orb\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "IRASSIA",
+    "name_zh": "伊拉西亚",
+    "name_en": "0 \"Irassia\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_10_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_11_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_1_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_2_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_3_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_4_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_5_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_6_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_7_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_8_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irassian_9_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "irregular_energy_cat",
+    "name_zh": "异常能源放射",
+    "name_en": "0 \"Irregular Energy Emissions\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "it_was_aliens_site",
+    "name_zh": "废墟",
+    "name_en": "0 \"Ruins\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "larion_digsite",
+    "name_zh": "信号",
+    "name_en": "0 \"The Signal\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "overlord"
+    ]
+  },
+  {
+    "id": "league_10_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_11_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_12_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_13_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_14_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_1_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_2_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_3_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_4_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_5_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_6_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_7_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_8_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "league_9_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "LEVELED_CAT",
+    "name_zh": "蒸汽翻腾",
+    "name_en": "0 \"Steamrolled\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "leylines_digsite",
+    "name_zh": "地狱嗡鸣",
+    "name_en": "0 \"Chthonic Siren\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "life_asteroid_category",
+    "name_zh": "生命迹象",
+    "name_en": "0 \"Life Signs\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "life_barren_category",
+    "name_zh": "生命迹象",
+    "name_en": "0 \"Life Signs\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "life_frozen_category",
+    "name_zh": "生命迹象",
+    "name_en": "0 \"Life Signs\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "life_gasgiant_category",
+    "name_zh": "生命迹象",
+    "name_en": "0 \"Life Signs\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "life_toxic_category",
+    "name_zh": "生命迹象",
+    "name_en": "0 \"Life Signs\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "lithoids_digsite",
+    "name_zh": "石中低语",
+    "name_en": "0 \"Whispers in the Stone\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "living_metal_category",
+    "name_zh": "奇特的撞击坑",
+    "name_en": "0 \"Peculiar Crater\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "lost_soul_cat",
+    "name_zh": "迷路灵魂",
+    "name_en": "0 \"Lost Soul\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "MOLTEN_BASE_CAT",
+    "name_zh": "剧热律动",
+    "name_en": "0 \"Heated Rhythm\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "moon_cat",
+    "name_zh": "奇特卫星",
+    "name_en": "0 \"Unusual Moon\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "moon_gasgiant_category",
+    "name_zh": "潜力巨大的卫星",
+    "name_en": "0 \"Promising Moon\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "mountain_uninhabitable_category",
+    "name_zh": "成因奇怪的山脉",
+    "name_en": "0 \"Strange Mountain Formation\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "mutation_vats",
+    "name_zh": "异变化石",
+    "name_en": "0 \"Mutant Fossils\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "NANO_SWARM_CAT",
+    "name_zh": "荒芜的沙漠",
+    "name_en": "0 \"Deserted Desert\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "NUKE_PLANET_CAT",
+    "name_zh": "末日之冬",
+    "name_en": "0 \"The Winter of the Fallen\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "object_gasgiant_category",
+    "name_zh": "大气层中的物体",
+    "name_en": "0 \"Atmospheric Object\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "object_uninhabitable_category",
+    "name_zh": "未知物体",
+    "name_en": "0 \"Unidentified Object\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "omnirelic_site",
+    "name_zh": "$ancrel.21.name$",
+    "name_en": "0 \"$ancrel.21.name$\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "on_crashed_ship_cat",
+    "name_zh": "失事地点",
+    "name_en": "0 \"Crash Site\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "on_solar_sails_cat",
+    "name_zh": "在恒星帆上",
+    "name_en": "0 \"On Solar Sails\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "oracle_digsite",
+    "name_zh": "隐蔽星球",
+    "name_en": "1 \"Hidden Worlds\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "origin_asteroid_category",
+    "name_zh": "未知起源",
+    "name_en": "0 \"Unknown Origin\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "paragon_beholder_category",
+    "name_zh": "峰值读数",
+    "name_en": "0 \"Spiky Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "paragon"
+    ]
+  },
+  {
+    "id": "paragon_legendary_leader_homeworld",
+    "name_zh": "瓦格罗人废墟",
+    "name_en": "0 \"Vagrosian Ruins\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "paragon"
+    ]
+  },
+  {
+    "id": "payback_digsite",
+    "name_zh": "战争创伤",
+    "name_en": "0 \"The Aftermath of Battle\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "first_contact"
+    ]
+  },
+  {
+    "id": "peculiar_patterns_cat",
+    "name_zh": "奇怪的图案",
+    "name_en": "0 \"Peculiar Patterns\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "planetary_mechanocalibrator",
+    "name_zh": "行星机械",
+    "name_en": "1 \"Planetary Machinery\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "PROJ_MOON_CAT",
+    "name_zh": "奇异无比",
+    "name_en": "0 \"Projecting\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "RAPID_DESERTIFICATION_CAT",
+    "name_zh": "迅速荒漠化",
+    "name_en": "Rapid Desertification",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "relicrails_digsite",
+    "name_zh": "轨路遗迹",
+    "name_en": "0 \"Relic Rails\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "riftworld_digsite",
+    "name_zh": "远古撞击坑",
+    "name_en": "Ancient Crater",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "astral_planes"
+    ]
+  },
+  {
+    "id": "rubricator_digsite",
+    "name_zh": "飞天鼠盗",
+    "name_en": "0 \"Kleptomaniac Rats\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "SEA_CAT",
+    "name_zh": "变幻莫测",
+    "name_en": "0 \"Kaleidoscopic\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "SEA_CRYSTAL_CAT",
+    "name_zh": "漂浮珍宝",
+    "name_en": "0 \"Floating Value\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "federations"
+    ]
+  },
+  {
+    "id": "sentinels_digsite",
+    "name_zh": "哨兵",
+    "name_en": "0 \"The Sentinels\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "shipyard_uninhabitable_category",
+    "name_zh": "远古船坞",
+    "name_en": "0 \"Ancient Shipyard\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "ship_gasgiant_category",
+    "name_zh": "气态巨行星飞船",
+    "name_en": "0 \"Gas Giant Ship\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "signal_gasgiant_category",
+    "name_zh": "气态巨行星信号",
+    "name_en": "0 \"Gas Giant Signal\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "signal_uninhabitable_category",
+    "name_zh": "微弱的信号",
+    "name_en": "0 \"Weak Signal\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "SINGING_PLANET_CAT",
+    "name_zh": "怪异读数",
+    "name_en": "0 \"Strange Readings\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "site_ancient_robot_world",
+    "name_zh": "远古机器人星球",
+    "name_en": "0 \"Ancient Robot World\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_benign_cover_up",
+    "name_zh": "善意的谎言",
+    "name_en": "0 \"Benign Cover-Up\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_buried_deep",
+    "name_zh": "深埋",
+    "name_en": "0 \"Buried Deep\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_bury_the_hatchet",
+    "name_zh": "放下屠刀",
+    "name_en": "0 \"Bury the Hatchet\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_command_center",
+    "name_zh": "小行星防爆门",
+    "name_en": "0 \"Asteroid Blast Door\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_cut_to_fit",
+    "name_zh": "棱角分明",
+    "name_en": "0 \"Too Angled\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_dark_secret",
+    "name_zh": "黑暗秘密",
+    "name_en": "0 \"Dark Secret\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_debris_belt",
+    "name_zh": "碎片环带",
+    "name_en": "0 \"Debris Belt\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_deja_vu_dig",
+    "name_zh": "似曾相识的挖掘",
+    "name_en": "0 \"Déjà Vu Dig\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_ebb_and_flow",
+    "name_zh": "岩石之外",
+    "name_en": "0 \"Any Other Rock\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_echoes_inside",
+    "name_zh": "内部回响",
+    "name_en": "0 \"The Echoes Inside\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_engineered_species",
+    "name_zh": "丰富化石",
+    "name_en": "0 \"Plentiful Fossils\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_ex_gravitas",
+    "name_zh": "重力之下",
+    "name_en": "0 \"Ex Gravitas\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_fossilized_jellyfish",
+    "name_zh": "星罗群岛",
+    "name_en": "0 \"Dotted Archipelago\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_freighter_crash",
+    "name_zh": "陨落星舰",
+    "name_en": "0 \"Crashed Starship\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_from_gateway_sent",
+    "name_zh": "星门发射之物",
+    "name_en": "0 \"From Gateway Sent\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_fumongus_dig",
+    "name_zh": "脱水",
+    "name_en": "0 \"Desiccated\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_grand_herald",
+    "name_zh": "伟大先驱",
+    "name_en": "0 \"The Grand Herald\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_hidden_lab_a",
+    "name_zh": "冰封设施",
+    "name_en": "0 \"Frozen Complex\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_hive_coral",
+    "name_zh": "波涛之下",
+    "name_en": "0 \"Beneath the Waves\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_hunting_ground",
+    "name_zh": "化石遗骸",
+    "name_en": "0 \"Fossilized Remains\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_ice_trauma",
+    "name_zh": "冰封之下",
+    "name_en": "0 \"Under the Ice\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_in_memoriam",
+    "name_zh": "记忆深处",
+    "name_en": "0 \"In Memoriam\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_krazura_dig",
+    "name_zh": "古都遗址",
+    "name_en": "Ancient Capital Site",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_lesser_messenger",
+    "name_zh": "尘中之信",
+    "name_en": "0 \"Message in the Dust\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_lost_moments",
+    "name_zh": "永不遗忘",
+    "name_en": "0 \"Never Forget\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_minigalaxy_1",
+    "name_zh": "卫星基地",
+    "name_en": "0 \"Moon Base\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_minigalaxy_2",
+    "name_zh": "被遗弃的都市星球",
+    "name_en": "0 \"Abandoned Ecumenopolis\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_moon_bump",
+    "name_zh": "被撞肿的行星",
+    "name_en": "0 \"Moon Bump\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_orbital_rain",
+    "name_zh": "一查到底",
+    "name_en": "0 \"Get to the Bottom\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_percussive_maintenance",
+    "name_zh": "被毁的空间站",
+    "name_en": "0 \"Ruined Station\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_phoenix_collective",
+    "name_zh": "有人在吗？",
+    "name_en": "0 \"Anyone Home?\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_polaris_seed_vault",
+    "name_zh": "最后的希望",
+    "name_en": "0 \"One Last Hope\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_popular_rock",
+    "name_zh": "受欢迎的岩石",
+    "name_en": "1 \"Popular Rock\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_rage_sage_dig",
+    "name_zh": "毁灭的种子",
+    "name_en": "0 \"Seeds of Destruction\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_robot_debris",
+    "name_zh": "机器人碎片",
+    "name_en": "0 \"Robot Debris\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_ruins_of_shallash",
+    "name_zh": "被毁灭的恒星系",
+    "name_en": "0 \"Ruined Star System\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_shot_into_the_ground",
+    "name_zh": "大地之眼",
+    "name_en": "0 \"Hole in the Ground\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_sky_glow_hymn",
+    "name_zh": "美丽泡沫",
+    "name_en": "0 \"Beautiful Bubble\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_something_waiting",
+    "name_zh": "静待揭晓",
+    "name_en": "0 \"Something Waiting\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_space_shanty_dig",
+    "name_zh": "瓶中信",
+    "name_en": "0 \"Message in a Bottle\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_star_petal",
+    "name_zh": "气态巨行星中的建筑",
+    "name_en": "0 \"Gas Giant Structure\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_strange_flows",
+    "name_zh": "奇异流体",
+    "name_en": "1 \"Strange Flows\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_target_from_orbit",
+    "name_zh": "轨道目标",
+    "name_en": "0 \"Target from Orbit\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_the_chosen_backstory",
+    "name_zh": "废弃观测站",
+    "name_en": "0 \"Abandoned Observation Outpost\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "first_contact"
+    ]
+  },
+  {
+    "id": "site_the_last_stand",
+    "name_zh": "最后的遗世之幢",
+    "name_en": "0 \"The Last Stand\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "federations"
+    ]
+  },
+  {
+    "id": "site_the_library",
+    "name_zh": "图书馆",
+    "name_en": "0 \"The Library\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_tiyanki_graveyard",
+    "name_zh": "缇扬奇乱坟岗",
+    "name_en": "0 \"Tiyanki Grave Mound\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_tombworld_weapon_cache",
+    "name_zh": "武器贮藏室",
+    "name_en": "0 \"Weapons Cache\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_transformation_dig",
+    "name_zh": "林冠传信",
+    "name_en": "0 \"Message in the Canopy\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "site_trench_world",
+    "name_zh": "堑壕星球",
+    "name_en": "0 \"Trench World\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_warmer_climates",
+    "name_zh": "深入探查",
+    "name_en": "0 \"Get Inside\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "site_zarqlan",
+    "name_zh": "古墓",
+    "name_en": "0 \"Ancient Tomb\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "slingshot_digsite",
+    "name_zh": "量子架构师的日志",
+    "name_en": "1 \"Logs from the Quantum Architect\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "overlord"
+    ]
+  },
+  {
+    "id": "SOLARPUNK_CAT",
+    "name_zh": "失踪的行星",
+    "name_en": "0 \"The Missing Planets\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "solar_uninhabitable_category",
+    "name_zh": "太阳帆",
+    "name_en": "0 \"Solar Sailer\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "sol_wasteland_category",
+    "name_zh": "核废墟",
+    "name_en": "0 \"Nuclear Wasteland\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "SPONTANEOUS_EXPLOSIONS_CAT",
+    "name_zh": "自发爆炸",
+    "name_en": "Spontaneous Explosions",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "astral_planes"
+    ]
+  },
+  {
+    "id": "star_lifting_category",
+    "name_zh": "废弃外星平台",
+    "name_en": "0 \"Deserted Star Platform\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "STAR_RESONANCE_CAT",
+    "name_zh": "怪异共鸣",
+    "name_en": "0 \"A Strange Resonance\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "station_asteroid_category",
+    "name_zh": "废弃空间站",
+    "name_en": "0 \"Abandoned Station\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "station_uninhabitable_category",
+    "name_zh": "空间站",
+    "name_en": "0 \"Space Station\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "stolen_ship_cat",
+    "name_zh": "武装舰船",
+    "name_en": "0 \"Armed Vessel\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "storms_gasgiant_category",
+    "name_zh": "大气风暴",
+    "name_en": "0 \"Atmospheric Storms\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "strange_signal_category",
+    "name_zh": "令人好奇的信号",
+    "name_en": "0 \"A Curious Signal\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "federations"
+    ]
+  },
+  {
+    "id": "SUN_RAYS_CAT",
+    "name_zh": "令人疑惑的宇宙射线",
+    "name_en": "0 \"Confounding Cosmic Rays\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "SUN_TEAPOT_CAT",
+    "name_zh": "不可能的轨道",
+    "name_en": "0 \"Improbable Orbit\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TEMPORAL_PRISM_CAT",
+    "name_zh": "异常时间波动",
+    "name_en": "0 \"Unusual Temporal Fluctuations\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "terminal_gasgiant_category",
+    "name_zh": "终结轨道",
+    "name_en": "0 \"Terminal Orbit\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "the_host",
+    "name_zh": "地下洞穴",
+    "name_en": "0 \"Subterranean Hollows\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "ancient_relics"
+    ]
+  },
+  {
+    "id": "the_lonely_bot_category",
+    "name_zh": "古生命迹象",
+    "name_en": "0 \"Signs of Ancient Life\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "time_loop_world",
+    "name_zh": "屏障星球",
+    "name_en": "0 \"Shielded World\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "TIYANKI_ASTEROID_CAT",
+    "name_zh": "活体小行星",
+    "name_en": "0 \"Living Asteroid\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "tomb_world_cat",
+    "name_zh": "死寂星球",
+    "name_en": "0 \"Tomb World\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "TOX_MAT_CAT",
+    "name_zh": "剧毒外表",
+    "name_en": "0 \"Poison-coated\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TOX_PLANET_CAT",
+    "name_zh": "毒性",
+    "name_en": "0 \"Toxicity\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TOX_PURPLE_RAIN_CAT",
+    "name_zh": "斑斓毒星",
+    "name_en": "0 \"Pigment Poison\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TOX_STRUCTURES_CAT",
+    "name_zh": "剧毒建筑",
+    "name_en": "0 \"Toxic Construction\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "transmitter_cat",
+    "name_zh": "加密通讯",
+    "name_en": "0 \"Encrypted Transmission\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "distant_stars"
+    ]
+  },
+  {
+    "id": "TROP_BIOLOGY_CAT",
+    "name_zh": "热带奇谭",
+    "name_en": "0 \"Tropical Oddities\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TROP_CONDITIONS_CAT",
+    "name_zh": "丛林之间",
+    "name_en": "0 \"Among the Vines and Trees\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TROP_PETS_CAT",
+    "name_zh": "疾行",
+    "name_en": "0 \"Scurrying\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TROP_WOODS_CAT",
+    "name_zh": "森林国度",
+    "name_en": "0 \"Wooden Hegemony\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "TUTORIAL_CAT",
+    "name_zh": "离开家园",
+    "name_en": "0 \"Leaving Home\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "UBUME_BABY_CAT",
+    "name_zh": "奇怪的残骸",
+    "name_en": "0 \"Strange Debris\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "UHB_ANCIENT_RUINS_1_CAT",
+    "name_zh": "碑塔",
+    "name_en": "0 \"Monoliths\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "UHB_BUOY_CAT",
+    "name_zh": "多普勒效应",
+    "name_en": "0 \"Doppler Effect\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "UNIQUE_SYSTEM_BATTLE_CAT",
+    "name_zh": "古战场",
+    "name_en": "0 \"Ancient Battlefield\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "VENDING_MACHINE_CAT",
+    "name_zh": "一份邀请",
+    "name_en": "0 \"An Invitation\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "VULTAUMAR",
+    "name_zh": "沃陶穆尔主星",
+    "name_en": "0 \"Vultaumar Prime\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_10_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_11_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_1_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_2_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_3_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_4_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_5_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_6_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_7_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_8_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "vultaum_9_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "WAT_PLANET_CAT",
+    "name_zh": "沧海一粟",
+    "name_en": "0 \"Drops in the Ocean\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "WENKWORT_CAT",
+    "name_zh": "行星花园",
+    "name_en": "0 \"Planetscape Garden\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly",
+      "federations"
+    ]
+  },
+  {
+    "id": "writing_uninhabitable_category",
+    "name_zh": "地表文字",
+    "name_en": "0 \"Surface Writing\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "YUHTAAN",
+    "name_zh": "大尤特安星",
+    "name_en": "0 \"Yuhtaan Majoris\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_1_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_2_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_3_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_4_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_5_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_6_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_7_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_8_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "yuht_9_cat",
+    "name_zh": "先驱者的活动迹象",
+    "name_en": "0 \"0 \"Signs of Precursor Activity\"\"",
+    "category": "event",
+    "subcategory": "anomaly",
+    "tags": [
+      "anomaly"
+    ]
+  },
+  {
+    "id": "zevox_digsite",
+    "name_zh": "坠毁的飞船",
+    "name_en": "0 \"The Crashed Ship\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site",
+      "overlord"
+    ]
+  },
+  {
+    "id": "zroni_digsite_1",
+    "name_zh": "遗弃的殖民地遗址",
+    "name_en": "0 \"Abandoned Colony Ruins\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "zroni_digsite_2",
+    "name_zh": "泽珞族信标",
+    "name_en": "0 \"Zroni Beacon\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "zroni_digsite_3",
+    "name_zh": "泽珞族神殿",
+    "name_en": "0 \"Zroni Shrine\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "zroni_digsite_4",
+    "name_zh": "泽珞族研究站",
+    "name_en": "0 \"Zroni Research Station\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "zroni_digsite_5",
+    "name_zh": "泽珞族核心星球",
+    "name_en": "0 \"Zroni Core World\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
+  },
+  {
+    "id": "zroni_digsite_6",
+    "name_zh": "泽珞星",
+    "name_en": "0 \"Zron\"",
+    "category": "event",
+    "subcategory": "archaeological_site",
+    "tags": [
+      "archaeological_site"
+    ]
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "id": "AIANOM_MININGDEPO_CAT",
+  "name": {
+    "en": "0 \"Surface Pings\"",
+    "zh": "地表读数"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "传感器表明在[Root.GetName]地表存在有潜在价值的发现。",
+  "picture": "GFX_evt_mining_station",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "1",
+        "has_deposit_for": "shipclass_mining_station"
+      },
+      {
+        "add": "2",
+        "NOR": {
+          "has_deposit_for": [
+            "shipclass_mining_station",
+            "shipclass_research_station"
+          ]
+        },
+        "is_colonizable": "no"
+      }
+    ]
+  },
+  "on_success": [
+    "aianom.6",
+    "aianom.7"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": true,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_RESEARCHDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

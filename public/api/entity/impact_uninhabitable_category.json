@@ -1,0 +1,55 @@
+{
+  "id": "impact_uninhabitable_category",
+  "name": {
+    "en": "0 \"Massive Impact\"",
+    "zh": "巨大撞击"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "巨大的撞击坑表明某种大型物体曾撞击[Root.GetPlanetMoon]表面。",
+  "picture": "GFX_evt_nuclear_explosion",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "uninhabitable_regular_planet": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.600",
+    "anomaly.605"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

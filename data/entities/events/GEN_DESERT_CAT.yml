@@ -1,0 +1,38 @@
+id: GEN_DESERT_CAT
+name:
+  en: 0 "Dunes"
+  zh: 沙丘
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]的大气极其稀薄，但似乎有风一样的东西在吹拂着它表面的沙海。'
+picture: GFX_evt_landing_ship
+level: 3
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_desert
+on_success:
+  - anomaly.3035
+  - anomaly.3135
+  - anomaly.3060
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

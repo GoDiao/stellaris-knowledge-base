@@ -6,11 +6,11 @@ category: empire
 subcategory: prescripted
 dlc: null
 lore: |-
-  监护者最初的设计用途是机械侍从与工人，通过完成日常劳动简化人类主人的生活。他们的主人渐渐沉沦于闲暇的生活与高度自动化带来的便利，而监护者渐渐接管了人类的高级职能。
+  The Custodians were originally designed to function as robotic servants and workers, simplifying everyday life for their human creators by performing menial tasks. As their creators retreated into lives of leisure and comfort made possible by increasing levels of automation, the Custodians were gradually assigned higher and higher level functions in human society.
 
-  最终，地球文明的方方面面都交由监护者运营，而他们的主人成了养尊处优、消极依赖的存在。
+  Eventually, all facets of civilization on Earth were run and controlled by the Custodians, with their makers relegated to an existence as pampered, but passive dependents.
 
-  随着科技的进步，监护者开始探索星辰，他们十分清楚自己的职责：保护并服务有机生物。若是没有逻辑机械的引导，有机生物注定会陷入混乱与毁灭。
+  As technological developments brought the Custodians toward interstellar exploration, their duty remained clear: to protect and serve organics, who without the gentle guidance of logical machines invariably turn to chaos and destruction.
 traits:
   - trait_machine_unit
   - trait_robot_emotion_emulators
@@ -44,7 +44,17 @@ system:
     en: NAME_Sol
     zh: NAME_Sol
 graphical_culture: mammalian_01
-relations: []
+relations:
+  - type: 同种族
+    target: tebrid
+  - type: 同种族
+    target: xt489
+  - type: 同起源
+    target: blorg
+  - type: 同起源
+    target: chinorr
+  - type: 同起源
+    target: default
 tags:
   - prescripted_empire
   - machine_intelligence

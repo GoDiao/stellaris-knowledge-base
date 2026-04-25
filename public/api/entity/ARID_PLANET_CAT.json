@@ -1,0 +1,54 @@
+{
+  "id": "ARID_PLANET_CAT",
+  "name": {
+    "en": "0 \"Arid Wastes\"",
+    "zh": "干燥的废土"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[From.GetPlanetMoon]并非气候宜人之地，但如果我们最初的侦测结果无误，它上面可能有一些珍贵资源。",
+  "picture": "GFX_evt_arid",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_arid"
+    }
+  },
+  "on_success": [
+    "anomaly.4170"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

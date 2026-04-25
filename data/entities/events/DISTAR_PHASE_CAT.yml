@@ -1,0 +1,38 @@
+id: DISTAR_PHASE_CAT
+name:
+  en: 0 "Phased Planet"
+  zh: 相变星球
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]附近有非常奇特的能源信号，好像整个星球都在时隐时现一样。'
+picture: GFX_evt_ship_in_orbit
+level: 10
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - distar.250
+  - distar.302
+  - distar.303
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly
+  - distant_stars

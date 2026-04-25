@@ -1,0 +1,37 @@
+id: debris_gasgiant_category
+name:
+  en: 0 "Space Debris"
+  zh: 太空碎片
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗气态巨行星周围存在大量碎片。大部分来自各种规格的失事星舰。
+picture: GFX_evt_ruined_system
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_gas_giant
+on_success:
+  - distar.1055
+  - anomaly.320
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

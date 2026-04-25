@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": "Utopia",
-  "lore": "泽尼德宗主国的历史就是维纶的历史，他们在几个世纪内被渐渐培养出了智慧。\n\n泽尼利用坚韧的维纶征服了他们母星的恶劣生态，然后设计并创造了终究会引领泽尼德宗主国走向星河巅峰的附庸。",
+  "lore": "The history of the Xanid Suzerainty is the history of the Vheln, carefully bred into sapience over centuries.\n\nThe Xani used the hardy Vheln to subjugate the harsh ecosystems of their native world, and then to design and build the vessels that will eventually - inevitably - propel the Xanid Suzerainty to galactic dominance.",
   "traits": [
     "trait_talented",
     "trait_intelligent",
@@ -52,7 +52,20 @@
     }
   },
   "graphical_culture": "arthropoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "ixidar"
+    },
+    {
+      "type": "同种族",
+      "target": "kel_azaan"
+    },
+    {
+      "type": "同DLC预设",
+      "target": "lokken"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "dictatorial",

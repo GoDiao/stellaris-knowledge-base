@@ -1,0 +1,90 @@
+{
+  "id": "site_transformation_dig",
+  "name": {
+    "en": "0 \"Message in the Canopy\"",
+    "zh": "林冠传信"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "我们的科学家在[From.Planet.GetName]发现了一些奇怪的东西。作为一颗热带星球，其表面大片区域被茂密的丛林覆盖：巨大的、寿达千年的古树从林冠中突兀而起，它们枝叶茂密的树冠俯瞰着其他陆上景观。\n\n初看起来，这些参天大树的分布似乎杂乱无章。然而，更详细的分析表明这些树的分布具有数学精准性，也许是由某个消失已久的文明所种植的。不仅如此，团队领袖相信，树木的分布方式可能包含着一组坐标，指向丛林深处某个未被探索的区域。",
+  "picture": "GFX_evt_tropical",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_C1",
+      "event": "ancrel.15000"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_C2",
+      "event": "ancrel.15001"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_C3",
+      "event": "ancrel.15002"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_C4",
+      "event": "ancrel.15003"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "50",
+      "is_planet_class": "pc_tropical",
+      "has_moon": "yes"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_transformation_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "BAR_COLONY_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

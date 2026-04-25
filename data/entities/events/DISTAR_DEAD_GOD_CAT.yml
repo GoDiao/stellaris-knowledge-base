@@ -1,0 +1,47 @@
+id: DISTAR_DEAD_GOD_CAT
+name:
+  en: 0 "Silent Behemoth"
+  zh: 沉默巨兽
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]具有显著的非球面特征，其地表有着巨大且完全不符合地理学模型的构造。'
+picture: GFX_evt_ship_in_orbit
+level: 2
+spawn_chance:
+  modifier:
+    add: '1000'
+    has_distar: 'yes'
+    is_moon: 'yes'
+    solar_system:
+      any_system_colony:
+        exists: owner
+        owner:
+          is_primitive: 'yes'
+        has_moon: 'yes'
+        any_moon:
+          is_same_value: root
+          habitable_planet: 'no'
+on_success:
+  - distar.80
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

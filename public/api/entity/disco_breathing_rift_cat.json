@@ -1,0 +1,62 @@
+{
+  "id": "disco_breathing_rift_cat",
+  "name": {
+    "en": "0 \"Light Phenomenon\"",
+    "zh": "光学现象"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "在[From.GetName]附近发现了未知的现象。该现象正导致光线频繁折射，有时甚至被完全遮蔽。",
+  "picture": "GFX_evt_ship_in_orbit_2",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "2",
+      "is_star": "yes",
+      "OR": {
+        "is_star_class": [
+          "sc_black_hole",
+          "sc_neutron_star",
+          "sc_pulsar"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "distar.3060"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

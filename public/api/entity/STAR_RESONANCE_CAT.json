@@ -1,0 +1,59 @@
+{
+  "id": "STAR_RESONANCE_CAT",
+  "name": {
+    "en": "0 \"A Strange Resonance\"",
+    "zh": "怪异共鸣"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们的科学专员发现，在[root.GetName]的日冕附近出现的疑似传感器故障在重启之后仍然留存在。已批准进一步研究。",
+  "picture": "GFX_evt_star_yellow",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "OR": {
+        "is_planet_class": [
+          "pc_k_star",
+          "pc_m_star"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.6740"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": 0.6,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

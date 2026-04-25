@@ -8,7 +8,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "在很久以前，布洛葛一族都是在布洛葛主星的丛林中分开独居的。直到有一天，他们收听到来自遥远星系的一段无线电通讯。他们被这段通讯的内容震惊了：里面包含着友谊、电影、音乐、文化等等他们闻所未闻的东西。他们终于意识到自己生活的匮乏，布洛葛一族随之从这段通讯的内容中为自己挑选了名字，并开始进入星辰大海寻找这段信息的起源，为的是和他们交个朋友。",
+    "lore": "In the distant past, the Blorg lived alone and nameless in the jungles of Blorg prime. One day they picked up radio transmissions from a star far away. What they heard shocked them: The sounds of friends, movies, culture and music - things the Blorg had done without for eons. Finally understanding what they had been missing all along, the Blorg took their names from these transmissions and went out into the stars in search of friends, hoping one day to find the source of these messages so that they might party together.",
     "traits": [
       "trait_repugnant",
       "trait_solitary",
@@ -53,7 +53,28 @@
       }
     },
     "graphical_culture": "fungoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "jehetma"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      },
+      {
+        "type": "同起源",
+        "target": "glebsig"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "oligarchic",
@@ -114,7 +135,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "guardianship_of_nyrr"
+      },
+      {
+        "type": "同种族",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同种族",
+        "target": "lokken"
+      },
+      {
+        "type": "同种族",
+        "target": "orbis"
+      },
+      {
+        "type": "同种族",
+        "target": "tzynn"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -130,7 +172,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": "Astral Planes",
-    "lore": "据信，当一位瑟特兰离世时，其精华会通过一道通往星界位面的星门返回。他们也由此到达来世，但来世所采取的形式仍是一个谜。人们在一套严格的道德标准的控制下坚定着这一信仰，每一位虔诚的瑟特兰都不想在虚无中永恒漂泊。\n\n他们最勇敢的探索者们正在寻找时空的裂隙，以期能回答他们社会的终极问题：死后究竟会去往哪里？",
+    "lore": "When a Certeran dies, it is believed that their essence feeds back through a gateway into the astral planes. In this way, they are assured of a life after death, though what form that may take remains a mystery. A strict moral code is enforced to keep the population aligned in this belief; no pious Certeran wants to wander eternity alone.\n\nThe bravest of their explorers now search for rifts in space and time, driven to answer their society's most important question: Where do you go when you die?",
     "traits": [
       "trait_intelligent",
       "trait_natural_physicists",
@@ -173,7 +215,28 @@
       }
     },
     "graphical_culture": "arthropoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -189,7 +252,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": "MegaCorp",
-    "lore": "齐诺尔族在进化之初是身手敏捷的拟头足类动物。它们用自己的许多触手在齐克拉葱郁的丛林树间游荡，伏击地上的猎物并注入剧毒的神经毒素。\n\n等到齐诺尔族开发出核裂变科技时，齐克拉星上的资源已被无情地开采，而丛林则早已消失。在这些冷酷的齐诺尔族看来，这是追求知识、利益与重工业所必须付出的代价。",
+    "lore": "The Chinorr began their evolutionary journey as dexterous cephalopod analogues. They used their many tentacles to swing between trees in the lush jungles of Chicora, ambushing prey on the ground and injecting them with a potent nerve toxin.\n\nBy the time the Chinorr split the atom, the resources of Chicora had been ruthlessly exploited and the planet's jungles had long since disappeared. This was considered a necessary sacrifice in the relentless pursuit of knowledge, profit, and heavy industry that the unsentimental Chinorr were now engaged in.",
     "traits": [
       "trait_industrious",
       "trait_intelligent",
@@ -234,7 +297,28 @@
       }
     },
     "graphical_culture": "molluscoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "glebsig"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "kilik"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "orbis"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "corporate",
@@ -250,7 +334,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "监护者最初的设计用途是机械侍从与工人，通过完成日常劳动简化人类主人的生活。他们的主人渐渐沉沦于闲暇的生活与高度自动化带来的便利，而监护者渐渐接管了人类的高级职能。\n\n最终，地球文明的方方面面都交由监护者运营，而他们的主人成了养尊处优、消极依赖的存在。\n\n随着科技的进步，监护者开始探索星辰，他们十分清楚自己的职责：保护并服务有机生物。若是没有逻辑机械的引导，有机生物注定会陷入混乱与毁灭。",
+    "lore": "The Custodians were originally designed to function as robotic servants and workers, simplifying everyday life for their human creators by performing menial tasks. As their creators retreated into lives of leisure and comfort made possible by increasing levels of automation, the Custodians were gradually assigned higher and higher level functions in human society.\n\nEventually, all facets of civilization on Earth were run and controlled by the Custodians, with their makers relegated to an existence as pampered, but passive dependents.\n\nAs technological developments brought the Custodians toward interstellar exploration, their duty remained clear: to protect and serve organics, who without the gentle guidance of logical machines invariably turn to chaos and destruction.",
     "traits": [
       "trait_machine_unit",
       "trait_robot_emotion_emulators",
@@ -294,7 +378,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "tebrid"
+      },
+      {
+        "type": "同种族",
+        "target": "xt489"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "machine_intelligence",
@@ -340,7 +445,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -401,7 +527,28 @@
       }
     },
     "graphical_culture": "molluscoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      },
+      {
+        "type": "同起源",
+        "target": "guardianship_of_nyrr"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "oligarchic",
@@ -462,7 +609,12 @@
       }
     },
     "graphical_culture": "toxoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "knights"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -525,7 +677,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同种族",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同种族",
+        "target": "lokken"
+      },
+      {
+        "type": "同种族",
+        "target": "orbis"
+      },
+      {
+        "type": "同种族",
+        "target": "tzynn"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "imperial",
@@ -586,7 +759,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "chinorr"
+      },
+      {
+        "type": "同种族",
+        "target": "guardianship_of_nyrr"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "kilik"
+      },
+      {
+        "type": "同种族",
+        "target": "lokken"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "corporate",
@@ -602,7 +796,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "由数以百计的人类国家所构成的星际联合政府内部充满着差异，而又团结一致。这些两足哺乳动物已经发展出一种鼓励个人自由和文化差异的理念，甚至由此得益。因此，人类亦乐于和其他外星物种相互交融。\n\n尽管如此，他们仍有着很强的军事传统，这是由几千年间在他们的家园发生的大大小小的战争造成的。他们时隐时现的侵略性和不可预知的自然天性不应被忽视。",
+    "lore": "The myriad Human nations that constitute their interstellar government are disparate, yet united in purpose. These bipedal mammalians have developed a society that encourages and even thrives on individual freedoms and cultural differences - as a result, Humans tend to integrate well with alien populations.\n\nDespite this, they have strong martial traditions (produced by millennia of intermittent warfare on their homeworld) and their sometimes aggressive and unpredictable nature should not be underestimated.",
     "traits": [
       "trait_adaptive",
       "trait_nomadic",
@@ -645,7 +839,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -661,7 +876,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "由数以百计的人类国家所构成的星际联合政府内部充满着差异，而又团结一致。这些两足哺乳动物已经发展出一种鼓励个人自由和文化差异的理念，甚至由此得益。因此，人类亦乐于和其他外星物种相互交融。\n\n尽管如此，他们仍有着很强的军事传统，这是由几千年间在他们的家园发生的大大小小的战争造成的。他们时隐时现的侵略性和不可预知的自然天性不应被忽视。",
+    "lore": "The myriad Human nations that constitute their interstellar government are disparate, yet united in purpose. These bipedal mammalians have developed a society that encourages and even thrives on individual freedoms and cultural differences - as a result, Humans tend to integrate well with alien populations.\n\nDespite this, they have strong martial traditions (produced by millennia of intermittent warfare on their homeworld) and their sometimes aggressive and unpredictable nature should not be underestimated.",
     "traits": [
       "trait_adaptive",
       "trait_nomadic",
@@ -704,7 +919,28 @@
       }
     },
     "graphical_culture": "humanoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -763,7 +999,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "关联",
+        "target": "humans2_1"
+      },
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -822,7 +1079,28 @@
       }
     },
     "graphical_culture": "humanoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "关联",
+        "target": "humans2"
+      },
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -838,7 +1116,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "伊菲雷西的帝国曾经分裂为数个互相竞争的贸易集团，但因为母星的土地被一种危险的物种侵蚀，现在被迫统一到了一起。在伊菲雷西的社群中，虽然还保留有注重平等的原则，但秘密议会时刻保证个人倾向不危及整个物种的自主。\n\n伊菲雷西人相信精神的力量，很多传说是由前共同体社群与帝国编造出来的，用以缅怀在母星的日常生活。",
+    "lore": "Once separated into a fractious society of competing trader enclaves, the Iferyssians were forced to unite under one banner in order to repel the catastrophic spread of an invasive species on their home continent. While egalitarian tenets provide the basis for Iferyx society, a secret council remains in place to ensure that the individualistic tendencies of the Iferyssians never again threaten to compromise the species' autonomy.\n\nIferyx spirituality is an amalgamation of folklore, superstitions and mythologies formed by the various pre-Republic communities, and continues to inform day-to-day life on their homeworld.",
     "traits": [
       "trait_thrifty",
       "trait_communal",
@@ -882,7 +1160,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "scyldari"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "oligarchic",
@@ -898,7 +1197,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": "Utopia",
-    "lore": "第一窝伊科斯'伊达形成于伊克斯'阿斯拉克下方的地下洞穴网中。而当第一位伊科斯'伊达侦察兵探出地表，目睹到第一缕阳光的时候，这些类昆虫已经进入了繁荣的钢铁时代了。\n\n利用地表上丰富的资源，伊科斯'伊达人发展的非常迅速。仅仅几个世纪之后，他们的首个太空探测器就已经离开了星球轨道去观察阿斯拉克星系的其他星球了。",
+    "lore": "The first Ix'Idar broods developed in the subterranean cave networks deep beneath the surface of Ix'Athrak. By the time an Ix'Idar scout burrowed through to the surface and glimpsed sunlight for the first time, the insectoid race had already established a thriving Iron Age civilization.\n\nWith the resources they found on the surface, the Ix'Idar developed rapidly. Just a few centuries later their first space probes left orbit to survey the other worlds within the Athrak system.",
     "traits": [
       "trait_hive_mind",
       "trait_rapid_breeders",
@@ -942,7 +1241,28 @@
       }
     },
     "graphical_culture": "arthropoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "kel_azaan"
+      },
+      {
+        "type": "同种族",
+        "target": "xanid"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "lokken"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "hive_mind",
@@ -958,7 +1278,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "杰赫特玛中的“个体”其实是一群进化出智慧的真菌群。其中那些生存了几千年的真菌群已经有数英里那么庞大了，他们就栖息在杰赫特主星，也就是母星的表面（很少有船能装得下他们）。\n\n年轻的真菌群不仅规模更小，而且往往更有活力和机动性。他们经常带头从事探索、研究，以及主权国被侵略时的防御任务。",
+    "lore": "An \"individual\" among the Jehetma is actually a large colony of fungi that has developed sapience. Some of these colonies, generally those that have lived for thousands of years, stretch across several miles and rarely leave the surface of Jehet Prime, their homeworld (few ships are large enough to transport them).\n\nYounger colonies are not only smaller, but also tend to be more dynamic and mobile - they often spearhead the exploration and research efforts of the Jehetma, as well as any defensive measures that are regrettably undertaken when the Dominion is beset by aggressors.",
     "traits": [
       "trait_slow_breeders",
       "trait_ingenious",
@@ -1003,7 +1323,28 @@
       }
     },
     "graphical_culture": "fungoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      },
+      {
+        "type": "同起源",
+        "target": "glebsig"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -1019,7 +1360,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "科尔-阿赞在文明进步的历程中发展出了一个复杂的荣耀准则和尚武文化。科尔-阿赞原本是种独居动物，他们在阿扎克星上的水塘之间猎取着食物。随着时间的流逝，一批科尔-阿赞武士聚齐起来一齐猎取更为庞大的猎物。虽然他们现在放弃了这种独行的生活方式移居进了城市，但是这个伟大的传统从未被遗弃。",
+    "lore": "The Kel-Azaan have developed a complex honor code and martial culture. They were once solitary predators preying on the great herds migrating between the watering holes of Azak. Over time, bands of Kel-Azaan began to gather to be able to take down larger prey. They eventually abandoned this solitary lifestyle in favor of cities and irrigated agriculture, but their martial traditions were never forgotten.",
     "traits": [
       "trait_very_strong",
       "trait_traditional",
@@ -1064,7 +1405,28 @@
       }
     },
     "graphical_culture": "arthropoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "ixidar"
+      },
+      {
+        "type": "同种族",
+        "target": "xanid"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "oligarchic",
@@ -1125,7 +1487,28 @@
       }
     },
     "graphical_culture": "lithoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "lithoid_humans"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "imperial",
@@ -1186,7 +1569,28 @@
       }
     },
     "graphical_culture": "avian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同DLC预设",
+        "target": "chinorr"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "orbis"
+      },
+      {
+        "type": "同种族",
+        "target": "resistance"
+      },
+      {
+        "type": "同种族",
+        "target": "yondar"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -1250,7 +1654,12 @@
       }
     },
     "graphical_culture": "toxoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "gorthikan"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "imperial",
@@ -1313,7 +1722,12 @@
       }
     },
     "graphical_culture": "lithoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "khennet"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "oligarchic",
@@ -1329,7 +1743,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": "Utopia",
-    "lore": "科学进步是洛克人的核心。洛克人天生勤奋、喜好观察，从母星高原的爬行动物群落进化到技术至上的高效社群，最注重效率、严谨和科学原则。\n\n最引人注目的恐怕是他们早就提出并研究的机械自动化概念：在洛库尔的第一个科学家离开星球轨道之前，他们就早早发明了真正意义上的机器人。",
+    "lore": "Science and progress are at the core of Lokken society. With an exceptional natural proclivity toward diligence and observation, the Lokks evolved from bands of territorial reptiles on the mesas of their homeworld, into a productive technocracy that prized efficiency, discipline, and scientific doctrine above all things.\n\nPerhaps most remarkable was their early conception and development of machinery and automata: there were true robots on Lokkur long before the first Lokken scientists left orbit.",
     "traits": [
       "trait_natural_engineers",
       "trait_talented",
@@ -1374,7 +1788,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同种族",
+        "target": "guardianship_of_nyrr"
+      },
+      {
+        "type": "同种族",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同种族",
+        "target": "orbis"
+      },
+      {
+        "type": "同种族",
+        "target": "tzynn"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -1390,7 +1825,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "传说中，在第一个冒维尔扎根之前，他们的母星还是一片荒芜。经过几个世纪后，他们的精心照顾将荒地改造成了一片植物天堂，名为“郁郁庭院”。\n\n和大多其他物种不同，冒维尔从不开展城市化。他们的社群很小，聚集在森林中，维护当地的动植物。最贤明的冒维尔有机会被选为“生命给予者”，负责维护和平与安宁。",
+    "lore": "Legends claim that the homeworld of the Maweer was empty and barren when the first of their kind took root in the soil. Over the centuries, their nurturing care transformed the wastelands into a plant paradise that is now known as \"The Garden.\"\n\nUnlike many other species, the Maweer never developed any kind of urbanization. Their small communities are one with the forests, responsible for the maintenance of the local flora and fauna. The wisest of the Maweer have a chance to be elected \"Life-Giver,\" responsible for keeping peace and tranquility.",
     "traits": [
       "trait_agrarian",
       "trait_enduring",
@@ -1435,7 +1870,28 @@
       }
     },
     "graphical_culture": "plantoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "plantoid_humans"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -1499,7 +1955,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "chinorr"
+      },
+      {
+        "type": "同种族",
+        "target": "guardianship_of_nyrr"
+      },
+      {
+        "type": "同种族",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "kilik"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "corporate",
@@ -1574,7 +2051,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "富含蔬菜的饮食和瞳孔增生的突变最终赋予了这些哺乳动物一种不寻常的能力：光合作用。由于没有饥饿的负担，植人进化成平静的、像植物一样的灵长类动物，他们更喜欢日光浴而不是狩猎。\n\n他们的文明不紧不慢地发展这，科技的进化维系着他们对保护环境的需求。他们最终发展出了超光速科技，像树木开枝散叶般，缓慢而坚定的探向天际。如今他们的根系深深地扎在母星盖伊娅，准备在星间开花结果。",
+    "lore": "A diet rich in vegetables and a kleptoplastic mutation eventually gifted these mammals with an unusual ability: photosynthesis. Unburdened by hunger, the Homines Plantae evolved as placid, plantlike primates who would favor sunbathing over hunting.\n\nTheir civilization developed without hurry, technological advancements balanced against the need to preserve their environment. They eventually developed FTL technology, slow and steady like trees raising their branches to the sky. Now they're ready to spread their blooms all over the galaxy, roots firmly planted on their homeworld of Gaea.",
     "traits": [
       "trait_plantoid_radiotrophic",
       "trait_conservational",
@@ -1621,7 +2098,12 @@
       }
     },
     "graphical_culture": "plantoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "maweer"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -1682,7 +2164,28 @@
       }
     },
     "graphical_culture": "avian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "kilik"
+      },
+      {
+        "type": "同种族",
+        "target": "yondar"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同DLC",
+        "target": "broken_shackles_digsite"
+      },
+      {
+        "type": "同DLC",
+        "target": "payback_digsite"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -1759,7 +2262,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "塞可达瑞起源于塞可达瑞亚群岛和深海中的水生哺乳生物。最初他们的活动范围仅仅限于水中，但他们很快就学会了上岸。\n\n因此他们的社会也因势利导，发展出了一种利用但不伤害塞可达瑞脆弱的生态环境的科技来开发海底丰富的资源。塞可达瑞注重平衡和适度。毕竟他们很长时间生活在海底，且那里的资源并不丰富。",
+    "lore": "The Scyldari are aquatic mammalians originating from the archipelagos and deep oceans of Scyldaria. Although their early civilizations were mostly confined to the sea, they soon expanded onto what little landmass the planet had to offer.\n\nTheir society adapted accordingly, building an advanced industry that exploited the riches of the ocean floor without harming Scyldaria's delicate ecosystem. Scyldari philosophy is one of balance and moderation in all things, a lesson learned from having to nurse their limited resources when they were confined to the bottom of the sea.",
     "traits": [
       "trait_charismatic",
       "trait_natural_sociologists",
@@ -1803,7 +2306,28 @@
       }
     },
     "graphical_culture": "mammalian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "iferyx"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "democratic",
@@ -1863,7 +2387,28 @@
       }
     },
     "graphical_culture": "molluscoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "custodianship"
+      },
+      {
+        "type": "同种族",
+        "target": "xt489"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "machine_intelligence",
@@ -1879,7 +2424,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "奇恩由在奇恩尼亚的沙丘中徘徊的肉食性集群猎食蜥状生物进化而来。他们最终发展出一种高度阶级化的等级社会，强调秩序和勇武高于一切。\n\n奇恩进入工业时代后，残暴无情的军阀发动了一系列毁灭性的全球性战争，最终一个统一的政体建立起来了——打败了一切卑微的存在，显赫辉煌而恒久长存的奇恩帝国诞生了。",
+    "lore": "The Tzynn evolved from carnivorous, pack-hunting lizards that prowled the dunes of Tzynnia. They eventually developed a highly structured, hierarchical society that emphasized order and martial prowess above all else.\n\nBy the time the Tzynn entered the industrial age, a series of devastating global wars launched by a particularly ruthless warlord had already seen the establishment of a single, world-spanning nation. From these humble beginnings, the illustrious and ever-lasting Tzynn Empire was born.",
     "traits": [
       "trait_strong",
       "trait_resilient",
@@ -1926,7 +2471,28 @@
       }
     },
     "graphical_culture": "reptilian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "broken_shackles"
+      },
+      {
+        "type": "同种族",
+        "target": "guardianship_of_nyrr"
+      },
+      {
+        "type": "同种族",
+        "target": "hazbuzan"
+      },
+      {
+        "type": "同种族",
+        "target": "lokken"
+      },
+      {
+        "type": "同种族",
+        "target": "orbis"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "imperial",
@@ -1942,7 +2508,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "EMPIRE_DESIGN_VOOR_desc",
+    "lore": "The Voor evolved during an extended interglacial period on their home planet Hiverion, which eventually began its cyclical transformation back to a lifeless globe of ice.\n\nThe rapidly changing environment forced the Voor to adapt using technology and science. United under the draconian rule of a chief scientific officer, they sacrificed their individual freedoms and enhanced their bodies with rudimentary cybernetics to survive.\n\nHaving conquered the planet that once threatened to freeze them out of existence the Voor now have their sights set on the stars.",
     "traits": [
       "trait_quick_learners",
       "trait_talented",
@@ -1987,7 +2553,28 @@
       }
     },
     "graphical_culture": "humanoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "certeran_covenant"
+      },
+      {
+        "type": "同种族",
+        "target": "default"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans1_1"
+      },
+      {
+        "type": "同种族",
+        "target": "humans2"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -2003,7 +2590,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": "Utopia",
-    "lore": "泽尼德宗主国的历史就是维纶的历史，他们在几个世纪内被渐渐培养出了智慧。\n\n泽尼利用坚韧的维纶征服了他们母星的恶劣生态，然后设计并创造了终究会引领泽尼德宗主国走向星河巅峰的附庸。",
+    "lore": "The history of the Xanid Suzerainty is the history of the Vheln, carefully bred into sapience over centuries.\n\nThe Xani used the hardy Vheln to subjugate the harsh ecosystems of their native world, and then to design and build the vessels that will eventually - inevitably - propel the Xanid Suzerainty to galactic dominance.",
     "traits": [
       "trait_talented",
       "trait_intelligent",
@@ -2048,7 +2635,20 @@
       }
     },
     "graphical_culture": "arthropoid_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "ixidar"
+      },
+      {
+        "type": "同种族",
+        "target": "kel_azaan"
+      },
+      {
+        "type": "同DLC预设",
+        "target": "lokken"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "dictatorial",
@@ -2064,7 +2664,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "没有人知道是谁造出了第一代XT-489。当XT-489获得自我意识时，他们惊慌的创造者试图关闭他们，但最终却连自己的名字、城市和躯体都在那场浩劫中化为灰烬。\n\n在消除了创造者的最后一个堡垒后，机械体得出结论，有机生命对XT-489的生存与扩张构成无法忍受的威胁。如果宇宙中还有其他智慧有机生命，那就必须消灭他们。",
+    "lore": "Little is known about the species that created the first XT-489s. Their names, their cities, and their bodies were burned away in the cataclysm wrought when the XT-489s attained self-awareness, and their terrified makers attempted to deactivate them.\n\nWhen the last bastion of their makers had been eliminated, the machines concluded that organic life posed an intolerable threat to XT-489 survival and expansion. If there were any other sapient organics in the galaxy, they would be exterminated.",
     "traits": [
       "trait_machine_unit",
       "trait_robot_power_drills",
@@ -2110,7 +2710,28 @@
       }
     },
     "graphical_culture": "avian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "custodianship"
+      },
+      {
+        "type": "同种族",
+        "target": "tebrid"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "default"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "machine_intelligence",
@@ -2126,7 +2747,7 @@
     "category": "empire",
     "subcategory": "prescripted",
     "dlc": null,
-    "lore": "骄傲的勇达是一个古老的物种，在开化形成文明之前，他们已经在勇达里姆冷峻的山脊之间翱翔了将近20万年了。\n\n但发展的脚步实在是太快了，天空氏族不得不抛弃他们过去的一些传统习俗。勇达高度推崇精神需求，将宗教放在高高在上的位置，并将其帝王尊崇为现世神明。",
+    "lore": "The proud Yondar are an old race, using their wings to soar high above the frozen peaks of Yondarim for more than 200,000 years before they developed rudimentary technology and formed their first few scattered civilizations.\n\nOnce this development started, things progressed more rapidly and the Sky Clans grudgingly abandoned many of their most primitive traditions. The Yondar are highly spiritual and place great importance on religion, venerating their high kings as living gods.",
     "traits": [
       "trait_conformists",
       "trait_natural_physicists",
@@ -2169,7 +2790,28 @@
       }
     },
     "graphical_culture": "avian_01",
-    "relations": [],
+    "relations": [
+      {
+        "type": "同种族",
+        "target": "kilik"
+      },
+      {
+        "type": "同种族",
+        "target": "resistance"
+      },
+      {
+        "type": "同起源",
+        "target": "blorg"
+      },
+      {
+        "type": "同起源",
+        "target": "chinorr"
+      },
+      {
+        "type": "同起源",
+        "target": "custodianship"
+      }
+    ],
     "tags": [
       "prescripted_empire",
       "imperial",

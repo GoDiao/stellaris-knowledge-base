@@ -47,7 +47,17 @@ system:
     en: PRESCRIPTED_system_name_guardianship_of_nyrr
     zh: PRESCRIPTED_system_name_guardianship_of_nyrr
 graphical_culture: reptilian_01
-relations: []
+relations:
+  - type: 同种族
+    target: broken_shackles
+  - type: 同种族
+    target: hazbuzan
+  - type: 同种族
+    target: lokken
+  - type: 同种族
+    target: orbis
+  - type: 同种族
+    target: tzynn
 tags:
   - prescripted_empire
   - imperial

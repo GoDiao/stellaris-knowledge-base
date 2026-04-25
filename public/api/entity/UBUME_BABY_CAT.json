@@ -1,0 +1,49 @@
+{
+  "id": "UBUME_BABY_CAT",
+  "name": {
+    "en": "0 \"Strange Debris\"",
+    "zh": "奇怪的残骸"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "扫描发现了一片来源不确定的残骸场。这会和在此恒星系中巡逻的被抛弃的科研船有关吗？",
+  "picture": "GFX_evt_asteroid_field",
+  "level": 3,
+  "spawn_chance": null,
+  "on_success": [
+    "anomaly.6791"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "AST_DEBRIS_FIELD_1_CAT"
+    },
+    {
+      "type": "提及",
+      "target": "ast_debris_field_1_cat_2"
+    },
+    {
+      "type": "提及",
+      "target": "atomic_clock_cat"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "没有人知道是谁造出了第一代XT-489。当XT-489获得自我意识时，他们惊慌的创造者试图关闭他们，但最终却连自己的名字、城市和躯体都在那场浩劫中化为灰烬。\n\n在消除了创造者的最后一个堡垒后，机械体得出结论，有机生命对XT-489的生存与扩张构成无法忍受的威胁。如果宇宙中还有其他智慧有机生命，那就必须消灭他们。",
+  "lore": "Little is known about the species that created the first XT-489s. Their names, their cities, and their bodies were burned away in the cataclysm wrought when the XT-489s attained self-awareness, and their terrified makers attempted to deactivate them.\n\nWhen the last bastion of their makers had been eliminated, the machines concluded that organic life posed an intolerable threat to XT-489 survival and expansion. If there were any other sapient organics in the galaxy, they would be exterminated.",
   "traits": [
     "trait_machine_unit",
     "trait_robot_power_drills",
@@ -53,7 +53,28 @@
     }
   },
   "graphical_culture": "avian_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "custodianship"
+    },
+    {
+      "type": "同种族",
+      "target": "tebrid"
+    },
+    {
+      "type": "同起源",
+      "target": "blorg"
+    },
+    {
+      "type": "同起源",
+      "target": "chinorr"
+    },
+    {
+      "type": "同起源",
+      "target": "default"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "machine_intelligence",

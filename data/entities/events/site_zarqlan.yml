@@ -1,0 +1,69 @@
+id: site_zarqlan
+name:
+  en: 0 "Ancient Tomb"
+  zh: 古墓
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  在行星地表上，一些古老的建筑物被隐藏在某种隐形能量场之下。只是偶然有一颗小行星在撞击时，在该区域发生了偏转并被监控到，我们这才发现了它的存在。
+
+  在该能量场被关闭后，考古学家们现在可以去探索原本隐藏其下的，令人生畏的巨大建筑群了。
+picture: GFX_evt_excavation_team
+stages: 6
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_C1
+    event: ancrel.6100
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_C2
+    event: ancrel.6105
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_C3
+    event: ancrel.6110
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_C4
+    event: ancrel.6115
+  - stage_number: 5
+    difficulty: 7
+    icon: GFX_archaeology_runes_C5
+    event: ancrel.6120
+  - stage_number: 6
+    difficulty: 8
+    icon: GFX_archaeology_runes_C6
+    event: ancrel.6125
+max_instances: null
+weight:
+  base: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

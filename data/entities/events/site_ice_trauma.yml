@@ -1,0 +1,70 @@
+id: site_ice_trauma
+name:
+  en: 0 "Under the Ice"
+  zh: 冰封之下
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: '[from.planet.GetName]上辽阔的冰冻荒原曾一度遍布汪洋，水面之下处处是深海火山峡谷。尽管其环境已经无法继续支持生命，我们还是在一处靠近地表的冰封堑道内发现了一些年代久远的水下定居点。'
+picture: GFX_evt_frozen
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty:
+      min: '1'
+      max: '3'
+    icon: GFX_archaeology_runes_A1
+    event: arcsite.1000
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_A2
+    event: arcsite.1005
+  - stage_number: 3
+    difficulty:
+      min: '2'
+      max: '4'
+    icon: GFX_archaeology_runes_A3
+    event: arcsite.1010
+  - stage_number: 4
+    difficulty: 4
+    icon: GFX_archaeology_runes_A4
+    event: arcsite.1015
+  - stage_number: 5
+    difficulty: 2
+    icon: GFX_archaeology_runes_A5
+    event: arcsite.1020
+max_instances: 1
+weight:
+  base: '0'
+  modifier:
+    - add: '30'
+      is_planet_class: pc_frozen
+    - add: '5'
+      is_cold: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+  is_regular_empire: 'yes'
+  is_homicidal: 'no'
+on_visible:
+  set_global_flag: site_ice_trauma_found
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_ice_trauma_random_events
+relations:
+  - type: 提及
+    target: FROZ_BASE_CAT
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+tags:
+  - archaeological_site

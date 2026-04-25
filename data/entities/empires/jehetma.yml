@@ -6,9 +6,9 @@ category: empire
 subcategory: prescripted
 dlc: null
 lore: |-
-  杰赫特玛中的“个体”其实是一群进化出智慧的真菌群。其中那些生存了几千年的真菌群已经有数英里那么庞大了，他们就栖息在杰赫特主星，也就是母星的表面（很少有船能装得下他们）。
+  An "individual" among the Jehetma is actually a large colony of fungi that has developed sapience. Some of these colonies, generally those that have lived for thousands of years, stretch across several miles and rarely leave the surface of Jehet Prime, their homeworld (few ships are large enough to transport them).
 
-  年轻的真菌群不仅规模更小，而且往往更有活力和机动性。他们经常带头从事探索、研究，以及主权国被侵略时的防御任务。
+  Younger colonies are not only smaller, but also tend to be more dynamic and mobile - they often spearhead the exploration and research efforts of the Jehetma, as well as any defensive measures that are regrettably undertaken when the Dominion is beset by aggressors.
 traits:
   - trait_slow_breeders
   - trait_ingenious
@@ -43,7 +43,17 @@ system:
     en: PRESCRIPTED_system_name_jehetma
     zh: PRESCRIPTED_system_name_jehetma
 graphical_culture: fungoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: blorg
+  - type: 同起源
+    target: chinorr
+  - type: 同起源
+    target: custodianship
+  - type: 同起源
+    target: default
+  - type: 同起源
+    target: glebsig
 tags:
   - prescripted_empire
   - dictatorial

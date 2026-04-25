@@ -1,0 +1,61 @@
+{
+  "id": "INTEMPORAL_ORB_CAT",
+  "name": {
+    "en": "0 \"The Orb\"",
+    "zh": "球体"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们发现了外形类似球体的高密度能量信号。建议进行更深入的调查。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "is_star": "no",
+      "NOT": {
+        "is_planet_class": "pc_gas_giant"
+      },
+      "from.owner": {
+        "is_ai": "no",
+        "is_robot_empire": "no"
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.7105"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": 0.5,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

@@ -1,0 +1,58 @@
+id: site_hive_coral
+name:
+  en: 0 "Beneath the Waves"
+  zh: 波涛之下
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 科学船在[From.Planet.GetName]轨道上进行的扫描显示了其海面下有着奇怪的构造，海水以难以解释的方式在流动。虽然该星球天气相对平静，风暴很少，但海面下的水受一些未知力量的影响，不断翻涌和搅动。建议进行详细调查。
+picture: GFX_evt_ship_in_orbit_2
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_B1
+    event: ancrel.9310
+  - stage_number: 2
+    difficulty: 5
+    icon: GFX_archaeology_runes_B2
+    event: ancrel.9315
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_B3
+    event: ancrel.9316
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_ocean
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_ocean_sites_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

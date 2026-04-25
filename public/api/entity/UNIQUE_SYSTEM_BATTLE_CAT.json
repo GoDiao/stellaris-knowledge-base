@@ -1,0 +1,49 @@
+{
+  "id": "UNIQUE_SYSTEM_BATTLE_CAT",
+  "name": {
+    "en": "0 \"Ancient Battlefield\"",
+    "zh": "古战场"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "这是一片古战场。在此处，古老的帝国们为了争夺星海的至上霸权相互碾轧。现在，帝国已然是过往云烟，只剩下这些挂着旗帜的战舰残骸。",
+  "picture": "GFX_evt_space_debris",
+  "level": 5,
+  "spawn_chance": null,
+  "on_success": [
+    "unique.125"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

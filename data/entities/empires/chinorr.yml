@@ -6,9 +6,9 @@ category: empire
 subcategory: prescripted
 dlc: MegaCorp
 lore: |-
-  齐诺尔族在进化之初是身手敏捷的拟头足类动物。它们用自己的许多触手在齐克拉葱郁的丛林树间游荡，伏击地上的猎物并注入剧毒的神经毒素。
+  The Chinorr began their evolutionary journey as dexterous cephalopod analogues. They used their many tentacles to swing between trees in the lush jungles of Chicora, ambushing prey on the ground and injecting them with a potent nerve toxin.
 
-  等到齐诺尔族开发出核裂变科技时，齐克拉星上的资源已被无情地开采，而丛林则早已消失。在这些冷酷的齐诺尔族看来，这是追求知识、利益与重工业所必须付出的代价。
+  By the time the Chinorr split the atom, the resources of Chicora had been ruthlessly exploited and the planet's jungles had long since disappeared. This was considered a necessary sacrifice in the relentless pursuit of knowledge, profit, and heavy industry that the unsentimental Chinorr were now engaged in.
 traits:
   - trait_industrious
   - trait_intelligent
@@ -43,7 +43,17 @@ system:
     en: PRESCRIPTED_system_name_chinorr
     zh: PRESCRIPTED_system_name_chinorr
 graphical_culture: molluscoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: glebsig
+  - type: 同DLC预设
+    target: hazbuzan
+  - type: 同DLC预设
+    target: kilik
+  - type: 同DLC预设
+    target: orbis
+  - type: 同起源
+    target: blorg
 tags:
   - prescripted_empire
   - corporate

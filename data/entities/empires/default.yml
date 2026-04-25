@@ -29,7 +29,17 @@ system:
     en: null
     zh: null
 graphical_culture: mammalian_01
-relations: []
+relations:
+  - type: 同种族
+    target: certeran_covenant
+  - type: 同种族
+    target: humans1
+  - type: 同种族
+    target: humans1_1
+  - type: 同种族
+    target: humans2
+  - type: 同种族
+    target: humans2_1
 tags:
   - prescripted_empire
   - democratic

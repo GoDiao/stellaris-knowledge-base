@@ -1,0 +1,70 @@
+{
+  "id": "disco_impossible_organism_cat",
+  "name": {
+    "en": "0 \"Impossible Organism\"",
+    "zh": "不可能的有机体"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "在对有毒星球[From.GetName]的调查中发现了意料之外的生命迹象。虽然迹象并不明显，但意义非凡。",
+  "picture": "GFX_evt_toxic",
+  "level": 6,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "2",
+        "is_planet_class": "pc_toxic"
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "OR": {
+            "has_ethic": [
+              "ethic_xenophobe",
+              "ethic_fanatic_xenophobe"
+            ],
+            "has_civic": "civic_machine_terminator",
+            "has_authority": "auth_hive_mind"
+          }
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "distar.3010"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": 0.75,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "life_asteroid_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_barren_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_frozen_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_gasgiant_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_toxic_category"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

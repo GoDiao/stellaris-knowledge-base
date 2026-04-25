@@ -1,0 +1,56 @@
+{
+  "id": "AST_CRATER_CAT",
+  "name": {
+    "en": "0 \"Dustbowl\"",
+    "zh": "尘暴区"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]上有一系列撞击坑。但在其中较大的一个坑里，有什么东西带来了视觉上的不一致感……",
+  "picture": "GFX_evt_asteroid_approaching_planet",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.275",
+    "anomaly.265",
+    "anomaly.270"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

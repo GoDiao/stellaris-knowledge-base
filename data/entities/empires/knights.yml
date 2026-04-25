@@ -46,7 +46,9 @@ system:
     en: PRESCRIPTED_system_name_knights
     zh: PRESCRIPTED_system_name_knights
 graphical_culture: toxoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: gorthikan
 tags:
   - prescripted_empire
   - imperial

@@ -45,7 +45,17 @@ system:
     en: PRESCRIPTED_system_name_kilik
     zh: PRESCRIPTED_system_name_kilik
 graphical_culture: avian_01
-relations: []
+relations:
+  - type: 同DLC预设
+    target: chinorr
+  - type: 同DLC预设
+    target: hazbuzan
+  - type: 同DLC预设
+    target: orbis
+  - type: 同种族
+    target: resistance
+  - type: 同种族
+    target: yondar
 tags:
   - prescripted_empire
   - democratic

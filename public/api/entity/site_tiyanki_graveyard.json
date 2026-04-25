@@ -1,0 +1,95 @@
+{
+  "id": "site_tiyanki_graveyard",
+  "name": {
+    "en": "0 \"Tiyanki Grave Mound\"",
+    "zh": "缇扬奇乱坟岗"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "整个[From.Planet.GetName]的地表遍布死亡缇扬奇的遗骸。我们的传感器没有检测到生命的信号，然而这些尸体仍然在不停地蠕动，仿佛有什么看不见的力在驱动这些尸体一样。",
+  "picture": "GFX_evt_gray_goo",
+  "stages": 5,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B1",
+      "event": "ancrel.14100"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B2",
+      "event": "ancrel.14200"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B3",
+      "event": "ancrel.14300"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B4",
+      "event": "ancrel.14400"
+    },
+    {
+      "stage_number": 5,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_B5",
+      "event": "ancrel.14500"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "owner": {
+      "has_global_flag": "tiyanki_graveyard_access",
+      "has_country_flag": "tiyanki_encountered"
+    }
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "tiyanki_graveyard_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

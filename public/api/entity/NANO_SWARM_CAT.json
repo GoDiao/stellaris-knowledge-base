@@ -1,0 +1,53 @@
+{
+  "id": "NANO_SWARM_CAT",
+  "name": {
+    "en": "0 \"Deserted Desert\"",
+    "zh": "荒芜的沙漠"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]有显著的水体，同时其大陆部分是了无生机的荒漠。已授权进一步研究。",
+  "picture": "GFX_evt_desert",
+  "level": 6,
+  "spawn_chance": {
+    "modifier": {
+      "add": "0"
+    }
+  },
+  "on_success": [
+    "anomaly.6700"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

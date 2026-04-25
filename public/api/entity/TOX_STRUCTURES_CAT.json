@@ -1,0 +1,54 @@
+{
+  "id": "TOX_STRUCTURES_CAT",
+  "name": {
+    "en": "0 \"Toxic Construction\"",
+    "zh": "剧毒建筑"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]的毒云之下，某种非自然建筑结构伫立在剧毒的地表之上。",
+  "picture": "GFX_evt_atmospheric_flight",
+  "level": 8,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_toxic"
+    }
+  },
+  "on_success": [
+    "anomaly.3050"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

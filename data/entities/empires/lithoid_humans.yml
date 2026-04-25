@@ -49,7 +49,9 @@ system:
     en: NAME_Titawin
     zh: NAME_Titawin
 graphical_culture: lithoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: khennet
 tags:
   - prescripted_empire
   - oligarchic

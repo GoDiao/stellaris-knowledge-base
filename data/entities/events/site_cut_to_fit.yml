@@ -1,0 +1,61 @@
+id: site_cut_to_fit
+name:
+  en: 0 "Too Angled"
+  zh: 棱角分明
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  在我们迄今的探索中，[From.Planet.GetName]表面的情况完全没有先例。从山脉到整个大陆般广袤的地质区域突然被切割成各种几何形状，其规整程度远非自然形成所能及。原本自然的环境被突然破坏，变成完全平坦的平面、完美的三角形和尖锐的锥形。
+
+  目前，对这一令人困惑的现象的任何解释都只是纯粹的猜测。
+picture: GFX_evt_ship_in_orbit
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.9095
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.9100
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.9101
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    uninhabitable_regular_planet: 'yes'
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_cut_to_fit_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

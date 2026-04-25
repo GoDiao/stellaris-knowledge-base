@@ -52,7 +52,28 @@
     }
   },
   "graphical_culture": "avian_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "kilik"
+    },
+    {
+      "type": "同种族",
+      "target": "yondar"
+    },
+    {
+      "type": "同DLC预设",
+      "target": "broken_shackles"
+    },
+    {
+      "type": "同DLC",
+      "target": "broken_shackles_digsite"
+    },
+    {
+      "type": "同DLC",
+      "target": "payback_digsite"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "democratic",

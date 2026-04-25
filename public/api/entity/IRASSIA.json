@@ -1,0 +1,53 @@
+{
+  "id": "IRASSIA",
+  "name": {
+    "en": "0 \"Irassia\"",
+    "zh": "伊拉西亚"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "无论这个世界的生物圈里面生活着什么，现在一切都已经逝去了。",
+  "picture": null,
+  "level": "@precursor_medium",
+  "spawn_chance": {
+    "modifier": {
+      "add": "0"
+    }
+  },
+  "on_success": [
+    "precursor.1601"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

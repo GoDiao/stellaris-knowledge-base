@@ -1,0 +1,39 @@
+id: DISTAR_DIAMOND_CAT
+name:
+  en: 0 "Heavy Pulse"
+  zh: 超重脉冲
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]的脉冲十分稳定，其日震研究表明它的内部构成物质的密度比我们所预计要大得多。是什么赋予了它这种令人惊异的密度？'
+picture: GFX_evt_star_white
+level: 2
+spawn_chance:
+  modifier:
+    add: '1'
+    has_distar: 'yes'
+    is_star: 'yes'
+    is_star_class: sc_f
+on_success:
+  - distar.140
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: 0.5
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

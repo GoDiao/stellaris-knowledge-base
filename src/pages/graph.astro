@@ -35,7 +35,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   const baseUrl = import.meta.env.BASE_URL || '';
 
   async function loadGraph() {
-    const res = await fetch(`${baseUrl}//api/graph.json`);
+    const res = await fetch(`${baseUrl}/api/graph.json`);
     if (!res.ok) {
       document.getElementById('graph-viz').innerHTML = '<p class="empty">图谱数据尚未生成。运行 <code>npm run data:all</code> 后刷新。</p>';
       return;
@@ -99,7 +99,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       .attr('stroke-width', 1)
       .style('cursor', 'pointer')
       .on('click', (event, d: any) => {
-        window.location.href = `${baseUrl}//wiki/${d.group}/${d.id}`;
+        window.location.href = `${baseUrl}/wiki/${d.group}/${d.id}`;
       });
 
     node.append('text')

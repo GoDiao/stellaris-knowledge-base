@@ -1,0 +1,84 @@
+{
+  "id": "baol_digsite_2",
+  "name": {
+    "en": "0 \"The Shattered\"",
+    "zh": "破碎行星"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "虽然只是前§Y巴奥§!殖民地留下的可悲残片，这一小行星仍有丰富的化石贮藏亟待发掘。我们的考古学家希望能对神秘的§Y巴奥§!的历史和§Y古茹努尔§!在此行星黑暗命运中扮演的可疑角色上有更多的发现。",
+  "picture": "GFX_evt_asteroid_field",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B4",
+      "event": "ancrel.2008"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B5",
+      "event": "ancrel.2009"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B6",
+      "event": "ancrel.2010"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B1",
+      "event": "ancrel.2011"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "has_country_flag": "baol_intro",
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    },
+    {
+      "type": "关联",
+      "target": "broken_shackles_digsite"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

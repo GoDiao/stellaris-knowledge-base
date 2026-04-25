@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "奇恩由在奇恩尼亚的沙丘中徘徊的肉食性集群猎食蜥状生物进化而来。他们最终发展出一种高度阶级化的等级社会，强调秩序和勇武高于一切。\n\n奇恩进入工业时代后，残暴无情的军阀发动了一系列毁灭性的全球性战争，最终一个统一的政体建立起来了——打败了一切卑微的存在，显赫辉煌而恒久长存的奇恩帝国诞生了。",
+  "lore": "The Tzynn evolved from carnivorous, pack-hunting lizards that prowled the dunes of Tzynnia. They eventually developed a highly structured, hierarchical society that emphasized order and martial prowess above all else.\n\nBy the time the Tzynn entered the industrial age, a series of devastating global wars launched by a particularly ruthless warlord had already seen the establishment of a single, world-spanning nation. From these humble beginnings, the illustrious and ever-lasting Tzynn Empire was born.",
   "traits": [
     "trait_strong",
     "trait_resilient",
@@ -54,7 +54,28 @@
     }
   },
   "graphical_culture": "reptilian_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "broken_shackles"
+    },
+    {
+      "type": "同种族",
+      "target": "guardianship_of_nyrr"
+    },
+    {
+      "type": "同种族",
+      "target": "hazbuzan"
+    },
+    {
+      "type": "同种族",
+      "target": "lokken"
+    },
+    {
+      "type": "同种族",
+      "target": "orbis"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "imperial",

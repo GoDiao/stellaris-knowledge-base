@@ -1,0 +1,36 @@
+id: writing_uninhabitable_category
+name:
+  en: 0 "Surface Writing"
+  zh: 地表文字
+category: event
+subcategory: anomaly
+dlc: null
+lore: 该星球的地表上有着巨大的裂痕，从其图案判断，不可能是自然形成的。从轨道上看，这些裂痕看起来像是文字。
+picture: GFX_evt_ship_in_orbit
+level: 2
+spawn_chance:
+  modifier:
+    add: '3'
+    uninhabitable_regular_planet: 'yes'
+on_success:
+  - anomaly.635
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

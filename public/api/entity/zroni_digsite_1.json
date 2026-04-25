@@ -1,0 +1,84 @@
+{
+  "id": "zroni_digsite_1",
+  "name": {
+    "en": "0 \"Abandoned Colony Ruins\"",
+    "zh": "遗弃的殖民地遗址"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "一个未知文明所建立的古老殖民地。尽管没有任何灾难迹象，但很显然这些定居者们突然之间就放弃了这个居住地。这儿到底发生了什么呢？",
+  "picture": "GFX_evt_overgrown_city",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_F1",
+      "event": "ancrel.2"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_F2",
+      "event": "ancrel.3"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_F3",
+      "event": "ancrel.4"
+    }
+  ],
+  "max_instances": 1,
+  "weight": null,
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader",
+    "hidden_trigger": {
+      "owner": {
+        "has_country_flag": "zroni_arc_chain_@fromfrom.planet"
+      }
+    }
+  },
+  "visible": {
+    "has_country_flag": "zroni_intro",
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "zroni_arc_chain_@fromfrom.planet"
+    }
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

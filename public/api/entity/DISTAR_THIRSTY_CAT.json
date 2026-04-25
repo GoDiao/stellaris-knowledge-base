@@ -1,0 +1,59 @@
+{
+  "id": "DISTAR_THIRSTY_CAT",
+  "name": {
+    "en": "0 \"Waterless Canyons\"",
+    "zh": "干涸峡谷"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "深到能从轨道直接进行观察的峡谷勾勒出了[From.GetName]表面的纹路，但是这颗行星却像风沙侵蚀区一样干燥。曾经如此强烈地侵蚀了[From.GetName]岩层的那些水怎么了呢？",
+  "picture": "GFX_evt_warm_barren",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "has_distar": "yes",
+      "is_planet_class": "pc_barren",
+      "NOT": {
+        "has_deposit_for": "shipclass_research_station"
+      }
+    }
+  },
+  "on_success": [
+    "distar.180"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

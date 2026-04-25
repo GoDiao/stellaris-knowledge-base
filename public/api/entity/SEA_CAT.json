@@ -1,0 +1,54 @@
+{
+  "id": "SEA_CAT",
+  "name": {
+    "en": "0 \"Kaleidoscopic\"",
+    "zh": "变幻莫测"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "一个模糊的身影在[Root.GetName]的大海洋流之下翻腾着。",
+  "picture": "GFX_evt_ship_in_orbit_3",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_ocean"
+    }
+  },
+  "on_success": [
+    "anomaly.195"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

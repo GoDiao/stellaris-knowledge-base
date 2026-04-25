@@ -1,0 +1,54 @@
+{
+  "id": "on_crashed_ship_cat",
+  "name": {
+    "en": "0 \"Crash Site\"",
+    "zh": "失事地点"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们发现了一艘古老的外星人星舰，它被半掩埋在一个小行星撞击坑中间。",
+  "picture": "GFX_evt_physics_cache",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.7030"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

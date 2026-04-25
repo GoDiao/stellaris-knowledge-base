@@ -1,0 +1,43 @@
+id: CONT_SIGNS_CAT
+name:
+  en: 0 "Planetary Scars"
+  zh: 行星伤痕
+category: event
+subcategory: anomaly
+dlc: null
+lore: |-
+  [Root.GetName]的表面似乎布满凹痕，也并非不寻常。
+
+  不寻常的是这些伤痕的形状，无规律的分布。不太可能是陨石撞击的结果。
+picture: GFX_evt_alien_city
+level: 4
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      is_planet_class:
+        - pc_continental
+        - pc_tropical
+        - pc_tundra
+on_success:
+  - anomaly.255
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

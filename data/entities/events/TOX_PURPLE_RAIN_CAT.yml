@@ -1,0 +1,39 @@
+id: TOX_PURPLE_RAIN_CAT
+name:
+  en: 0 "Pigment Poison"
+  zh: 斑斓毒星
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]充满毒性的生物环境赋予这颗行星一片独特的景貌。'
+picture: GFX_evt_big_landing_ship
+level: 7
+spawn_chance:
+  modifier:
+    - add: '3'
+      is_planet_class: pc_toxic
+    - factor: '0'
+      from.owner:
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - anomaly.160
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: TOX_PLANET_CAT
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

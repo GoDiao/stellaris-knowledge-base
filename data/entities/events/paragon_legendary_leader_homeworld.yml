@@ -1,0 +1,74 @@
+id: paragon_legendary_leader_homeworld
+name:
+  en: 0 "Vagrosian Ruins"
+  zh: 瓦格罗人废墟
+category: event
+subcategory: archaeological_site
+dlc: Paragon
+lore: |-
+  那些无人机所保护的是一颗被潮汐锁定的行星，一面向着夜空的黑暗与严寒，另一面则沐浴着永恒的光明。在温暖的昼半球，我们发现了一座可能曾是瓦格罗人城市的废墟。
+
+  §Y凯德斯§!相信，他过往的细节可能就深埋于此，并且希望在这里的发现能够揭示这颗行星的历史。
+
+  §R这个遗址必须由§Y凯德斯§!亲自挖掘。§!
+picture: GFX_evt_city_ruins
+stages: 7
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_A1
+    event: paragon.3150
+  - stage_number: 2
+    difficulty: 1
+    icon: GFX_archaeology_runes_A2
+    event: paragon.3151
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_A3
+    event: paragon.3152
+  - stage_number: 4
+    difficulty: 2
+    icon: GFX_archaeology_runes_A4
+    event: paragon.3153
+  - stage_number: 5
+    difficulty: 3
+    icon: GFX_archaeology_runes_A5
+    event: paragon.3154
+  - stage_number: 6
+    difficulty: 3
+    icon: GFX_archaeology_runes_A6
+    event: paragon.3155
+  - stage_number: 7
+    difficulty: 4
+    icon: GFX_archaeology_runes_E2
+    event: paragon.3156
+max_instances: null
+weight: '0'
+allow:
+  custom_tooltip:
+    fail_text: paragon_is_not_keides
+    is_ship_class: shipclass_science_ship
+    exists: leader
+    leader:
+      has_trait: leader_trait_legendary_far_from_home
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: no_events
+relations:
+  - type: 提及
+    target: it_was_aliens_site
+  - type: 提及
+    target: site_buried_deep
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+tags:
+  - archaeological_site
+  - paragon

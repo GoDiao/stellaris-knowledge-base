@@ -1,0 +1,78 @@
+{
+  "id": "baol_digsite_1",
+  "name": {
+    "en": "0 \"The Barren\"",
+    "zh": "不毛之地"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "在[From.Planet.GetName]沉积层的深处，我们发现了一处含有许多植物类物种化石的极有价值的宝库，该物种具有的神经结构足以支撑智能的存在。\n\n如果这些早已死去的生物的确是§Y巴奥§!，研究他们的尸体可能会我们提供更多线索，以便弄清他们那一度草木葱茏的行星是如何变成了一个没有空气和生命的星球。",
+  "picture": "GFX_evt_warm_barren",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B1",
+      "event": "ancrel.2004"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B2",
+      "event": "ancrel.2005"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B3",
+      "event": "ancrel.2006"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "has_country_flag": "baol_intro",
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    },
+    {
+      "type": "关联",
+      "target": "broken_shackles_digsite"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

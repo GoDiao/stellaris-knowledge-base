@@ -1,0 +1,42 @@
+id: DISTAR_SOOTHE_CAT
+name:
+  en: 0 "Resonant Crystals"
+  zh: 共鸣水晶
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 对[From.GetName]进行扫描后发现该星球地壳中有不少共鸣水晶，我们应该能对此加以利用。
+picture: GFX_evt_ship_in_orbit
+level: 1
+spawn_chance:
+  modifier:
+    - add: '1'
+      habitable_planet: 'yes'
+    - factor: '0'
+      OR:
+        has_distar: 'no'
+        from.owner:
+          has_ethic: ethic_gestalt_consciousness
+on_success:
+  - distar.95
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

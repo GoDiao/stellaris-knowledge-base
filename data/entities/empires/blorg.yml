@@ -5,7 +5,7 @@ name:
 category: empire
 subcategory: prescripted
 dlc: null
-lore: 在很久以前，布洛葛一族都是在布洛葛主星的丛林中分开独居的。直到有一天，他们收听到来自遥远星系的一段无线电通讯。他们被这段通讯的内容震惊了：里面包含着友谊、电影、音乐、文化等等他们闻所未闻的东西。他们终于意识到自己生活的匮乏，布洛葛一族随之从这段通讯的内容中为自己挑选了名字，并开始进入星辰大海寻找这段信息的起源，为的是和他们交个朋友。
+lore: 'In the distant past, the Blorg lived alone and nameless in the jungles of Blorg prime. One day they picked up radio transmissions from a star far away. What they heard shocked them: The sounds of friends, movies, culture and music - things the Blorg had done without for eons. Finally understanding what they had been missing all along, the Blorg took their names from these transmissions and went out into the stars in search of friends, hoping one day to find the source of these messages so that they might party together.'
 traits:
   - trait_repugnant
   - trait_solitary
@@ -40,7 +40,17 @@ system:
     en: PRESCRIPTED_system_name_blorg
     zh: PRESCRIPTED_system_name_blorg
 graphical_culture: fungoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: jehetma
+  - type: 同起源
+    target: chinorr
+  - type: 同起源
+    target: custodianship
+  - type: 同起源
+    target: default
+  - type: 同起源
+    target: glebsig
 tags:
   - prescripted_empire
   - oligarchic

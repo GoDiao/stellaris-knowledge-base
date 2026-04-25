@@ -1,0 +1,87 @@
+{
+  "id": "omnirelic_site",
+  "name": {
+    "en": "0 \"$ancrel.21.name$\"",
+    "zh": "$ancrel.21.name$"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "整个行星都被巨大的建筑物所覆盖着，这个遗落的大都会星肯定有秘密等待发掘。",
+  "picture": "GFX_evt_relic_world",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_D1",
+      "event": "ancrel.21"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_D2",
+      "event": "ancrel.22"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 6,
+      "icon": "GFX_archaeology_runes_D3",
+      "event": "ancrel.23"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 6,
+      "icon": "GFX_archaeology_runes_D4",
+      "event": "ancrel.24"
+    }
+  ],
+  "max_instances": 1,
+  "weight": null,
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

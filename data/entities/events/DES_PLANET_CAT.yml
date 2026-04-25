@@ -1,0 +1,36 @@
+id: DES_PLANET_CAT
+name:
+  en: 0 "Desolate Sands"
+  zh: 荒凉沙漠
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]上的高温尚在预料范围之内。但是，我们的队伍还收集到了很多反常数据。在完成最终报告之前，还需要深入研究。'
+picture: GFX_evt_desert
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_desert
+on_success:
+  - anomaly.4110
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

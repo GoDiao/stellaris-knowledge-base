@@ -1,0 +1,54 @@
+{
+  "id": "DISTAR_RAT_CAT",
+  "name": {
+    "en": "0 \"Ruined Capital\"",
+    "zh": "残毁首都"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "我们对[From.GetName]的初步调查显示了该行星是某个亡故帝国的旧都，我们之前遇到的垃圾场正是属于这个帝国的。对其进行更彻底的调查或许能获得更多的信息。",
+  "picture": "GFX_evt_city_ruins",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "0"
+    }
+  },
+  "on_success": [
+    "distar.231"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": true,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

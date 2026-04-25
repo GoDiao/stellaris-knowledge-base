@@ -1,0 +1,33 @@
+id: CRYSTAL_MANUFACTORY_CAT
+name:
+  en: 0 "Ancient Manufactory"
+  zh: 古代工厂
+category: event
+subcategory: anomaly
+dlc: null
+lore: 一个古老、似乎被遗弃的建造结构漂浮在[Root.GetName]上空，除此之外那便是一颗普通的小行星。
+picture: GFX_evt_asteroid_field
+level: 3
+spawn_chance: null
+on_success:
+  - anomaly.3125
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

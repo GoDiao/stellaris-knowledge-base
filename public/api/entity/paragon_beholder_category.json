@@ -1,0 +1,67 @@
+{
+  "id": "paragon_beholder_category",
+  "name": {
+    "en": "0 \"Spiky Readings\"",
+    "zh": "峰值读数"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Paragon",
+  "lore": "我们探测到了来自这个星球的间歇性能量峰值。这些读数表明了一些强大的、远超我们所观察到的未开智物种所具有能力的某种东西。",
+  "picture": "GFX_evt_ship_in_orbit_3",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "3",
+        "has_paragon_dlc": "yes",
+        "has_planet_flag": "pre_sapient_planet",
+        "NOT": {
+          "has_planet_flag": "missing_scientist_planet"
+        }
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "is_gestalt": "yes"
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "paragon.3"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "paragon"
+  ]
+}

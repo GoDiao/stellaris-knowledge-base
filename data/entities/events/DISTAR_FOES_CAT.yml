@@ -1,0 +1,36 @@
+id: DISTAR_FOES_CAT
+name:
+  en: 0 "Doppelgangers"
+  zh: 二重身
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 这些在[From.GetName]遍布灰尘的地表上勉强度日的土著和我们在同一个星系的另一个死寂星球上发现的物种具有惊人的相似性。
+picture: GFX_evt_alien_cavemen
+level: 3
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - distar.131
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: tomb_world_cat
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly
+  - distant_stars

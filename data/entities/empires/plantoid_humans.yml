@@ -6,9 +6,9 @@ category: empire
 subcategory: prescripted
 dlc: null
 lore: |-
-  富含蔬菜的饮食和瞳孔增生的突变最终赋予了这些哺乳动物一种不寻常的能力：光合作用。由于没有饥饿的负担，植人进化成平静的、像植物一样的灵长类动物，他们更喜欢日光浴而不是狩猎。
+  A diet rich in vegetables and a kleptoplastic mutation eventually gifted these mammals with an unusual ability: photosynthesis. Unburdened by hunger, the Homines Plantae evolved as placid, plantlike primates who would favor sunbathing over hunting.
 
-  他们的文明不紧不慢地发展这，科技的进化维系着他们对保护环境的需求。他们最终发展出了超光速科技，像树木开枝散叶般，缓慢而坚定的探向天际。如今他们的根系深深地扎在母星盖伊娅，准备在星间开花结果。
+  Their civilization developed without hurry, technological advancements balanced against the need to preserve their environment. They eventually developed FTL technology, slow and steady like trees raising their branches to the sky. Now they're ready to spread their blooms all over the galaxy, roots firmly planted on their homeworld of Gaea.
 traits:
   - trait_plantoid_radiotrophic
   - trait_conservational
@@ -45,7 +45,9 @@ system:
     en: NAME_Sol
     zh: NAME_Sol
 graphical_culture: plantoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: maweer
 tags:
   - prescripted_empire
   - democratic

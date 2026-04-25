@@ -47,7 +47,17 @@ system:
     en: PRESCRIPTED_system_name_hazbuzan
     zh: PRESCRIPTED_system_name_hazbuzan
 graphical_culture: reptilian_01
-relations: []
+relations:
+  - type: 同种族
+    target: broken_shackles
+  - type: 同DLC预设
+    target: chinorr
+  - type: 同种族
+    target: guardianship_of_nyrr
+  - type: 同DLC预设
+    target: kilik
+  - type: 同种族
+    target: lokken
 tags:
   - prescripted_empire
   - corporate

@@ -1,0 +1,40 @@
+id: HAB_MAT_CAT
+name:
+  en: 0 "A Glint of Metal"
+  zh: 金属闪烁
+category: event
+subcategory: anomaly
+dlc: null
+lore: 反向散射能谱传感器显示行星地壳中存在珍贵物质。
+picture: GFX_evt_ship_in_orbit
+level: 4
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      is_planet_class:
+        - pc_tropical
+        - pc_continental
+        - pc_arid
+on_success:
+  - anomaly.220
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

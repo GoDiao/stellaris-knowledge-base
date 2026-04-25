@@ -1,0 +1,36 @@
+id: time_loop_world
+name:
+  en: 0 "Shielded World"
+  zh: 屏障星球
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 出于未知的原因，[Root.GetName]笼罩在一道不可穿透的护盾内，而且护盾正在开裂。
+picture: GFX_evt_ship_in_orbit
+level: 4
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - distar.2030
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

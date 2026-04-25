@@ -1,0 +1,35 @@
+id: SOLARPUNK_CAT
+name:
+  en: 0 "The Missing Planets"
+  zh: 失踪的行星
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这个星系中有大量的超空间航道。通常情况下，我们会认为它们太小了，宇宙飞船无法在其中航行，但是它们的数量本身就很惊人。
+picture: GFX_evt_vortex
+level: 7
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - fircon.5010
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

@@ -1,0 +1,41 @@
+id: FROZ_BASE_CAT
+name:
+  en: 0 "Cold Wastes"
+  zh: 冰冻荒原
+category: event
+subcategory: anomaly
+dlc: null
+lore: 传感器在[Root.GetName]冰冻表面的偏僻之处检测到出乎意料的活动。
+picture: GFX_evt_outpost
+level: 2
+spawn_chance:
+  base: '0'
+  modifier:
+    add: '3'
+    is_planet_class: pc_frozen
+    from.owner:
+      NOT:
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - anomaly.170
+  - anomaly.175
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

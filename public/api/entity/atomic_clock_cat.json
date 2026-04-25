@@ -1,0 +1,90 @@
+{
+  "id": "atomic_clock_cat",
+  "name": {
+    "en": "0 \"0 \"Debris Field\"\"",
+    "zh": "残骸场"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "传感器报告[Root.GetName]周围的重重废墟中可能存在有趣的东西。",
+  "picture": "GFX_evt_space_debris",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "3",
+        "NOR": {
+          "has_deposit_for": [
+            "shipclass_research_station",
+            "shipclass_mining_station"
+          ]
+        },
+        "solar_system": {
+          "any_system_planet": {
+            "OR": {
+              "AND": [
+                {
+                  "exists": "owner",
+                  "owner": {
+                    "is_primitive": "yes"
+                  },
+                  "NOT": {
+                    "is_planet_class": "pc_ringworld_habitable"
+                  }
+                },
+                {
+                  "habitable_planet": "yes",
+                  "is_colony": "no",
+                  "is_under_colonization": "no"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "factor": "0",
+        "NOR": {
+          "has_distar": "yes"
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "distar.1045"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": true,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "it_was_aliens_site"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

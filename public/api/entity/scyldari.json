@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "塞可达瑞起源于塞可达瑞亚群岛和深海中的水生哺乳生物。最初他们的活动范围仅仅限于水中，但他们很快就学会了上岸。\n\n因此他们的社会也因势利导，发展出了一种利用但不伤害塞可达瑞脆弱的生态环境的科技来开发海底丰富的资源。塞可达瑞注重平衡和适度。毕竟他们很长时间生活在海底，且那里的资源并不丰富。",
+  "lore": "The Scyldari are aquatic mammalians originating from the archipelagos and deep oceans of Scyldaria. Although their early civilizations were mostly confined to the sea, they soon expanded onto what little landmass the planet had to offer.\n\nTheir society adapted accordingly, building an advanced industry that exploited the riches of the ocean floor without harming Scyldaria's delicate ecosystem. Scyldari philosophy is one of balance and moderation in all things, a lesson learned from having to nurse their limited resources when they were confined to the bottom of the sea.",
   "traits": [
     "trait_charismatic",
     "trait_natural_sociologists",
@@ -51,7 +51,28 @@
     }
   },
   "graphical_culture": "mammalian_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "iferyx"
+    },
+    {
+      "type": "同起源",
+      "target": "blorg"
+    },
+    {
+      "type": "同起源",
+      "target": "chinorr"
+    },
+    {
+      "type": "同起源",
+      "target": "custodianship"
+    },
+    {
+      "type": "同起源",
+      "target": "default"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "democratic",

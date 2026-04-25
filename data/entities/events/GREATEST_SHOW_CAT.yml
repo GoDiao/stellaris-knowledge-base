@@ -1,0 +1,51 @@
+id: GREATEST_SHOW_CAT
+name:
+  en: Bright Object Detected
+  zh: 探测到光亮物体
+category: event
+subcategory: anomaly
+dlc: Astral Planes
+lore: |-
+  §Y[from.System.GetName]§!的一颗小行星内我们探测到了一个光亮四溢的物体。
+
+  由高度先进材料构建，它正在所有频率上广播稳定的无线电波。我们的扫描仪显示其内部没有含有爆炸性或挥发性化合物。看起来我们可以安全接近并进一步开展研究。
+picture: GFX_evt_asteroid_field
+level: 2
+spawn_chance:
+  base: '0'
+  modifier:
+    add: '3'
+    is_asteroid: 'yes'
+    from:
+      owner:
+        has_technology: tech_astral_harvesting
+        NOT:
+          is_astral_rift_explored: interdimensional_circus
+    solar_system:
+      NOR:
+        has_astral_rift: 'yes'
+        any_system_planet:
+          is_astral_scar: 'yes'
+on_success:
+  - astral_planes.6010
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - astral_planes

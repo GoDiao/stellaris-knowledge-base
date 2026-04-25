@@ -1,0 +1,63 @@
+{
+  "id": "RAPID_DESERTIFICATION_CAT",
+  "name": {
+    "en": "Rapid Desertification",
+    "zh": "迅速荒漠化"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[From.Planet.GetName]的航拍图像显示，其迅速减少的植被可能表明，该行星表面存在一种未知的生命形式栖息在此。",
+  "picture": "GFX_evt_unidentified_monster",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "OR": {
+        "is_planet_class": [
+          "pc_desert",
+          "pc_arid"
+        ]
+      },
+      "from.owner": {
+        "is_mechanical_empire": "no",
+        "is_hive_empire": "no"
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.7135"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": 0.7,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

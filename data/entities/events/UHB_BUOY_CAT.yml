@@ -1,0 +1,48 @@
+id: UHB_BUOY_CAT
+name:
+  en: 0 "Doppler Effect"
+  zh: 多普勒效应
+category: event
+subcategory: anomaly
+dlc: null
+lore: 一个摇摆不定的信号萦绕在[Root.GetName]，而且并不来自星球表面。
+picture: GFX_evt_satellite_in_orbit
+level: 3
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      is_planet_class:
+        - pc_toxic
+        - pc_barren_cold
+        - pc_barren
+        - pc_frozen
+        - pc_nuked
+    NOT:
+      has_planet_flag: nuked_planet_anomalies_disabled
+    from.owner:
+      has_country_flag: birth_of_piracy
+      NOT:
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - anomaly.3090
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

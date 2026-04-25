@@ -6,9 +6,9 @@ category: empire
 subcategory: prescripted
 dlc: null
 lore: |-
-  传说中，在第一个冒维尔扎根之前，他们的母星还是一片荒芜。经过几个世纪后，他们的精心照顾将荒地改造成了一片植物天堂，名为“郁郁庭院”。
+  Legends claim that the homeworld of the Maweer was empty and barren when the first of their kind took root in the soil. Over the centuries, their nurturing care transformed the wastelands into a plant paradise that is now known as "The Garden."
 
-  和大多其他物种不同，冒维尔从不开展城市化。他们的社群很小，聚集在森林中，维护当地的动植物。最贤明的冒维尔有机会被选为“生命给予者”，负责维护和平与安宁。
+  Unlike many other species, the Maweer never developed any kind of urbanization. Their small communities are one with the forests, responsible for the maintenance of the local flora and fauna. The wisest of the Maweer have a chance to be elected "Life-Giver," responsible for keeping peace and tranquility.
 traits:
   - trait_agrarian
   - trait_enduring
@@ -43,7 +43,17 @@ system:
     en: PRESCRIPTED_system_name_maweer
     zh: PRESCRIPTED_system_name_maweer
 graphical_culture: plantoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: plantoid_humans
+  - type: 同起源
+    target: blorg
+  - type: 同起源
+    target: chinorr
+  - type: 同起源
+    target: custodianship
+  - type: 同起源
+    target: default
 tags:
   - prescripted_empire
   - dictatorial

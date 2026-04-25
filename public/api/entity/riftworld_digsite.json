@@ -1,0 +1,82 @@
+{
+  "id": "riftworld_digsite",
+  "name": {
+    "en": "Ancient Crater",
+    "zh": "远古撞击坑"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Astral Planes",
+  "lore": "我们在[Planet.GetName]地表上的撞击坑的极深处探测到了异常的地震活动。地下声呐发现了一座前所未知的洞穴。",
+  "picture": "GFX_evt_riftworld_archsite_crater",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A1",
+      "event": "astral_planes.2125"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "astral_planes.2130"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "astral_planes.2135"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A4",
+      "event": "astral_planes.2140"
+    }
+  ],
+  "max_instances": 999,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "no_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "ASTRAL_SCAR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "astral_planes"
+  ]
+}

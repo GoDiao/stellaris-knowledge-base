@@ -1,0 +1,99 @@
+{
+  "id": "the_host",
+  "name": {
+    "en": "0 \"Subterranean Hollows\"",
+    "zh": "地下洞穴"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "在这个星球的地壳内，数量惊人的地下通道系统交错盘旋。究竟是什么造就了这一切呢？",
+  "picture": "GFX_evt_underground_civilization",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_E1",
+      "event": "ancrel.2070"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_E2",
+      "event": "ancrel.2071"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_E3",
+      "event": "ancrel.2072"
+    }
+  ],
+  "max_instances": 1,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "has_ancrel": "yes",
+      "OR": {
+        "is_planet_class": [
+          "pc_desert",
+          "pc_tropical",
+          "pc_arid",
+          "pc_continental",
+          "pc_ocean",
+          "pc_tundra",
+          "pc_arctic",
+          "pc_alpine",
+          "pc_savannah",
+          "pc_gaia",
+          "pc_relic"
+        ]
+      }
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

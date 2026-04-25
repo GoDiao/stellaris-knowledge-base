@@ -1,0 +1,87 @@
+{
+  "id": "endless_expanse_digsite_2",
+  "name": {
+    "en": "0 \"Ix Belèn\"",
+    "zh": "埃克斯-柏楞"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "被[From.Planet.GetName]大气圈笼罩着的是一处鬼影幢幢的巨大居住站——埃克斯-柏楞居住区。这里曾是一处日喧夜嚣的太空城，居民们享受着科技带来的巨大便利，过着如同神仙一般的生活，如今此处已成为一座寂静的墓碑。软体类的外星人横七竖八地倒在走道上，腐败程度各不相同。验尸报告表明，这些外星人由于居住站的维生系统失效最后死于窒息。\n\n他们的家里装备有模样奇怪的机械座椅，其顶端连接到了一个形状是蓝色巨大球状体的中央数据库——眠梦仪。",
+  "picture": "GFX_evt_gas_giant_station",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_F1",
+      "event": "ancrel.4043"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_F2",
+      "event": "ancrel.4044"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_F3",
+      "event": "ancrel.4045"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_F4",
+      "event": "ancrel.4046"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

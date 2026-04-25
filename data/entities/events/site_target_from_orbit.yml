@@ -1,0 +1,58 @@
+id: site_target_from_orbit
+name:
+  en: 0 "Target from Orbit"
+  zh: 轨道目标
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 从[From.Planet.GetName]的轨道上可以很容易地看到一个直径数千公里的人造建筑。形状表明在它的中间位置似乎有一个重要区域。从轨道上获得的探测数据显示没有任何异常，因此我们有必要进行进一步的探测。
+picture: GFX_evt_ship_in_orbit
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_A1
+    event: ancrel.9045
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_A2
+    event: ancrel.9050
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_A6
+    event: ancrel.9051
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    uninhabitable_regular_planet: 'yes'
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_target_from_orbit_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

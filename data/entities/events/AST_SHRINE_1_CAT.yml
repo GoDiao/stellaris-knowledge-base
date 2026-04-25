@@ -1,0 +1,48 @@
+id: AST_SHRINE_1_CAT
+name:
+  en: 0 "An Asteroid, Carved"
+  zh: 被雕琢的小行星
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]被部分掏空，并且进行了精致细密的雕琢。岩石上的纹路有些眼熟……'
+picture: GFX_evt_mining_station
+level: 3
+spawn_chance:
+  modifier:
+    - add: '3'
+      is_asteroid: 'yes'
+      FROM:
+        owner:
+          is_ai: 'no'
+          NOR:
+            is_human_species: 'yes'
+            capital_scope.solar_system:
+              has_star_flag: sol
+    - factor: '0'
+      from.owner:
+        OR:
+          has_ethic: ethic_gestalt_consciousness
+          has_origin: origin_shoulders_of_giants
+on_success:
+  - anomaly.140
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

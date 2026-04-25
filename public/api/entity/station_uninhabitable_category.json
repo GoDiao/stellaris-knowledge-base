@@ -1,0 +1,61 @@
+{
+  "id": "station_uninhabitable_category",
+  "name": {
+    "en": "0 \"Space Station\"",
+    "zh": "空间站"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "在调查[Root.GetPlanetMoon]时，附近一艘小型空间站使用轨道推进器企图躲开我们的科研船，但未能得逞。他们为什么要躲呢？",
+  "picture": "GFX_evt_ship_travel",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "0": true,
+      "add": "3",
+      "uninhabitable_regular_planet": "yes",
+      "num_minerals": true,
+      ">": true,
+      "exists": "space_owner",
+      "space_owner": {
+        "is_same_value": "from.owner"
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.700"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

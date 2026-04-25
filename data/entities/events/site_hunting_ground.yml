@@ -1,0 +1,64 @@
+id: site_hunting_ground
+name:
+  en: 0 "Fossilized Remains"
+  zh: 化石遗骸
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  在[From.Planet.GetName]上的一个大而与世隔绝的山谷中一些不同物种的化石被发现了，这些物种似乎不是来自该行星的。它们大体上都来自同一个时期，大约是360万年前，跨度为几个世纪的那段时间内。
+
+  这些物种中的每一个个体似乎都是在其所属的独特的生物圈中进化而来的，而且它们似乎都具有智慧。奇怪的是，到目前为止发现的每一个化石都显示出遭到暴力终结的迹象。
+picture: GFX_evt_archaeology_camp
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_B1
+    event: ancrel.6050
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_B2
+    event: ancrel.6055
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_B3
+    event: ancrel.6060
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_B4
+    event: ancrel.6065
+  - stage_number: 5
+    difficulty: 7
+    icon: GFX_archaeology_runes_B5
+    event: ancrel.6070
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

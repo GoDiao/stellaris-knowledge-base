@@ -1,0 +1,56 @@
+{
+  "id": "disco_alien_machine_cat",
+  "name": {
+    "en": "0 \"Alien Machine\"",
+    "zh": "外星机器"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "在[From.GetName]表面坐落着一座类似大型机器的物体，其来源与功用尚未查明。",
+  "picture": "GFX_evt_asteroid_field",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "2",
+      "is_asteroid": "yes",
+      "has_any_strategic_resource": "no"
+    }
+  },
+  "on_success": [
+    "distar.3040"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": 0.5,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

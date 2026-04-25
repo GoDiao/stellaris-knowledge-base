@@ -1,0 +1,54 @@
+{
+  "id": "signal_gasgiant_category",
+  "name": {
+    "en": "0 \"Gas Giant Signal\"",
+    "zh": "气态巨行星信号"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们接收到这颗气态巨行星的大气内发射出来的微弱信号。可能是什么人，或者是什么东西正在试图建立联系？",
+  "picture": "GFX_evt_atmospheric_flight",
+  "level": 5,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "is_planet_class": "pc_gas_giant"
+    }
+  },
+  "on_success": [
+    "anomaly.5000"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

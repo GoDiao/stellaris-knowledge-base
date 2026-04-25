@@ -1,0 +1,86 @@
+{
+  "id": "DISTAR_RUM_CAT",
+  "name": {
+    "en": "0 \"Familiar Compounds\"",
+    "zh": "熟悉的化合物"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "[From.GetName]的发射光谱表明这颗气态巨行星的主要构成成分拥有和某种流行的酒类饮料相同的分子结构。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "has_distar": "yes",
+      "is_planet_class": "pc_gas_giant",
+      "is_inside_nebula": "yes",
+      "OR": {
+        "from.owner": [
+          {
+            "NOT": {
+              "has_ethic": "ethic_gestalt_consciousness"
+            }
+          },
+          {
+            "has_authority": "auth_machine_intelligence",
+            "NOR": {
+              "has_civic": [
+                "civic_machine_terminator",
+                "civic_machine_assimilator"
+              ]
+            },
+            "any_neighbor_country": {
+              "is_ai": "yes",
+              "is_country_type": "default",
+              "has_communications": "from.owner",
+              "NOR": {
+                "has_ethic": "ethic_gestalt_consciousness",
+                "is_at_war_with": "from.owner",
+                "is_same_value": "from.owner"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "distar.91",
+    "distar.90"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

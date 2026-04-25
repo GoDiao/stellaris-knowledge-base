@@ -1,0 +1,85 @@
+{
+  "id": "site_hidden_lab_a",
+  "name": {
+    "en": "0 \"Frozen Complex\"",
+    "zh": "冰封设施"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "探测器在[From.Planet.GetName]的冰雪之下探测到了一个隐藏的设施。部分坍塌与阻塞的隧道似乎组成了连接各种地下结构的巨大网络",
+  "picture": "GFX_evt_frozen",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A1",
+      "event": "ancrel.7001"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "ancrel.7002"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "ancrel.7003"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "1",
+      "has_ancrel": "yes",
+      "is_planet_class": "pc_frozen"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

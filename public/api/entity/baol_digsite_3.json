@@ -1,0 +1,72 @@
+{
+  "id": "baol_digsite_3",
+  "name": {
+    "en": "0 \"The Silenced\"",
+    "zh": "寂静之地"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "这一前§Y巴奥§!殖民地上仍然拥有大气层和低等生命，我们已在此建立了一个发掘点，以期能对这一文明最终的历史有更多的了解。",
+  "picture": "GFX_evt_baol_ruins",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_B2",
+      "event": "ancrel.2013"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_B3",
+      "event": "ancrel.2024"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "has_country_flag": "baol_intro",
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "broken_shackles_digsite"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

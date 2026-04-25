@@ -1,0 +1,41 @@
+id: UHB_ANCIENT_RUINS_1_CAT
+name:
+  en: 0 "Monoliths"
+  zh: 碑塔
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]表面散布着十分惊人的建筑，请求立即进行考古工作。'
+picture: GFX_evt_ancient_alien_temple
+level: 3
+spawn_chance:
+  modifier:
+    add: '3'
+    is_star: 'no'
+    is_asteroid: 'no'
+    is_ringworld: 'no'
+    NOT:
+      habitable_planet: 'yes'
+      is_planet_class: pc_gas_giant
+on_success:
+  - anomaly.120
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

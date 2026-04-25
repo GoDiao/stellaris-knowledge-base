@@ -1,0 +1,82 @@
+{
+  "id": "relicrails_digsite",
+  "name": {
+    "en": "0 \"Relic Rails\"",
+    "zh": "轨路遗迹"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "最近，[From.Planet.GetName]上的地陷将其地下的交通隧道网揭露了出来。这些精致的道路和复杂的信号设施已经深埋地下数百年；它们的设计与我们之前在这片太空区域所发现的一切均不相同。究竟是谁为了什么建造了它们呢？",
+  "picture": "GFX_evt_archaeological_dig",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_D1",
+      "event": "federations3.1010"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_D2",
+      "event": "federations3.1015"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_D3",
+      "event": "federations3.1020"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_D4",
+      "event": "federations3.1025"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_relicrails_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "提及",
+      "target": "site_buried_deep"
+    },
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

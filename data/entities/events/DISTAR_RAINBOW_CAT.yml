@@ -1,0 +1,39 @@
+id: DISTAR_RAINBOW_CAT
+name:
+  en: 0 "Rainbow in the Dark"
+  zh: 黑暗中的彩虹
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]周围的吸积盘呈现出绚丽的折射光谱，与彩虹的无异。造成这种现象的原因会是什么？'
+picture: GFX_evt_black_hole
+level: 4
+spawn_chance:
+  modifier:
+    add: '1'
+    has_distar: 'yes'
+    is_star: 'yes'
+    is_star_class: sc_black_hole
+on_success:
+  - distar.15
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

@@ -1,0 +1,94 @@
+{
+  "id": "site_space_shanty_dig",
+  "name": {
+    "en": "0 \"Message in a Bottle\"",
+    "zh": "瓶中信"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": null,
+  "lore": "我们找到了一艘设计独特的古代太空舰船的残骸。它使用的推进方式与现代舰船并不相同，而是依赖于在真空中展开的巨大的帆来进行。也许这艘船可以捕获恒星能量，并在星光和恒星风的推动下前进。我们的考古学家迫切希望揭开隐藏在这艘古老舰船中的秘密。",
+  "picture": "GFX_evt_frozen",
+  "stages": 5,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "ancrel.15021"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A2",
+      "event": "ancrel.15022"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "ancrel.15023"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "ancrel.15024"
+    },
+    {
+      "stage_number": 5,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "ancrel.15025"
+    }
+  ],
+  "max_instances": null,
+  "weight": "0",
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_spaceship_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site"
+  ]
+}

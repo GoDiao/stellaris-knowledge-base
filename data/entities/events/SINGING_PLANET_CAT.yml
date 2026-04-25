@@ -1,0 +1,44 @@
+id: SINGING_PLANET_CAT
+name:
+  en: 0 "Strange Readings"
+  zh: 怪异读数
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗行星发射出怪异的磁力波，与我们目前为止所知的一切均大不相同，几乎可以说它就像想要与我们沟通一般。唯有对这一不同寻常的现象进行调查方才符合逻辑——我们可能遇上了一个行星大小生物形态的绝佳个例。
+picture: GFX_evt_decryption
+level: 7
+spawn_chance:
+  modifier:
+    add: '2'
+    OR:
+      is_planet_class:
+        - pc_frozen
+        - pc_barren
+        - pc_barren_cold
+        - pc_toxic
+        - pc_broken
+        - pc_gas_giant
+        - pc_molten
+on_success:
+  - anomaly.7101
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

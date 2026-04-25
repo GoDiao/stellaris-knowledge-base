@@ -1,0 +1,70 @@
+{
+  "id": "disco_stranded_scientist_cat",
+  "name": {
+    "en": "0 \"Spacecraft Remains\"",
+    "zh": "太空船遗留物"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "[From.GetName]表面发现了类似舰船的物体，且周围散落着小块金属。遗迹似乎没有生命迹象，但却依旧有能源读数反应。",
+  "picture": "GFX_evt_asteroid_field",
+  "level": 4,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "2",
+        "is_asteroid": "yes",
+        "has_any_strategic_resource": "no"
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "OR": {
+            "has_ethic": [
+              "ethic_gestalt_consciousness",
+              "ethic_fanatic_xenophobe"
+            ],
+            "is_human_species": "yes"
+          }
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "distar.3020"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "life_asteroid_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_barren_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_frozen_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_gasgiant_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_toxic_category"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

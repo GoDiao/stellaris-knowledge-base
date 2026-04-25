@@ -1,0 +1,82 @@
+{
+  "id": "ancient_battle_site",
+  "name": {
+    "en": "0 \"$ancrel.108.name$\"",
+    "zh": "$ancrel.108.name$"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "对[From.Planet.GetName]的扫描显示，在该地区存在大量的有加工痕迹的物品以及零零散散的放射性物质，但从轨道上看不到什么细节。为了了解更多信息，我们需要着陆进行实地调查。",
+  "picture": "GFX_evt_landing_ship",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_E5",
+      "event": "ancrel.108"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_E6",
+      "event": "ancrel.109"
+    }
+  ],
+  "max_instances": 1,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "has_ancrel": "yes",
+      "habitable_planet": "yes"
+    }
+  },
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

@@ -1,0 +1,60 @@
+id: site_from_gateway_sent
+name:
+  en: 0 "From Gateway Sent"
+  zh: 星门发射之物
+category: event
+subcategory: archaeological_site
+dlc: Federations
+lore: |-
+  我们的科学家已经到达星门物体以不可置信的速度坠毁到[From.Planet.GetName]上的撞击地点。
+
+  毫无疑问，从撞击点的外表来看，这绝不是一次普通的坠毁着陆，我们的科学家期待进行进一步调查。
+picture: GFX_evt_atmospheric_entry
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: -2
+    icon: GFX_archaeology_runes_B5
+    event: origin.1100
+  - stage_number: 2
+    difficulty: 1
+    icon: GFX_archaeology_runes_B1
+    event: origin.1105
+  - stage_number: 3
+    difficulty: -1
+    icon: GFX_archaeology_runes_B6
+    event: origin.1110
+  - stage_number: 4
+    difficulty: 1
+    icon: GFX_archaeology_runes_B4
+    event: origin.1115
+max_instances: 999
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_from_gateway_sent_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site
+  - federations

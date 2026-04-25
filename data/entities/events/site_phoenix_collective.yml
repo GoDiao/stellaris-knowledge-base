@@ -1,0 +1,62 @@
+id: site_phoenix_collective
+name:
+  en: 0 "Anyone Home?"
+  zh: 有人在吗？
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 我们的调查船扫描了[From.Planet.GetName]并探测到一些值得进一步观测的人造结构。令人不安的是，那里没有任何人口存在的迹象。
+picture: GFX_evt_overgrown_city
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 4
+    icon: GFX_archaeology_runes_E1
+    event: ancrel.9240
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_E4
+    event: ancrel.9245
+  - stage_number: 3
+    difficulty: 5
+    icon: GFX_archaeology_runes_E6
+    event: ancrel.9250
+  - stage_number: 4
+    difficulty: 2
+    icon: GFX_archaeology_runes_E5
+    event: ancrel.9251
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    uninhabitable_regular_planet: 'yes'
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_phoenix_collective_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

@@ -1,0 +1,63 @@
+id: city_of_bones
+name:
+  en: 0 "City of Bones"
+  zh: 白骨之城
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  一个完全由不明骨头建造的原始城市废墟在经历这个星球上的一场强力沙尘暴之后被发现。
+
+  我们的科学家渴望发掘这座可怕的古城。
+picture: GFX_evt_relic_world_street
+stages: 3
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.2041
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.2042
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.2043
+max_instances: 1
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    has_ancrel: 'yes'
+    OR:
+      is_planet_class:
+        - pc_desert
+        - pc_arid
+        - pc_savannah
+        - pc_gaia
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 提及
+    target: it_was_aliens_site
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+tags:
+  - archaeological_site
+  - ancient_relics

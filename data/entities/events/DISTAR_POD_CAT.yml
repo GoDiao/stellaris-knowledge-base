@@ -1,0 +1,36 @@
+id: DISTAR_POD_CAT
+name:
+  en: 0 "Unidentified Drop Pods"
+  zh: 不明吊舱
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 一群静止的吊舱环绕着[From.GetName]，我们开始时以为这是个小行星带。
+picture: GFX_evt_space_debris
+level: 3
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - distar.245
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

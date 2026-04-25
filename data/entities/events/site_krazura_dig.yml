@@ -1,0 +1,64 @@
+id: site_krazura_dig
+name:
+  en: Ancient Capital Site
+  zh: 古都遗址
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: |-
+  我们在[From.Planet.GetName]上发现了一座古城的废墟。通过它的大小和规模发现它很可能是一个星际文明的首都或主要空间居住地。
+
+  为了了解这座废墟的起源，我们需要全面挖掘。
+picture: GFX_evt_overgrown_city
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_A1
+    event: arcsite.3025
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_A2
+    event: arcsite.3030
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_A3
+    event: arcsite.3035
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_A4
+    event: arcsite.3040
+  - stage_number: 5
+    difficulty: 6
+    icon: GFX_archaeology_runes_A5
+    event: arcsite.3045
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '15'
+    habitable_planet: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: site_krazura_random_events
+relations:
+  - type: 提及
+    target: it_was_aliens_site
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+tags:
+  - archaeological_site

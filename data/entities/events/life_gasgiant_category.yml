@@ -1,0 +1,37 @@
+id: life_gasgiant_category
+name:
+  en: 0 "Life Signs"
+  zh: 生命迹象
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗气态巨行星的大气层内部检测到了生命迹象。这是否表明是有生物圈存在？
+picture: GFX_evt_atmospheric_flight
+level: 2
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_gas_giant
+on_success:
+  - anomaly.300
+  - anomaly.6845
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: life_asteroid_category
+  - type: 提及
+    target: life_barren_category
+  - type: 提及
+    target: life_frozen_category
+  - type: 提及
+    target: life_toxic_category
+  - type: 关联
+    target: abandoned_outpost_category
+tags:
+  - anomaly

@@ -1,0 +1,99 @@
+{
+  "id": "site_ex_gravitas",
+  "name": {
+    "en": "0 \"Ex Gravitas\"",
+    "zh": "重力之下"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Federations",
+  "lore": "一系列奇特的异常读数从[From.Planet.GetName]的地表源源不断地传来。我们需要启动一次地表探查以了解更多情报。",
+  "picture": "GFX_evt_cold_barren",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A6",
+      "event": "origin.1200"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A5",
+      "event": "origin.1205"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_A4",
+      "event": "origin.1210"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_A3",
+      "event": "origin.1215"
+    }
+  ],
+  "max_instances": 999,
+  "weight": {
+    "base": "0"
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    },
+    "hidden_trigger": {
+      "owner": {
+        "has_country_flag": "shoulders_origin_@from.planet"
+      }
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "shoulders_origin_@from.planet"
+    }
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_ex_gravitas_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "federations"
+  ]
+}

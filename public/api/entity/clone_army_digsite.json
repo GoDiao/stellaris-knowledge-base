@@ -1,0 +1,73 @@
+{
+  "id": "clone_army_digsite",
+  "name": {
+    "en": "0 \"Homeworld Excavation\"",
+    "zh": "母星发掘"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Humanoids",
+  "lore": "当意识到我们的困境以后，对自我认同感和目的的缺失困扰着我们这个物种。我们大意地低估了这种负面影响，它使我们举步维艰，更别什么提团结一致了。我们挣扎着寻求共识，我们渴望答案。\n\n于是我们建立了这个发掘遗址来寻找证据来结束关于我们物种诞生的争论，并且希望能找到一个坚实的基础使我们重新团结起来。",
+  "picture": "GFX_evt_archaeological_dig",
+  "stages": 2,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B1",
+      "event": "clones.11"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 6,
+      "icon": "GFX_archaeology_runes_B2",
+      "event": "clones.12"
+    }
+  ],
+  "max_instances": 999,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes",
+    "owner": {
+      "has_country_flag": "clone_army_origin_arcsite_owner_@from.planet"
+    }
+  },
+  "on_visible": null,
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "clone_army_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_1"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_2"
+    },
+    {
+      "type": "关联",
+      "target": "baol_digsite_3"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "humanoids"
+  ]
+}

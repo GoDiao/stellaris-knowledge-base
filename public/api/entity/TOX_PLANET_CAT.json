@@ -1,0 +1,54 @@
+{
+  "id": "TOX_PLANET_CAT",
+  "name": {
+    "en": "0 \"Toxicity\"",
+    "zh": "毒性"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "这颗星球上面有人造的建筑，说明上面曾有过一段失落的历史。",
+  "picture": "GFX_evt_toxic",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_toxic"
+    }
+  },
+  "on_success": [
+    "anomaly.4105"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

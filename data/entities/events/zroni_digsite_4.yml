@@ -1,0 +1,50 @@
+id: zroni_digsite_4
+name:
+  en: 0 "Zroni Research Station"
+  zh: 泽珞族研究站
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: 从那座泽珞族神庙中我们发现了一个科研复合体的坐标。在轨扫描无法找到任何记忆水晶的共振信号，我们需要下到地表进行进一步研究。
+picture: GFX_evt_baol_datacrystals
+stages: 2
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_F1
+    event: ancrel.9
+  - stage_number: 2
+    difficulty: 4
+    icon: GFX_archaeology_runes_F2
+    event: ancrel.10
+max_instances: 1
+weight: null
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+  hidden_trigger:
+    owner:
+      has_country_flag: zroni_arc_chain_@from.planet
+visible:
+  has_country_flag: zroni_intro
+  default_site_visible_trigger: 'yes'
+  owner:
+    has_country_flag: zroni_arc_chain_@from.planet
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 提及
+    target: larion_digsite
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+tags:
+  - archaeological_site

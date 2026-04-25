@@ -1,0 +1,37 @@
+id: BAR_COLONY_CAT
+name:
+  en: 0 "Looking Down"
+  zh: 俯瞰
+category: event
+subcategory: anomaly
+dlc: null
+lore: 在[Root.GetName]荒芜的表面上，光学传感器发现了一些可能是建筑的东西。
+picture: GFX_evt_warm_barren
+level: 6
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_barren
+on_success:
+  - anomaly.285
+  - anomaly.3015
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

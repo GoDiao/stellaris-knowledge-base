@@ -1,0 +1,90 @@
+{
+  "id": "site_deja_vu_dig",
+  "name": {
+    "en": "0 \"Déjà Vu Dig\"",
+    "zh": "似曾相识的挖掘"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "对[From.Planet.GetName]扫描揭示了地底深处的一个人工密室——其用途和来源未知。放大后发现了一个从地表通往地下拱顶的挖掘井。\n\n欲进行进一步的分析，需派遣一支探险队前往[From.Planet.GetName]的表面。",
+  "picture": "GFX_evt_archaeology_camp",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_C1",
+      "event": "ancrel.9120"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_C2",
+      "event": "ancrel.9125"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_C3",
+      "event": "ancrel.9126"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "uninhabitable_regular_planet": "yes",
+      "has_ancrel": "yes"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_deja_vu_dig_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

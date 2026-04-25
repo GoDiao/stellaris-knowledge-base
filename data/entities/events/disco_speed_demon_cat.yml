@@ -1,0 +1,41 @@
+id: disco_speed_demon_cat
+name:
+  en: 0 "Orbital Speed Demon"
+  zh: 轨道高速妖
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]的轨道俘获了一个小型未知物体，其正以难以置信的高速移动。'
+picture: GFX_evt_asteroid_field
+level: 4
+spawn_chance:
+  modifier:
+    - add: '2'
+      is_asteroid: 'yes'
+      has_any_strategic_resource: 'no'
+    - factor: '0'
+      from.owner:
+        has_authority: auth_machine_intelligence
+on_success:
+  - distar.3050
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: object_uninhabitable_category
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly
+  - distant_stars

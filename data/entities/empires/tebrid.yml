@@ -42,7 +42,17 @@ system:
     en: PRESCRIPTED_system_name_Tebiron
     zh: PRESCRIPTED_system_name_Tebiron
 graphical_culture: molluscoid_01
-relations: []
+relations:
+  - type: 同种族
+    target: custodianship
+  - type: 同种族
+    target: xt489
+  - type: 同起源
+    target: blorg
+  - type: 同起源
+    target: chinorr
+  - type: 同起源
+    target: default
 tags:
   - prescripted_empire
   - machine_intelligence

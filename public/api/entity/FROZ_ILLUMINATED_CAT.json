@@ -1,0 +1,66 @@
+{
+  "id": "FROZ_ILLUMINATED_CAT",
+  "name": {
+    "en": "0 \"Ice Lit\"",
+    "zh": "冰雪发光"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]表面到处都是无法解释的光学现象，从太空中清晰可见。",
+  "picture": "GFX_evt_frozen",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_frozen",
+      "from": {
+        "owner": {
+          "has_technology": "tech_lasers_1",
+          "NOT": {
+            "has_technology": [
+              "tech_lasers_3",
+              "tech_lasers_4",
+              "tech_lasers_5"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.235"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "disco_breathing_rift_cat"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

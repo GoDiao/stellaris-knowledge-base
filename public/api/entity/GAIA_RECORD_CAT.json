@@ -1,0 +1,59 @@
+{
+  "id": "GAIA_RECORD_CAT",
+  "name": {
+    "en": "0 \"Rubiconian Shores\"",
+    "zh": "破釜沉舟"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[Root.GetName]充满绿意的平原十分寂静，除了那微弱但稳定的信标信号。",
+  "picture": "GFX_evt_alien_ruins",
+  "level": 7,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "OR": {
+        "is_planet_class": [
+          "pc_gaia",
+          "pc_continental"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.3110"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

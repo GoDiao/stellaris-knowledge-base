@@ -1,0 +1,54 @@
+id: site_minigalaxy_2
+name:
+  en: 0 "Abandoned Ecumenopolis"
+  zh: 被遗弃的都市星球
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: 这个古老的遗落星球已经被囚禁在一道无法穿透的能量屏障里大约有75000年之久。它曾经是一个充满活力的都市星球，居住着数以亿计的居民，但现在街道和建筑物都被遗弃了，星球上的原初居民也都销声匿迹了。
+picture: GFX_evt_overgrown_city
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 5
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.6170
+  - stage_number: 2
+    difficulty: 6
+    icon: GFX_archaeology_runes_D4
+    event: ancrel.6175
+  - stage_number: 3
+    difficulty: 7
+    icon: GFX_archaeology_runes_D5
+    event: ancrel.6180
+  - stage_number: 4
+    difficulty: 8
+    icon: GFX_archaeology_runes_D6
+    event: ancrel.6185
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible: null
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

@@ -1,0 +1,59 @@
+{
+  "id": "SUN_TEAPOT_CAT",
+  "name": {
+    "en": "0 \"Improbable Orbit\"",
+    "zh": "不可能的轨道"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "扫描这颗恒星时发现一个小型物体。它处在高速轨道上，体积又实在太小，令探测器难以仔细分辨。",
+  "picture": "GFX_evt_star_yellow",
+  "level": 5,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "OR": {
+        "is_planet_class": [
+          "pc_k_star",
+          "pc_m_star"
+        ]
+      }
+    }
+  },
+  "on_success": [
+    "anomaly.4060"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": 0.8,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

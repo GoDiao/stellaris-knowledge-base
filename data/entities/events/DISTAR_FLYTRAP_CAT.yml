@@ -1,0 +1,46 @@
+id: DISTAR_FLYTRAP_CAT
+name:
+  en: 0 "Megaflora"
+  zh: 巨型植被
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: '[From.GetName]的植物数量多到惊人地充斥了整个地表，这些植物体积庞大且拥有鲜艳的颜色，我们的异星生物学家对此很感兴趣。'
+picture: GFX_evt_alien_nature
+level: 1
+spawn_chance:
+  modifier:
+    - add: '10'
+      habitable_planet: 'yes'
+      NOR:
+        is_planet_class:
+          - pc_desert
+          - pc_arctic
+    - factor: '0'
+      OR:
+        has_distar: 'no'
+        from.owner:
+          has_authority: auth_machine_intelligence
+on_success:
+  - distar.185
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

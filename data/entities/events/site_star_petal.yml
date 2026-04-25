@@ -1,0 +1,65 @@
+id: site_star_petal
+name:
+  en: 0 "Gas Giant Structure"
+  zh: 气态巨行星中的建筑
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  一个大型废弃空间站被困在这颗气态巨行星的大气层内部，向着巨行星内部缓慢下坠。其自重很可能在下一个千年里彻底毁坏这个空间站。
+
+  好在该空间站飘入大气层还不太深，我们仍有可能对其开展考古行动。
+picture: GFX_evt_gas_giant_station
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 2
+    icon: GFX_archaeology_runes_E1
+    event: ancrel.6200
+  - stage_number: 2
+    difficulty: 3
+    icon: GFX_archaeology_runes_E2
+    event: ancrel.6205
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_E3
+    event: ancrel.6210
+  - stage_number: 4
+    difficulty: 4
+    icon: GFX_archaeology_runes_E4
+    event: ancrel.6215
+max_instances: null
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    is_planet_class: pc_gas_giant
+    has_ancrel: 'yes'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 提及
+    target: station_asteroid_category
+  - type: 提及
+    target: station_uninhabitable_category
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+tags:
+  - archaeological_site
+  - ancient_relics

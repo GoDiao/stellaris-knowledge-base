@@ -1,0 +1,58 @@
+id: HBL_LUSH_PLANET_1_CAT
+name:
+  en: 0 "A Lush Planet"
+  zh: 丰饶的星球
+category: event
+subcategory: anomaly
+dlc: null
+lore: '[Root.GetName]的颜色格外碧绿，初步扫描表明其表面可能存在一些有趣的物品。'
+picture: GFX_evt_medieval_alien_civilization
+level: 4
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      - is_planet_class:
+          - pc_continental
+          - pc_tropical
+      - any_system:
+          OR:
+            has_star_flag:
+              - com_sol
+              - nuked_sol
+        any_country:
+          OR:
+            has_country_flag:
+              - human_1
+              - humans_early_space_age
+    FROM:
+      owner:
+        NOT:
+          has_country_flag:
+            - found_voyager
+            - found_pioneer
+on_success:
+  - anomaly.110
+  - anomaly.3130
+  - anomaly.85
+  - anomaly.90
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

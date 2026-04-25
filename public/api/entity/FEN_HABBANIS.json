@@ -1,0 +1,53 @@
+{
+  "id": "FEN_HABBANIS",
+  "name": {
+    "en": "0 \"Fen Habbanis\"",
+    "zh": "哈本尼斯之泽"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "哈本尼斯之泽III，或古时候居民简称的“芬-哈本尼斯”，曾经是第一联盟的首都。",
+  "picture": null,
+  "level": "@precursor_medium",
+  "spawn_chance": {
+    "modifier": {
+      "add": "0"
+    }
+  },
+  "on_success": [
+    "precursor.1101"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

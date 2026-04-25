@@ -1,0 +1,59 @@
+{
+  "id": "DISTAR_METAL_CAT",
+  "name": {
+    "en": "0 \"Impenetrable Clouds\"",
+    "zh": "干扰云层"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "[From.GetName]的大气将我们的传感器在无线电频段的扫描全数反射。在这下方有着什么东西在持续干扰我们的信号。",
+  "picture": "GFX_evt_toxic",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": {
+      "add": "1",
+      "has_distar": "yes",
+      "is_planet_class": "pc_toxic",
+      "NOT": {
+        "has_deposit_for": "shipclass_research_station"
+      }
+    }
+  },
+  "on_success": [
+    "distar.115"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "DISTAR_SIGNAL_CAT"
+    },
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

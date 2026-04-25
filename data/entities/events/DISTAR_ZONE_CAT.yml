@@ -1,0 +1,40 @@
+id: DISTAR_ZONE_CAT
+name:
+  en: 0 "Isolated Ruin"
+  zh: 遗世废墟
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 传感器显示在[From.GetName]上有一个孤立的针状人工结构。
+picture: GFX_evt_ship_in_orbit
+level: 2
+spawn_chance:
+  modifier:
+    add: '1'
+    has_distar: 'yes'
+    habitable_planet: 'yes'
+    NOT:
+      exists: owner
+on_success:
+  - distar.220
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

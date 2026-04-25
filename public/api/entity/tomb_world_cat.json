@@ -1,0 +1,67 @@
+{
+  "id": "tomb_world_cat",
+  "name": {
+    "en": "0 \"Tomb World\"",
+    "zh": "死寂星球"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": "Distant Stars",
+  "lore": "异常读数表明，这座荒凉的星球或许不只是表面上看起来那样而已。",
+  "picture": "GFX_evt_ship_in_orbit_2",
+  "level": 4,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "has_distar": "yes",
+      "OR": {
+        "is_planet_class": [
+          "pc_toxic",
+          "pc_nuked",
+          "pc_barren",
+          "pc_barren_cold"
+        ]
+      },
+      "NOT": {
+        "has_planet_flag": "nuked_planet_anomalies_disabled"
+      }
+    }
+  },
+  "on_success": [
+    "distar.2005",
+    "distar.2015"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": true,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly",
+    "distant_stars"
+  ]
+}

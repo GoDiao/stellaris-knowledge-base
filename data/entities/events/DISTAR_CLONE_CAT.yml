@@ -1,0 +1,34 @@
+id: DISTAR_CLONE_CAT
+name:
+  en: 0 "Murky Vats"
+  zh: 可疑的舱体
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 对废弃的环形世界[From.GetName]的初步成像显示出在某些毁坏的区段上有着大量完好无损的舱体。这些舱体里装载的东西未知是什么。
+picture: GFX_evt_megastructure_construction
+level: 6
+spawn_chance: null
+on_success:
+  - distar.70
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

@@ -1,0 +1,90 @@
+{
+  "id": "site_warmer_climates",
+  "name": {
+    "en": "0 \"Get Inside\"",
+    "zh": "深入探查"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "从轨道中拍摄的[From.Planet.GetName]的影像清晰地展现了这个技术文明的基础设施。神秘的是，尽管庞大的城区被复杂的表面交通网络相连接，但这颗行星看起来似乎已完全废弃，没有任何尚存感性生物的迹象。此行星内核比大多数行星更活跃，但这里没有灾难性事件或其他任何足以直接解释这些人口失踪的原因的事件的迹象。他们都去哪里了呢？",
+  "picture": "GFX_evt_alien_ruins",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_B6",
+      "event": "ancrel.9215"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B5",
+      "event": "ancrel.9220"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_B4",
+      "event": "ancrel.9221"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "100",
+      "uninhabitable_regular_planet": "yes",
+      "has_ancrel": "yes"
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "site_warmer_climates_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

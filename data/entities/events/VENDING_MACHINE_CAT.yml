@@ -1,0 +1,39 @@
+id: VENDING_MACHINE_CAT
+name:
+  en: 0 "An Invitation"
+  zh: 一份邀请
+category: event
+subcategory: anomaly
+dlc: null
+lore: 一座信标围绕着[From.GetName]，召唤着路过的人靠近。 在这个小行星上，有一座巨大的金属碑塔赫然耸立，它的作用尚不明确。
+picture: GFX_evt_asteroid_field
+level: 3
+spawn_chance:
+  modifier:
+    - add: '3'
+      is_asteroid: 'yes'
+    - factor: '0'
+      from.owner:
+        num_communications: '0'
+on_success:
+  - anomaly.7000
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: UHB_ANCIENT_RUINS_1_CAT
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "科尔-阿赞在文明进步的历程中发展出了一个复杂的荣耀准则和尚武文化。科尔-阿赞原本是种独居动物，他们在阿扎克星上的水塘之间猎取着食物。随着时间的流逝，一批科尔-阿赞武士聚齐起来一齐猎取更为庞大的猎物。虽然他们现在放弃了这种独行的生活方式移居进了城市，但是这个伟大的传统从未被遗弃。",
+  "lore": "The Kel-Azaan have developed a complex honor code and martial culture. They were once solitary predators preying on the great herds migrating between the watering holes of Azak. Over time, bands of Kel-Azaan began to gather to be able to take down larger prey. They eventually abandoned this solitary lifestyle in favor of cities and irrigated agriculture, but their martial traditions were never forgotten.",
   "traits": [
     "trait_very_strong",
     "trait_traditional",
@@ -52,7 +52,28 @@
     }
   },
   "graphical_culture": "arthropoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "ixidar"
+    },
+    {
+      "type": "同种族",
+      "target": "xanid"
+    },
+    {
+      "type": "同起源",
+      "target": "blorg"
+    },
+    {
+      "type": "同起源",
+      "target": "chinorr"
+    },
+    {
+      "type": "同起源",
+      "target": "custodianship"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "oligarchic",

@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": null,
-  "lore": "骄傲的勇达是一个古老的物种，在开化形成文明之前，他们已经在勇达里姆冷峻的山脊之间翱翔了将近20万年了。\n\n但发展的脚步实在是太快了，天空氏族不得不抛弃他们过去的一些传统习俗。勇达高度推崇精神需求，将宗教放在高高在上的位置，并将其帝王尊崇为现世神明。",
+  "lore": "The proud Yondar are an old race, using their wings to soar high above the frozen peaks of Yondarim for more than 200,000 years before they developed rudimentary technology and formed their first few scattered civilizations.\n\nOnce this development started, things progressed more rapidly and the Sky Clans grudgingly abandoned many of their most primitive traditions. The Yondar are highly spiritual and place great importance on religion, venerating their high kings as living gods.",
   "traits": [
     "trait_conformists",
     "trait_natural_physicists",
@@ -50,7 +50,28 @@
     }
   },
   "graphical_culture": "avian_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "kilik"
+    },
+    {
+      "type": "同种族",
+      "target": "resistance"
+    },
+    {
+      "type": "同起源",
+      "target": "blorg"
+    },
+    {
+      "type": "同起源",
+      "target": "chinorr"
+    },
+    {
+      "type": "同起源",
+      "target": "custodianship"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "imperial",

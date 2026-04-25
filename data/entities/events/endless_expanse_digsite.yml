@@ -1,0 +1,64 @@
+id: endless_expanse_digsite
+name:
+  en: 0 "The Endless Expanse"
+  zh: 无边无垠
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  乍一看，[From.Planet.GetName]上只有冰雪。雪白的大地、玻璃般晶莹的湖泊和锯齿状的松绿色冰川广袤无垠，火红的橘色天空映衬着地面，宛如裂开的伤口，将[From.Planet.Solar_System.GetName]中夕阳西下的红色光芒倾注在海面。如果世界有终结，那这里一定就是了。海面风平浪静，积雪一尘不染，唯一能听到的，只有冰层崩裂的咔嚓雷动和平原上呼啸的狂风。
+
+  然而，[From.Planet.GetName]曾经是某族的家园。在一片广阔而又贫瘠的旷野之中，一座黑色的金属尖塔从苍白的大地上突兀而起。积雪之下，究竟隐藏了怎样的被遗忘的秘密?
+picture: GFX_evt_frozen
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_F1
+    event: ancrel.4040
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_F2
+    event: ancrel.4041
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_F3
+    event: ancrel.4042
+  - stage_number: 4
+    difficulty: 3
+    icon: GFX_archaeology_runes_F4
+    event: ancrel.4047
+max_instances: 1
+weight:
+  base: '0'
+  modifier:
+    add: '100'
+    has_ancrel: 'yes'
+    is_planet_class: pc_frozen
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

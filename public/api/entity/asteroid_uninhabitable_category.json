@@ -1,0 +1,61 @@
+{
+  "id": "asteroid_uninhabitable_category",
+  "name": {
+    "en": "0 \"Asteroid in Orbit\"",
+    "zh": "轨道小行星"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "一枚12级小行星围绕着[Root.GetPlanetMoon]的轨道运行。这枚小行星的轨道实在太过稳定了，难以相信是自然形成的。",
+  "picture": "GFX_evt_asteroid_approaching_planet",
+  "level": 1,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "3",
+        "uninhabitable_regular_planet": "yes"
+      },
+      {
+        "factor": "0",
+        "is_moon": "yes"
+      }
+    ]
+  },
+  "on_success": [
+    "anomaly.660",
+    "anomaly.6875"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

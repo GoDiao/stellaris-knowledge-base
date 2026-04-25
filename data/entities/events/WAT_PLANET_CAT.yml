@@ -1,0 +1,41 @@
+id: WAT_PLANET_CAT
+name:
+  en: 0 "Drops in the Ocean"
+  zh: 沧海一粟
+category: event
+subcategory: anomaly
+dlc: null
+lore: 在对[Root.GetName]进行扫描之后，我们得到了一些关于地表下事物的微妙读数。
+picture: GFX_evt_ocean
+level: 3
+spawn_chance:
+  modifier:
+    add: '3'
+    OR:
+      is_planet_class: pc_ocean
+    from.owner:
+      NOR:
+        has_policy_flag: interference_not_allowed
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - anomaly.4045
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

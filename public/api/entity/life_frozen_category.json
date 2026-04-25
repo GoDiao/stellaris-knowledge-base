@@ -1,0 +1,55 @@
+{
+  "id": "life_frozen_category",
+  "name": {
+    "en": "0 \"Life Signs\"",
+    "zh": "生命迹象"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "乍看上去，[Root.GetPlanetMoon]似乎不能支持生命的存在，但我们探测到了从冰冻的地表以下发出的生命信号。",
+  "picture": "GFX_evt_microscopic_life",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_planet_class": "pc_frozen"
+    }
+  },
+  "on_success": [
+    "anomaly.2510",
+    "anomaly.6900"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

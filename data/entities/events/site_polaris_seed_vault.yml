@@ -1,0 +1,60 @@
+id: site_polaris_seed_vault
+name:
+  en: 0 "One Last Hope"
+  zh: 最后的希望
+category: event
+subcategory: archaeological_site
+dlc: Ancient Relics
+lore: |-
+  漂浮在 [From.Planet.GetName] 行星残骸水晶的般清澈的海洋上，包裹在微小冰盖的，似乎是一个人造结构。
+
+  需要一个团队来挖掘这个结构。
+picture: GFX_evt_ocean
+stages: 4
+stage:
+  - stage_number: 1
+    difficulty: 3
+    icon: GFX_archaeology_runes_E1
+    event: ancrel.13005
+  - stage_number: 2
+    difficulty: 1
+    icon: GFX_archaeology_runes_E2
+    event: ancrel.13010
+  - stage_number: 3
+    difficulty: 3
+    icon: GFX_archaeology_runes_E3
+    event: ancrel.13015
+  - stage_number: 4
+    difficulty: 6
+    icon: GFX_archaeology_runes_E5
+    event: ancrel.13006
+max_instances: 1
+weight: '0'
+allow:
+  is_ship_class: shipclass_science_ship
+  exists: leader
+visible:
+  has_global_flag: polaris_seen
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: all_random_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: ANCREL_ARC_CAT
+  - type: 关联
+    target: ANCREL_MECHANO_CAT
+  - type: 关联
+    target: ANCREL_RUBRICATOR_CAT
+  - type: 关联
+    target: asteroid_vault_1
+tags:
+  - archaeological_site
+  - ancient_relics

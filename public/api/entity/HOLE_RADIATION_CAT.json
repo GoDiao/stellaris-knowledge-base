@@ -1,0 +1,55 @@
+{
+  "id": "HOLE_RADIATION_CAT",
+  "name": {
+    "en": "0 \"Rainbow in the Dark\"",
+    "zh": "黑暗中的彩虹"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "传感器在[Root.GetName]周边发现不寻常的读数，不该在离黑洞这么近的地方出现。",
+  "picture": "GFX_evt_black_hole",
+  "level": 5,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_star_class": "sc_black_hole"
+    }
+  },
+  "on_success": [
+    "anomaly.3070",
+    "anomaly.3075"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

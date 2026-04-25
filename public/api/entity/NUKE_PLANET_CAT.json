@@ -1,0 +1,70 @@
+{
+  "id": "NUKE_PLANET_CAT",
+  "name": {
+    "en": "0 \"The Winter of the Fallen\"",
+    "zh": "末日之冬"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "这片核废土是这里逝去文明的佐证。我们应该进一步调查那些探测器探测到的有活动迹象的地点。",
+  "picture": "GFX_evt_ship_in_orbit",
+  "level": 5,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "3",
+        "OR": {
+          "is_planet_class": "pc_nuked"
+        },
+        "NOT": {
+          "has_planet_flag": "nuked_planet_anomalies_disabled"
+        }
+      },
+      {
+        "factor": "0",
+        "from.owner": {
+          "OR": {
+            "has_ethic": "ethic_gestalt_consciousness",
+            "has_valid_civic": "civic_memorialist"
+          }
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "anomaly.4155"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

@@ -1,0 +1,35 @@
+id: YUHTAAN
+name:
+  en: 0 "Yuhtaan Majoris"
+  zh: 大尤特安星
+category: event
+subcategory: anomaly
+dlc: null
+lore: 此世界曾经是古代尤特族的首都，曾经生生不息的繁华世界如今已经变成阴森恐怖的不毛之地。
+picture: null
+level: '@precursor_medium'
+spawn_chance:
+  modifier:
+    add: '0'
+on_success:
+  - precursor.601
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: baol_digsite_1
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

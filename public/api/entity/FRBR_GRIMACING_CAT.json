@@ -1,0 +1,62 @@
+{
+  "id": "FRBR_GRIMACING_CAT",
+  "name": {
+    "en": "0 \"Winking\"",
+    "zh": "瞬息万变"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "对[Root.GetName]表面进行的反复扫描给出的读数都不一致，似乎行星本身就在不停发生剧变。",
+  "picture": "GFX_evt_warm_barren",
+  "level": 5,
+  "spawn_chance": {
+    "modifier": {
+      "9": true,
+      "26": true,
+      "add": "3",
+      "is_planet_class": "pc_barren",
+      "planet_size": [
+        true,
+        true
+      ],
+      "<": true,
+      ">": true
+    }
+  },
+  "on_success": [
+    "anomaly.230"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

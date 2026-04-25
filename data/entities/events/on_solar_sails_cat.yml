@@ -1,0 +1,43 @@
+id: on_solar_sails_cat
+name:
+  en: 0 "On Solar Sails"
+  zh: 在恒星帆上
+category: event
+subcategory: anomaly
+dlc: null
+lore: 我们找到了一艘设计独特的古代太空舰船的残骸。但我们不确定它的推进系统如何工作。
+picture: GFX_evt_star_neutron
+level: 2
+spawn_chance:
+  modifier:
+    - add: '0.1'
+      from.leader:
+        species:
+          NOT:
+            has_trait: trait_aquatic
+    - add: '0.3'
+      from.leader:
+        species:
+          has_trait: trait_aquatic
+on_success:
+  - anomaly.7020
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

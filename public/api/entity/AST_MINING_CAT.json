@@ -1,0 +1,54 @@
+{
+  "id": "AST_MINING_CAT",
+  "name": {
+    "en": "0 \"Mind the Minerals\"",
+    "zh": "留心矿物"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们对小行星的成分进行了初步的分析，有了一些有趣的发现。",
+  "picture": "GFX_evt_mining_station",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.4005"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

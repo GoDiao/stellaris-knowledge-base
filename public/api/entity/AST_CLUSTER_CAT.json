@@ -1,0 +1,57 @@
+{
+  "id": "AST_CLUSTER_CAT",
+  "name": {
+    "en": "0 \"Mineral Cluster\"",
+    "zh": "矿群"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "一群排列整齐的矿物飘过[Root.GetName]的残骸带，可能来自于外星人。",
+  "picture": "GFX_evt_asteroid_field",
+  "level": 3,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.3000",
+    "anomaly.3005",
+    "anomaly.3085",
+    "anomaly.3010"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

@@ -8,9 +8,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "data:anomalies": "node scripts/parse-anomalies.mjs",
     "data:parse": "node scripts/parse-localisation.mjs && node scripts/parse-common.mjs && node scripts/parse-events.mjs && node scripts/merge-entities.mjs",
     "data:build": "node scripts/build-sqlite.mjs && node scripts/build-api.mjs",
     "data:all": "npm run data:parse && npm run data:build",
+    "data:wiki": "node scripts/crawl-wiki.mjs",
     "deploy": "npm run data:all && npm run build"
   },
   "keywords": [],

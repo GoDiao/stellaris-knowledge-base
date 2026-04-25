@@ -1,0 +1,101 @@
+{
+  "id": "site_percussive_maintenance",
+  "name": {
+    "en": "0 \"Ruined Station\"",
+    "zh": "被毁的空间站"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "一个与中子星非常接近的大型空间站正在发出奇怪的读数。 尽管其当前位置稳定，但显示出相当大的损坏。 焦痕的扩散表明它在过去曾被几次大爆炸所摧毁。",
+  "picture": "GFX_evt_space_debris",
+  "stages": 4,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 1,
+      "icon": "GFX_archaeology_runes_B3",
+      "event": "ancrel.12000"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_B4",
+      "event": "ancrel.12005"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B5",
+      "event": "ancrel.12010"
+    },
+    {
+      "stage_number": 4,
+      "difficulty": 5,
+      "icon": "GFX_archaeology_runes_B6",
+      "event": "ancrel.12015"
+    }
+  ],
+  "max_instances": null,
+  "weight": {
+    "base": "0",
+    "modifier": {
+      "add": "30",
+      "has_ancrel": "yes",
+      "OR": {
+        "is_planet_class": [
+          "pc_neutron_star",
+          "pc_pulsar"
+        ]
+      }
+    }
+  },
+  "allow": {
+    "exists": "leader",
+    "leader": {
+      "leader_class": "scientist"
+    }
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "space_station_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "station_uninhabitable_category"
+    },
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

@@ -1,0 +1,40 @@
+id: station_asteroid_category
+name:
+  en: 0 "Abandoned Station"
+  zh: 废弃空间站
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这颗小行星的轨道上运行着一个小型空间站。似乎已经废弃。
+picture: GFX_evt_mining_station
+level: 3
+spawn_chance:
+  modifier:
+    '0': true
+    add: '3'
+    is_asteroid: 'yes'
+    num_minerals: true
+    '>': true
+on_success:
+  - anomaly.40
+  - anomaly.6810
+on_fail: []
+on_critical_fail: []
+max_once: true
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: station_uninhabitable_category
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

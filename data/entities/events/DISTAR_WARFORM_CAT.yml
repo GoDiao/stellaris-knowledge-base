@@ -1,0 +1,38 @@
+id: DISTAR_WARFORM_CAT
+name:
+  en: 0 "Mysterious Construct"
+  zh: 神秘构造
+category: event
+subcategory: anomaly
+dlc: Distant Stars
+lore: 一些人工构造从[From.GetName]的剧毒云层中挺立而出。
+picture: GFX_evt_toxic
+level: 5
+spawn_chance:
+  modifier:
+    add: '1'
+    has_distar: 'yes'
+    is_planet_class: pc_toxic
+on_success:
+  - distar.155
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - distant_stars

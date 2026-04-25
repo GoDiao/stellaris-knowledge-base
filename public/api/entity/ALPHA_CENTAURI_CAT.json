@@ -1,0 +1,50 @@
+{
+  "id": "ALPHA_CENTAURI_CAT",
+  "name": {
+    "en": "0 \"Stasis\"",
+    "zh": "稳态"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "[From.GetName]环绕红矮星的奇特轨道使得这颗行星处于潮汐锁定的状态，具有进一步调查的价值。",
+  "picture": "GFX_evt_cold_barren",
+  "level": 1,
+  "spawn_chance": null,
+  "on_success": [
+    "anomaly.6745",
+    "anomaly.6750"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

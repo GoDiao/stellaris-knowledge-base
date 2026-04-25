@@ -1,0 +1,55 @@
+{
+  "id": "life_asteroid_category",
+  "name": {
+    "en": "0 \"Life Signs\"",
+    "zh": "生命迹象"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们接收到这颗小行星内部有着某种生命迹象。强烈建议深入调查。",
+  "picture": "GFX_evt_microscopic_life",
+  "level": 2,
+  "spawn_chance": {
+    "modifier": {
+      "add": "3",
+      "is_asteroid": "yes"
+    }
+  },
+  "on_success": [
+    "anomaly.10",
+    "anomaly.6825"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": true,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "提及",
+      "target": "life_barren_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_frozen_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_gasgiant_category"
+    },
+    {
+      "type": "提及",
+      "target": "life_toxic_category"
+    },
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}

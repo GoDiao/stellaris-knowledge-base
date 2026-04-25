@@ -7,7 +7,7 @@
   "category": "empire",
   "subcategory": "prescripted",
   "dlc": "Astral Planes",
-  "lore": "据信，当一位瑟特兰离世时，其精华会通过一道通往星界位面的星门返回。他们也由此到达来世，但来世所采取的形式仍是一个谜。人们在一套严格的道德标准的控制下坚定着这一信仰，每一位虔诚的瑟特兰都不想在虚无中永恒漂泊。\n\n他们最勇敢的探索者们正在寻找时空的裂隙，以期能回答他们社会的终极问题：死后究竟会去往哪里？",
+  "lore": "When a Certeran dies, it is believed that their essence feeds back through a gateway into the astral planes. In this way, they are assured of a life after death, though what form that may take remains a mystery. A strict moral code is enforced to keep the population aligned in this belief; no pious Certeran wants to wander eternity alone.\n\nThe bravest of their explorers now search for rifts in space and time, driven to answer their society's most important question: Where do you go when you die?",
   "traits": [
     "trait_intelligent",
     "trait_natural_physicists",
@@ -50,7 +50,28 @@
     }
   },
   "graphical_culture": "arthropoid_01",
-  "relations": [],
+  "relations": [
+    {
+      "type": "同种族",
+      "target": "default"
+    },
+    {
+      "type": "同种族",
+      "target": "humans1"
+    },
+    {
+      "type": "同种族",
+      "target": "humans1_1"
+    },
+    {
+      "type": "同种族",
+      "target": "humans2"
+    },
+    {
+      "type": "同种族",
+      "target": "humans2_1"
+    }
+  ],
   "tags": [
     "prescripted_empire",
     "democratic",

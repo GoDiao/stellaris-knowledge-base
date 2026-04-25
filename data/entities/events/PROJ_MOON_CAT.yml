@@ -1,0 +1,54 @@
+id: PROJ_MOON_CAT
+name:
+  en: 0 "Projecting"
+  zh: 奇异无比
+category: event
+subcategory: anomaly
+dlc: null
+lore: 根据初步扫描，[Root.GetName]有一些奇怪的特性，它的读数与我们对此类行星的预估相去甚远……
+picture: GFX_evt_asteroid_approaching_planet
+level: 3
+spawn_chance:
+  modifier:
+    '2': true
+    add: '3'
+    NOT:
+      is_star: 'no'
+      is_planet_class: pc_gas_giant
+    OR:
+      is_planet_class:
+        - pc_toxic
+        - pc_barren
+        - pc_frozen
+        - pc_molten
+    has_moon: 'yes'
+    num_moons: true
+    <: true
+    any_moon:
+      is_planet_class:
+        - pc_toxic
+        - pc_barren
+        - pc_frozen
+        - pc_molten
+on_success:
+  - anomaly.190
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

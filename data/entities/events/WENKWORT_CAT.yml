@@ -1,0 +1,34 @@
+id: WENKWORT_CAT
+name:
+  en: 0 "Planetscape Garden"
+  zh: 行星花园
+category: event
+subcategory: anomaly
+dlc: Federations
+lore: 这颗行星有着令人难以置信的异乎寻常的美景。这到底是什么样的力量塑造而成的？
+picture: GFX_evt_continental
+level: 4
+spawn_chance: null
+on_success:
+  - federations3.115
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: true
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly
+  - federations

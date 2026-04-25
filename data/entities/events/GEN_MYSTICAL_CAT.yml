@@ -1,0 +1,39 @@
+id: GEN_MYSTICAL_CAT
+name:
+  en: 0 "Mystical"
+  zh: 谜团
+category: event
+subcategory: anomaly
+dlc: null
+lore: 我们的科研团队调查到了一些“谜团”。需要得到这种现象的更多细节，才能真正解开这个谜团。
+picture: GFX_evt_asteroid_field
+level: 7
+spawn_chance:
+  modifier:
+    - add: '1'
+      is_asteroid: 'yes'
+    - factor: '0'
+      from.owner:
+        has_ethic: ethic_gestalt_consciousness
+on_success:
+  - anomaly.4130
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+  - type: 关联
+    target: AIANOM_MININGDEPO_CAT
+tags:
+  - anomaly

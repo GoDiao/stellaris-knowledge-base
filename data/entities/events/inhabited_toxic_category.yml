@@ -1,0 +1,37 @@
+id: inhabited_toxic_category
+name:
+  en: 0 "Signs of Former Habitation"
+  zh: 前人殖民的迹象
+category: event
+subcategory: anomaly
+dlc: null
+lore: 这个寸草不生的世界似乎曾居住着的前太空时代文明。其城市的废墟还在该行星表面随处可见。
+picture: GFX_evt_relic_world_street
+level: 1
+spawn_chance:
+  modifier:
+    add: '3'
+    is_planet_class: pc_toxic
+on_success:
+  - anomaly.670
+  - anomaly.685
+on_fail: []
+on_critical_fail: []
+max_once: null
+max_once_global: null
+null_spawn_chance: null
+should_ai_use: null
+should_ai_and_humans_use: null
+relations:
+  - type: 提及
+    target: it_was_aliens_site
+  - type: 关联
+    target: abandoned_outpost_category
+  - type: 关联
+    target: aerostat_gasgiant_category
+  - type: 关联
+    target: AIANOM_CLUE_CAT
+  - type: 关联
+    target: AIANOM_LUMP_CAT
+tags:
+  - anomaly

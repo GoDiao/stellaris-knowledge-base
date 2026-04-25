@@ -1,0 +1,60 @@
+id: site_ancient_robot_world
+name:
+  en: 0 "Ancient Robot World"
+  zh: 远古机器人星球
+category: event
+subcategory: archaeological_site
+dlc: null
+lore: '[From.Planet.System.GetName]恒星系中孤零零的这颗行星上住满了无人机。它们对我们毫不关心，各自匆匆忙忙做着自己的事情。如果关于这个奇怪的星系有什么线索的话一定能在那里找到。'
+picture: GFX_evt_ai_planet
+stages: 5
+stage:
+  - stage_number: 1
+    difficulty: 1
+    icon: GFX_archaeology_runes_D1
+    event: ancrel.12070
+  - stage_number: 2
+    difficulty: 2
+    icon: GFX_archaeology_runes_D3
+    event: ancrel.12075
+  - stage_number: 3
+    difficulty: 2
+    icon: GFX_archaeology_runes_D6
+    event: ancrel.12080
+  - stage_number: 4
+    difficulty: 5
+    icon: GFX_archaeology_runes_D2
+    event: ancrel.12085
+  - stage_number: 5
+    difficulty: 8
+    icon: GFX_archaeology_runes_D5
+    event: ancrel.12090
+max_instances: null
+weight: '0'
+allow:
+  exists: leader
+  leader:
+    leader_class: scientist
+visible:
+  default_site_visible_trigger: 'yes'
+on_visible:
+  country_event:
+    id: story.5
+    days: '30'
+on_roll_failed:
+  from:
+    standard_archaeological_site_on_roll_failed:
+      RANDOM_EVENTS: no_events
+relations:
+  - type: 关联
+    target: ancient_battle_site
+  - type: 关联
+    target: asteroid_vault_1
+  - type: 关联
+    target: baol_digsite_1
+  - type: 关联
+    target: baol_digsite_2
+  - type: 关联
+    target: baol_digsite_3
+tags:
+  - archaeological_site

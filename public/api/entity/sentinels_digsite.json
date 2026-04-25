@@ -1,0 +1,81 @@
+{
+  "id": "sentinels_digsite",
+  "name": {
+    "en": "0 \"The Sentinels\"",
+    "zh": "哨兵"
+  },
+  "category": "event",
+  "subcategory": "archaeological_site",
+  "dlc": "Ancient Relics",
+  "lore": "这些巨型雕像矗立在[From.Planet.GetName]上，静静注视着什么。九个堪称不朽的雕像沿着漫长的边沿一一排开，位于这片区域的重要战略点，似乎在守护着它们中心的某种物品。\n\n他们涂有精致的表面镀层，警觉的姿势好像时刻准备着战斗，不会移动的眼球也似乎紧随着你的每个动作，然而这里显然已经没有什么东西需要保护了。也许他们要保护的东西没能挨过岁月的流逝，又或是他们的任务早已失败。其上的累累伤痕表明，这些哨兵中的许多已经快要被物理损害彻底侵蚀了。",
+  "picture": "GFX_evt_huge_monument",
+  "stages": 3,
+  "stage": [
+    {
+      "stage_number": 1,
+      "difficulty": 2,
+      "icon": "GFX_archaeology_runes_B1",
+      "event": "ancrel.4052"
+    },
+    {
+      "stage_number": 2,
+      "difficulty": 3,
+      "icon": "GFX_archaeology_runes_B2",
+      "event": "ancrel.4053"
+    },
+    {
+      "stage_number": 3,
+      "difficulty": 4,
+      "icon": "GFX_archaeology_runes_B3",
+      "event": "ancrel.4054"
+    }
+  ],
+  "max_instances": 1,
+  "weight": "0",
+  "allow": {
+    "is_ship_class": "shipclass_science_ship",
+    "exists": "leader"
+  },
+  "visible": {
+    "default_site_visible_trigger": "yes"
+  },
+  "on_visible": {
+    "country_event": {
+      "id": "story.5",
+      "days": "30"
+    }
+  },
+  "on_roll_failed": {
+    "from": {
+      "standard_archaeological_site_on_roll_failed": {
+        "RANDOM_EVENTS": "all_random_events"
+      }
+    }
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ancient_battle_site"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_ARC_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_MECHANO_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "ANCREL_RUBRICATOR_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "asteroid_vault_1"
+    }
+  ],
+  "tags": [
+    "archaeological_site",
+    "ancient_relics"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "living_metal_category",
+  "name": {
+    "en": "0 \"Peculiar Crater\"",
+    "zh": "奇特的撞击坑"
+  },
+  "category": "event",
+  "subcategory": "anomaly",
+  "dlc": null,
+  "lore": "我们发现了一个巨大的撞击坑，这似乎不是自然形成的。",
+  "picture": "GFX_evt_cold_barren",
+  "level": 7,
+  "spawn_chance": {
+    "modifier": [
+      {
+        "add": "0.1",
+        "OR": {
+          "is_planet_class": [
+            "pc_barren",
+            "pc_barren_cold"
+          ],
+          "is_asteroid": "yes"
+        },
+        "has_any_strategic_resource": "no"
+      },
+      {
+        "factor": "0",
+        "OR": {
+          "has_deposit_for": [
+            "shipclass_mining_station",
+            "shipclass_research_station"
+          ]
+        }
+      }
+    ]
+  },
+  "on_success": [
+    "anomaly.2576"
+  ],
+  "on_fail": [],
+  "on_critical_fail": [],
+  "max_once": null,
+  "max_once_global": null,
+  "null_spawn_chance": null,
+  "should_ai_use": null,
+  "should_ai_and_humans_use": null,
+  "relations": [
+    {
+      "type": "关联",
+      "target": "abandoned_outpost_category"
+    },
+    {
+      "type": "关联",
+      "target": "aerostat_gasgiant_category"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_CLUE_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_LUMP_CAT"
+    },
+    {
+      "type": "关联",
+      "target": "AIANOM_MININGDEPO_CAT"
+    }
+  ],
+  "tags": [
+    "anomaly"
+  ]
+}
