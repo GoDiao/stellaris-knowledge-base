@@ -1,0 +1,25 @@
+id: utopia_3401
+name:
+  en: '[chosen_one.GetTitle] crowned on [From.Capital.GetName]'
+  zh: '[chosen_one.GetTitle]在[From.Capital.GetName]加冕登基'
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 一位无与伦比的[chosen_one_species.GetName]灵能者掌控了§H[From.GetName]§!！这位不朽的伟人被[chosen_one.GetHerHis]的追随者称为"天选之子"，今天早上在[From.Capital.GetName]隆重的典礼中加冕。随后，一份庆贺§H[chosen_one.GetRulerTitle]永久统治[chosen_one.GetRegnalName]§!的公报就被发往了所有的星际行政系统。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+event_type: country_event
+picture: GFX_evt_psionics

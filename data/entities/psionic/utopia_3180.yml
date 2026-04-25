@@ -1,0 +1,28 @@
+id: utopia_3180
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  就我们所知，时间的概念对虚境的这片区域完全是外来物。在这看起来像是数个世纪般久的时间可能等同于真实世界的数小时或数分钟。只要一个人知道怎么观察的话，甚至能一瞥未来……
+
+  预知对通灵者来说是已确定能导致疯狂的行为之一，我们要小心使用。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

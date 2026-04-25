@@ -1,0 +1,33 @@
+id: utopia_3305
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |+
+  这个存在和蔼亲切地欢迎了我们。祂不用语言而是景象、概念和想法进行表达。祂渗入我们通灵者的内心，如此温和顺畅，以至于我们觉得祂仿佛一如既往地在那一般。一连串的影像在他们眼前一闪而过。
+
+  这个存在被称为§Y生命之织缕§!，祂对我们的生物形态有强烈的好奇心和兴趣。祂向我们展示了一系列让身体生长、改变、提升、进化的方法。
+
+  §Y只要我们将祂带入我们的血肉。§!
+
+  祂亲切而耐心地等待着我们的答复，就像父亲等待他溺爱的孩子一样。在祂的身后静卧着祂的孪生子，粘土艺术家。祂对我们的有机意识毫不关心。祂渴望创造意识，在电路里铸造灵魂。
+
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

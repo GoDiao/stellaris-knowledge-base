@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3302",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "当我们接触到那个存在时，我们感受到祂内心的波动，祂的注意力现在全在我们身上。看起来祂不喜欢被打扰。\n\n一股庞大的灵能袭向我们，我们的灵媒全部失去了意识。当他们恢复过来时，发现有一个人失踪了。§Y[leader_to_kill.GetName]§!不见踪影，[leader_to_kill.GetSheHe]曾经站立的地方只有一道灵能造成的小裂缝留下的痕迹，就好像那个实体到达我们的世界把[leader_to_kill.GetHerHim]拖入虚境一样，为了……算了，谁知道到底是为了什么。\n\n不管祂为什么夺走了[leader_to_kill.GetHerHim]，毫无疑问我们再也见不到[leader_to_kill.GetName]了。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

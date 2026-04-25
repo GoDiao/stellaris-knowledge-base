@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3053",
+  "name": {
+    "en": "§RCurse Bestowed§!",
+    "zh": "§R被赐予诅咒§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$curse.psi.link$\n\n因为某种原因，这对全[Root.GetName]的生育率产生了损害。这甚至对没有天生灵能能力的物种产生了影响！",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

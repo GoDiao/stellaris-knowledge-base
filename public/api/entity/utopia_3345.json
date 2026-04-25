@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3345",
+  "name": {
+    "en": "Composer of Strands: §RDegeneration§!",
+    "zh": "生命之织缕：§R恶化§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "§Y生命之织缕§!的庇佑令人难以捉摸。我们的一位领袖很不幸地产生了躯体的独立意识。仅一瞬间，它便自行恶化成一团扭曲的血肉。由于根本无法反转这一过程，官方只能宣布这位领袖已经去世。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

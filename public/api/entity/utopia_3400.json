@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3400",
+  "name": {
+    "en": "A Divine Sovereign",
+    "zh": "天选之帝"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "§H[chosen_one.GetName]§!据说现在已经拥有了不死之身，尽管他曾经仅仅是一名[chosen_one_species.GetName]，而今一切都不同了。他在[Root.GetName]吸引了大量虔诚的信徒。很多人都把他奉为至高神明，我们的政府也已经正式授予他[chosen_one.GetTitle]的称号，并成为了我们伟大帝国永远的统治者，从现在直到永远。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_psionics"
+}

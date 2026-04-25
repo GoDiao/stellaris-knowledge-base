@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3192",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "当池中巨量的能量传输给[chosen_leader.GetName]时，整个虚境似乎都在震颤。\n\n[chosen_leader.GetHerHis]的心智似乎无法承受这压力。也许没有活物能拥有这样的力量。[chosen_leader.GetName]在一阵灵能爆炸中和他周围的人一同去世了。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

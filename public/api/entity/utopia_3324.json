@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3324",
+  "name": {
+    "en": "The End of the Cycle: §RShrouded§!",
+    "zh": "轮回之终末：§R虚境之下§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "我们未能阻止那能量体怪物包裹§Y[Root.GetName]§!。行星和上面的居民被虚境带走了。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "planet_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

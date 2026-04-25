@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3304",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "当我们接触到这个存在时，我们通灵者的内心响起了一阵齐声。最开始只是轻柔的低语，随后变为强烈的刺耳声，一千道声音开始齐声讲述。\n\n这些声音自我介绍为§Y虚空之低语§!。合唱中的每一个个体都感应到：秘密的低语、王座的阴影、人偶的大师，有许多许多的存在都加入了低语的合唱。祂——祂们——宣称通晓所有凡人向另一个凡人低语的秘密知识，并且愿意和我们分享这些知识……\n\n§Y只要我们同意让祂们进入我们的意识。§!\n\n一个微不足道的代价，就像祂们宣称的那样。我们甚至难以察觉祂们的存在。\n\n祂们的语气中透露着急切。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

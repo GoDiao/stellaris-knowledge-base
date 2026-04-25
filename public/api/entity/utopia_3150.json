@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3150",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "我们正从远处俯视我们的星系，远到有几十万光年。毫无征兆地，灵能流便将我们以难以置信的速度冲向无数恒星，来到了一片属于失落帝国，[fallen_empire.GetName]，的宇域。\n\n急速掠过恒星，随后是行星，终于视线定格在一座[fallen_empire.GetSpeciesName]城市。借着远超我们数代的反重力科技，无数尖塔冲向天际。灵能流将我们带到了其中一座尖塔，穿过一面又一面墙，最终我们来到了一间会议室之类的房间。两个[fallen_empire.GetSpeciesNamePlural]在房间里，坐在舒适的零重力椅上，相互交流。\n\n他们并没有注意到我们的存在。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

@@ -1,0 +1,30 @@
+id: utopia_3300
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  这里有一个灵体，占据了虚境的这一整片区域。我们曾经见过灵体，但这个不一样，这个力量远超其他……这个更加古老。
+
+  他似乎没有察觉我们的存在。也许他在沉睡，也许我们不足以引起他的注意。
+
+  也许我们应该离开。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

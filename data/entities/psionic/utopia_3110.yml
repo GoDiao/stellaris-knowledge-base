@@ -1,0 +1,30 @@
+id: utopia_3110
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  这里是虚境中的一片风暴高发的地区。大量的原生灵能能量流经这里，有时会狂暴地产生半智慧灵体生物。
+
+  这些困惑的灵体经常相互冲突，在战斗中释放出能残留数千年的灵能。事实上，现在就有几场这样的决斗正在进行。
+
+  我们应该谨慎前进。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

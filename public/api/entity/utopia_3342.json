@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3342",
+  "name": {
+    "en": "Eater of Worlds: §RHungry§!",
+    "zh": "世界之喰煞：§R饥饿§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "食煞永远对不可能真正感到饱足。这次，祂啃噬了我们的一个殖民地。这颗星球的很大一部分从现实世界消失了，只留下了无比巨大的空洞，紫色的迷雾萦绕盘蜷其中。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

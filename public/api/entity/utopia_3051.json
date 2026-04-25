@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3051",
+  "name": {
+    "en": "§RCurse Bestowed§!",
+    "zh": "§R被赐予诅咒§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$curse.psi.link$\n\n这种负面能量席卷了我们公民的内心。很多人开始向往和我们政府不合的激进理念。这种影响甚至感染了无灵能居民！",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

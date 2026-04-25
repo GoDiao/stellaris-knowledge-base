@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3334",
+  "name": {
+    "en": "Whisperers in the Void: §RPsychosis§!",
+    "zh": "虚空之低语：§R精神错乱§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "自从我们邀请虚空之低语进入我们的内心后，心理疾病和无法解释的暴力行为数量便一直在我们的灵能人口中增长。大部分时候这些都是可以控制的，但最近事情超出了控制。全国各地开始出现秘密集社。有些比较和平无害，但另一些却有邪恶的目标，我们社会中的信任变得分崩离析。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

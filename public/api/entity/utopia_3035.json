@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3035",
+  "name": {
+    "en": "§GBoon Bestowed§!",
+    "zh": "§G被赐予恩赐§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$boon.ship.link$\n\n通过使用灵能，我们的战舰乘员现在能加快武器的射速。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

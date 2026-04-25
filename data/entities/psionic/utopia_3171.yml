@@ -1,0 +1,28 @@
+id: utopia_3171
+name:
+  en: §GPsionic Shields§!
+  zh: §G灵能护盾§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  我们来到虚境如此深的地方后并没有无功而返。在引导了他们全部的灵能后，我们的通灵者们在护盾上产生了足够大的突破口以让他们进入。
+
+  我们不知道灵能者们在盾的另一边看到了什么，但那足以让他们永久性精神失常。他们的牺牲并没有白费，他们突破护盾的行动教会我们如何生成一个类似的立场。如果改善一下技术，我们也许能生成足够环绕星舰的护盾……
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

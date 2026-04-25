@@ -1,0 +1,25 @@
+id: composer_of_strands
+name:
+  en: Composer of Strands
+  zh: 织缕者
+category: psionic
+subcategory: patron
+dlc: Utopia
+lore: ''
+traits:
+  - covenant
+tags:
+  - psionic
+  - patron
+  - covenant
+relations:
+  - type: 所在
+    target: shroud
+  - type: 关联
+    target: eater_of_worlds
+  - type: 关联
+    target: end_of_the_cycle
+  - type: 关联
+    target: horizon_signal
+  - type: 关联
+    target: instrument_of_desire

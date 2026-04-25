@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3191",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "完……完工了。当灵能能量池被抽干后整个虚境似乎都在震颤，且能量也被传输给了[chosen_leader.GetName]。\n\n星系历史上只有屈指可数的个体能被赐予如此强大的力量。愿神对我们的灵魂怀有仁慈。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

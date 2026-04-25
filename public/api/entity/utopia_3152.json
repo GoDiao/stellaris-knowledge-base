@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3152",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "这两个[fallen_empire.GetSpeciesNamePlural]显然是某种显赫人物，而且在共商国是。缓慢但沉稳，画面侵入他们的同时他们说的外星语言逐渐被翻译为我们理解的话语。\n\n突然，这两个外星人默不作声。\n\n§H“你感觉到了吗？”\n\n“嗯，有什么在看着我们”§!\n\n他们巡视着房间，直到他们盯着我们。\n\n§H“别出心裁，一个灵能探机。”§!\n\n§H“看起来它源自[Root.GetSpeciesName]。快，激活传输屏障。§!”\n\n画面被干扰了。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "DISTAR_SIGNAL_CAT"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

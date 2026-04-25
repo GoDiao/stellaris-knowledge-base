@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3057",
+  "name": {
+    "en": "§RCurse Bestowed§!",
+    "zh": "§R被赐予诅咒§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$curse.ship.link$\n\n我们的舰船移动时，似乎有某种不可见的力量在阻止他们，就像橡皮圈一样。这对我们亚光速航行有很大影响。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

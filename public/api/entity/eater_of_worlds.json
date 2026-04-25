@@ -1,0 +1,41 @@
+{
+  "id": "eater_of_worlds",
+  "name": {
+    "en": "Eater of Worlds",
+    "zh": "噬界者"
+  },
+  "category": "psionic",
+  "subcategory": "patron",
+  "dlc": "Utopia",
+  "lore": "",
+  "traits": [
+    "covenant"
+  ],
+  "tags": [
+    "psionic",
+    "patron",
+    "covenant"
+  ],
+  "relations": [
+    {
+      "type": "所在",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "composer_of_strands"
+    },
+    {
+      "type": "关联",
+      "target": "end_of_the_cycle"
+    },
+    {
+      "type": "关联",
+      "target": "horizon_signal"
+    },
+    {
+      "type": "关联",
+      "target": "instrument_of_desire"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3170",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "在虚境的一片低地中，我们发现了一个静坐在某种强大的灵能护盾后的灵体。\n\n§P“走开。”§!",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

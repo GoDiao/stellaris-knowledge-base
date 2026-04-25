@@ -1,0 +1,25 @@
+id: utopia_3331
+name:
+  en: 'Whisperers in the Void: §RCoping§!'
+  zh: 虚空之低语：§R应对§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 虽然低语者和我们分享的知识大有用处，其中的有些知识却令人心神不安。处理了解过多产生的压力很困难，这导致了我们的人口中有很多人，包括§Y[leader_target.GetTitle][leader_target.GetName]§!，开始滥用药物以应对压力。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: GFX_evt_unspeakable_horror

@@ -1,0 +1,28 @@
+id: utopia_3162
+name:
+  en: §RCurse Bestowed§!
+  zh: §R被赐予诅咒§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  又一颗闪烁着的星星突然出现，但这次我们准备好了。那确实是外星舰船，并不像我们星系所见的任何一种。当它飞过时，我们试图混入其乘员的心地，但他们的智力比我们以往所见的个体更神秘更不同。
+
+  现在我们不仅被从他们的舰船逐出，他们粗鲁的灵能排斥跟随我们离开了虚境！我们星舰的亚光速速度暂时降低了。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

@@ -1,0 +1,28 @@
+id: utopia_3056
+name:
+  en: §RCurse Bestowed§!
+  zh: §R被赐予诅咒§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  $curse.psi.link$
+
+  曾经存在于我们公民心中对团结的认知涣散了。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

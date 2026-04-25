@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3010",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "通灵者集会所还没有从上一次参观虚境的压力中恢复过来。没有他们的共通灵能，我们只能捕捉到这个飞逝领域的一瞥，就像记忆的模糊边界一样遥不可及。\n\n而这目前不能提供给我们什么，我们只能之后再来。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3045"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

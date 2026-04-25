@@ -1,0 +1,41 @@
+{
+  "id": "whisperers_in_the_void",
+  "name": {
+    "en": "Whisperers in the Void",
+    "zh": "虚空低语者"
+  },
+  "category": "psionic",
+  "subcategory": "patron",
+  "dlc": "Utopia",
+  "lore": "",
+  "traits": [
+    "covenant"
+  ],
+  "tags": [
+    "psionic",
+    "patron",
+    "covenant"
+  ],
+  "relations": [
+    {
+      "type": "所在",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "composer_of_strands"
+    },
+    {
+      "type": "关联",
+      "target": "eater_of_worlds"
+    },
+    {
+      "type": "关联",
+      "target": "end_of_the_cycle"
+    },
+    {
+      "type": "关联",
+      "target": "horizon_signal"
+    }
+  ]
+}

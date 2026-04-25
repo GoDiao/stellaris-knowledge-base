@@ -1,0 +1,640 @@
+{
+  "id": "shroud",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "source",
+  "dlc": "Utopia",
+  "lore": "虚境是一个灵能维度，是意识的领域。灵能帝国可以进入虚境，与虚境中的强大存在建立契约。",
+  "traits": [],
+  "events": [
+    {
+      "id": "utopia.3000",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "{\r",
+        "zh": "{\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3110",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3120",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3130",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3140",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3150",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3170",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3180",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3160",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3190",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3300",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3200",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.2657",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3005",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3005",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "We know that there are vast powers out there. While we'd usually go unnoticed, we could try to reach out by tapping into the powers of Zro. All over the Shroud, the influence of these entities is felt by our telepaths. Which one should we seek out?",
+        "zh": "我们知道这里潜藏着巨大的力量。虽然我们一度被忽视，但如果能利用好泽珞的力量便能够尝试进行探寻。我们的灵能使在整个虚境中探测到了这些实体。我们应该去寻访哪一位？"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3300",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3300",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3300",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3300",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3010",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "The Conclave of Telepaths has not yet recovered from the strain of our previous visit to the Shroud. Without their combined psionic power, we can catch only brief glimpses of this fleeting realm - like the blurred edges of a memory lying just beyond reach.\\n\\nThere is nothing for us here. We will have to return later.",
+        "zh": "通灵者集会所还没有从上一次参观虚境的压力中恢复过来。没有他们的共通灵能，我们只能捕捉到这个飞逝领域的一瞥，就像记忆的模糊边界一样遥不可及。\n\n而这目前不能提供给我们什么，我们只能之后再来。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3020",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "The powerful energies of the Shroud have been successfully channeled into a psionic Avatar under our control!\\n\\nAfter translating into our universe, the newborn Avatar has coalesced into a spacefaring entity in orbit over [Root.Capital.GetName].",
+        "zh": "虚境强大的能量已被成功地注入一个处于我们的控制之下的灵能化身！\n\n在转移至我们的宇宙后，这个新生的化身已合并为一个太空实体，并处在[Root.Capital.GetName]轨道上。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3021",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "The powerful energies of the Shroud have been successfully channeled into a psionic Avatar under our control!\\n\\nAfter translating into our universe, the newborn Avatar has coalesced into a colossal warrior on the surface of [Root.Capital.GetName].",
+        "zh": "虚境强大的能量已被成功地注入一个处于我们的控制之下的灵能化身！\n\n在转移至我们的宇宙后，这个新生的化身已合并为一个巨型武士，并处在[Root.Capital.GetName]地表上。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3022",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "The psionic power required to summon an Avatar and bring it into our universe is simply beyond our current ability to channel. The psychic energies of the Shroud fizzle with agitation as our attempt fails.",
+        "zh": "用来召唤一个化身并将其带至我们宇宙所需的灵能已超越我们目前的导入能力。因为我们的失败，虚境的灵能能量摇曳至尽。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3023",
+      "name": {
+        "en": "The Shroud",
+        "zh": "虚境"
+      },
+      "desc": {
+        "en": "The attempt to summon a psionic Avatar was only partially successful. Although the creature assumed its correct form and translated into our universe, our telepaths failed to bring it under our control!\\n\\nWe are now faced with an aggressive psionic entity that will destroy everything in its path!",
+        "zh": "召唤化身的尝试只是部分成功了而已。虽然这个造物已显现正确的形态并被带到我们的宇宙，我们的通灵者未能让它处于我们的控制之下！\n\n我们现在要面对一个敌对的灵能实体，它将摧毁沿途的一切。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3024",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3024",
+      "name": {
+        "en": "Shroud Incursion",
+        "zh": "虚境侵军"
+      },
+      "desc": {
+        "en": "A creature of the Shroud has pierced the fabric of space and materialized in the [shroud_spawn_system.GetName] system! This vengeful Avatar has amassed a tremendous amount of psionic energy, and is using it to lash out at anything and anyone unfortunate enough to get in its path.",
+        "zh": "一个虚境造物突破了空间壁垒，并且在[shroud_spawn_system.GetName]星系完成物质化！这个复仇心切的化身驾驭着一股强大的灵能，并将用其鞭挞任何不幸踏上它复仇之路的人和物。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "observer.68",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event"
+    },
+    {
+      "id": "utopia.3025",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "fleet_event"
+    },
+    {
+      "id": "utopia.3026",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3026",
+      "name": {
+        "en": "Shroud Avatar Banished",
+        "zh": "虚境化身被驱散"
+      },
+      "desc": {
+        "en": "The continual atrophy of existing in normal space has weakened the Avatar in the [shroud_spawn_system.GetName] system to the point where it can no longer maintain its tangible form. It has been banished back into the Shroud.",
+        "zh": "由于在此空间停留导致的能量持续衰退，使位于[shroud_spawn_system.GetName]星系的化身已到达其无法维持形态的谷值。它已被放逐回虚境。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3030",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.psi.link$\\n\\nA profound sense of calm is spreading throughout the [Root.GetName], and it seems to affect even those without psychic abilities.",
+        "zh": "$boon.psi.link$\n\n一种对平静的深远认识迅速传遍了[Root.GetName]，看起来那些没有灵能能力的人甚至也被影响了。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3031",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.ship.link$\\n\\nThe normal wear-and-tear that all starships suffer from has all but disappeared in our fleets. As a result, our upkeep costs have been significantly decreased.",
+        "zh": "$boon.ship.link$\n\n我们的舰队里以往舰船受到的磨损几乎消失了，因此我们的维护费用有了大幅的降低。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3032",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.psi.link$\\n\\nA collective knowledge base that is shared telepathically between our scientists has been established, which will greatly increase the efficiency of their work.",
+        "zh": "$boon.psi.link$\n\n我们的科学家建立了一个暨由心灵感应分享的知识集库，这将极大地提高他们的工作效率。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3033",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.ship.link$\\n\\nThe crews of our warships can now augment the strength of our shield systems by using their psionic powers.",
+        "zh": "$boon.ship.link$\n\n我们的战舰乘员现在能用灵能来强化护盾系统了。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3034",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.ship.link$\\n\\nUsing their psionic powers, our crewmembers are now able to augment the strength of our weapon systems.",
+        "zh": "$boon.ship.link$\n\n通过使用灵能，我们的战舰乘员现在能强化武器系统。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3035",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.ship.link$\\n\\nUsing their psionic powers, our crewmembers are now able to increase the firing rate of our weapon systems.",
+        "zh": "$boon.ship.link$\n\n通过使用灵能，我们的战舰乘员现在能加快武器的射速。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3036",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.psi.link$\\n\\nA new sense of solidarity has appeared in the hearts and minds of our citizens, and they seem more willing to work together towards the mutual goals established by our government.",
+        "zh": "$boon.psi.link$\n\n一种对团结的认知开始出现在我们居民的心智中，他们现在看起来更愿意通力合作，向着政府设立的目标前进。"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "utopia.3037",
+      "name": {
+        "en": "§GBoon Bestowed§!",
+        "zh": "§G被赐予恩赐§!"
+      },
+      "desc": {
+        "en": "$boon.psi.link$\\n\\nOur empaths are stronger than ever before, resulting in greater political influence.",
+        "zh": "$boon.psi.link$\n\n我们的同理心比以往更强烈了，导致我们拥有更大的政治影响力。"
+      },
+      "type": "country_event"
+    }
+  ],
+  "tags": [
+    "psionic",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "target": "composer_of_strands"
+    },
+    {
+      "type": "包含",
+      "target": "eater_of_worlds"
+    },
+    {
+      "type": "包含",
+      "target": "instrument_of_desire"
+    },
+    {
+      "type": "包含",
+      "target": "whisperers_in_the_void"
+    },
+    {
+      "type": "包含",
+      "target": "end_of_the_cycle"
+    }
+  ]
+}

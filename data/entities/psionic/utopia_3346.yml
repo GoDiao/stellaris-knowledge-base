@@ -1,0 +1,25 @@
+id: utopia_3346
+name:
+  en: 'Composer of Strands: §RRegression§!'
+  zh: 生命之织缕：§R退化§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 生命之织缕的慷慨恩赐降临到了[devolved_species_planet.GetName]，许多我们的人口发生了严重的变异，让他们退化回了前智慧生物的阶段。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: GFX_evt_unspeakable_horror

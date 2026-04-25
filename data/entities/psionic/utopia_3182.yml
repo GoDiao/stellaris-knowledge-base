@@ -1,0 +1,30 @@
+id: utopia_3182
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  正如我们担心的，我们的通灵者陷入了疯狂。同时间，他们的心智向存于过去与未来的不可预料的许多可能性开放。
+
+  每个变化和场景，无论它们间的差别有多巨大或是微小，在他们的脑中重复闪现。他们现在陷入了永久的精神紧张状态。
+
+  通灵者集会所还需要些时间才能集齐力量并再次进入虚境。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

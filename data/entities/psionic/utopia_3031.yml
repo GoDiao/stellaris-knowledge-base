@@ -1,0 +1,28 @@
+id: utopia_3031
+name:
+  en: §GBoon Bestowed§!
+  zh: §G被赐予恩赐§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  $boon.ship.link$
+
+  我们的舰队里以往舰船受到的磨损几乎消失了，因此我们的维护费用有了大幅的降低。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

@@ -1,0 +1,640 @@
+{
+  "id": "horizon_signal",
+  "name": {
+    "en": "Horizon Signal",
+    "zh": "时之螶"
+  },
+  "category": "psionic",
+  "subcategory": "source",
+  "dlc": "Horizon Signal",
+  "lore": "一个来自银河边缘的神秘信号，似乎在侵蚀现实的边界。",
+  "traits": [],
+  "events": [
+    {
+      "id": "akx.9000",
+      "name": {
+        "en": "akx.9000.name\r",
+        "zh": "akx.9000.name\r"
+      },
+      "desc": {
+        "en": "akx.9000.desc\r",
+        "zh": "akx.9000.desc\r"
+      },
+      "type": "fleet_event"
+    },
+    {
+      "id": "observer.70",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "observer_event"
+    },
+    {
+      "id": "akx.9001",
+      "name": {
+        "en": "akx.9001.name\r",
+        "zh": "akx.9001.name\r"
+      },
+      "desc": {
+        "en": "akx.9001.desc\r",
+        "zh": "akx.9001.desc\r"
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9005",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9006",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9005",
+      "name": {
+        "en": "akx.9005.name\r",
+        "zh": "akx.9005.name\r"
+      },
+      "desc": {
+        "en": "akx.9005.desc\r",
+        "zh": "akx.9005.desc\r"
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9010",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9006",
+      "name": {
+        "en": "akx.9006.name\r",
+        "zh": "akx.9006.name\r"
+      },
+      "desc": {
+        "en": "akx.9006.desc\r",
+        "zh": "akx.9006.desc\r"
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9010",
+      "name": {
+        "en": "akx.9010.name\r",
+        "zh": "akx.9010.name\r"
+      },
+      "desc": {
+        "en": "akx.9010.desc\r",
+        "zh": "akx.9010.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9011",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9011",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9012",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9012",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9013",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9011",
+      "name": {
+        "en": "akx.9011.name\r",
+        "zh": "akx.9011.name\r"
+      },
+      "desc": {
+        "en": "akx.9011.desc\r",
+        "zh": "akx.9011.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9020",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9012",
+      "name": {
+        "en": "akx.9012.name\r",
+        "zh": "akx.9012.name\r"
+      },
+      "desc": {
+        "en": "akx.9012.desc\r",
+        "zh": "akx.9012.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event"
+    },
+    {
+      "id": "akx.9095",
+      "name": {
+        "en": "akx.9095.name\r",
+        "zh": "akx.9095.name\r"
+      },
+      "desc": {
+        "en": "akx.9095.desc\r",
+        "zh": "akx.9095.desc\r"
+      },
+      "type": "ship_event"
+    },
+    {
+      "id": "akx.9013",
+      "name": {
+        "en": "akx.9013.name\r",
+        "zh": "akx.9013.name\r"
+      },
+      "desc": {
+        "en": "akx.9013.desc\r",
+        "zh": "akx.9013.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9020",
+      "name": {
+        "en": "akx.9020.name\r",
+        "zh": "akx.9020.name\r"
+      },
+      "desc": {
+        "en": "akx.9020.desc\r",
+        "zh": "akx.9020.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9021",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9022",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9023",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9021",
+      "name": {
+        "en": "akx.9021.name\r",
+        "zh": "akx.9021.name\r"
+      },
+      "desc": {
+        "en": "akx.9021.desc\r",
+        "zh": "akx.9021.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event"
+    },
+    {
+      "id": "akx.9022",
+      "name": {
+        "en": "akx.9022.name\r",
+        "zh": "akx.9022.name\r"
+      },
+      "desc": {
+        "en": "akx.9022.desc\r",
+        "zh": "akx.9022.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9100",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "planet_event"
+    },
+    {
+      "id": "akx.9023",
+      "name": {
+        "en": "akx.9023.name\r",
+        "zh": "akx.9023.name\r"
+      },
+      "desc": {
+        "en": "akx.9023.desc\r",
+        "zh": "akx.9023.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9100",
+      "name": {
+        "en": "akx.9100.name\r",
+        "zh": "akx.9100.name\r"
+      },
+      "desc": {
+        "en": "akx.9100.desc\r",
+        "zh": "akx.9100.desc\r"
+      },
+      "type": "planet_event"
+    },
+    {
+      "id": "akx.9101",
+      "name": {
+        "en": "akx.9101.name\r",
+        "zh": "akx.9101.name\r"
+      },
+      "desc": {
+        "en": "akx.9101.desc\r",
+        "zh": "akx.9101.desc\r"
+      },
+      "type": "planet_event"
+    },
+    {
+      "id": "akx.9200",
+      "name": {
+        "en": "akx.9200.name\r",
+        "zh": "akx.9200.name\r"
+      },
+      "desc": {
+        "en": "akx.9200.desc\r",
+        "zh": "akx.9200.desc\r"
+      },
+      "type": "fleet_event"
+    },
+    {
+      "id": "akx.9201",
+      "name": {
+        "en": "akx.9201.name\r",
+        "zh": "akx.9201.name\r"
+      },
+      "desc": {
+        "en": "akx.9201.desc\r",
+        "zh": "akx.9201.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9210",
+      "name": {
+        "en": "akx.9210.name\r",
+        "zh": "akx.9210.name\r"
+      },
+      "desc": {
+        "en": "akx.9210.desc\r",
+        "zh": "akx.9210.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9211",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9211",
+      "name": {
+        "en": "akx.9211.name\r",
+        "zh": "akx.9211.name\r"
+      },
+      "desc": {
+        "en": "akx.9211.desc\r",
+        "zh": "akx.9211.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9220",
+      "name": {
+        "en": "akx.9220.name\r",
+        "zh": "akx.9220.name\r"
+      },
+      "desc": {
+        "en": "akx.9220.desc\r",
+        "zh": "akx.9220.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9221",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9221",
+      "name": {
+        "en": "akx.9221.name\r",
+        "zh": "akx.9221.name\r"
+      },
+      "desc": {
+        "en": "akx.9221.desc\r",
+        "zh": "akx.9221.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9300",
+      "name": {
+        "en": "akx.9300.name\r",
+        "zh": "akx.9300.name\r"
+      },
+      "desc": {
+        "en": "akx.9300.desc\r",
+        "zh": "akx.9300.desc\r"
+      },
+      "type": "fleet_event"
+    },
+    {
+      "id": "akx.9310",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9310",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9310",
+      "name": {
+        "en": "akx.9310.name\r",
+        "zh": "akx.9310.name\r"
+      },
+      "desc": {
+        "en": "akx.9310.desc\r",
+        "zh": "akx.9310.desc\r"
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9315",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    },
+    {
+      "id": "akx.9312",
+      "name": {
+        "en": null,
+        "zh": null
+      },
+      "desc": {
+        "en": null,
+        "zh": null
+      },
+      "type": "country_event"
+    }
+  ],
+  "tags": [
+    "psionic",
+    "horizon_signal"
+  ],
+  "relations": [
+    {
+      "type": "提及",
+      "target": "larion_digsite"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+id: utopia_3307
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  在我们接触存在前，它先接触了我们。其思想盘绕蜿蜒在我们的通灵者的心智周围，商讨、诱导着他们。它是§Y渴求之器具§!，将赐予我们财富、力量、威望……一切我们渴望的事物。一切我们将渴望的事物。
+
+  代价？小意思，不过是一笔服务费。它一心为我们好，将帮助我们，指导我们，引导我们的野心和梦想。
+
+  §Y只要我们答应让它进入我们的内心。§!
+
+  它很确信我们会答应，我们怎么可能会不答应呢？
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

@@ -1,0 +1,28 @@
+id: utopia_3190
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  我们在虚境中找到了一小处我们之前从未见过的巨量灵能能量聚集的空间。任何通灵者只要能成功潜入这片纯能量构成的区域就会变得无比强大……但这织构一个人使用，并且还涉及到一定的风险。
+
+  整个[Root.GetName]只有极少人具有足够强大灵能，能进入池中汲取能量还不丢掉性命。该让谁前往呢？
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

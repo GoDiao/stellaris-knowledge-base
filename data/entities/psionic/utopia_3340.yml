@@ -1,0 +1,25 @@
+id: utopia_3340
+name:
+  en: 'Instrument of Desire: §RDecadence§!'
+  zh: 渴求之器具：§R腐化§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 器具施加给我们人民的渴求是强烈的。全国的人民开始狂热追求消费主义和败坏，所求更多高级货物，更珍稀更美味的食物。暴动已在数个购物街区发生，我们也许只能被迫加§Y[GetInstrumentCraving]§!的产出，以平息众怒。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: avi
+  - type: 提及
+    target: trait_delicious
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+event_type: country_event
+picture: GFX_evt_unspeakable_horror

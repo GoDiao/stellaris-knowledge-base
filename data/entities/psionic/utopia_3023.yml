@@ -1,0 +1,25 @@
+id: utopia_3023
+name:
+  en: null
+  zh: null
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: ''
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

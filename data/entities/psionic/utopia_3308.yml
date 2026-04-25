@@ -1,0 +1,30 @@
+id: utopia_3308
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  那个存在在等着我们，那是§R轮回之终末§!，祂一直在等着我们。我们的通灵者突然开始齐唱，用完美的合唱说出一段话：§R“现在还没到你。”§!缓了一下后，§R“但你也可以。”§!
+
+  祂没有说更多，但给了我们一个价码——力量，知识，财富和一切无价之物等着我们拿取，我们只知道这么多。
+
+  §R只要我们愿意带来终结。§!
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

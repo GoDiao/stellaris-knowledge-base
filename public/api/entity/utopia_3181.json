@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3181",
+  "name": {
+    "en": "§GPrecognition Interface§!",
+    "zh": "§G预知接口§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "我们可以维持和虚境建立有限的预知连接的同时避免陷入疯狂，但概率数据的巨大流量将压垮我们导致其很难有实际用处。\n\n然而，如果我们能设置一个数码界面以解析数据，其将有可能被用于改善星舰的战斗电脑……",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

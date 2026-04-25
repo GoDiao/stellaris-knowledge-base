@@ -1,0 +1,28 @@
+id: utopia_3059
+name:
+  en: §RCurse Bestowed§!
+  zh: §R被赐予诅咒§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  一股强大的灵能反噬沿着我们与虚境建立的传导通路袭来，而且这似乎干扰了我们的星际传感器。
+
+  从所有来源收到的传感器分辨率都大幅降低了，导致探测距离变短。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

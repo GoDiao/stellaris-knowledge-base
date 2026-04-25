@@ -1,0 +1,25 @@
+id: utopia_3337
+name:
+  en: 'Eater of Worlds: §RRavenous§!'
+  zh: 世界之喰煞：§R极饿§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 吞噬者又回来索要他的贡品了，并不满足于夺取我们一部分人口，这次吞噬者吞噬了整个星球。§Y[planet_target.GetName]§!被一层浓密的灵能雾包裹着，进入大气层的救援船全未能返回。幸运的是，这颗星球尚未被殖民，但对于下一次选中我们兴盛的殖民地这种可能性感到瑟瑟发抖。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+event_type: country_event
+picture: GFX_evt_unspeakable_horror

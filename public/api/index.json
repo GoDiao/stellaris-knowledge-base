@@ -6469,6 +6469,1793 @@
     ]
   },
   {
+    "id": "akx_10000",
+    "name_zh": "akx.10000.name\r",
+    "name_en": "akx.10000.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_10010",
+    "name_zh": "akx.10010.name\r",
+    "name_en": "akx.10010.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_10020",
+    "name_zh": "akx.10020.name\r",
+    "name_en": "akx.10020.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_10030",
+    "name_zh": "akx.10021.name\r",
+    "name_en": "akx.10021.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9000",
+    "name_zh": "akx.9000.name\r",
+    "name_en": "akx.9000.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9001",
+    "name_zh": "akx.9001.name\r",
+    "name_en": "akx.9001.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9005",
+    "name_zh": "akx.9005.name\r",
+    "name_en": "akx.9005.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9006",
+    "name_zh": "akx.9006.name\r",
+    "name_en": "akx.9006.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9010",
+    "name_zh": "akx.9010.name\r",
+    "name_en": "akx.9010.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9011",
+    "name_zh": "akx.9011.name\r",
+    "name_en": "akx.9011.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9012",
+    "name_zh": "akx.9012.name\r",
+    "name_en": "akx.9012.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9013",
+    "name_zh": "akx.9013.name\r",
+    "name_en": "akx.9013.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9020",
+    "name_zh": "akx.9020.name\r",
+    "name_en": "akx.9020.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9021",
+    "name_zh": "akx.9021.name\r",
+    "name_en": "akx.9021.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9022",
+    "name_zh": "akx.9022.name\r",
+    "name_en": "akx.9022.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9023",
+    "name_zh": "akx.9023.name\r",
+    "name_en": "akx.9023.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9095",
+    "name_zh": "akx.9095.name\r",
+    "name_en": "akx.9095.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9100",
+    "name_zh": "akx.9100.name\r",
+    "name_en": "akx.9100.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9101",
+    "name_zh": "akx.9101.name\r",
+    "name_en": "akx.9101.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9200",
+    "name_zh": "akx.9200.name\r",
+    "name_en": "akx.9200.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9201",
+    "name_zh": "akx.9201.name\r",
+    "name_en": "akx.9201.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9210",
+    "name_zh": "akx.9210.name\r",
+    "name_en": "akx.9210.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9211",
+    "name_zh": "akx.9211.name\r",
+    "name_en": "akx.9211.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9220",
+    "name_zh": "akx.9220.name\r",
+    "name_en": "akx.9220.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9221",
+    "name_zh": "akx.9221.name\r",
+    "name_en": "akx.9221.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9300",
+    "name_zh": "akx.9300.name\r",
+    "name_en": "akx.9300.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9310",
+    "name_zh": "akx.9310.name\r",
+    "name_en": "akx.9310.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9312",
+    "name_zh": "akx.9310.name\r",
+    "name_en": "akx.9310.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9315",
+    "name_zh": "akx.9315.name\r",
+    "name_en": "akx.9315.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9319",
+    "name_zh": "akx.9319.name\r",
+    "name_en": "akx.9319.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9320",
+    "name_zh": "akx.9320.name\r",
+    "name_en": "akx.9320.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9321",
+    "name_zh": "akx.9321.name\r",
+    "name_en": "akx.9321.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9330",
+    "name_zh": "akx.9330.name\r",
+    "name_en": "akx.9330.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9340",
+    "name_zh": "akx.9340.name\r",
+    "name_en": "akx.9340.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9400",
+    "name_zh": "akx.9400.name\r",
+    "name_en": "akx.9400.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9410",
+    "name_zh": "akx.9410.name\r",
+    "name_en": "akx.9410.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9420",
+    "name_zh": "akx.9420.name\r",
+    "name_en": "akx.9420.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9450",
+    "name_zh": "akx.9450.name\r",
+    "name_en": "akx.9450.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9460",
+    "name_zh": "akx.9460.name\r",
+    "name_en": "akx.9460.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9465",
+    "name_zh": "akx.9465.name\r",
+    "name_en": "akx.9465.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9470",
+    "name_zh": "akx.9470.name\r",
+    "name_en": "akx.9470.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9480",
+    "name_zh": "akx.9480.name\r",
+    "name_en": "akx.9480.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9490",
+    "name_zh": "akx.9490.name\r",
+    "name_en": "akx.9490.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9500",
+    "name_zh": "akx.9500.name\r",
+    "name_en": "akx.9500.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9505",
+    "name_zh": "akx_9505",
+    "name_en": "akx_9505",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9510",
+    "name_zh": "akx.9510.name\r",
+    "name_en": "akx.9510.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9520",
+    "name_zh": "akx.9520.name\r",
+    "name_en": "akx.9520.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9525",
+    "name_zh": "akx.9525.name\r",
+    "name_en": "akx.9525.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9530",
+    "name_zh": "akx.9530.name\r",
+    "name_en": "akx.9530.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9535",
+    "name_zh": "akx.9535.name\r",
+    "name_en": "akx.9535.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9540",
+    "name_zh": "akx.9540.name\r",
+    "name_en": "akx.9540.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9541",
+    "name_zh": "akx.9541.name\r",
+    "name_en": "akx.9541.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9545",
+    "name_zh": "akx.9545.name\r",
+    "name_en": "akx.9545.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9600",
+    "name_zh": "akx.9600.name\r",
+    "name_en": "akx.9600.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9601",
+    "name_zh": "akx_9601",
+    "name_en": "akx_9601",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9602",
+    "name_zh": "akx_9602",
+    "name_en": "akx_9602",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9610",
+    "name_zh": "akx.9610.name\r",
+    "name_en": "akx.9610.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "akx_9620",
+    "name_zh": "akx.9620.name\r",
+    "name_en": "akx.9620.name\r",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "composer_of_strands",
+    "name_zh": "织缕者",
+    "name_en": "Composer of Strands",
+    "category": "psionic",
+    "subcategory": "patron",
+    "tags": [
+      "psionic",
+      "patron",
+      "covenant"
+    ]
+  },
+  {
+    "id": "eater_of_worlds",
+    "name_zh": "噬界者",
+    "name_en": "Eater of Worlds",
+    "category": "psionic",
+    "subcategory": "patron",
+    "tags": [
+      "psionic",
+      "patron",
+      "covenant"
+    ]
+  },
+  {
+    "id": "end_of_the_cycle",
+    "name_zh": "终焉之轮回",
+    "name_en": "The End of the Cycle",
+    "category": "psionic",
+    "subcategory": "patron",
+    "tags": [
+      "psionic",
+      "patron",
+      "endgame_covenant"
+    ]
+  },
+  {
+    "id": "horizon_signal",
+    "name_zh": "时之螶",
+    "name_en": "Horizon Signal",
+    "category": "psionic",
+    "subcategory": "source",
+    "tags": [
+      "psionic",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "instrument_of_desire",
+    "name_zh": "欲望之器",
+    "name_en": "Instrument of Desire",
+    "category": "psionic",
+    "subcategory": "patron",
+    "tags": [
+      "psionic",
+      "patron",
+      "covenant"
+    ]
+  },
+  {
+    "id": "observer_68",
+    "name_zh": "observer_68",
+    "name_en": "observer_68",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "observer_70",
+    "name_zh": "observer_70",
+    "name_en": "observer_70",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "observer_71",
+    "name_zh": "observer_71",
+    "name_en": "observer_71",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "observer_72",
+    "name_zh": "observer_72",
+    "name_en": "observer_72",
+    "category": "psionic",
+    "subcategory": "horizon_signal_event",
+    "tags": [
+      "psionic_event",
+      "horizon_signal"
+    ]
+  },
+  {
+    "id": "shroud",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "source",
+    "tags": [
+      "psionic",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_2657",
+    "name_zh": "utopia_2657",
+    "name_en": "utopia_2657",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_2658",
+    "name_zh": "utopia_2658",
+    "name_en": "utopia_2658",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3000",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3005",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3010",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3020",
+    "name_zh": "utopia_3020",
+    "name_en": "utopia_3020",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3021",
+    "name_zh": "utopia_3021",
+    "name_en": "utopia_3021",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3022",
+    "name_zh": "utopia_3022",
+    "name_en": "utopia_3022",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3023",
+    "name_zh": "utopia_3023",
+    "name_en": "utopia_3023",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3024",
+    "name_zh": "utopia_3024",
+    "name_en": "utopia_3024",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3025",
+    "name_zh": "utopia_3025",
+    "name_en": "utopia_3025",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3026",
+    "name_zh": "虚境化身被驱散",
+    "name_en": "Shroud Avatar Banished",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3030",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3031",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3032",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3033",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3034",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3035",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3036",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3037",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3038",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3039",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3040",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3041",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3042",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3043",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3044",
+    "name_zh": "§G被赐予恩赐§!",
+    "name_en": "§GBoon Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3045",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3050",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3051",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3052",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3053",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3054",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3055",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3056",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3057",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3058",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3059",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3100",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3110",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3120",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3130",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3140",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3150",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3151",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3152",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3153",
+    "name_zh": "信号传输接入",
+    "name_en": "Incoming Transmission",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3160",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3161",
+    "name_zh": "§G灵能跃迁引擎§!",
+    "name_en": "§GPsionic Jump Drives§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3162",
+    "name_zh": "§R被赐予诅咒§!",
+    "name_en": "§RCurse Bestowed§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3170",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3171",
+    "name_zh": "§G灵能护盾§!",
+    "name_en": "§GPsionic Shields§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3172",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3180",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3181",
+    "name_zh": "§G预知接口§!",
+    "name_en": "§GPrecognition Interface§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3182",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3190",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3191",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3192",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3193",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3200",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3300",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3301",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3302",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3303",
+    "name_zh": "utopia_3303",
+    "name_en": "utopia_3303",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3304",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3305",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3306",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3307",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3308",
+    "name_zh": "虚境",
+    "name_en": "The Shroud",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3310",
+    "name_zh": "签订契约",
+    "name_en": "Covenant Formed",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3320",
+    "name_zh": "轮回之终末：§R清算§!",
+    "name_en": "The End of the Cycle: §RReckoning§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3321",
+    "name_zh": "轮回之终末：§R清算§!",
+    "name_en": "The End of the Cycle: §RReckoning§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3324",
+    "name_zh": "轮回之终末：§R虚境之下§!",
+    "name_en": "The End of the Cycle: §RShrouded§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3331",
+    "name_zh": "虚空之低语：§R应对§!",
+    "name_en": "Whisperers in the Void: §RCoping§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3332",
+    "name_zh": "虚空之低语：§R自杀§!",
+    "name_en": "Whisperers in the Void: §RSuicide§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3333",
+    "name_zh": "虚空之低语：§R疯狂§!",
+    "name_en": "Whisperers in the Void: §RMadness§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3334",
+    "name_zh": "虚空之低语：§R精神错乱§!",
+    "name_en": "Whisperers in the Void: §RPsychosis§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3335",
+    "name_zh": "世界之喰煞：§R轻噬§!",
+    "name_en": "Eater of Worlds: §RNibbly§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3336",
+    "name_zh": "世界之喰煞：§R饥饿§!",
+    "name_en": "Eater of Worlds: §RFamished§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3337",
+    "name_zh": "世界之喰煞：§R极饿§!",
+    "name_en": "Eater of Worlds: §RRavenous§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3338",
+    "name_zh": "utopia_3338",
+    "name_en": "utopia_3338",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3339",
+    "name_zh": "utopia_3339",
+    "name_en": "utopia_3339",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3340",
+    "name_zh": "渴求之器具：§R腐化§!",
+    "name_en": "Instrument of Desire: §RDecadence§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3341",
+    "name_zh": "生命之织缕：§R变异§!",
+    "name_en": "Composer of Strands: §RMutation§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3342",
+    "name_zh": "世界之喰煞：§R饥饿§!",
+    "name_en": "Eater of Worlds: §RHungry§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3343",
+    "name_zh": "世界之喰煞：§R略饿§!",
+    "name_en": "Eater of Worlds: §RPeckish§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3344",
+    "name_zh": "utopia_3344",
+    "name_en": "utopia_3344",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3345",
+    "name_zh": "生命之织缕：§R恶化§!",
+    "name_en": "Composer of Strands: §RDegeneration§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3346",
+    "name_zh": "生命之织缕：§R退化§!",
+    "name_en": "Composer of Strands: §RRegression§!",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3400",
+    "name_zh": "天选之帝",
+    "name_en": "A Divine Sovereign",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3401",
+    "name_zh": "[chosen_one.GetTitle]在[From.Capital.GetName]加冕登基",
+    "name_en": "[chosen_one.GetTitle] crowned on [From.Capital.GetName]",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "utopia_3402",
+    "name_zh": "utopia_3402",
+    "name_en": "utopia_3402",
+    "category": "psionic",
+    "subcategory": "shroud_event",
+    "tags": [
+      "psionic_event",
+      "shroud"
+    ]
+  },
+  {
+    "id": "whisperers_in_the_void",
+    "name_zh": "虚空低语者",
+    "name_en": "Whisperers in the Void",
+    "category": "psionic",
+    "subcategory": "patron",
+    "tags": [
+      "psionic",
+      "patron",
+      "covenant"
+    ]
+  },
+  {
     "id": "null_void_beam",
     "name_zh": "太虚光束",
     "name_en": "Null Void Beam",

@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3153",
+  "name": {
+    "en": "Incoming Transmission",
+    "zh": "信号传输接入"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "[Root.GetSpeciesNamePlural]。\n\n别以为你们那试图侵入我们领袖心智的龌龊尝试没有被注意到。\n\n你们会付出代价的。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

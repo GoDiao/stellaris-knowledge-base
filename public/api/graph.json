@@ -202,7 +202,7 @@
       "id": "xanid",
       "name": "泽尼德宗主国",
       "group": "empires",
-      "weight": 4
+      "weight": 5
     },
     {
       "id": "xt489",
@@ -3616,6 +3616,978 @@
       "id": "zroni_digsite_6",
       "name": "泽珞星",
       "group": "events",
+      "weight": 5
+    },
+    {
+      "id": "akx_10000",
+      "name": "akx.10000.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_10010",
+      "name": "akx.10010.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_10020",
+      "name": "akx.10020.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_10030",
+      "name": "akx.10021.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9000",
+      "name": "akx.9000.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9001",
+      "name": "akx.9001.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9005",
+      "name": "akx.9005.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9006",
+      "name": "akx.9006.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9010",
+      "name": "akx.9010.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9011",
+      "name": "akx.9011.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9012",
+      "name": "akx.9012.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9013",
+      "name": "akx.9013.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9020",
+      "name": "akx.9020.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9021",
+      "name": "akx.9021.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9022",
+      "name": "akx.9022.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9023",
+      "name": "akx.9023.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9095",
+      "name": "akx.9095.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9100",
+      "name": "akx.9100.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9101",
+      "name": "akx.9101.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9200",
+      "name": "akx.9200.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9201",
+      "name": "akx.9201.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9210",
+      "name": "akx.9210.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9211",
+      "name": "akx.9211.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9220",
+      "name": "akx.9220.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9221",
+      "name": "akx.9221.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9300",
+      "name": "akx.9300.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9310",
+      "name": "akx.9310.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9312",
+      "name": "akx.9310.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9315",
+      "name": "akx.9315.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9319",
+      "name": "akx.9319.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9320",
+      "name": "akx.9320.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9321",
+      "name": "akx.9321.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9330",
+      "name": "akx.9330.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9340",
+      "name": "akx.9340.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9400",
+      "name": "akx.9400.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9410",
+      "name": "akx.9410.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9420",
+      "name": "akx.9420.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9450",
+      "name": "akx.9450.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9460",
+      "name": "akx.9460.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9465",
+      "name": "akx.9465.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9470",
+      "name": "akx.9470.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9480",
+      "name": "akx.9480.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9490",
+      "name": "akx.9490.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9500",
+      "name": "akx.9500.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9505",
+      "name": "akx_9505",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9510",
+      "name": "akx.9510.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9520",
+      "name": "akx.9520.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9525",
+      "name": "akx.9525.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9530",
+      "name": "akx.9530.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9535",
+      "name": "akx.9535.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9540",
+      "name": "akx.9540.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9541",
+      "name": "akx.9541.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9545",
+      "name": "akx.9545.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9600",
+      "name": "akx.9600.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9601",
+      "name": "akx_9601",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9602",
+      "name": "akx_9602",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9610",
+      "name": "akx.9610.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "akx_9620",
+      "name": "akx.9620.name\r",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "composer_of_strands",
+      "name": "织缕者",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "eater_of_worlds",
+      "name": "噬界者",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "end_of_the_cycle",
+      "name": "终焉之轮回",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "horizon_signal",
+      "name": "时之螶",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "instrument_of_desire",
+      "name": "欲望之器",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "observer_68",
+      "name": "observer_68",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "observer_70",
+      "name": "observer_70",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "observer_71",
+      "name": "observer_71",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "observer_72",
+      "name": "observer_72",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "shroud",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_2657",
+      "name": "utopia_2657",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_2658",
+      "name": "utopia_2658",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3000",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3005",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3010",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3020",
+      "name": "utopia_3020",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3021",
+      "name": "utopia_3021",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3022",
+      "name": "utopia_3022",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3023",
+      "name": "utopia_3023",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3024",
+      "name": "utopia_3024",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3025",
+      "name": "utopia_3025",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3026",
+      "name": "虚境化身被驱散",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3030",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3031",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3032",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3033",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3034",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3035",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3036",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3037",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3038",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3039",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3040",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3041",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3042",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3043",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3044",
+      "name": "§G被赐予恩赐§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3045",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3050",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3051",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3052",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3053",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3054",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3055",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3056",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3057",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3058",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3059",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3100",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3110",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3120",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3130",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3140",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3150",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3151",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3152",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3153",
+      "name": "信号传输接入",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3160",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3161",
+      "name": "§G灵能跃迁引擎§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3162",
+      "name": "§R被赐予诅咒§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3170",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3171",
+      "name": "§G灵能护盾§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3172",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3180",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3181",
+      "name": "§G预知接口§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3182",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3190",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3191",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3192",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3193",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3200",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3300",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3301",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3302",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3303",
+      "name": "utopia_3303",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3304",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3305",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3306",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3307",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3308",
+      "name": "虚境",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3310",
+      "name": "签订契约",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3320",
+      "name": "轮回之终末：§R清算§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3321",
+      "name": "轮回之终末：§R清算§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3324",
+      "name": "轮回之终末：§R虚境之下§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3331",
+      "name": "虚空之低语：§R应对§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3332",
+      "name": "虚空之低语：§R自杀§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3333",
+      "name": "虚空之低语：§R疯狂§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3334",
+      "name": "虚空之低语：§R精神错乱§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3335",
+      "name": "世界之喰煞：§R轻噬§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3336",
+      "name": "世界之喰煞：§R饥饿§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3337",
+      "name": "世界之喰煞：§R极饿§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3338",
+      "name": "utopia_3338",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3339",
+      "name": "utopia_3339",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3340",
+      "name": "渴求之器具：§R腐化§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3341",
+      "name": "生命之织缕：§R变异§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3342",
+      "name": "世界之喰煞：§R饥饿§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3343",
+      "name": "世界之喰煞：§R略饿§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3344",
+      "name": "utopia_3344",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3345",
+      "name": "生命之织缕：§R恶化§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3346",
+      "name": "生命之织缕：§R退化§!",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3400",
+      "name": "天选之帝",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3401",
+      "name": "[chosen_one.GetTitle]在[From.Capital.GetName]加冕登基",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "utopia_3402",
+      "name": "utopia_3402",
+      "group": "psionic",
+      "weight": 5
+    },
+    {
+      "id": "whisperers_in_the_void",
+      "name": "虚空低语者",
+      "group": "psionic",
       "weight": 5
     },
     {
@@ -8917,6 +9889,11 @@
       "source": "xanid",
       "target": "ai",
       "type": "提及"
+    },
+    {
+      "source": "xanid",
+      "target": "composer_of_strands",
+      "type": "同DLC"
     },
     {
       "source": "xt489",
@@ -23141,6 +24118,4056 @@
     {
       "source": "zroni_digsite_6",
       "target": "baol_digsite_3",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10000",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_10000",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10000",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10000",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10000",
+      "target": "akx_9000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10010",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_10010",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10010",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10010",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10010",
+      "target": "akx_9000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10020",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_10020",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10020",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10020",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10020",
+      "target": "akx_9000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10030",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_10030",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10030",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10030",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_10030",
+      "target": "akx_9000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9000",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9000",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9000",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9000",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9000",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9001",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9001",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9001",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9001",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9001",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9005",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9005",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9005",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9005",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9005",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9006",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9006",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9006",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9006",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9006",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9010",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9010",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9010",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9010",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9010",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9011",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9011",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9011",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9011",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9011",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9012",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9012",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9012",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9012",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9012",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9013",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9013",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9013",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9013",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9013",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9020",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9020",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9020",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9020",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9020",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9021",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9021",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9021",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9021",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9021",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9022",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9022",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9022",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9022",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9022",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9023",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9023",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9023",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9023",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9023",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9095",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9095",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9095",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9095",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9095",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9100",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9100",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9100",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9100",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9100",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9101",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9101",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9101",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9101",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9101",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9200",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9200",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9200",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9200",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9200",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9201",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9201",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9201",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9201",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9201",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9210",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9210",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9210",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9210",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9210",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9211",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9211",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9211",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9211",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9211",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9220",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9220",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9220",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9220",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9220",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9221",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9221",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9221",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9221",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9221",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9300",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9300",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9300",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9300",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9300",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9310",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9310",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9310",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9310",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9310",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9312",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9312",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9312",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9312",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9312",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9315",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9315",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9315",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9315",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9315",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9319",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9319",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9319",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9319",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9319",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9320",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9320",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9320",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9320",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9320",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9321",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9321",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9321",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9321",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9321",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9330",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9330",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9330",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9330",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9330",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9340",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9340",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9340",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9340",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9340",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9400",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9400",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9400",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9400",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9400",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9410",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9410",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9410",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9410",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9410",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9420",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9420",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9420",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9420",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9420",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9450",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9450",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9450",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9450",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9450",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9460",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9460",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9460",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9460",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9460",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9465",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9465",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9465",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9465",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9465",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9470",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9470",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9470",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9470",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9470",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9480",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9480",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9480",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9480",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9480",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9490",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9490",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9490",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9490",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9490",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9500",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9500",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9500",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9500",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9500",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9505",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9505",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9505",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9505",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9505",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9510",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9510",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9510",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9510",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9510",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9520",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9520",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9520",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9520",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9520",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9525",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9525",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9525",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9525",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9525",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9530",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9530",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9530",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9530",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9530",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9535",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9535",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9535",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9535",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9535",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9540",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9540",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9540",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9540",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9540",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9541",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9541",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9541",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9541",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9541",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9545",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9545",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9545",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9545",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9545",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9600",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9600",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9600",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9600",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9600",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9601",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9601",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9601",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9601",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9601",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9602",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9602",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9602",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9602",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9602",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9610",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9610",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9610",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9610",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9610",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9620",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "akx_9620",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9620",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9620",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "akx_9620",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "composer_of_strands",
+      "target": "shroud",
+      "type": "所在"
+    },
+    {
+      "source": "composer_of_strands",
+      "target": "eater_of_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "composer_of_strands",
+      "target": "end_of_the_cycle",
+      "type": "关联"
+    },
+    {
+      "source": "composer_of_strands",
+      "target": "horizon_signal",
+      "type": "关联"
+    },
+    {
+      "source": "composer_of_strands",
+      "target": "instrument_of_desire",
+      "type": "关联"
+    },
+    {
+      "source": "eater_of_worlds",
+      "target": "shroud",
+      "type": "所在"
+    },
+    {
+      "source": "eater_of_worlds",
+      "target": "composer_of_strands",
+      "type": "关联"
+    },
+    {
+      "source": "eater_of_worlds",
+      "target": "end_of_the_cycle",
+      "type": "关联"
+    },
+    {
+      "source": "eater_of_worlds",
+      "target": "horizon_signal",
+      "type": "关联"
+    },
+    {
+      "source": "eater_of_worlds",
+      "target": "instrument_of_desire",
+      "type": "关联"
+    },
+    {
+      "source": "end_of_the_cycle",
+      "target": "shroud",
+      "type": "所在"
+    },
+    {
+      "source": "end_of_the_cycle",
+      "target": "composer_of_strands",
+      "type": "关联"
+    },
+    {
+      "source": "end_of_the_cycle",
+      "target": "eater_of_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "end_of_the_cycle",
+      "target": "horizon_signal",
+      "type": "关联"
+    },
+    {
+      "source": "end_of_the_cycle",
+      "target": "instrument_of_desire",
+      "type": "关联"
+    },
+    {
+      "source": "horizon_signal",
+      "target": "larion_digsite",
+      "type": "提及"
+    },
+    {
+      "source": "horizon_signal",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "horizon_signal",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "horizon_signal",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "horizon_signal",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "instrument_of_desire",
+      "target": "shroud",
+      "type": "所在"
+    },
+    {
+      "source": "instrument_of_desire",
+      "target": "composer_of_strands",
+      "type": "关联"
+    },
+    {
+      "source": "instrument_of_desire",
+      "target": "eater_of_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "instrument_of_desire",
+      "target": "end_of_the_cycle",
+      "type": "关联"
+    },
+    {
+      "source": "instrument_of_desire",
+      "target": "horizon_signal",
+      "type": "关联"
+    },
+    {
+      "source": "observer_68",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "observer_68",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "observer_68",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "observer_68",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "observer_68",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "observer_70",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "observer_70",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "observer_70",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "observer_70",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "observer_70",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "observer_71",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "observer_71",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "observer_71",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "observer_71",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "observer_71",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "observer_72",
+      "target": "horizon_signal",
+      "type": "所属"
+    },
+    {
+      "source": "observer_72",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "observer_72",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "observer_72",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "observer_72",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "shroud",
+      "target": "composer_of_strands",
+      "type": "包含"
+    },
+    {
+      "source": "shroud",
+      "target": "eater_of_worlds",
+      "type": "包含"
+    },
+    {
+      "source": "shroud",
+      "target": "instrument_of_desire",
+      "type": "包含"
+    },
+    {
+      "source": "shroud",
+      "target": "whisperers_in_the_void",
+      "type": "包含"
+    },
+    {
+      "source": "shroud",
+      "target": "end_of_the_cycle",
+      "type": "包含"
+    },
+    {
+      "source": "utopia_2657",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_2657",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2657",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2657",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2657",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2658",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_2658",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2658",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2658",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_2658",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3000",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3000",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3000",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3000",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3000",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3005",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3005",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3005",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3005",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3005",
+      "target": "utopia_3045",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3010",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3010",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3010",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3010",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3010",
+      "target": "utopia_3045",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3020",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3020",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3020",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3020",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3020",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3021",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3021",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3021",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3021",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3021",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3022",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3022",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3022",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3022",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3022",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3023",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3023",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3023",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3023",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3023",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3024",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3024",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3024",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3024",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3024",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3025",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3025",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3025",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3025",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3025",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3026",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3026",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3026",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3026",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3026",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3030",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3030",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3030",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3030",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3030",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3031",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3031",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3031",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3031",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3031",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3032",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3032",
+      "target": "tech_telepathy",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3032",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3032",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3032",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3033",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3033",
+      "target": "tech_shields_3",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3033",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3033",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3033",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3034",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3034",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3034",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3034",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3034",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3035",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3035",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3035",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3035",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3035",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3036",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3036",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3036",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3036",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3036",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3037",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3037",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3037",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3037",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3037",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3038",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3038",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3038",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3038",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3038",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3039",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3039",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3039",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3039",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3039",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3040",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3040",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3040",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3040",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3040",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3041",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3041",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3041",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3041",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3041",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3042",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3042",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3042",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3042",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3042",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3043",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3043",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3043",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3043",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3043",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3044",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3044",
+      "target": "trait_traditional",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3044",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3044",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3044",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3045",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3045",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3045",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3045",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3045",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3050",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3050",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3050",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3050",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3050",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3051",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3051",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3051",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3051",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3051",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3052",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3052",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3052",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3052",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3052",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3053",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3053",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3053",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3053",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3053",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3054",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3054",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3054",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3054",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3054",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3055",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3055",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3055",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3055",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3055",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3056",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3056",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3056",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3056",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3056",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3057",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3057",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3057",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3057",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3057",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3058",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3058",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3058",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3058",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3058",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3059",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3059",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3059",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3059",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3059",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3100",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3100",
+      "target": "it_was_aliens_site",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3100",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3100",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3100",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3110",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3110",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3110",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3110",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3110",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3120",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3120",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3120",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3120",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3120",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3130",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3130",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3130",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3130",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3130",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3140",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3140",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3140",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3140",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3140",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3150",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3150",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3150",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3150",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3150",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3151",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3151",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3151",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3151",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3151",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3152",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3152",
+      "target": "DISTAR_SIGNAL_CAT",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3152",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3152",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3152",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3153",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3153",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3153",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3153",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3153",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3160",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3160",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3160",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3160",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3160",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3161",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3161",
+      "target": "tech_jump_drive_1",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3161",
+      "target": "tech_psi_jump_drive_1",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3161",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3161",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3162",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3162",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3162",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3162",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3162",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3170",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3170",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3170",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3170",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3170",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3171",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3171",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3171",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3171",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3171",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3172",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3172",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3172",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3172",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3172",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3180",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3180",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3180",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3180",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3180",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3181",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3181",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3181",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3181",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3181",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3182",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3182",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3182",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3182",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3182",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3190",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3190",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3190",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3190",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3190",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3191",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3191",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3191",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3191",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3191",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3192",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3192",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3192",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3192",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3192",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3193",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3193",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3193",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3193",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3193",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3200",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3200",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3200",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3200",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3200",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3300",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3300",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3300",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3300",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3300",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3301",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3301",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3301",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3301",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3301",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3302",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3302",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3302",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3302",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3302",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3303",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3303",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3303",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3303",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3303",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3304",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3304",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3304",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3304",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3304",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3305",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3305",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3305",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3305",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3305",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3306",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3306",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3306",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3306",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3306",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3307",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3307",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3307",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3307",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3307",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3308",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3308",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3308",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3308",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3308",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3310",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3310",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3310",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3310",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3310",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3320",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3320",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3320",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3320",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3320",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3321",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3321",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3321",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3321",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3321",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3324",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3324",
+      "target": "shroud",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3324",
+      "target": "utopia_3000",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3324",
+      "target": "utopia_3005",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3324",
+      "target": "utopia_3010",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3331",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3331",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3331",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3331",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3331",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3332",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3332",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3332",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3332",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3332",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3333",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3333",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3333",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3333",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3333",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3334",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3334",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3334",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3334",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3334",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3335",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3335",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3335",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3335",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3335",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3336",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3336",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3336",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3336",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3336",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3337",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3337",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3337",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3337",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3337",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3338",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3338",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3338",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3338",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3338",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3339",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3339",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3339",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3339",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3339",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3340",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3340",
+      "target": "avi",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3340",
+      "target": "trait_delicious",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3340",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3340",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3341",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3341",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3341",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3341",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3341",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3342",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3342",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3342",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3342",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3342",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3343",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3343",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3343",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3343",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3343",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3344",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3344",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3344",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3344",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3344",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3345",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3345",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3345",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3345",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3345",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3346",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3346",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3346",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3346",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3346",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3400",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3400",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3400",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3400",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3400",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3401",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3401",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "utopia_3401",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3401",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3401",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3402",
+      "target": "shroud",
+      "type": "所属"
+    },
+    {
+      "source": "utopia_3402",
+      "target": "akx_10000",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3402",
+      "target": "akx_10010",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3402",
+      "target": "akx_10020",
+      "type": "关联"
+    },
+    {
+      "source": "utopia_3402",
+      "target": "akx_10030",
+      "type": "关联"
+    },
+    {
+      "source": "whisperers_in_the_void",
+      "target": "shroud",
+      "type": "所在"
+    },
+    {
+      "source": "whisperers_in_the_void",
+      "target": "composer_of_strands",
+      "type": "关联"
+    },
+    {
+      "source": "whisperers_in_the_void",
+      "target": "eater_of_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "whisperers_in_the_void",
+      "target": "end_of_the_cycle",
+      "type": "关联"
+    },
+    {
+      "source": "whisperers_in_the_void",
+      "target": "horizon_signal",
       "type": "关联"
     },
     {

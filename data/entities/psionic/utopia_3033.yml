@@ -1,0 +1,28 @@
+id: utopia_3033
+name:
+  en: §GBoon Bestowed§!
+  zh: §G被赐予恩赐§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  $boon.ship.link$
+
+  我们的战舰乘员现在能用灵能来强化护盾系统了。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: tech_shields_3
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+event_type: country_event
+picture: null

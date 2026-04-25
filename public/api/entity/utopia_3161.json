@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3161",
+  "name": {
+    "en": "§GPsionic Jump Drives§!",
+    "zh": "§G灵能跃迁引擎§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "又一颗闪烁着的星星突然出现，但这次我们准备好了。那确实是外星舰船，并不像我们星系所见的任何一种。当它飞过时，我们感受到了乘员的心地，他们的秘密是我们的了。\n\n灵能跃迁引擎，天才的设计。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "tech_jump_drive_1"
+    },
+    {
+      "type": "提及",
+      "target": "tech_psi_jump_drive_1"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

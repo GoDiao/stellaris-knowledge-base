@@ -1,0 +1,28 @@
+id: utopia_3120
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  在虚境深处，我们突然感应到了一个存在。像我们一样的访客——由心智制作的强大的灵能探机，对我们来说完全是个外来物，对虚境来说也是。
+
+  我们看到了这样的景象：巨大的有机体漂浮在某种稠密气体大气层中，被成群较小的生物照料着，当它们的灵能回音接触到我们后，它们会短暂地显形。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3005
+  - type: 提及
+    target: utopia_3010
+event_type: country_event
+picture: null

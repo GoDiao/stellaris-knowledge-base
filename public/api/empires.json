@@ -2679,6 +2679,10 @@
       {
         "type": "提及",
         "target": "ai"
+      },
+      {
+        "type": "同DLC",
+        "target": "composer_of_strands"
       }
     ],
     "tags": [

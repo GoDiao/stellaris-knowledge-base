@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3172",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "我们的通灵者在来到虚境如此远的地方后早就精疲力竭，并且未能引导足够多能量以突破护盾。他们失败的尝试似乎激怒了灵体！\n\n§P“你已经收到过警告了，蛆。既然你企图入侵我的世界，我将给你带去毁灭。”§!",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3341",
+  "name": {
+    "en": "Composer of Strands: §RMutation§!",
+    "zh": "生命之织缕：§R变异§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "§Y生命之织缕§!将他的祝福赐予了我们，直接改变了§Y[species_target.GetName]§!物种的基因编码。奇怪的是，快速且难以预测的变异挑起的只是温和的反应。似乎我们的人民把随机而难以预测的变异当成了生活的一部分，不至于为此感到愤慨，甚至认为这不值一提。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

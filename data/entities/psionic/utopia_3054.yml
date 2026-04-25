@@ -1,0 +1,28 @@
+id: utopia_3054
+name:
+  en: §RCurse Bestowed§!
+  zh: §R被赐予诅咒§!
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  $curse.psi.link$
+
+  我们研究者的内心变得阴暗无比，这对他们专注工作有很大影响。
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

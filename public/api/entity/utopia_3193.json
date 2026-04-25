@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3193",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "当池中巨量的能量传输给[chosen_leader.GetName]时，整个虚境似乎都在震颤。\n\n虽然传输成功了，[chosen_leader.GetName]被变成了某种纯粹的能量生物。\n\n§P“你们……你们对我做了什么……”§!\n\n§P“你们……都将……付出……代价……”§!",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

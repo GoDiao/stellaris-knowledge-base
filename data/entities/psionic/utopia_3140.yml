@@ -1,0 +1,30 @@
+id: utopia_3140
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: |-
+  突然，在痛苦的瞬间清晰中，我们存在的本质展现在我们面前。数千个像我们当前所处的星系被锁死在多元宇宙冲突的无尽循环中。
+
+  它开始，终结，又再度开始。每一次，万亿的生命在平衡挣扎。
+
+  §P“正是如此。”§!一个声音低语着，§P“而且永应如此。”§!
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 关联
+    target: akx_10000
+  - type: 关联
+    target: akx_10010
+  - type: 关联
+    target: akx_10020
+  - type: 关联
+    target: akx_10030
+event_type: country_event
+picture: null

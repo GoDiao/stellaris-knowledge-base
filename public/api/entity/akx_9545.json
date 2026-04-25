@@ -1,0 +1,40 @@
+{
+  "id": "akx_9545",
+  "name": {
+    "en": "akx.9545.name\r",
+    "zh": "akx.9545.name\r"
+  },
+  "category": "psionic",
+  "subcategory": "horizon_signal_event",
+  "dlc": "Horizon Signal",
+  "lore": "akx.9545.desc\r",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "horizon_signal"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "horizon_signal"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10030"
+    }
+  ],
+  "event_type": "planet_event",
+  "picture": "GFX_evt_colony_settlement"
+}

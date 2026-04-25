@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3030",
+  "name": {
+    "en": "§GBoon Bestowed§!",
+    "zh": "§G被赐予恩赐§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$boon.psi.link$\n\n一种对平静的深远认识迅速传遍了[Root.GetName]，看起来那些没有灵能能力的人甚至也被影响了。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

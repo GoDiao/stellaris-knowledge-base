@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3032",
+  "name": {
+    "en": "§GBoon Bestowed§!",
+    "zh": "§G被赐予恩赐§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "$boon.psi.link$\n\n我们的科学家建立了一个暨由心灵感应分享的知识集库，这将极大地提高他们的工作效率。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "tech_telepathy"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3335",
+  "name": {
+    "en": "Eater of Worlds: §RNibbly§!",
+    "zh": "世界之喰煞：§R轻噬§!"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "我们的一位领袖突然失踪了，仅留下了灵能活动的回声。我们相信这是世界之喰煞的意欲。我们会想办法弥补这些，并祈祷食煞能够为此感到饱足一段时间。",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "trait_psionic"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10000"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10010"
+    },
+    {
+      "type": "关联",
+      "target": "akx_10020"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": "GFX_evt_unspeakable_horror"
+}

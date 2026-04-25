@@ -1,0 +1,25 @@
+id: utopia_3005
+name:
+  en: The Shroud
+  zh: 虚境
+category: psionic
+subcategory: shroud_event
+dlc: Utopia
+lore: 我们知道这里潜藏着巨大的力量。虽然我们一度被忽视，但如果能利用好泽珞的力量便能够尝试进行探寻。我们的灵能使在整个虚境中探测到了这些实体。我们应该去寻访哪一位？
+traits: []
+tags:
+  - psionic_event
+  - shroud
+relations:
+  - type: 所属
+    target: shroud
+  - type: 提及
+    target: shroud
+  - type: 提及
+    target: utopia_3000
+  - type: 提及
+    target: utopia_3010
+  - type: 提及
+    target: utopia_3045
+event_type: country_event
+picture: null

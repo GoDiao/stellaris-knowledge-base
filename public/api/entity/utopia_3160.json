@@ -1,0 +1,40 @@
+{
+  "id": "utopia_3160",
+  "name": {
+    "en": "The Shroud",
+    "zh": "虚境"
+  },
+  "category": "psionic",
+  "subcategory": "shroud_event",
+  "dlc": "Utopia",
+  "lore": "一颗闪烁着的星星在虚境物质化。它用难以置信的速度飞行着，有时它会显形为配置不明的外星舰船。然后它便消失在灵能云迹中，来的快去的也快。\n\n那会是什么？是什么能以物理形态进入虚境随后从普通空间的某处出现？",
+  "traits": [],
+  "tags": [
+    "psionic_event",
+    "shroud"
+  ],
+  "relations": [
+    {
+      "type": "所属",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "shroud"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3000"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3005"
+    },
+    {
+      "type": "提及",
+      "target": "utopia_3010"
+    }
+  ],
+  "event_type": "country_event",
+  "picture": null
+}
