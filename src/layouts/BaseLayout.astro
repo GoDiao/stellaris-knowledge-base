@@ -3,7 +3,7 @@ interface Props {
   title: string;
   description?: string;
 }
-const { title, description = '群星(Stellaris)背景设定知识库' } = Astro.props;
+const { title, description = 'Stellaris 背景设定知识库' } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} — 群星知识库</title>
+    <title>{title} — Stellaris 知识库</title>
     <meta name="description" content={description} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +23,7 @@ const base = import.meta.env.BASE_URL;
 
     <nav class="main-nav">
       <div class="nav-brand">
-        <a href={`${base}/`}>群星知识库</a>
+        <a href={`${base}/`}>Stellaris KB</a>
       </div>
       <div class="nav-links">
         <a href={`${base}/`}>首页</a>
@@ -47,7 +47,7 @@ const base = import.meta.env.BASE_URL;
     </main>
 
     <footer class="site-footer">
-      <p>GALACTIC DATA HUB v1.0 // BASED ON ASTRO + YAML // <a href="https://github.com/GoDiao/stellaris-knowledge-base">GITHUB</a></p>
+      <p>STELLARIS KNOWLEDGE BASE v1.0 // ASTRO + YAML // <a href="https://github.com/GoDiao/stellaris-knowledge-base">GITHUB</a></p>
     </footer>
 
     <style>
