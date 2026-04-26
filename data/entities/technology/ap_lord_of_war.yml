@@ -1,0 +1,32 @@
+id: ap_lord_of_war
+name:
+  en: Lord of War
+  zh: 战争之王
+category: technology
+subcategory: ascension_perk
+dlc: Overlord
+lore: 有人说战争对生意来说不是好事，但对我们来说战争就是生意。我们的雇佣兵能在战火纷飞的星系中赚得盆满钵满，而我们正好也能和他们一起“共同富裕”。
+traits:
+  - 'country_enclave_capacity_add: 1'
+  - 'diplo_weight_naval_mult: 0.25'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

@@ -1,0 +1,30 @@
+id: ap_consecrated_worlds
+name:
+  en: Consecrated Worlds
+  zh: 祝圣星球
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 星河璀璨，孕育了众多神圣之地，其中有一些尤为引人注目。作为速朽的凡人，我们依然苦苦挣扎，去预卜宇宙的真正的本源。
+traits: []
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_defender_of_the_galaxy

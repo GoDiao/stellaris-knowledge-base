@@ -1,0 +1,50 @@
+{
+  "id": "ap_mechromancy",
+  "name": {
+    "en": "Mechromancy",
+    "zh": "死灵机师"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "生物体不过是另一种类型的机器罢了。我们可以刺激适当的突触，使这些生物复活来满足我们的利益。",
+  "traits": [
+    "l_slot_weapon_damage_mult: 0.15",
+    "x_slot_weapon_damage_mult: 0.15",
+    "t_slot_weapon_damage_mult: 0.15"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

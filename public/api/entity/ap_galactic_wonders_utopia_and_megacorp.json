@@ -1,0 +1,46 @@
+{
+  "id": "ap_galactic_wonders_utopia_and_megacorp",
+  "name": {
+    "en": "0 \"Galactic Wonders\"",
+    "zh": "星河奇迹"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Utopia",
+  "lore": "巨型结构是我们时代的伟大奇观。如此范围的大型工程在几代人之前是完全无法想象的。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

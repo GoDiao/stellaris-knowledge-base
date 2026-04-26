@@ -1,0 +1,50 @@
+{
+  "id": "ap_evolutionary_mastery",
+  "name": {
+    "en": "ap_evolutionary_mastery",
+    "zh": "ap_evolutionary_mastery"
+  },
+  "category": "technology",
+  "subcategory": "ascension_path",
+  "dlc": null,
+  "lore": "ap_evolutionary_mastery_desc",
+  "traits": [
+    "description: ap_evolutionary_mastery_modifier_desc",
+    "BIOLOGICAL_species_trait_points_add: @ap_evolutionary_mastery_POINTS",
+    "modify_species_cost_mult: @ap_evolutionary_mastery_COST_MULT"
+  ],
+  "tags": [
+    "technology",
+    "ascension_path"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_path",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

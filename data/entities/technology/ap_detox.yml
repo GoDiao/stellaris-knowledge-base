@@ -1,0 +1,30 @@
+id: ap_detox
+name:
+  en: Detox
+  zh: 排毒
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 我们在环境改造方面的最新技术突破能够让我们在一类新的行星上面孕育生命——我们此前认为这类行星极度致命，根本无法改造。
+traits: []
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

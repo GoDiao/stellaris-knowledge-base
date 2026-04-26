@@ -1,0 +1,46 @@
+{
+  "id": "ap_colossus",
+  "name": {
+    "en": "Colossus Project",
+    "zh": "巨像计划"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Apocalypse",
+  "lore": "巨像计划是恐怖和威慑这两种思想梦寐以求的终极产物。这艘有史以来最为巨大的舰船的设计思路是装载能够摧毁整个星球的超级武器。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

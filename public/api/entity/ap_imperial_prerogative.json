@@ -1,0 +1,49 @@
+{
+  "id": "ap_imperial_prerogative",
+  "name": {
+    "en": "Imperial Prerogative",
+    "zh": "中央特权"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "随着我们文明不断的成长，文明的心脏地带也需要进一步的扩张。更多的星系将被置于中央政府的直接控制之下。",
+  "traits": [
+    "empire_size_colonies_mult: -0.50",
+    "country_official_cap_add: 2"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

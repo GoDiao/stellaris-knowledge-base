@@ -1,0 +1,49 @@
+{
+  "id": "ap_shared_destiny",
+  "name": {
+    "en": "Shared Destiny",
+    "zh": "共同命运"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "当我们达到伟大的高度之时，我们决不能抛弃那些忠于我们的人。我们帝国的辉煌未来是属于全体国民的。",
+  "traits": [
+    "divided_patrongage_max_subjects: 1",
+    "envoys_add: 2"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

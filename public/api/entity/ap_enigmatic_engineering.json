@@ -1,0 +1,48 @@
+{
+  "id": "ap_enigmatic_engineering",
+  "name": {
+    "en": "Enigmatic Engineering",
+    "zh": "天机工程"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Apocalypse",
+  "lore": "科技不是一题一解的死板学识，而是令我们超凡脱俗的产物。凡夫俗子根本无法理解我们的进步。",
+  "traits": [
+    "intel_encryption_add: 2"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

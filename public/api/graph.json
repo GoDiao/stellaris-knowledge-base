@@ -4591,6 +4591,264 @@
       "weight": 5
     },
     {
+      "id": "ap_archaeoengineers",
+      "name": "考古工程师",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_arcology_project",
+      "name": "理想城计划",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_become_the_crisis",
+      "name": "化身天灾",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_colossus",
+      "name": "巨像计划",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_consecrated_worlds",
+      "name": "祝圣星球",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_defender_of_the_galaxy",
+      "name": "星河卫士",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_detox",
+      "name": "排毒",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_engineered_evolution",
+      "name": "设计进化",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_enigmatic_engineering",
+      "name": "天机工程",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_eternal_vigilance",
+      "name": "戒心永存",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_evolutionary_mastery",
+      "name": "ap_evolutionary_mastery",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_executive_vigor",
+      "name": "高效行政",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_galactic_contender",
+      "name": "逐鹿星河",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_galactic_force_projection",
+      "name": "星河力量投射",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_galactic_wonders_megacorp",
+      "name": "星河奇迹",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_galactic_wonders_utopia",
+      "name": "星河奇迹",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_galactic_wonders_utopia_and_megacorp",
+      "name": "星河奇迹",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_grasp_the_void",
+      "name": "掌握太虚",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_hive_worlds",
+      "name": "蜂巢星球",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_hydrocentric",
+      "name": "水之心",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_imperial_prerogative",
+      "name": "中央特权",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_interstellar_dominion",
+      "name": "星际主权",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_lord_of_war",
+      "name": "战争之王",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_machine_worlds",
+      "name": "机械世界",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_mastery_of_nature",
+      "name": "掌控自然",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_master_builders",
+      "name": "建筑大师",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_mechromancy",
+      "name": "死灵机师",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_mind_over_matter",
+      "name": "心胜于物",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_nihilistic_acquisition",
+      "name": "强取豪夺",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_one_vision",
+      "name": "万众一心",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_organo_machine_interfacing",
+      "name": "有机机械交互",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_organo_machine_interfacing_assimilator",
+      "name": "有机机械交互",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_shared_destiny",
+      "name": "共同命运",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_synthetic_age",
+      "name": "合成时代",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_synthetic_evolution",
+      "name": "合成进化",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_technological_ascendancy",
+      "name": "科技至上",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_the_flesh_is_weak",
+      "name": "血肉苦弱",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_transcendence",
+      "name": "ap_transcendence",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_transcendent_learning",
+      "name": "卓越学术",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_universal_transactions",
+      "name": "寰宇贸易",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_voidborn",
+      "name": "太空子民",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_world_shaper",
+      "name": "星球塑形师",
+      "group": "technology",
+      "weight": 5
+    },
+    {
+      "id": "ap_xeno_compatibility",
+      "name": "跨物种杂交",
+      "group": "technology",
+      "weight": 5
+    },
+    {
       "id": "null_void_beam",
       "name": "太虚光束",
       "group": "technology",
@@ -28168,6 +28426,1081 @@
     {
       "source": "whisperers_in_the_void",
       "target": "horizon_signal",
+      "type": "关联"
+    },
+    {
+      "source": "ap_archaeoengineers",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_archaeoengineers",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_archaeoengineers",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_archaeoengineers",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_archaeoengineers",
+      "target": "ap_defender_of_the_galaxy",
+      "type": "关联"
+    },
+    {
+      "source": "ap_arcology_project",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_arcology_project",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_arcology_project",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_arcology_project",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_arcology_project",
+      "target": "ap_defender_of_the_galaxy",
+      "type": "关联"
+    },
+    {
+      "source": "ap_become_the_crisis",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_become_the_crisis",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_become_the_crisis",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_become_the_crisis",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_become_the_crisis",
+      "target": "ap_defender_of_the_galaxy",
+      "type": "关联"
+    },
+    {
+      "source": "ap_colossus",
+      "target": "tech_colossus",
+      "type": "提及"
+    },
+    {
+      "source": "ap_colossus",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_colossus",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_colossus",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_colossus",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_consecrated_worlds",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_consecrated_worlds",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_consecrated_worlds",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_consecrated_worlds",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_consecrated_worlds",
+      "target": "ap_defender_of_the_galaxy",
+      "type": "关联"
+    },
+    {
+      "source": "ap_defender_of_the_galaxy",
+      "target": "trait_robot_uncanny",
+      "type": "提及"
+    },
+    {
+      "source": "ap_defender_of_the_galaxy",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_defender_of_the_galaxy",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_defender_of_the_galaxy",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_defender_of_the_galaxy",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_detox",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_detox",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_detox",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_detox",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_detox",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_engineered_evolution",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_engineered_evolution",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_engineered_evolution",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_engineered_evolution",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_engineered_evolution",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_enigmatic_engineering",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_enigmatic_engineering",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_enigmatic_engineering",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_enigmatic_engineering",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_enigmatic_engineering",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_eternal_vigilance",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_eternal_vigilance",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_eternal_vigilance",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_eternal_vigilance",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_eternal_vigilance",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_evolutionary_mastery",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_evolutionary_mastery",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_evolutionary_mastery",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_evolutionary_mastery",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_evolutionary_mastery",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_executive_vigor",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_executive_vigor",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_executive_vigor",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_executive_vigor",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_executive_vigor",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_contender",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_contender",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_contender",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_contender",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_contender",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_force_projection",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_force_projection",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_force_projection",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_force_projection",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_force_projection",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_megacorp",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_megacorp",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_megacorp",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_megacorp",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_megacorp",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia_and_megacorp",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia_and_megacorp",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia_and_megacorp",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia_and_megacorp",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_galactic_wonders_utopia_and_megacorp",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_grasp_the_void",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_grasp_the_void",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_grasp_the_void",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_grasp_the_void",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_grasp_the_void",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hive_worlds",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hive_worlds",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hive_worlds",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hive_worlds",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hive_worlds",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hydrocentric",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hydrocentric",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hydrocentric",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hydrocentric",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_hydrocentric",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_imperial_prerogative",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_imperial_prerogative",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_imperial_prerogative",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_imperial_prerogative",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_imperial_prerogative",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_interstellar_dominion",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_interstellar_dominion",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_interstellar_dominion",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_interstellar_dominion",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_interstellar_dominion",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_lord_of_war",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_lord_of_war",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_lord_of_war",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_lord_of_war",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_lord_of_war",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_machine_worlds",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_machine_worlds",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_machine_worlds",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_machine_worlds",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_machine_worlds",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mastery_of_nature",
+      "target": "alien_life_cat",
+      "type": "提及"
+    },
+    {
+      "source": "ap_mastery_of_nature",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mastery_of_nature",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mastery_of_nature",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mastery_of_nature",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_master_builders",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_master_builders",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_master_builders",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_master_builders",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_master_builders",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mechromancy",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mechromancy",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mechromancy",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mechromancy",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mechromancy",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mind_over_matter",
+      "target": "trait_psionic",
+      "type": "提及"
+    },
+    {
+      "source": "ap_mind_over_matter",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mind_over_matter",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mind_over_matter",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_mind_over_matter",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_nihilistic_acquisition",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_nihilistic_acquisition",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_nihilistic_acquisition",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_nihilistic_acquisition",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_nihilistic_acquisition",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_one_vision",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_one_vision",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_one_vision",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_one_vision",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_one_vision",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing_assimilator",
+      "target": "trait_machine_unit",
+      "type": "提及"
+    },
+    {
+      "source": "ap_organo_machine_interfacing_assimilator",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing_assimilator",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing_assimilator",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_organo_machine_interfacing_assimilator",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_shared_destiny",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_shared_destiny",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_shared_destiny",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_shared_destiny",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_shared_destiny",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_age",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_age",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_age",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_age",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_age",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_evolution",
+      "target": "tech_synthetic_workers",
+      "type": "提及"
+    },
+    {
+      "source": "ap_synthetic_evolution",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_evolution",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_evolution",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_synthetic_evolution",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_technological_ascendancy",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_technological_ascendancy",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_technological_ascendancy",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_technological_ascendancy",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_technological_ascendancy",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_the_flesh_is_weak",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_the_flesh_is_weak",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_the_flesh_is_weak",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_the_flesh_is_weak",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_the_flesh_is_weak",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendence",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendence",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendence",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendence",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendence",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendent_learning",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendent_learning",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendent_learning",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendent_learning",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_transcendent_learning",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_universal_transactions",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_universal_transactions",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_universal_transactions",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_universal_transactions",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_universal_transactions",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_voidborn",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_voidborn",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_voidborn",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_voidborn",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_voidborn",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_world_shaper",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_world_shaper",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_world_shaper",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_world_shaper",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_world_shaper",
+      "target": "ap_consecrated_worlds",
+      "type": "关联"
+    },
+    {
+      "source": "ap_xeno_compatibility",
+      "target": "ap_archaeoengineers",
+      "type": "关联"
+    },
+    {
+      "source": "ap_xeno_compatibility",
+      "target": "ap_arcology_project",
+      "type": "关联"
+    },
+    {
+      "source": "ap_xeno_compatibility",
+      "target": "ap_become_the_crisis",
+      "type": "关联"
+    },
+    {
+      "source": "ap_xeno_compatibility",
+      "target": "ap_colossus",
+      "type": "关联"
+    },
+    {
+      "source": "ap_xeno_compatibility",
+      "target": "ap_consecrated_worlds",
       "type": "关联"
     },
     {

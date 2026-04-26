@@ -1,0 +1,46 @@
+{
+  "id": "ap_engineered_evolution",
+  "name": {
+    "en": "Engineered Evolution",
+    "zh": "设计进化"
+  },
+  "category": "technology",
+  "subcategory": "ascension_path",
+  "dlc": null,
+  "lore": "将我们的进化之道完全放任于自然是一种低效且缓慢的做法。为何不在生物进化上一步到位，羽化而登仙呢？",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_path"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_path",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

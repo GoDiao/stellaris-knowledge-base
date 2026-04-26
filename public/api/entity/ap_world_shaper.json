@@ -1,0 +1,48 @@
+{
+  "id": "ap_world_shaper",
+  "name": {
+    "en": "World Shaper",
+    "zh": "星球塑形师"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "通过细致的雕琢和改造来彻底地转变一个星球的生态系统，其难度不亚于让一位艺术家用软绵绵的粘土雕刻人像。",
+  "traits": [
+    "terraforming_cost_mult: -0.25"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

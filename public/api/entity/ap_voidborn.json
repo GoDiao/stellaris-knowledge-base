@@ -1,0 +1,51 @@
+{
+  "id": "ap_voidborn",
+  "name": {
+    "en": "Voidborne",
+    "zh": "太空子民"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Utopia",
+  "lore": "我们已经适应了太空深处的永久居住，这将降低建造基础设施的资源需求，并使我们的居住站提供更多空间以用于其他功能。",
+  "traits": [
+    "megastructures_habitat_cost_mult: -0.20",
+    "habitat_districts_building_slots_add: 0.25",
+    "habitat_max_districts_add: 2",
+    "habitat_district_jobs_add: 1"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

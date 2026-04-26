@@ -1,0 +1,30 @@
+id: ap_synthetic_age
+name:
+  en: Synthetic Age
+  zh: 合成时代
+category: technology
+subcategory: ascension_path
+dlc: null
+lore: 属于有机生物的时代已经落幕，宇宙的未来是属于机器的。这是合成时代的黎明。
+traits: []
+tags:
+  - technology
+  - ascension_path
+technology:
+  area: null
+  tier: null
+  category: ascension_path
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

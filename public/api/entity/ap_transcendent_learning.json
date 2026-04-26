@@ -1,0 +1,49 @@
+{
+  "id": "ap_transcendent_learning",
+  "name": {
+    "en": "Transcendent Learning",
+    "zh": "卓越学术"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "我们的社会必须改变其对学习的态度。只要这样，我们最尖端的技术和知识人才就能达到一个新的高度。",
+  "traits": [
+    "country_scientist_cap_add: 2",
+    "species_leader_exp_gain: 0.25"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+id: ap_grasp_the_void
+name:
+  en: Grasp the Void
+  zh: 掌握太虚
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 广袤的星系拥有着无限的财富，等待那些能够掌握太虚的帝国前去探索。
+traits:
+  - 'country_starbase_capacity_add: 5'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

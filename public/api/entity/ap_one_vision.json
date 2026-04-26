@@ -1,0 +1,50 @@
+{
+  "id": "ap_one_vision",
+  "name": {
+    "en": "One Vision",
+    "zh": "万众一心"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "真正意义上的团结，仅当国家和其人民的终极目标一致时，才能得以实现。兄弟阋于墙，外御其侮。",
+  "traits": [
+    "country_unity_produces_mult: 0.10",
+    "pop_amenities_usage_mult: -0.10",
+    "pop_government_ethic_attraction: 0.50"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+id: ap_become_the_crisis
+name:
+  en: Become the Crisis
+  zh: 化身天灾
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 一切伟大之作都需要牺牲来铸就。星系中的其他生物或许不能理解，但他们必将服从。
+traits: []
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds
+  - type: 关联
+    target: ap_defender_of_the_galaxy

@@ -1,0 +1,49 @@
+{
+  "id": "ap_master_builders",
+  "name": {
+    "en": "Master Builders",
+    "zh": "建筑大师"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Utopia",
+  "lore": "建造巨型结构需要超乎想象的资源存贮和预案计划。我们正在迈向宏观工程的全新层面。",
+  "traits": [
+    "megastructure_build_speed_mult: 0.5",
+    "country_megastructure_build_cap_add: 1"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

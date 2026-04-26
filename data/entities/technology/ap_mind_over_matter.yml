@@ -1,0 +1,30 @@
+id: ap_mind_over_matter
+name:
+  en: Mind over Matter
+  zh: 心胜于物
+category: technology
+subcategory: ascension_path
+dlc: null
+lore: 我们内心的潜能仅仅只有一小部分被开发使用。在我们物种内部，现在只有为数不多的个体能够操纵灵能的力量。
+traits: []
+tags:
+  - technology
+  - ascension_path
+technology:
+  area: null
+  tier: null
+  category: ascension_path
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_psionic
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus

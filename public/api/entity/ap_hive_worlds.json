@@ -1,0 +1,46 @@
+{
+  "id": "ap_hive_worlds",
+  "name": {
+    "en": "Hive Worlds",
+    "zh": "蜂巢星球"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": "Utopia",
+  "lore": "我们将要打造一个和蜂巢融为一体的活体星球，星球的每一寸角落皆为蜂巢的一部分，而子个体可以居住其中。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

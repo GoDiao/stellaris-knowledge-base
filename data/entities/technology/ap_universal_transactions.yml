@@ -1,0 +1,33 @@
+id: ap_universal_transactions
+name:
+  en: Universal Transactions
+  zh: 寰宇贸易
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 我们应当将我们的生意与品牌拓展到宇宙的每一个角落。繁荣永无止境！
+traits:
+  - 'country_official_cap_add: 1'
+  - 'commercial_pact_mult: 0.20'
+  - 'planet_branch_offices_cost_mult: -0.15'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

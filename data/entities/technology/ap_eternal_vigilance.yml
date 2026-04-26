@@ -1,0 +1,35 @@
+id: ap_eternal_vigilance
+name:
+  en: Eternal Vigilance
+  zh: 戒心永存
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 展示我们的弱点就是邀请敌人来进攻。我们必须让敌人认识到入侵我们的代价是如此之大，以至于没有人敢于承担入侵我们的代价。
+traits:
+  - 'country_commander_cap_add: 1'
+  - 'shipclass_starbase_damage_mult: 0.25'
+  - 'shipclass_starbase_hull_mult: 0.25'
+  - 'shipclass_military_station_damage_mult: 0.25'
+  - 'starbase_defense_platform_capacity_add: 5'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

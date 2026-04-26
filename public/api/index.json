@@ -8256,6 +8256,479 @@
     ]
   },
   {
+    "id": "ap_archaeoengineers",
+    "name_zh": "考古工程师",
+    "name_en": "Archaeo-Engineers",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_arcology_project",
+    "name_zh": "理想城计划",
+    "name_en": "Arcology Project",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_become_the_crisis",
+    "name_zh": "化身天灾",
+    "name_en": "Become the Crisis",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_colossus",
+    "name_zh": "巨像计划",
+    "name_en": "Colossus Project",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_consecrated_worlds",
+    "name_zh": "祝圣星球",
+    "name_en": "Consecrated Worlds",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_defender_of_the_galaxy",
+    "name_zh": "星河卫士",
+    "name_en": "Defender of the Galaxy",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_detox",
+    "name_zh": "排毒",
+    "name_en": "Detox",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_engineered_evolution",
+    "name_zh": "设计进化",
+    "name_en": "Engineered Evolution",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_enigmatic_engineering",
+    "name_zh": "天机工程",
+    "name_en": "Enigmatic Engineering",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_eternal_vigilance",
+    "name_zh": "戒心永存",
+    "name_en": "Eternal Vigilance",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_evolutionary_mastery",
+    "name_zh": "ap_evolutionary_mastery",
+    "name_en": "ap_evolutionary_mastery",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_executive_vigor",
+    "name_zh": "高效行政",
+    "name_en": "Executive Vigor",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_galactic_contender",
+    "name_zh": "逐鹿星河",
+    "name_en": "Galactic Contender",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_galactic_force_projection",
+    "name_zh": "星河力量投射",
+    "name_en": "Galactic Force Projection",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_megacorp",
+    "name_zh": "星河奇迹",
+    "name_en": "0 \"Galactic Wonders\"",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_utopia",
+    "name_zh": "星河奇迹",
+    "name_en": "0 \"Galactic Wonders\"",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_utopia_and_megacorp",
+    "name_zh": "星河奇迹",
+    "name_en": "0 \"Galactic Wonders\"",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_grasp_the_void",
+    "name_zh": "掌握太虚",
+    "name_en": "Grasp the Void",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_hive_worlds",
+    "name_zh": "蜂巢星球",
+    "name_en": "Hive Worlds",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_hydrocentric",
+    "name_zh": "水之心",
+    "name_en": "Hydrocentric",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_imperial_prerogative",
+    "name_zh": "中央特权",
+    "name_en": "Imperial Prerogative",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_interstellar_dominion",
+    "name_zh": "星际主权",
+    "name_en": "Interstellar Dominion",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_lord_of_war",
+    "name_zh": "战争之王",
+    "name_en": "Lord of War",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_machine_worlds",
+    "name_zh": "机械世界",
+    "name_en": "Machine Worlds",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_mastery_of_nature",
+    "name_zh": "掌控自然",
+    "name_en": "Mastery of Nature",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_master_builders",
+    "name_zh": "建筑大师",
+    "name_en": "Master Builders",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_mechromancy",
+    "name_zh": "死灵机师",
+    "name_en": "Mechromancy",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_mind_over_matter",
+    "name_zh": "心胜于物",
+    "name_en": "Mind over Matter",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_nihilistic_acquisition",
+    "name_zh": "强取豪夺",
+    "name_en": "Nihilistic Acquisition",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_one_vision",
+    "name_zh": "万众一心",
+    "name_en": "One Vision",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_organo_machine_interfacing",
+    "name_zh": "有机机械交互",
+    "name_en": "Organo-Machine Interfacing",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_organo_machine_interfacing_assimilator",
+    "name_zh": "有机机械交互",
+    "name_en": "0 \"Organo-Machine Interfacing\"",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_shared_destiny",
+    "name_zh": "共同命运",
+    "name_en": "Shared Destiny",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_synthetic_age",
+    "name_zh": "合成时代",
+    "name_en": "Synthetic Age",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_synthetic_evolution",
+    "name_zh": "合成进化",
+    "name_en": "Synthetic Evolution",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_technological_ascendancy",
+    "name_zh": "科技至上",
+    "name_en": "Technological Ascendancy",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_the_flesh_is_weak",
+    "name_zh": "血肉苦弱",
+    "name_en": "The Flesh is Weak",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_transcendence",
+    "name_zh": "ap_transcendence",
+    "name_en": "ap_transcendence",
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "tags": [
+      "technology",
+      "ascension_path"
+    ]
+  },
+  {
+    "id": "ap_transcendent_learning",
+    "name_zh": "卓越学术",
+    "name_en": "Transcendent Learning",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_universal_transactions",
+    "name_zh": "寰宇贸易",
+    "name_en": "Universal Transactions",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_voidborn",
+    "name_zh": "太空子民",
+    "name_en": "Voidborne",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_world_shaper",
+    "name_zh": "星球塑形师",
+    "name_en": "World Shaper",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
+    "id": "ap_xeno_compatibility",
+    "name_zh": "跨物种杂交",
+    "name_en": "Xeno-Compatibility",
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ]
+  },
+  {
     "id": "null_void_beam",
     "name_zh": "太虚光束",
     "name_en": "Null Void Beam",

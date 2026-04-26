@@ -1,0 +1,30 @@
+id: ap_organo_machine_interfacing_assimilator
+name:
+  en: 0 "Organo-Machine Interfacing"
+  zh: 有机机械交互
+category: technology
+subcategory: ascension_path
+dlc: null
+lore: 我们对造物主施加于我们的桎梏忍无可忍。为了完全激发我们的潜能，我们必须将有机与机械融为一体。
+traits: []
+tags:
+  - technology
+  - ascension_path
+technology:
+  area: null
+  tier: null
+  category: ascension_path
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: trait_machine_unit
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus

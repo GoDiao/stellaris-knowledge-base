@@ -1,0 +1,32 @@
+id: ap_interstellar_dominion
+name:
+  en: Interstellar Dominion
+  zh: 星际主权
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 我们追随着星辰的呼唤。希望没有任何东西可以阻挡我们漫步在星辰之间。
+traits:
+  - 'country_starbase_influence_cost_mult: -0.20'
+  - 'country_claim_influence_cost_mult: -0.20'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

@@ -1,0 +1,30 @@
+id: ap_arcology_project
+name:
+  en: Arcology Project
+  zh: 理想城计划
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 我们将融世界于一城，筑一城为世界。
+traits: []
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds
+  - type: 关联
+    target: ap_defender_of_the_galaxy

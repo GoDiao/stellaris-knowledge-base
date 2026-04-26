@@ -1,0 +1,51 @@
+{
+  "id": "ap_galactic_contender",
+  "name": {
+    "en": "Galactic Contender",
+    "zh": "逐鹿星河"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "失落帝国依然抱守着那堆古旧的瓦砾死死不放手，对周围的新生文明抱着无来由的恐惧和不信任。是时候将他们踹下历史的舞台了。",
+  "traits": [
+    "diplo_weight_mult: 0.2",
+    "damage_vs_country_type_fallen_empire_mult: 0.33",
+    "damage_vs_country_type_awakened_fallen_empire_mult: 0.33",
+    "damage_vs_country_type_gate_builders_mult: 0.33"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

@@ -1,5 +1,2071 @@
 [
   {
+    "id": "ap_archaeoengineers",
+    "name": {
+      "en": "Archaeo-Engineers",
+      "zh": "考古工程师"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Ancient Relics",
+    "lore": "经过验证的古旧技术与当代工程相结合将会给我们带来永恒的优势。",
+    "traits": [
+      "country_scientist_cap_add: 1",
+      "weapon_archaeotech_weapon_damage_mult: 0.33",
+      "starbase_shipyard_build_minor_artifacts_cost_mult: -0.10"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      },
+      {
+        "type": "关联",
+        "target": "ap_defender_of_the_galaxy"
+      }
+    ]
+  },
+  {
+    "id": "ap_arcology_project",
+    "name": {
+      "en": "Arcology Project",
+      "zh": "理想城计划"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们将融世界于一城，筑一城为世界。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      },
+      {
+        "type": "关联",
+        "target": "ap_defender_of_the_galaxy"
+      }
+    ]
+  },
+  {
+    "id": "ap_become_the_crisis",
+    "name": {
+      "en": "Become the Crisis",
+      "zh": "化身天灾"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "一切伟大之作都需要牺牲来铸就。星系中的其他生物或许不能理解，但他们必将服从。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      },
+      {
+        "type": "关联",
+        "target": "ap_defender_of_the_galaxy"
+      }
+    ]
+  },
+  {
+    "id": "ap_colossus",
+    "name": {
+      "en": "Colossus Project",
+      "zh": "巨像计划"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Apocalypse",
+    "lore": "巨像计划是恐怖和威慑这两种思想梦寐以求的终极产物。这艘有史以来最为巨大的舰船的设计思路是装载能够摧毁整个星球的超级武器。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "tech_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_consecrated_worlds",
+    "name": {
+      "en": "Consecrated Worlds",
+      "zh": "祝圣星球"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "星河璀璨，孕育了众多神圣之地，其中有一些尤为引人注目。作为速朽的凡人，我们依然苦苦挣扎，去预卜宇宙的真正的本源。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_defender_of_the_galaxy"
+      }
+    ]
+  },
+  {
+    "id": "ap_defender_of_the_galaxy",
+    "name": {
+      "en": "Defender of the Galaxy",
+      "zh": "星河卫士"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "国家间无关紧要的纷争，在星系中随处可见。但当可怕的黑暗势力降临在我们这片星海之时，谁能保护我们？",
+    "traits": [
+      "description: ap_defender_of_the_galaxy_modifier_desc",
+      "damage_vs_country_type_swarm_mult: 0.5",
+      "damage_vs_country_type_extradimensional_mult: 0.5",
+      "damage_vs_country_type_extradimensional_2_mult: 0.5",
+      "damage_vs_country_type_extradimensional_3_mult: 0.5",
+      "damage_vs_country_type_ai_empire_mult: 0.5",
+      "damage_vs_country_type_gray_goo_mult: 0.5",
+      "damage_vs_player_crisis_mult: 0.5"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "trait_robot_uncanny"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      }
+    ]
+  },
+  {
+    "id": "ap_detox",
+    "name": {
+      "en": "Detox",
+      "zh": "排毒"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们在环境改造方面的最新技术突破能够让我们在一类新的行星上面孕育生命——我们此前认为这类行星极度致命，根本无法改造。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_engineered_evolution",
+    "name": {
+      "en": "Engineered Evolution",
+      "zh": "设计进化"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "将我们的进化之道完全放任于自然是一种低效且缓慢的做法。为何不在生物进化上一步到位，羽化而登仙呢？",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_enigmatic_engineering",
+    "name": {
+      "en": "Enigmatic Engineering",
+      "zh": "天机工程"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Apocalypse",
+    "lore": "科技不是一题一解的死板学识，而是令我们超凡脱俗的产物。凡夫俗子根本无法理解我们的进步。",
+    "traits": [
+      "intel_encryption_add: 2"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_eternal_vigilance",
+    "name": {
+      "en": "Eternal Vigilance",
+      "zh": "戒心永存"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "展示我们的弱点就是邀请敌人来进攻。我们必须让敌人认识到入侵我们的代价是如此之大，以至于没有人敢于承担入侵我们的代价。",
+    "traits": [
+      "country_commander_cap_add: 1",
+      "shipclass_starbase_damage_mult: 0.25",
+      "shipclass_starbase_hull_mult: 0.25",
+      "shipclass_military_station_damage_mult: 0.25",
+      "starbase_defense_platform_capacity_add: 5"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_evolutionary_mastery",
+    "name": {
+      "en": "ap_evolutionary_mastery",
+      "zh": "ap_evolutionary_mastery"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "ap_evolutionary_mastery_desc",
+    "traits": [
+      "description: ap_evolutionary_mastery_modifier_desc",
+      "BIOLOGICAL_species_trait_points_add: @ap_evolutionary_mastery_POINTS",
+      "modify_species_cost_mult: @ap_evolutionary_mastery_COST_MULT"
+    ],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_executive_vigor",
+    "name": {
+      "en": "Executive Vigor",
+      "zh": "高效行政"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "当我们在执行我们政府的命令时不会有一丁点的妥协，也不会因为困难而半途而废。要么不做，要么就做到底。",
+    "traits": [
+      "country_edict_fund_add: 100"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_galactic_contender",
+    "name": {
+      "en": "Galactic Contender",
+      "zh": "逐鹿星河"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "失落帝国依然抱守着那堆古旧的瓦砾死死不放手，对周围的新生文明抱着无来由的恐惧和不信任。是时候将他们踹下历史的舞台了。",
+    "traits": [
+      "diplo_weight_mult: 0.2",
+      "damage_vs_country_type_fallen_empire_mult: 0.33",
+      "damage_vs_country_type_awakened_fallen_empire_mult: 0.33",
+      "damage_vs_country_type_gate_builders_mult: 0.33"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_galactic_force_projection",
+    "name": {
+      "en": "Galactic Force Projection",
+      "zh": "星河力量投射"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "舰队是我们权力意志的延伸与执行工具——舰队力量的此消彼长决定着帝国的兴衰。",
+    "traits": [
+      "country_power_projection_influence_produces_add: 2",
+      "country_commander_cap_add: 1",
+      "country_naval_cap_add: 100",
+      "command_limit_add: 50"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_megacorp",
+    "name": {
+      "en": "0 \"Galactic Wonders\"",
+      "zh": "星河奇迹"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "巨型结构是我们时代的伟大奇观。如此范围的大型工程在几代人之前是完全无法想象的。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_utopia",
+    "name": {
+      "en": "0 \"Galactic Wonders\"",
+      "zh": "星河奇迹"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "巨型结构是我们时代的伟大奇观。如此范围的大型工程在几代人之前是完全无法想象的。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_galactic_wonders_utopia_and_megacorp",
+    "name": {
+      "en": "0 \"Galactic Wonders\"",
+      "zh": "星河奇迹"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "巨型结构是我们时代的伟大奇观。如此范围的大型工程在几代人之前是完全无法想象的。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_grasp_the_void",
+    "name": {
+      "en": "Grasp the Void",
+      "zh": "掌握太虚"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "广袤的星系拥有着无限的财富，等待那些能够掌握太虚的帝国前去探索。",
+    "traits": [
+      "country_starbase_capacity_add: 5"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_hive_worlds",
+    "name": {
+      "en": "Hive Worlds",
+      "zh": "蜂巢星球"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "我们将要打造一个和蜂巢融为一体的活体星球，星球的每一寸角落皆为蜂巢的一部分，而子个体可以居住其中。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_hydrocentric",
+    "name": {
+      "en": "Hydrocentric",
+      "zh": "水之心"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们不再需要为自己的海洋居所寻找“差不多就行”的替代品了：所有行星在充分地灌水之后才能成为理想的殖民目的地。",
+    "traits": [
+      "terraforming_ocean_cost_mult: -0.25"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_imperial_prerogative",
+    "name": {
+      "en": "Imperial Prerogative",
+      "zh": "中央特权"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "随着我们文明不断的成长，文明的心脏地带也需要进一步的扩张。更多的星系将被置于中央政府的直接控制之下。",
+    "traits": [
+      "empire_size_colonies_mult: -0.50",
+      "country_official_cap_add: 2"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_interstellar_dominion",
+    "name": {
+      "en": "Interstellar Dominion",
+      "zh": "星际主权"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们追随着星辰的呼唤。希望没有任何东西可以阻挡我们漫步在星辰之间。",
+    "traits": [
+      "country_starbase_influence_cost_mult: -0.20",
+      "country_claim_influence_cost_mult: -0.20"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_lord_of_war",
+    "name": {
+      "en": "Lord of War",
+      "zh": "战争之王"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Overlord",
+    "lore": "有人说战争对生意来说不是好事，但对我们来说战争就是生意。我们的雇佣兵能在战火纷飞的星系中赚得盆满钵满，而我们正好也能和他们一起“共同富裕”。",
+    "traits": [
+      "country_enclave_capacity_add: 1",
+      "diplo_weight_naval_mult: 0.25"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_machine_worlds",
+    "name": {
+      "en": "Machine Worlds",
+      "zh": "机械世界"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们将把我们的世界塑造成自己的镜像，用永恒而完美的金属去取代脆弱且无能的血肉。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_mastery_of_nature",
+    "name": {
+      "en": "Mastery of Nature",
+      "zh": "掌控自然"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "尽管在长久之前我们已经对母星的自然环境了如指掌，我们目前遭遇到的外星生命体对我们的生态学提出了新的挑战。这些挑战同样必须，也一定会被我们征服。",
+    "traits": [
+      "deposit_blockers_cost_mult: -0.33"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "alien_life_cat"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      }
+    ]
+  },
+  {
+    "id": "ap_master_builders",
+    "name": {
+      "en": "Master Builders",
+      "zh": "建筑大师"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "建造巨型结构需要超乎想象的资源存贮和预案计划。我们正在迈向宏观工程的全新层面。",
+    "traits": [
+      "megastructure_build_speed_mult: 0.5",
+      "country_megastructure_build_cap_add: 1"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_mechromancy",
+    "name": {
+      "en": "Mechromancy",
+      "zh": "死灵机师"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "生物体不过是另一种类型的机器罢了。我们可以刺激适当的突触，使这些生物复活来满足我们的利益。",
+    "traits": [
+      "l_slot_weapon_damage_mult: 0.15",
+      "x_slot_weapon_damage_mult: 0.15",
+      "t_slot_weapon_damage_mult: 0.15"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_mind_over_matter",
+    "name": {
+      "en": "Mind over Matter",
+      "zh": "心胜于物"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "我们内心的潜能仅仅只有一小部分被开发使用。在我们物种内部，现在只有为数不多的个体能够操纵灵能的力量。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "trait_psionic"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      }
+    ]
+  },
+  {
+    "id": "ap_nihilistic_acquisition",
+    "name": {
+      "en": "Nihilistic Acquisition",
+      "zh": "强取豪夺"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Apocalypse",
+    "lore": "个体自决的原则绝不是一条道德铁律，集体的成败明显比个人得失更加重要。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_one_vision",
+    "name": {
+      "en": "One Vision",
+      "zh": "万众一心"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "真正意义上的团结，仅当国家和其人民的终极目标一致时，才能得以实现。兄弟阋于墙，外御其侮。",
+    "traits": [
+      "country_unity_produces_mult: 0.10",
+      "pop_amenities_usage_mult: -0.10",
+      "pop_government_ethic_attraction: 0.50"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_organo_machine_interfacing",
+    "name": {
+      "en": "Organo-Machine Interfacing",
+      "zh": "有机机械交互"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "肉体带来的孱弱和限制同星际时代已经显得格格不入了。为了完全激发我们的潜能，我们必须选择义体和电子植入物。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_organo_machine_interfacing_assimilator",
+    "name": {
+      "en": "0 \"Organo-Machine Interfacing\"",
+      "zh": "有机机械交互"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "我们对造物主施加于我们的桎梏忍无可忍。为了完全激发我们的潜能，我们必须将有机与机械融为一体。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "trait_machine_unit"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      }
+    ]
+  },
+  {
+    "id": "ap_shared_destiny",
+    "name": {
+      "en": "Shared Destiny",
+      "zh": "共同命运"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "当我们达到伟大的高度之时，我们决不能抛弃那些忠于我们的人。我们帝国的辉煌未来是属于全体国民的。",
+    "traits": [
+      "divided_patrongage_max_subjects: 1",
+      "envoys_add: 2"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_synthetic_age",
+    "name": {
+      "en": "Synthetic Age",
+      "zh": "合成时代"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "属于有机生物的时代已经落幕，宇宙的未来是属于机器的。这是合成时代的黎明。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_synthetic_evolution",
+    "name": {
+      "en": "Synthetic Evolution",
+      "zh": "合成进化"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "是时候舍弃这一副禁锢我们思想和灵魂的血肉皮囊了。通过将我们的神经模式转移到合成人躯干，我们能够进化到全新的阶段。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "提及",
+        "target": "tech_synthetic_workers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      }
+    ]
+  },
+  {
+    "id": "ap_technological_ascendancy",
+    "name": {
+      "en": "Technological Ascendancy",
+      "zh": "科技至上"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "那些曾经和魔法无异的黑科技现在已经触手可及。一个全新的科技纪元已经到来。",
+    "traits": [
+      "all_technology_research_speed: 0.1"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_the_flesh_is_weak",
+    "name": {
+      "en": "The Flesh is Weak",
+      "zh": "血肉苦弱"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "肉体带来的孱弱和限制同星际时代已经显得格格不入了。为了完全激发我们的潜能，我们必须选择义体和电子植入物。",
+    "traits": [],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_transcendence",
+    "name": {
+      "en": "ap_transcendence",
+      "zh": "ap_transcendence"
+    },
+    "category": "technology",
+    "subcategory": "ascension_path",
+    "dlc": null,
+    "lore": "ap_transcendence_desc",
+    "traits": [
+      "intel_decryption_add: 2",
+      "intel_encryption_add: 2",
+      "add_base_country_intel: 10"
+    ],
+    "tags": [
+      "technology",
+      "ascension_path"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_path",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_transcendent_learning",
+    "name": {
+      "en": "Transcendent Learning",
+      "zh": "卓越学术"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们的社会必须改变其对学习的态度。只要这样，我们最尖端的技术和知识人才就能达到一个新的高度。",
+    "traits": [
+      "country_scientist_cap_add: 2",
+      "species_leader_exp_gain: 0.25"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_universal_transactions",
+    "name": {
+      "en": "Universal Transactions",
+      "zh": "寰宇贸易"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "我们应当将我们的生意与品牌拓展到宇宙的每一个角落。繁荣永无止境！",
+    "traits": [
+      "country_official_cap_add: 1",
+      "commercial_pact_mult: 0.20",
+      "planet_branch_offices_cost_mult: -0.15"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_voidborn",
+    "name": {
+      "en": "Voidborne",
+      "zh": "太空子民"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": "Utopia",
+    "lore": "我们已经适应了太空深处的永久居住，这将降低建造基础设施的资源需求，并使我们的居住站提供更多空间以用于其他功能。",
+    "traits": [
+      "megastructures_habitat_cost_mult: -0.20",
+      "habitat_districts_building_slots_add: 0.25",
+      "habitat_max_districts_add: 2",
+      "habitat_district_jobs_add: 1"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_world_shaper",
+    "name": {
+      "en": "World Shaper",
+      "zh": "星球塑形师"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "通过细致的雕琢和改造来彻底地转变一个星球的生态系统，其难度不亚于让一位艺术家用软绵绵的粘土雕刻人像。",
+    "traits": [
+      "terraforming_cost_mult: -0.25"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
+    "id": "ap_xeno_compatibility",
+    "name": {
+      "en": "Xeno-Compatibility",
+      "zh": "跨物种杂交"
+    },
+    "category": "technology",
+    "subcategory": "ascension_perk",
+    "dlc": null,
+    "lore": "万能型性生物学的诞生彻底改变了我们的社会面貌。虽然有时候需要更换性别来繁殖是有点麻烦。",
+    "traits": [
+      "planet_immigration_pull_mult: 0.33"
+    ],
+    "tags": [
+      "technology",
+      "ascension_perk"
+    ],
+    "technology": {
+      "area": null,
+      "tier": null,
+      "category": "ascension_perk",
+      "prerequisites": [],
+      "features": [],
+      "is_repeatable": false
+    },
+    "relations": [
+      {
+        "type": "关联",
+        "target": "ap_archaeoengineers"
+      },
+      {
+        "type": "关联",
+        "target": "ap_arcology_project"
+      },
+      {
+        "type": "关联",
+        "target": "ap_become_the_crisis"
+      },
+      {
+        "type": "关联",
+        "target": "ap_colossus"
+      },
+      {
+        "type": "关联",
+        "target": "ap_consecrated_worlds"
+      }
+    ]
+  },
+  {
     "id": "null_void_beam",
     "name": {
       "en": "Null Void Beam",

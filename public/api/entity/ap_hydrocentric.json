@@ -1,0 +1,48 @@
+{
+  "id": "ap_hydrocentric",
+  "name": {
+    "en": "Hydrocentric",
+    "zh": "水之心"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "我们不再需要为自己的海洋居所寻找“差不多就行”的替代品了：所有行星在充分地灌水之后才能成为理想的殖民目的地。",
+  "traits": [
+    "terraforming_ocean_cost_mult: -0.25"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

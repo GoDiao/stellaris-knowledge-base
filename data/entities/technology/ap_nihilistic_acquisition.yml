@@ -1,0 +1,30 @@
+id: ap_nihilistic_acquisition
+name:
+  en: Nihilistic Acquisition
+  zh: 强取豪夺
+category: technology
+subcategory: ascension_perk
+dlc: Apocalypse
+lore: 个体自决的原则绝不是一条道德铁律，集体的成败明显比个人得失更加重要。
+traits: []
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

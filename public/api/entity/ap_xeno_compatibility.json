@@ -1,0 +1,48 @@
+{
+  "id": "ap_xeno_compatibility",
+  "name": {
+    "en": "Xeno-Compatibility",
+    "zh": "跨物种杂交"
+  },
+  "category": "technology",
+  "subcategory": "ascension_perk",
+  "dlc": null,
+  "lore": "万能型性生物学的诞生彻底改变了我们的社会面貌。虽然有时候需要更换性别来繁殖是有点麻烦。",
+  "traits": [
+    "planet_immigration_pull_mult: 0.33"
+  ],
+  "tags": [
+    "technology",
+    "ascension_perk"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_perk",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

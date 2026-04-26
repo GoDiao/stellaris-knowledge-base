@@ -31,8 +31,16 @@ const base = import.meta.env.BASE_URL;
         <a href={`${base}/graph`}>图谱</a>
         <a href={`${base}/timeline`}>时间线</a>
         <a href={`${base}/api`}>API</a>
+        <button id="search-toggle" class="search-toggle">⌕ 搜索</button>
       </div>
     </nav>
+
+    <div id="search-overlay" class="search-overlay" style="display:none">
+      <div class="search-box">
+        <div id="pagefind-search"></div>
+        <button id="search-close" class="search-close">✕</button>
+      </div>
+    </div>
 
     <main class="page-content">
       <slot />
@@ -41,6 +49,101 @@ const base = import.meta.env.BASE_URL;
     <footer class="site-footer">
       <p>GALACTIC DATA HUB v1.0 // BASED ON ASTRO + YAML // <a href="https://github.com/GoDiao/stellaris-knowledge-base">GITHUB</a></p>
     </footer>
+
+    <style>
+      .search-toggle {
+        background: none;
+        border: 1px solid var(--hud-border);
+        color: var(--text-secondary);
+        font-family: var(--font-body);
+        font-size: 0.75rem;
+        padding: 0.3rem 0.7rem;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        letter-spacing: 0.05em;
+      }
+      .search-toggle:hover {
+        color: var(--text-glow);
+        border-color: var(--text-glow);
+        background: rgba(0, 229, 160, 0.06);
+      }
+      .search-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 500;
+        background: rgba(3, 3, 5, 0.9);
+        backdrop-filter: blur(8px);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 15vh;
+      }
+      .search-box {
+        width: min(640px, 90vw);
+        background: var(--panel);
+        border: 1px solid var(--hud-border);
+        padding: 1.5rem;
+        position: relative;
+        border-radius: 2px;
+      }
+      .search-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        color: var(--text-dim);
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      .search-close:hover { color: var(--text-glow); }
+      /* Pagefind overrides */
+      .pagefind-ui__search-input {
+        background: var(--void-light) !important;
+        border: 1px solid var(--hud-border) !important;
+        color: var(--text-primary) !important;
+        font-family: var(--font-body) !important;
+        border-radius: 2px !important;
+      }
+      .pagefind-ui__search-input::placeholder { color: var(--text-dim) !important; }
+      .pagefind-ui__result-link { color: var(--text-glow) !important; font-family: var(--font-display) !important; }
+      .pagefind-ui__result-excerpt { color: var(--text-secondary) !important; font-family: var(--font-body) !important; }
+      .pagefind-ui__result-nested { border-color: var(--hud-border) !important; }
+      .pagefind-ui__filter-name, .pagefind-ui__filter-group { color: var(--text-secondary) !important; }
+      .pagefind-ui mark { color: var(--text-glow) !important; background: rgba(0,229,160,0.15) !important; }
+    </style>
+
+    <script is:inline>
+      // Search overlay logic - is:inline prevents Vite from processing imports
+      var _pfLoaded = false;
+      document.getElementById('search-toggle')?.addEventListener('click', function() {
+        var overlay = document.getElementById('search-overlay');
+        overlay.style.display = 'flex';
+        if (!_pfLoaded) {
+          var s = document.createElement('script');
+          s.src = '/pagefind/pagefind.js';
+          s.onload = function() {
+            PagefindUI({ element: '#pagefind-search', showSubResults: true });
+            _pfLoaded = true;
+            setTimeout(function() {
+              var input = document.querySelector('.pagefind-ui__search-input');
+              if (input) input.focus();
+            }, 100);
+          };
+          document.head.appendChild(s);
+        }
+      });
+      document.getElementById('search-close')?.addEventListener('click', function() {
+        document.getElementById('search-overlay').style.display = 'none';
+      });
+      document.getElementById('search-overlay')?.addEventListener('click', function(e) {
+        if (e.target === this) this.style.display = 'none';
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') document.getElementById('search-overlay').style.display = 'none';
+      });
+    </script>
 
     <script>
       (function() {

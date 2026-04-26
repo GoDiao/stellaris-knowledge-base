@@ -1,0 +1,33 @@
+id: ap_archaeoengineers
+name:
+  en: Archaeo-Engineers
+  zh: 考古工程师
+category: technology
+subcategory: ascension_perk
+dlc: Ancient Relics
+lore: 经过验证的古旧技术与当代工程相结合将会给我们带来永恒的优势。
+traits:
+  - 'country_scientist_cap_add: 1'
+  - 'weapon_archaeotech_weapon_damage_mult: 0.33'
+  - 'starbase_shipyard_build_minor_artifacts_cost_mult: -0.10'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds
+  - type: 关联
+    target: ap_defender_of_the_galaxy

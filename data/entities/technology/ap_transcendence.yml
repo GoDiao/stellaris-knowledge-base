@@ -1,0 +1,33 @@
+id: ap_transcendence
+name:
+  en: ap_transcendence
+  zh: ap_transcendence
+category: technology
+subcategory: ascension_path
+dlc: null
+lore: ap_transcendence_desc
+traits:
+  - 'intel_decryption_add: 2'
+  - 'intel_encryption_add: 2'
+  - 'add_base_country_intel: 10'
+tags:
+  - technology
+  - ascension_path
+technology:
+  area: null
+  tier: null
+  category: ascension_path
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
+  - type: 关联
+    target: ap_consecrated_worlds

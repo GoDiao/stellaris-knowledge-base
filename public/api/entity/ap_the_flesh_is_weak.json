@@ -1,0 +1,46 @@
+{
+  "id": "ap_the_flesh_is_weak",
+  "name": {
+    "en": "The Flesh is Weak",
+    "zh": "血肉苦弱"
+  },
+  "category": "technology",
+  "subcategory": "ascension_path",
+  "dlc": null,
+  "lore": "肉体带来的孱弱和限制同星际时代已经显得格格不入了。为了完全激发我们的潜能，我们必须选择义体和电子植入物。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_path"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_path",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    },
+    {
+      "type": "关联",
+      "target": "ap_consecrated_worlds"
+    }
+  ]
+}

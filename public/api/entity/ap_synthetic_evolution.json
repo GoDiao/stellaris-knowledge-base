@@ -1,0 +1,46 @@
+{
+  "id": "ap_synthetic_evolution",
+  "name": {
+    "en": "Synthetic Evolution",
+    "zh": "合成进化"
+  },
+  "category": "technology",
+  "subcategory": "ascension_path",
+  "dlc": null,
+  "lore": "是时候舍弃这一副禁锢我们思想和灵魂的血肉皮囊了。通过将我们的神经模式转移到合成人躯干，我们能够进化到全新的阶段。",
+  "traits": [],
+  "tags": [
+    "technology",
+    "ascension_path"
+  ],
+  "technology": {
+    "area": null,
+    "tier": null,
+    "category": "ascension_path",
+    "prerequisites": [],
+    "features": [],
+    "is_repeatable": false
+  },
+  "relations": [
+    {
+      "type": "提及",
+      "target": "tech_synthetic_workers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_archaeoengineers"
+    },
+    {
+      "type": "关联",
+      "target": "ap_arcology_project"
+    },
+    {
+      "type": "关联",
+      "target": "ap_become_the_crisis"
+    },
+    {
+      "type": "关联",
+      "target": "ap_colossus"
+    }
+  ]
+}

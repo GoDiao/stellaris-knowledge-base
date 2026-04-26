@@ -1,0 +1,31 @@
+id: ap_mastery_of_nature
+name:
+  en: Mastery of Nature
+  zh: 掌控自然
+category: technology
+subcategory: ascension_perk
+dlc: null
+lore: 尽管在长久之前我们已经对母星的自然环境了如指掌，我们目前遭遇到的外星生命体对我们的生态学提出了新的挑战。这些挑战同样必须，也一定会被我们征服。
+traits:
+  - 'deposit_blockers_cost_mult: -0.33'
+tags:
+  - technology
+  - ascension_perk
+technology:
+  area: null
+  tier: null
+  category: ascension_perk
+  prerequisites: []
+  features: []
+  is_repeatable: false
+relations:
+  - type: 提及
+    target: alien_life_cat
+  - type: 关联
+    target: ap_archaeoengineers
+  - type: 关联
+    target: ap_arcology_project
+  - type: 关联
+    target: ap_become_the_crisis
+  - type: 关联
+    target: ap_colossus
